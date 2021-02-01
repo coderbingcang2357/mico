@@ -1,0 +1,147 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BYTE	base64.h	/^typedef unsigned char BYTE;$/;"	t
+Base64Decode	base64.cpp	/^std::vector<BYTE> Base64Decode(std::string const& encoded_string) {$/;"	f
+Base64Encode	base64.cpp	/^std::string Base64Encode(BYTE const* buf, unsigned int bufLen) {$/;"	f
+BytesToStr	util.cpp	/^string BytesToStr(const byte* bytes)$/;"	f
+BytesToStr	util.cpp	/^void BytesToStr(const byte* in, char* out)$/;"	f
+DATDECODE__H_	datadecode.h	2;"	d
+EndianSwap16	util.h	110;"	d
+EndianSwap32	util.h	113;"	d
+EndianSwap64	util.h	118;"	d
+ErrorType	logwriter.h	/^            ErrorType = 3,$/;"	e	enum:LogType
+FormatSql	formatsql.cpp	/^std::string FormatSql(const char *fmt, ...)$/;"	f
+GetString	util.cpp	/^string GetString(char* cstr)$/;"	f
+HEX	util.cpp	/^const char HEX[16] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'};$/;"	v
+INT16U	datadecode.h	/^typedef quint16 INT16U;$/;"	t
+INT32U	datadecode.h	/^typedef quint32 INT32U;$/;"	t
+INT8U	datadecode.h	/^typedef quint8 INT8U;$/;"	t
+InfoType	logwriter.h	/^enum LogType { InfoType = 1,$/;"	e	enum:LogType
+IsBigEndian	util.cpp	/^bool IsBigEndian()$/;"	f
+LOGWRITER__H	logwriter.h	2;"	d
+LogPathDatabase	logwriter.cpp	/^const char *LogPathDatabase = "\/var\/log\/mico\/log";$/;"	v
+LogPathExternal	logwriter.cpp	/^const char *LogPathExternal = "\/var\/log\/mico\/log";$/;"	v
+LogPathInternal	logwriter.cpp	/^const char *LogPathInternal = "\/var\/log\/mico\/log";$/;"	v
+LogPathLogical	logwriter.cpp	/^const char *LogPathLogical = "\/var\/log\/mico\/log";$/;"	v
+LogPathNotify	logwriter.cpp	/^const char *LogPathNotify = "\/var\/log\/mico\/log";$/;"	v
+LogPathRelay	logwriter.cpp	/^const char *LogPathRelay = "\/var\/log\/mico\/log";$/;"	v
+LogType	logwriter.h	/^enum LogType { InfoType = 1,$/;"	g
+MICOASSERT__H	micoassert.h	2;"	d
+ReadMacAddr	util.cpp	/^uint64_t ReadMacAddr(const char* pos)$/;"	f
+ReadTime	util.cpp	/^time_t ReadTime(const char* pos)$/;"	f
+ReadUint16	util.cpp	/^uint16_t ReadUint16(const char * pos)$/;"	f
+ReadUint32	util.cpp	/^uint32_t ReadUint32(const char* pos)$/;"	f
+ReadUint64	util.cpp	/^uint64_t ReadUint64(const char* pos)$/;"	f
+ReadUint8	util.cpp	/^uint8_t ReadUint8(const char * pos)$/;"	f
+ReadUintptr	util.cpp	/^uintptr_t ReadUintptr (const char* pos)$/;"	f
+SHARED_PTR___H	sharedptr.h	2;"	d
+SOCK2STRING__H__	sock2string.h	2;"	d
+Str2Uint	util.h	/^int Str2Uint(const string &str, T& outUint)$/;"	f
+StrtoTime	util.cpp	/^time_t StrtoTime(string str)$/;"	f
+StrtoU16	util.cpp	/^uint16_t StrtoU16 (string str)$/;"	f
+StrtoU32	util.cpp	/^uint32_t StrtoU32 (string str)$/;"	f
+StrtoU64	util.cpp	/^uint64_t StrtoU64(const string &str)$/;"	f
+StrtoU8	util.cpp	/^uint8_t StrtoU8(string str)$/;"	f
+TCPDATAPACK__H_	tcpdatapack.h	2;"	d
+TcpDataPack	tcpdatapack.h	/^class TcpDataPack$/;"	c
+Test	sharedptr.cpp	/^    Test(int i) : m_i(i)$/;"	f	class:Test
+Test	sharedptr.cpp	/^class Test$/;"	c	file:
+TestBase	sharedptr.cpp	/^    TestBase(int i) : m_i(i)$/;"	f	class:TestBase
+TestBase	sharedptr.cpp	/^class TestBase$/;"	c	file:
+TestDev	sharedptr.cpp	/^    TestDev(int i) : TestBase(i){}$/;"	f	class:TestDev
+TestDev	sharedptr.cpp	/^class TestDev : public TestBase$/;"	c	file:
+TimetoStr	util.cpp	/^string TimetoStr(time_t t)$/;"	f
+U16toStr	util.cpp	/^string U16toStr(uint16_t u16)$/;"	f
+U32toStr	util.cpp	/^string U32toStr(uint32_t u32)$/;"	f
+U64toStr	util.cpp	/^string U64toStr(uint64_t u64)$/;"	f
+U8toStr	util.cpp	/^string U8toStr(uint8_t u8)$/;"	f
+UTIL_H	util.h	2;"	d
+Uint2Str	util.h	/^string Uint2Str(T tUint)$/;"	f
+Util1	util.h	/^namespace Util1 {$/;"	n
+Util2	datadecode.h	/^namespace Util2 {$/;"	n
+WarningType	logwriter.h	/^            WarningType = 2,$/;"	e	enum:LogType
+WriteString	util.cpp	/^void WriteString(std::vector<char> *out, const std::string &str)$/;"	f
+WriteTime	util.cpp	/^void WriteTime(char* pos, time_t time)$/;"	f
+WriteUint16	util.cpp	/^void WriteUint16(char* pos, uint16_t u16)$/;"	f
+WriteUint16	util.cpp	/^void WriteUint16(std::vector<char> *out, uint16_t value)$/;"	f
+WriteUint32	util.cpp	/^void WriteUint32(char* pos, uint32_t u32)$/;"	f
+WriteUint32	util.cpp	/^void WriteUint32(std::vector<char> *out, uint32_t value)$/;"	f
+WriteUint64	util.cpp	/^void WriteUint64(char* pos, uint64_t u64)$/;"	f
+WriteUint64	util.cpp	/^void WriteUint64(std::vector<char> *out, uint64_t value)$/;"	f
+WriteUint8	util.cpp	/^void WriteUint8(char* pos, uint8_t u8)$/;"	f
+WriteUint8	util.cpp	/^void WriteUint8(std::vector<char> *out, uint8_t value)$/;"	f
+WriteUintptr	util.cpp	/^void WriteUintptr (char* pos, uintptr_t uptr)$/;"	f
+base64_chars	base64.cpp	/^static const std::string base64_chars =$/;"	v	file:
+byte	util.h	/^typedef unsigned char byte;$/;"	t
+byteArrayToHex	util.cpp	/^std::string byteArrayToHex(const uint8_t *in, int inlen)$/;"	f
+fromString	sock2string.cpp	/^bool sockaddrwrap::fromString(const std::string &addr)$/;"	f	class:sockaddrwrap
+getAddress	sock2string.cpp	/^sockaddr *sockaddrwrap::getAddress() const$/;"	f	class:sockaddrwrap
+getAddressLen	sock2string.cpp	/^int sockaddrwrap::getAddressLen() const$/;"	f	class:sockaddrwrap
+gettimestr	logwriter.cpp	/^void gettimestr(char *buf, int sizeofbuf)$/;"	f
+hexToBytesArray	util.cpp	/^bool hexToBytesArray(const std::string &str, std::vector<char> *out)$/;"	f
+hexchar2Int	util.cpp	/^int hexchar2Int(char ch)$/;"	f	file:
+in	sock2string.h	/^    sockaddr in;$/;"	m	union:sockaddrwrap::__anon1
+in4	sock2string.h	/^    sockaddr_in in4;$/;"	m	union:sockaddrwrap::__anon1
+in6	sock2string.h	/^    sockaddr_in6 in6;$/;"	m	union:sockaddrwrap::__anon1
+ipv4	sock2string.cpp	/^uint32_t sockaddrwrap::ipv4() const$/;"	f	class:sockaddrwrap
+isInit	logwriter.cpp	/^static bool isInit = false;$/;"	v	file:
+is_base64	base64.cpp	/^static inline bool is_base64(BYTE c) {$/;"	f	file:
+level2String	logwriter.cpp	/^const char *level2String(LogType level)$/;"	f
+logFilePath	logwriter.cpp	/^static std::string logFilePath;$/;"	v	file:
+logPrefix	logwriter.cpp	/^static std::string logPrefix;$/;"	v	file:
+logSetPrefix	logwriter.cpp	/^void logSetPrefix(const char *prefix)$/;"	f
+loginit	logwriter.cpp	/^void loginit(const char *logfilepath)$/;"	f
+m_addr	sock2string.h	/^    }m_addr;$/;"	m	struct:sockaddrwrap	typeref:union:sockaddrwrap::__anon1
+m_i	sharedptr.cpp	/^        int m_i;$/;"	m	class:Test	file:
+m_i	sharedptr.cpp	/^    int m_i;$/;"	m	class:TestBase	file:
+main	sharedptr.cpp	/^int main()$/;"	f
+main	testbase64.cpp	/^int main() {$/;"	f
+main	testformatsql.cpp	/^int main()$/;"	f
+main	testtcppack.cpp	/^int main()$/;"	f
+main	tsplitstr.cpp	/^int main()$/;"	f
+mcassert	micoassert.h	12;"	d
+mcassert2	micoassert.h	13;"	d
+mcassert_	micoassert.h	/^static void mcassert_(bool b, int line, const char *info="")$/;"	f
+operator ==	sock2string.cpp	/^bool sockaddrwrap::operator ==(const sockaddrwrap &l)$/;"	f	class:sockaddrwrap
+p	sharedptr.cpp	/^        void p()$/;"	f	class:Test
+p	sharedptr.cpp	/^    virtual void p()$/;"	f	class:TestBase
+p	sharedptr.cpp	/^    void p()$/;"	f	class:TestDev
+pack	tcpdatapack.cpp	/^int TcpDataPack::pack(char *buf, int len, std::vector<char> *out)$/;"	f	class:TcpDataPack
+port	sock2string.cpp	/^uint16_t sockaddrwrap::port() const$/;"	f	class:sockaddrwrap
+readString	datadecode.cpp	/^bool Util2::readString(char **buf, int *len, QString *v)$/;"	f	class:Util2
+readString	util.cpp	/^bool Util1::readString(char **buf, int *len, std::string *v)$/;"	f	class:Util1
+readString	util.cpp	/^int readString(const char *d, int len, std::string *out)$/;"	f
+readString	util.cpp	/^int readString(const char *d, int len, std::vector<char> *out)$/;"	f
+readString_p	util.cpp	/^int readString_p(const char *d, int len, x *out)$/;"	f
+readUint16	datadecode.cpp	/^bool Util2::readUint16(char **buf, int *len, quint16 *v)$/;"	f	class:Util2
+readUint16	util.cpp	/^bool Util1::readUint16(char **buf, int *len, uint16_t *v)$/;"	f	class:Util1
+readUint32	datadecode.cpp	/^bool Util2::readUint32(char **buf, int *len, quint32 *v)$/;"	f	class:Util2
+readUint32	util.cpp	/^bool Util1::readUint32(char **buf, int *len, uint32_t *v)$/;"	f	class:Util1
+readUint64	datadecode.cpp	/^bool Util2::readUint64(char **buf, int *len, quint64 *v)$/;"	f	class:Util2
+readUint64	util.cpp	/^bool Util1::readUint64(char **buf, int *len, uint64_t *v)$/;"	f	class:Util1
+readUint8	datadecode.cpp	/^bool Util2::readUint8(char **buf, int *len, quint8 *v)$/;"	f	class:Util2
+readUint8	util.cpp	/^bool Util1::readUint8(char **buf, int *len, uint8_t *v)$/;"	f	class:Util1
+setAddress	sock2string.cpp	/^void sockaddrwrap::setAddress(const sockaddr *addr, int len)$/;"	f	class:sockaddrwrap
+sock2string	sock2string.cpp	/^std::string sock2string(const sockaddr_in &addr)$/;"	f
+sockaddrwrap	sock2string.cpp	/^sockaddrwrap::sockaddrwrap()$/;"	f	class:sockaddrwrap
+sockaddrwrap	sock2string.h	/^struct sockaddrwrap$/;"	s
+splitString	util.cpp	/^static void splitString(char *str, const char *sp, std::vector<string> *strlist)$/;"	f	file:
+splitString	util.cpp	/^void splitString(const std::string &str, const std::string  &sp,std::vector<string> *strlist)$/;"	f
+string2sockaddress	sock2string.cpp	/^sockaddr_in string2sockaddress(const std::string &ip)$/;"	f
+strncopyn	util.cpp	/^void strncopyn(char *dest, int destlen, const char *src, int srclen)$/;"	f
+test	sharedptr.cpp	/^void test()$/;"	f
+test2	sharedptr.cpp	/^void test2()$/;"	f
+timet2String	util.cpp	/^std::string timet2String(time_t time)$/;"	f
+toString	sock2string.cpp	/^std::string sockaddrwrap::toString() const$/;"	f	class:sockaddrwrap
+uint64ToMacAddr	util.cpp	/^void uint64ToMacAddr(uint64_t mac, char *out)$/;"	f
+unpack	tcpdatapack.cpp	/^int TcpDataPack::unpack(char *buf, int len, std::vector<char> *out)$/;"	f	class:TcpDataPack
+writelog	logwriter.cpp	/^void writelog(LogType level, const char *format, ...)$/;"	f
+writelog	logwriter.cpp	/^void writelog(const char *log, LogType level)$/;"	f
+writevalue_p	util.cpp	/^static void writevalue_p(std::vector<char> *o, void *v, int len)$/;"	f	file:
+~Test	sharedptr.cpp	/^        ~Test()$/;"	f	class:Test
+~TestBase	sharedptr.cpp	/^    virtual ~TestBase() { std::cout << "desc base.\\n"; }$/;"	f	class:TestBase
+~TestDev	sharedptr.cpp	/^    ~TestDev() { std::cout << "desc child.\\n";}$/;"	f	class:TestDev

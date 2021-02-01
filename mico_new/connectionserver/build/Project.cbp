@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="Project" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="conn_d">
+         <Option output="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/build/conn_d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/.." />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/build/Makefile&quot;  VERBOSE=1 conn_d" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="conn_d/fast">
+         <Option output="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/build/conn_d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/.." />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/build/Makefile&quot;  VERBOSE=1 conn_d/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/Crypt/MD5.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/Crypt/tea.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/Message/Message.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/Message/tcpservermessage.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/config/configreader.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/connectionserver.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/connectionservermessage.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/connidgen.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/logicalservers.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/main.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/serverqueue.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/serverslave.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/tcpclientmessage.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/tcpconnection.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/udpserver.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/utilsock.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/mysqlcli/mysqlconnection.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/serverinfo/serverid.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/serverinfo/serverinfo.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/thread/mutexguard.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/thread/mutexwrap.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/thread/threadwrap.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/timer/wheeltimer.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/util/logwriter.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/util/sock2string.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/util/util.cpp">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/Crypt/MD5.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/Crypt/tea.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/Message/Message.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/Message/tcpservermessage.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/config/configreader.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/connectionserver.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/connectionservermessage.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/connidgen.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/logicalservers.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/serverqueue.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/serverslave.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/tcpclientmessage.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/tcpconnection.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/udpserver.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/utilsock.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/mysqlcli/mysqlconnection.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/serverinfo/serverid.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/serverinfo/serverinfo.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/thread/mutexguard.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/thread/mutexwrap.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/thread/threadwrap.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/timer/wheeltimer.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/util/logwriter.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/util/sock2string.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/util/util.h">
+      </Unit>
+      <Unit filename="/home/wqs/mico/mico-v0.4/micosrc/src/connectionserver/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

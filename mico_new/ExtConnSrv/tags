@@ -1,0 +1,1067 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ANSC	../protocoldef/protocol.h	/^namespace ANSC$/;"	n
+ANSC::AccountNotExist	../protocoldef/protocol.h	/^    const uint8_t AccountNotExist       = 0x04; \/\/帐号不存在$/;"	m	namespace:ANSC
+ANSC::AccountUsed	../protocoldef/protocol.h	/^    const uint8_t AccountUsed           = 0x0E; \/\/创建设备群失败，帐号已存在$/;"	m	namespace:ANSC
+ANSC::AuthErr	../protocoldef/protocol.h	/^    const uint8_t AuthErr               = 0x15; \/\/没有权限$/;"	m	namespace:ANSC
+ANSC::ClientNeedUpdate	../protocoldef/protocol.h	/^    const uint8_t ClientNeedUpdate      = 0x1A; \/\/客户端版本太低，需要更新$/;"	m	namespace:ANSC
+ANSC::CloudMemNotEnough	../protocoldef/protocol.h	/^    const uint8_t CloudMemNotEnough     = 0x0D; \/\/场景上传失败，服务器上空间不够，请删除旧的场景$/;"	m	namespace:ANSC
+ANSC::ClusterIdErr	../protocoldef/protocol.h	/^    const uint8_t ClusterIdErr          = 0x0F; \/\/设备群不存在或没有权限$/;"	m	namespace:ANSC
+ANSC::ClusterIdOrDeviceIdErr	../protocoldef/protocol.h	/^    const uint8_t ClusterIdOrDeviceIdErr= 0x12; \/\/群或设备不存在或没有权限$/;"	m	namespace:ANSC
+ANSC::ClusterIdOrUserIdErr	../protocoldef/protocol.h	/^    const uint8_t ClusterIdOrUserIdErr  = 0x14; \/\/群或用户不存在或没有权限$/;"	m	namespace:ANSC
+ANSC::DeviceIdErr	../protocoldef/protocol.h	/^    const uint8_t DeviceIdErr           = 0x0A; \/\/设备不存在或没有权限$/;"	m	namespace:ANSC
+ANSC::DeviceNoResp	../protocoldef/protocol.h	/^    const uint8_t DeviceNoResp          = 0x18; \/\/ 设备没有回复$/;"	m	namespace:ANSC
+ANSC::DeviceOffline	../protocoldef/protocol.h	/^    const uint8_t DeviceOffline         = 0x10; \/\/认领设备失败，设备不在线或没有权限$/;"	m	namespace:ANSC
+ANSC::DevicePwdErr	../protocoldef/protocol.h	/^    const uint8_t DevicePwdErr          = 0x11; \/\/认领设备失败，密码错误$/;"	m	namespace:ANSC
+ANSC::EmailNotExist	../protocoldef/protocol.h	/^    const uint8_t EmailNotExist         = 0x06; \/\/邮箱错误$/;"	m	namespace:ANSC
+ANSC::EmailUsed	../protocoldef/protocol.h	/^    const uint8_t EmailUsed             = 0x07; \/\/邮箱已被使用$/;"	m	namespace:ANSC
+ANSC::Failed	../protocoldef/protocol.h	/^    const uint8_t Failed                = 0x16; \/\/ 失败$/;"	m	namespace:ANSC
+ANSC::LoginRetryTimesOut	../protocoldef/protocol.h	/^    const uint8_t LoginRetryTimesOut    = 0x09; \/\/同一个帐号密码错误重试十次，限制一小时不允许登录$/;"	m	namespace:ANSC
+ANSC::MsgErr	../protocoldef/protocol.h	/^    const uint8_t MsgErr                = 0x7F; \/\/命令格式错误$/;"	m	namespace:ANSC
+ANSC::Pending	../protocoldef/protocol.h	/^    const uint8_t Pending               = 0x00; \/\/待处理$/;"	m	namespace:ANSC
+ANSC::PwdErr	../protocoldef/protocol.h	/^    const uint8_t PwdErr                = 0x05; \/\/登录失败，帐号或密码错误$/;"	m	namespace:ANSC
+ANSC::RegistFailed	../protocoldef/protocol.h	/^    const uint8_t RegistFailed          = 0x02; \/\/注册失败，帐号或邮箱已被使用$/;"	m	namespace:ANSC
+ANSC::RegistRetryTimesOut	../protocoldef/protocol.h	/^    const uint8_t RegistRetryTimesOut   = 0x08; \/\/同一个IP频繁注册，限制一小时不允许注册$/;"	m	namespace:ANSC
+ANSC::RsltAccept	../protocoldef/protocol.h	/^    const uint8_t RsltAccept            = 0x7D; \/\/审批同意$/;"	m	namespace:ANSC
+ANSC::RsltRefuse	../protocoldef/protocol.h	/^    const uint8_t RsltRefuse            = 0x7E; \/\/审批拒绝$/;"	m	namespace:ANSC
+ANSC::SceneIdErr	../protocoldef/protocol.h	/^    const uint8_t SceneIdErr            = 0x0B; \/\/场景不存在或没有权限$/;"	m	namespace:ANSC
+ANSC::SceneIdOrUserIdErr	../protocoldef/protocol.h	/^    const uint8_t SceneIdOrUserIdErr    = 0x0C; \/\/场景或用户不存在或没有权限$/;"	m	namespace:ANSC
+ANSC::Success	../protocoldef/protocol.h	/^    const uint8_t Success               = 0x01; \/\/成功$/;"	m	namespace:ANSC
+ANSC::TurnNotExist	../protocoldef/protocol.h	/^    const uint8_t TurnNotExist          = 0x19; \/\/转发通道未打开, 这个错误码没有用到$/;"	m	namespace:ANSC
+ANSC::UserIdOrDeviceIdErr	../protocoldef/protocol.h	/^    const uint8_t UserIdOrDeviceIdErr   = 0x13; \/\/用户或设备不存在或没有权限$/;"	m	namespace:ANSC
+ANSC::VerifyCodeErr	../protocoldef/protocol.h	/^    const uint8_t VerifyCodeErr         = 0x03; \/\/验证码错误$/;"	m	namespace:ANSC
+ANSC::VerifyCodeExpired	../protocoldef/protocol.h	/^    const uint8_t VerifyCodeExpired     = 0x17; \/\/ 失败$/;"	m	namespace:ANSC
+AccountNotExist	../protocoldef/protocol.h	/^    const uint8_t AccountNotExist       = 0x04; \/\/帐号不存在$/;"	m	namespace:ANSC
+AccountUsed	../protocoldef/protocol.h	/^    const uint8_t AccountUsed           = 0x0E; \/\/创建设备群失败，帐号已存在$/;"	m	namespace:ANSC
+AuthErr	../protocoldef/protocol.h	/^    const uint8_t AuthErr               = 0x15; \/\/没有权限$/;"	m	namespace:ANSC
+BUSINESS_MANAGER_H	Business/BusinessManager.h	2;"	d
+BlockMessageQueue	../msgqueue/msgqueue.h	/^    BlockMessageQueue() : m_queuesize(0) {$/;"	f	class:BlockMessageQueue	access:public	signature:()
+BlockMessageQueue	../msgqueue/msgqueue.h	/^class BlockMessageQueue$/;"	c
+BlockMessageQueue::BlockMessageQueue	../msgqueue/msgqueue.h	/^    BlockMessageQueue() : m_queuesize(0) {$/;"	f	class:BlockMessageQueue	access:public	signature:()
+BlockMessageQueue::get	../msgqueue/msgqueue.h	/^    T get()$/;"	f	class:BlockMessageQueue	access:public	signature:()
+BlockMessageQueue::hasMessage	../msgqueue/msgqueue.h	/^    bool hasMessage()$/;"	f	class:BlockMessageQueue	access:public	signature:()
+BlockMessageQueue::m_isrun	../msgqueue/msgqueue.h	/^    std::atomic<bool> m_isrun;$/;"	m	class:BlockMessageQueue	access:private
+BlockMessageQueue::m_notEmpty	../msgqueue/msgqueue.h	/^    ConditionWrap m_notEmpty;$/;"	m	class:BlockMessageQueue	access:private
+BlockMessageQueue::m_queue	../msgqueue/msgqueue.h	/^    std::list<T> m_queue; $/;"	m	class:BlockMessageQueue	access:private
+BlockMessageQueue::m_queueMutex	../msgqueue/msgqueue.h	/^    MutexWrap m_queueMutex;$/;"	m	class:BlockMessageQueue	access:private
+BlockMessageQueue::m_queuesize	../msgqueue/msgqueue.h	/^    int m_queuesize;\/\/ c++ 03 m_queue.size()是线性复杂志度, 所以添加了这个成员$/;"	m	class:BlockMessageQueue	access:private
+BlockMessageQueue::put	../msgqueue/msgqueue.h	/^    void put(T t)$/;"	f	class:BlockMessageQueue	access:public	signature:(T t)
+BlockMessageQueue::quit	../msgqueue/msgqueue.h	/^    void quit()$/;"	f	class:BlockMessageQueue	access:public	signature:()
+BlockMessageQueue::~BlockMessageQueue	../msgqueue/msgqueue.h	/^    ~BlockMessageQueue(){}$/;"	f	class:BlockMessageQueue	access:public	signature:()
+BusinessManager	Business/BusinessManager.cpp	/^BusinessManager::BusinessManager()$/;"	f	class:BusinessManager	signature:()
+BusinessManager	Business/BusinessManager.h	/^    BusinessManager();$/;"	p	class:BusinessManager	access:public	signature:()
+BusinessManager	Business/BusinessManager.h	/^class BusinessManager$/;"	c
+BusinessManager::BusinessManager	Business/BusinessManager.cpp	/^BusinessManager::BusinessManager()$/;"	f	class:BusinessManager	signature:()
+BusinessManager::BusinessManager	Business/BusinessManager.h	/^    BusinessManager();$/;"	p	class:BusinessManager	access:public	signature:()
+BusinessManager::HandleMsgInput	Business/BusinessManager.cpp	/^int BusinessManager::HandleMsgInput()$/;"	f	class:BusinessManager	signature:()
+BusinessManager::HandleMsgInput	Business/BusinessManager.h	/^    int HandleMsgInput();$/;"	p	class:BusinessManager	access:public	signature:()
+BusinessManager::HandleMsgOutput	Business/BusinessManager.cpp	/^int BusinessManager::HandleMsgOutput()$/;"	f	class:BusinessManager	signature:()
+BusinessManager::HandleMsgOutput	Business/BusinessManager.h	/^    int HandleMsgOutput();$/;"	p	class:BusinessManager	access:public	signature:()
+BusinessManager::Init	Business/BusinessManager.cpp	/^int BusinessManager::Init()$/;"	f	class:BusinessManager	signature:()
+BusinessManager::Init	Business/BusinessManager.h	/^    int Init();$/;"	p	class:BusinessManager	access:public	signature:()
+BusinessManager::m_msgInput	Business/BusinessManager.h	/^    MsgInput m_msgInput;    \/\/ 从客户端收到消息$/;"	m	class:BusinessManager	access:private
+BusinessManager::m_msgOutput	Business/BusinessManager.h	/^    MsgOutput m_msgOutput;  \/\/ 发消息到客户端$/;"	m	class:BusinessManager	access:private
+BusinessManager::~BusinessManager	Business/BusinessManager.cpp	/^BusinessManager::~BusinessManager()$/;"	f	class:BusinessManager	signature:()
+BusinessManager::~BusinessManager	Business/BusinessManager.h	/^    ~BusinessManager();$/;"	p	class:BusinessManager	access:public	signature:()
+CC	makefile	/^CC = g++$/;"	m
+CCMD__DEVICE_CLAIM	../protocoldef/protocol.h	/^    const uint16_t CCMD__DEVICE_CLAIM                                 = 0x1A40;$/;"	m	namespace:CMD
+CLIENT_MSG_PREFIX	../protocoldef/protocol.h	/^const uint8_t  CLIENT_MSG_PREFIX = 0xF0;  \/\/消息开始标识$/;"	v
+CLIENT_MSG_SUFFIX	../protocoldef/protocol.h	/^const uint8_t  CLIENT_MSG_SUFFIX = 0xF1;  \/\/消息结束标识$/;"	v
+CMD	../protocoldef/protocol.h	/^namespace CMD$/;"	n
+CMD::CCMD__DEVICE_CLAIM	../protocoldef/protocol.h	/^    const uint16_t CCMD__DEVICE_CLAIM                                 = 0x1A40;$/;"	m	namespace:CMD
+CMD::CMD_A_USER_BE_REMOVED_FROM_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t CMD_A_USER_BE_REMOVED_FROM_CLUSTER                 = 0x1A0C;$/;"	m	namespace:CMD
+CMD::CMD_CLAIM_CHECK_PASSWORD	../protocoldef/protocol.h	/^    const uint16_t CMD_CLAIM_CHECK_PASSWORD                           = 0x1A43;$/;"	m	namespace:CMD
+CMD::CMD_DCL__ASSIGN_DEVICES_TO_USER_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__ASSIGN_DEVICES_TO_USER_MEMBER             = 0x1A33;\/\/3026; \/\/为群用户成员批量指派设备$/;"	m	namespace:CMD
+CMD::CMD_DCL__ASSIGN_OPERATORS_TO_DEV_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__ASSIGN_OPERATORS_TO_DEV_MEMBER            = 0x1A35;\/\/3028; \/\/为群设备成员批量指派操作员$/;"	m	namespace:CMD
+CMD::CMD_DCL__CANCEL_COMMUNICATION_WITH_DEVICE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__CANCEL_COMMUNICATION_WITH_DEVICE          = 0x1A42;$/;"	m	namespace:CMD
+CMD::CMD_DCL__CLAIM_DEVICE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__CLAIM_DEVICE                              = 0x1A40;$/;"	m	namespace:CMD
+CMD::CMD_DCL__CREATE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__CREATE                                    = 0x1A00;\/\/3017; \/\/创建设备群$/;"	m	namespace:CMD
+CMD::CMD_DCL__DELETE__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__DELETE__REQ                               = 0x1A01;\/\/301A; \/\/删除设备群请求$/;"	m	namespace:CMD
+CMD::CMD_DCL__DELETE__VERIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__DELETE__VERIFY                            = 0x1A02;\/\/301B; \/\/删除设备群确认（通过验证码）$/;"	m	namespace:CMD
+CMD::CMD_DCL__EXIT	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__EXIT                                      = 0x1A06;\/\/3019; \/\/退出设备群$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_CLUSTER_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_CLUSTER_INFO                          = 0x1A10;\/\/3018; \/\/获取设备群信息$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_CLUSTER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_CLUSTER_LIST                          = 0x1A11;\/\/3003; \/\/获取设备群列表$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_DEVICE_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_DEVICE_INFO                           = 0x2204;\/\/3007;$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_DEVICE_LIST_OF_USER_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_DEVICE_LIST_OF_USER_MEMBER            = 0x1A16;\/\/302A; \/\/获取群用户成员的设备列表$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_DEVICE_MEMBER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_DEVICE_MEMBER_LIST                    = 0x1A12;\/\/3004; \/\/获取设备群的设备成员列表$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_DEVICE_MEMBER_ONLINE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_DEVICE_MEMBER_ONLINE_LIST             = 0x1A13;\/\/3006; \/\/获取设备群的设备在线列表$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_OPERATOR_LIST_OF_DEV_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_OPERATOR_LIST_OF_DEV_MEMBER           = 0x1A14;\/\/302B; \/\/获取群设备成员的操作员列表$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_SESSION_KEY_WITH_DEVICE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_SESSION_KEY_WITH_DEVICE               = 0x1A41;$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_TRANSER_DEVICE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_TRANSER_DEVICE_LIST                   = 0x1A20;$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_UNCLAIMED_DEVICE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_UNCLAIMED_DEVICE_LIST                 = 0x1A17;$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_USER_MEMBER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_USER_MEMBER_LIST                      = 0x1A15;\/\/3005; \/\/获取设备群的用户成员列表$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_USER_MEMBER_ONLINE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_USER_MEMBER_ONLINE_LIST               = 0x1A18;\/\/3005; \/\/获取设备群的用户成员列表$/;"	m	namespace:CMD
+CMD::CMD_DCL__INVITE_TO_JOIN__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__INVITE_TO_JOIN__APPROVAL                  = 0x1A08;\/\/3022; \/\/邀请加入设备群，审批$/;"	m	namespace:CMD
+CMD::CMD_DCL__INVITE_TO_JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__INVITE_TO_JOIN__REQ                       = 0x1A07;\/\/3021; \/\/邀请加入设备群，请求$/;"	m	namespace:CMD
+CMD::CMD_DCL__INVITE_TO_JOIN__SEARCH_INVITEE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__INVITE_TO_JOIN__SEARCH_INVITEE            = 0x2201;\/\/3020; \/\/邀请加入设备群，搜索用户$/;"	m	namespace:CMD
+CMD::CMD_DCL__JOIN__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__JOIN__APPROVAL                            = 0x1A05;\/\/3015; \/\/加入设备群，审批$/;"	m	namespace:CMD
+CMD::CMD_DCL__JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__JOIN__REQ                                 = 0x1A04;\/\/3014; \/\/加入设备群，请求$/;"	m	namespace:CMD
+CMD::CMD_DCL__JOIN__SEARCH_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__JOIN__SEARCH_CLUSTER                      = 0x1A03;\/\/3012; \/\/搜索设备群$/;"	m	namespace:CMD
+CMD::CMD_DCL__MODIFY_DISCRIPTION	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__MODIFY_DISCRIPTION                        = 0x1A32;\/\/3042; \/\/修改设备群描述$/;"	m	namespace:CMD
+CMD::CMD_DCL__MODIFY_NOTENAME	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__MODIFY_NOTENAME                           = 0x1A31;\/\/3041; \/\/修改设备群备注名$/;"	m	namespace:CMD
+CMD::CMD_DCL__MODIFY_USER_MEMBER_ROLE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__MODIFY_USER_MEMBER_ROLE                   = 0x1A30;\/\/3040; \/\/修改设备群的用户成员角色（设置／取消管理员）$/;"	m	namespace:CMD
+CMD::CMD_DCL__REMOVE_DEVICES_OF_USER_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__REMOVE_DEVICES_OF_USER_MEMBER             = 0x1A34;\/\/3027; \/\/为群用户成员批量删除设备$/;"	m	namespace:CMD
+CMD::CMD_DCL__REMOVE_OPERATORS_OF_DEV_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__REMOVE_OPERATORS_OF_DEV_MEMBER            = 0x1A36;\/\/3029; \/\/为群设备成员批量删除操作员$/;"	m	namespace:CMD
+CMD::CMD_DCL__REMOVE_USER_MEMBERS	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__REMOVE_USER_MEMBERS                       = 0X1A09;\/\/3024; \/\/批量移除设备群的用户成员$/;"	m	namespace:CMD
+CMD::CMD_DCL__TRANSFER_DEVCLUSTER_REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__TRANSFER_DEVCLUSTER_REQ                   = 0x1A23;$/;"	m	namespace:CMD
+CMD::CMD_DCL__TRANSFER_DEVCLUSTER_VERIRY	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__TRANSFER_DEVCLUSTER_VERIRY                = 0x1A24;$/;"	m	namespace:CMD
+CMD::CMD_DCL__TRANSFER_DEVICES__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__TRANSFER_DEVICES__APPROVAL                = 0x1A22;\/\/$/;"	m	namespace:CMD
+CMD::CMD_DCL__TRANSFER_DEVICES__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__TRANSFER_DEVICES__REQ                     = 0x1A21;\/\/3031$/;"	m	namespace:CMD
+CMD::CMD_DEV__GET_MY_DEVICE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DEV__GET_MY_DEVICE_LIST                        = 0x1810;\/\/3001; \/\/获取我的设备列表$/;"	m	namespace:CMD
+CMD::CMD_DEV__GET_MY_DEVICE_ONLINE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DEV__GET_MY_DEVICE_ONLINE_LIST                 = 0x1811;\/\/3002; \/\/获取我的设备在线列表$/;"	m	namespace:CMD
+CMD::CMD_DEV__MODIFY_DEVICE_DESCRIPTION	../protocoldef/protocol.h	/^    const uint16_t CMD_DEV__MODIFY_DEVICE_DESCRIPTION                 = 0x1801;\/\/300A;$/;"	m	namespace:CMD
+CMD::CMD_DEV__MODIFY_DEVICE_NOTENAME	../protocoldef/protocol.h	/^    const uint16_t CMD_DEV__MODIFY_DEVICE_NOTENAME                    = 0x1800;\/\/3009;$/;"	m	namespace:CMD
+CMD::CMD_DeleteNotif	../protocoldef/protocol.h	/^    const uint16_t CMD_DeleteNotif                               = 0x001C;$/;"	m	namespace:CMD
+CMD::CMD_FRI__ADD_FRIEND__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t CMD_FRI__ADD_FRIEND__APPROVAL                      = 0x1401;\/\/2021; \/\/$/;"	m	namespace:CMD
+CMD::CMD_FRI__ADD_FRIEND__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_FRI__ADD_FRIEND__REQ                           = 0x1400;\/\/2020; \/\/加好友请求$/;"	m	namespace:CMD
+CMD::CMD_FRI__ADD_FRIEND__SEARCH_USER	../protocoldef/protocol.h	/^    const uint16_t CMD_FRI__ADD_FRIEND__SEARCH_USER                   = 0x2200;\/\/2010; \/\/搜索用户$/;"	m	namespace:CMD
+CMD::CMD_FRI__GET_FRIEND_INFO_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_FRI__GET_FRIEND_INFO_LIST                      = 0x1410;\/\/2001; \/\/获取好友信息列表$/;"	m	namespace:CMD
+CMD::CMD_FRI__GET_USER_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_FRI__GET_USER_INFO                             = 0x2203;\/\/2004; \/\/$/;"	m	namespace:CMD
+CMD::CMD_GEN__FEEDBACK	../protocoldef/protocol.h	/^    const uint16_t CMD_GEN__FEEDBACK                                = 0x1E00;\/\/101C;$/;"	m	namespace:CMD
+CMD::CMD_GEN__HEART_BEAT	../protocoldef/protocol.h	/^    const uint16_t CMD_GEN__HEART_BEAT                                = 0xFFFF;\/\/FFFF; \/\/客户端心跳包$/;"	m	namespace:CMD
+CMD::CMD_GEN__NOTIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_GEN__NOTIFY                                    = 0xFFFE;\/\/FFFE; \/\/通知$/;"	m	namespace:CMD
+CMD::CMD_GET_SCENE_CONNECTOR_DEVICES	../protocoldef/protocol.h	/^    const uint16_t CMD_GET_SCENE_CONNECTOR_DEVICES = 0x1C28; \/\/ 取得场景连接的设备$/;"	m	namespace:CMD
+CMD::CMD_GET_SERVER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_GET_SERVER_LIST                                = 0x1206;\/\/1012; \/\/注销$/;"	m	namespace:CMD
+CMD::CMD_GetNotifWhenBackOnline	../protocoldef/protocol.h	/^    const uint16_t CMD_GetNotifWhenBackOnline                    = 0x001B;$/;"	m	namespace:CMD
+CMD::CMD_GetNotifWhenLogin	../protocoldef/protocol.h	/^    const uint16_t CMD_GetNotifWhenLogin                         = 0x001A;$/;"	m	namespace:CMD
+CMD::CMD_HMI__CANCEL_SHARE_SCENE	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__CANCEL_SHARE_SCENE                        = 0x1C13;\/\/400A; \/\/HMI，取消共享场景$/;"	m	namespace:CMD
+CMD::CMD_HMI__CLOSE_RELAY_CHANNELS	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__CLOSE_RELAY_CHANNELS                      = 0x1C04;\/\/4004; \/\/HMI，批量关闭转发通道$/;"	m	namespace:CMD
+CMD::CMD_HMI__CLOSE_RELAY_CHANNELS_RESULT	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__CLOSE_RELAY_CHANNELS_RESULT          = 0x0016;\/\/4004; \/\/HMI，批量关闭转发通道$/;"	m	namespace:CMD
+CMD::CMD_HMI__DELETE_SCENE	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__DELETE_SCENE                              = 0x1C14;\/\/400C; \/\/HMI，删除场景$/;"	m	namespace:CMD
+CMD::CMD_HMI__DOWNLOAD_SCENE	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__DOWNLOAD_SCENE                            = 0x1C11;\/\/4007; \/\/HMI，下载场景$/;"	m	namespace:CMD
+CMD::CMD_HMI__GET_EXTRANET_IP_PORT	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__GET_EXTRANET_IP_PORT                      = 0x1C02;\/\/4002; \/\/HMI，获取外网ip，port$/;"	m	namespace:CMD
+CMD::CMD_HMI__GET_MY_SCENE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__GET_MY_SCENE_LIST                         = 0x1C20;\/\/4006; \/\/HMI，获取我的场景列表$/;"	m	namespace:CMD
+CMD::CMD_HMI__GET_NEW_CDSESSION_KEY	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__GET_NEW_CDSESSION_KEY                     = 0x1C22;$/;"	m	namespace:CMD
+CMD::CMD_HMI__GET_SCENE_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__GET_SCENE_INFO                          = 0x1C25;$/;"	m	namespace:CMD
+CMD::CMD_HMI__GET_SCENE_USER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__GET_SCENE_USER_LIST                       = 0x1C21;\/\/400F; \/\/HMI，获取场景的用户列表$/;"	m	namespace:CMD
+CMD::CMD_HMI__MODIFY_NOTENAME	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__MODIFY_NOTENAME                         = 0x1C24;$/;"	m	namespace:CMD
+CMD::CMD_HMI__MODIFY_SCENE_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__MODIFY_SCENE_INFO                       = 0x1C23;$/;"	m	namespace:CMD
+CMD::CMD_HMI__OPEN_RELAY_CHANNELS	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__OPEN_RELAY_CHANNELS                       = 0x1C03;\/\/4003; \/\/HMI，批量打开转发通道$/;"	m	namespace:CMD
+CMD::CMD_HMI__OPEN_RELAY_CHANNELS_RESULT	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__OPEN_RELAY_CHANNELS_RESULT           = 0x0015;\/\/4004; \/\/HMI，批量关闭转发通道$/;"	m	namespace:CMD
+CMD::CMD_HMI__PENETRATE__GET_MY_DEVICE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__PENETRATE__GET_MY_DEVICE_LIST             = 0x1C00;\/\/4000; \/\/HMI，批量穿透，获取我的设备列表$/;"	m	namespace:CMD
+CMD::CMD_HMI__PENETRATE__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__PENETRATE__REQ                            = 0x1C01;\/\/4001; \/\/HMI，批量穿透$/;"	m	namespace:CMD
+CMD::CMD_HMI__SET_SHARE_SCENE_AUTH	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__SET_SHARE_SCENE_AUTH                    = 0x1C16;$/;"	m	namespace:CMD
+CMD::CMD_HMI__SHARE_SCENE	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__SHARE_SCENE                               = 0x1C12;\/\/4008; \/\/HMI，共享场景$/;"	m	namespace:CMD
+CMD::CMD_HMI__SHARE_SCENE__SEARCH_USER	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__SHARE_SCENE__SEARCH_USER                  = 0x2202;\/\/400E; \/\/HMI，共享场景，搜索用户$/;"	m	namespace:CMD
+CMD::CMD_HMI__TRANSFER_SYSADMIN	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__TRANSFER_SYSADMIN                         = 0x1C15;$/;"	m	namespace:CMD
+CMD::CMD_HMI__UPLOAD_SCENE	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__UPLOAD_SCENE                              = 0x1C10;\/\/4005; \/\/HMI，上传场景$/;"	m	namespace:CMD
+CMD::CMD_HMI__UPLOAD_SCENE_CONFIRM	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__UPLOAD_SCENE_CONFIRM                      = 0x1C19;\/\/4005; \/\/HMI，上传场景Confirm$/;"	m	namespace:CMD
+CMD::CMD_NOTIFY_RESP	../protocoldef/protocol.h	/^    const uint16_t CMD_NOTIFY_RESP                                    = 0xFFFD;\/\/FFFD; \/\/客户端通知服务器收到通知$/;"	m	namespace:CMD
+CMD::CMD_NewNotify	../protocoldef/protocol.h	/^    const uint16_t CMD_NewNotify                                 = 0x0018;$/;"	m	namespace:CMD
+CMD::CMD_NewSessionalNotify	../protocoldef/protocol.h	/^    const uint16_t CMD_NewSessionalNotify                        = 0x0019;$/;"	m	namespace:CMD
+CMD::CMD_PER__GET_USER_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__GET_USER_INFO                             = 0x1230;\/\/1016; \/\/*获取个人信息$/;"	m	namespace:CMD
+CMD::CMD_PER__LOGIN1__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__LOGIN1__REQ                               = 0x1203;\/\/1010; \/\/登录第一步$/;"	m	namespace:CMD
+CMD::CMD_PER__LOGIN2__VERIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__LOGIN2__VERIFY                            = 0x1204;\/\/1011; \/\/登录第二步$/;"	m	namespace:CMD
+CMD::CMD_PER__LOGOUT	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__LOGOUT                                    = 0x1205;\/\/1012; \/\/注销$/;"	m	namespace:CMD
+CMD::CMD_PER__MODIFY_MAILBOX1__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__MODIFY_MAILBOX1__REQ                      = 0x1214;\/\/1018; \/\/*修改邮箱第一步$/;"	m	namespace:CMD
+CMD::CMD_PER__MODIFY_MAILBOX2__VERIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__MODIFY_MAILBOX2__VERIFY                   = 0x1215;\/\/1019; \/\/*修改邮箱第二步$/;"	m	namespace:CMD
+CMD::CMD_PER__MODIFY_NICKNAME	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__MODIFY_NICKNAME                           = 0x1216;\/\/101A; \/\/*修改昵称$/;"	m	namespace:CMD
+CMD::CMD_PER__MODIFY_PASSWORD	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__MODIFY_PASSWORD                           = 0x1213;\/\/1017; \/\/*修改密码$/;"	m	namespace:CMD
+CMD::CMD_PER__MODIFY_SIGNATURE	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__MODIFY_SIGNATURE                          = 0x1217;\/\/101B; \/\/*修改签名$/;"	m	namespace:CMD
+CMD::CMD_PER__RECOVER_PWD1__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__RECOVER_PWD1__REQ                         = 0x1210;\/\/1013; \/\/找回密码第一步$/;"	m	namespace:CMD
+CMD::CMD_PER__RECOVER_PWD2__VERIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__RECOVER_PWD2__VERIFY                      = 0x1211;\/\/1014; \/\/找回密码第二步$/;"	m	namespace:CMD
+CMD::CMD_PER__RECOVER_PWD3__RESET	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__RECOVER_PWD3__RESET                       = 0x1212;\/\/1015; \/\/找回密码第三步$/;"	m	namespace:CMD
+CMD::CMD_PER__REGISTER1__SET_MAILBOX	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__REGISTER1__SET_MAILBOX                    = 0x1200;\/\/1000; \/\/注册第一步，设置邮箱$/;"	m	namespace:CMD
+CMD::CMD_PER__REGISTER2__ACTIVATE	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__REGISTER2__ACTIVATE                       = 0x1201;\/\/1001; \/\/注册第二步，激活$/;"	m	namespace:CMD
+CMD::CMD_PER__REGISTER3__SET_ACCOUNT_PWD	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__REGISTER3__SET_ACCOUNT_PWD                = 0x1202;\/\/1002; \/\/注册第三步，设置帐号密码$/;"	m	namespace:CMD
+CMD::CMD_SCENE_FILE_CHANGED	../protocoldef/protocol.h	/^    const uint16_t CMD_SCENE_FILE_CHANGED = 0x1C18; \/\/ 服务器收到此命令后给场景的所有共享者发送通知,告知场景文件被修改需要从新下载$/;"	m	namespace:CMD
+CMD::CMD_SEARCH_DEVICE_BY_NAME_AND_MAC	../protocoldef/protocol.h	/^    const uint16_t CMD_SEARCH_DEVICE_BY_NAME_AND_MAC                  = 0x2205;\/\/ 搜索设备$/;"	m	namespace:CMD
+CMD::CMD_SET_SCENE_CONNECTOR_DEVICES	../protocoldef/protocol.h	/^    const uint16_t CMD_SET_SCENE_CONNECTOR_DEVICES = 0x1C27; \/\/ 修改场景连接的设备$/;"	m	namespace:CMD
+CMD::CMD_SendNotif	../protocoldef/protocol.h	/^    const uint16_t CMD_SendNotif                                 = 0x0017;$/;"	m	namespace:CMD
+CMD::CMD_UCL__CREATE	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__CREATE                                    = 0x1600;\/\/2012; \/\/创建用户群$/;"	m	namespace:CMD
+CMD::CMD_UCL__GET_CLUSTER_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__GET_CLUSTER_INFO                          = 0x1611;\/\/2005;$/;"	m	namespace:CMD
+CMD::CMD_UCL__GET_CLUSTER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__GET_CLUSTER_LIST                          = 0x1610;\/\/2003; \/\/获取用户群列表$/;"	m	namespace:CMD
+CMD::CMD_UCL__JOIN__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__JOIN__APPROVAL                            = 0x1603;\/\/2023; \/\/加入群，审批$/;"	m	namespace:CMD
+CMD::CMD_UCL__JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__JOIN__REQ                                 = 0x1602;\/\/2022; \/\/加入群，请求$/;"	m	namespace:CMD
+CMD::CMD_UCL__JOIN__SEARCH_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__JOIN__SEARCH_CLUSTER                      = 0x1601;\/\/2011; \/\/搜索用户群$/;"	m	namespace:CMD
+CMD::DCL__TRANSFER_DEVICES__NOTIFY_DEST_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t DCL__TRANSFER_DEVICES__NOTIFY_DEST_CLUSTER         = 0x1A0A;\/\/$/;"	m	namespace:CMD
+CMD::DCL__TRANSFER_DEVICES__NOTIFY_SRC_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t DCL__TRANSFER_DEVICES__NOTIFY_SRC_CLUSTER          = 0x1A0D;\/\/$/;"	m	namespace:CMD
+CMD::DCMD__LOGIN1	../protocoldef/protocol.h	/^    const uint16_t DCMD__LOGIN1                                       = 0x1002;$/;"	m	namespace:CMD
+CMD::DCMD__LOGIN2	../protocoldef/protocol.h	/^    const uint16_t DCMD__LOGIN2                                       = 0x1003;$/;"	m	namespace:CMD
+CMD::DCMD__LOGOUT	../protocoldef/protocol.h	/^    const uint16_t DCMD__LOGOUT                                       = 0x1004;$/;"	m	namespace:CMD
+CMD::DCMD__LONG_HEART_BEAT	../protocoldef/protocol.h	/^    const uint16_t DCMD__LONG_HEART_BEAT                              = 0x1005;$/;"	m	namespace:CMD
+CMD::DCMD__OLD_FUNCTION	../protocoldef/protocol.h	/^    const uint16_t DCMD__OLD_FUNCTION                                 = 0x1000;$/;"	m	namespace:CMD
+CMD::DCMD__REGISTER	../protocoldef/protocol.h	/^    const uint16_t DCMD__REGISTER                                     = 0x1001;$/;"	m	namespace:CMD
+CMD::DCMD__SHORT_HEART_BEAT	../protocoldef/protocol.h	/^    const uint16_t DCMD__SHORT_HEART_BEAT                             = 0x1006;$/;"	m	namespace:CMD
+CMD::DNTP__TRANSFER_DEIVCES	../protocoldef/protocol.h	/^    const uint16_t DNTP__TRANSFER_DEIVCES                             = 0x1008;$/;"	m	namespace:CMD
+CMD::DelLocalCache	../protocoldef/protocol.h	/^    const uint16_t DelLocalCache = 0x001D;\/\/ 在本地删除用户的登录信息$/;"	m	namespace:CMD
+CMD::INCMD_DEVICE_OFFLINE	../protocoldef/protocol.h	/^    const uint16_t INCMD_DEVICE_OFFLINE                          = 0x0013; \/\/设备下线$/;"	m	namespace:CMD
+CMD::INCMD_DEVICE_ONLINE	../protocoldef/protocol.h	/^    const uint16_t INCMD_DEVICE_ONLINE                           = 0x0012; \/\/设备上线$/;"	m	namespace:CMD
+CMD::INCMD_GET_DEVICE_ONLINE_LIST	../protocoldef/protocol.h	/^    const uint16_t INCMD_GET_DEVICE_ONLINE_LIST                  = 0x0014; \/\/获取设备在线列表$/;"	m	namespace:CMD
+CMD::INCMD_USER_OFFLINE	../protocoldef/protocol.h	/^    const uint16_t INCMD_USER_OFFLINE                            = 0x0011; \/\/用户下线$/;"	m	namespace:CMD
+CMD::INCMD_USER_ONLINE	../protocoldef/protocol.h	/^    const uint16_t INCMD_USER_ONLINE                             = 0x0010; \/\/用户上线$/;"	m	namespace:CMD
+CMD::INTERNAL_CLAIM_TIMER_RESEND	../protocoldef/protocol.h	/^    const uint16_t INTERNAL_CLAIM_TIMER_RESEND  = 0x1;$/;"	m	namespace:CMD
+CMD::NOTIFY_NEW_ADDED_TO_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t NOTIFY_NEW_ADDED_TO_CLUSTER                        = 0x1A0B;\/\/3015; \/\/加入设备群，审批$/;"	m	namespace:CMD
+CMD::NOTIFY_SCNEE_CONNECTOR_DEVICES_CHANGED	../protocoldef/protocol.h	/^    const uint16_t NOTIFY_SCNEE_CONNECTOR_DEVICES_CHANGED = 0x1C29; \/\/ 场景连接设备被修改$/;"	m	namespace:CMD
+CMD::NTP_CMD_DEVICE_NAME_CHANGED	../protocoldef/protocol.h	/^    const uint16_t NTP_CMD_DEVICE_NAME_CHANGED                      = 0x2002;$/;"	m	namespace:CMD
+CMD::NTP_DCL__ASSIGN_DEVICES_TO_USER_MEMBER	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__ASSIGN_DEVICES_TO_USER_MEMBER             = 0x1A33;\/\/3026;$/;"	m	namespace:CMD
+CMD::NTP_DCL__ASSIGN_OPERATORS_TO_DEV_MEMBER	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__ASSIGN_OPERATORS_TO_DEV_MEMBER            = 0x1A35;\/\/3028;$/;"	m	namespace:CMD
+CMD::NTP_DCL__CLAIM_DEVICE	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__CLAIM_DEVICE                              = 0x1A40;$/;"	m	namespace:CMD
+CMD::NTP_DCL__DELETE	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__DELETE                                    = 0x1A01;\/\/301A;$/;"	m	namespace:CMD
+CMD::NTP_DCL__INVITE_TO_JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__INVITE_TO_JOIN__REQ                       = 0x1A07;\/\/3021; \/\/邀请加入设备群，通知请求$/;"	m	namespace:CMD
+CMD::NTP_DCL__INVITE_TO_JOIN__RESULT	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__INVITE_TO_JOIN__RESULT                    = 0x1A08;\/\/3022; \/\/邀请加入设备群，通知结果$/;"	m	namespace:CMD
+CMD::NTP_DCL__JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__JOIN__REQ                                 = 0x1A04;\/\/3014; \/\/加入设备群，通知请求$/;"	m	namespace:CMD
+CMD::NTP_DCL__JOIN__RESULT	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__JOIN__RESULT                              = 0x1A05;\/\/3015; \/\/加入设备群，通知结果$/;"	m	namespace:CMD
+CMD::NTP_DCL__REMOVE_DEVICES_OF_USER_MEMBER	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__REMOVE_DEVICES_OF_USER_MEMBER             = 0x1A34;\/\/3027;$/;"	m	namespace:CMD
+CMD::NTP_DCL__REMOVE_OPERATORS_OF_DEV_MEMBER	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__REMOVE_OPERATORS_OF_DEV_MEMBER            = 0x1A36;\/\/3029;$/;"	m	namespace:CMD
+CMD::NTP_DCL__REMOVE_USER_MEMBERS	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__REMOVE_USER_MEMBERS                       = 0x1A09;\/\/3024;$/;"	m	namespace:CMD
+CMD::NTP_DCL__TRANSFER_DEVICES__REQ	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__TRANSFER_DEVICES__REQ                     = 0x1A21;\/\/3031$/;"	m	namespace:CMD
+CMD::NTP_DCL__TRANSFER_DEVICES__RESULT	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__TRANSFER_DEVICES__RESULT                  = 0x1A22;\/\/$/;"	m	namespace:CMD
+CMD::NTP_DEV__DEVICE_ONLINE_STATUS_CHANGE	../protocoldef/protocol.h	/^    const uint16_t NTP_DEV__DEVICE_ONLINE_STATUS_CHANGE             = 0x2000;\/\/3008;$/;"	m	namespace:CMD
+CMD::NTP_DEV__USER_ONLINE_STATUS_CHANGE	../protocoldef/protocol.h	/^    const uint16_t NTP_DEV__USER_ONLINE_STATUS_CHANGE               = 0x2001;\/\/3008;$/;"	m	namespace:CMD
+CMD::NTP_FRI__ADD_FRIEND__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t NTP_FRI__ADD_FRIEND__APPROVAL                      = 0x1401;\/\/2021; \/\/$/;"	m	namespace:CMD
+CMD::NTP_FRI__ADD_FRIEND__REQ	../protocoldef/protocol.h	/^    const uint16_t NTP_FRI__ADD_FRIEND__REQ                           = 0x1400;\/\/2020; \/\/加好友请求$/;"	m	namespace:CMD
+CMD::NTP_UCL__JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t NTP_UCL__JOIN__REQ                                 = 0x1602;\/\/2022; \/\/加入群，通知请求$/;"	m	namespace:CMD
+CMD::NTP_UCL__JOIN__RESULT	../protocoldef/protocol.h	/^    const uint16_t NTP_UCL__JOIN__RESULT                              = 0x1603;\/\/2023; \/\/加入群，通知结果$/;"	m	namespace:CMD
+CMD::NTP_USER_LOGIN_AT_ANOTHER_CLIENT	../protocoldef/protocol.h	/^    const uint16_t NTP_USER_LOGIN_AT_ANOTHER_CLIENT                   = 0x1207; \/\/ 通知, 用户在别处登录了$/;"	m	namespace:CMD
+CMD_A_USER_BE_REMOVED_FROM_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t CMD_A_USER_BE_REMOVED_FROM_CLUSTER                 = 0x1A0C;$/;"	m	namespace:CMD
+CMD_CLAIM_CHECK_PASSWORD	../protocoldef/protocol.h	/^    const uint16_t CMD_CLAIM_CHECK_PASSWORD                           = 0x1A43;$/;"	m	namespace:CMD
+CMD_DCL__ASSIGN_DEVICES_TO_USER_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__ASSIGN_DEVICES_TO_USER_MEMBER             = 0x1A33;\/\/3026; \/\/为群用户成员批量指派设备$/;"	m	namespace:CMD
+CMD_DCL__ASSIGN_OPERATORS_TO_DEV_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__ASSIGN_OPERATORS_TO_DEV_MEMBER            = 0x1A35;\/\/3028; \/\/为群设备成员批量指派操作员$/;"	m	namespace:CMD
+CMD_DCL__CANCEL_COMMUNICATION_WITH_DEVICE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__CANCEL_COMMUNICATION_WITH_DEVICE          = 0x1A42;$/;"	m	namespace:CMD
+CMD_DCL__CLAIM_DEVICE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__CLAIM_DEVICE                              = 0x1A40;$/;"	m	namespace:CMD
+CMD_DCL__CREATE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__CREATE                                    = 0x1A00;\/\/3017; \/\/创建设备群$/;"	m	namespace:CMD
+CMD_DCL__DELETE__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__DELETE__REQ                               = 0x1A01;\/\/301A; \/\/删除设备群请求$/;"	m	namespace:CMD
+CMD_DCL__DELETE__VERIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__DELETE__VERIFY                            = 0x1A02;\/\/301B; \/\/删除设备群确认（通过验证码）$/;"	m	namespace:CMD
+CMD_DCL__EXIT	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__EXIT                                      = 0x1A06;\/\/3019; \/\/退出设备群$/;"	m	namespace:CMD
+CMD_DCL__GET_CLUSTER_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_CLUSTER_INFO                          = 0x1A10;\/\/3018; \/\/获取设备群信息$/;"	m	namespace:CMD
+CMD_DCL__GET_CLUSTER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_CLUSTER_LIST                          = 0x1A11;\/\/3003; \/\/获取设备群列表$/;"	m	namespace:CMD
+CMD_DCL__GET_DEVICE_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_DEVICE_INFO                           = 0x2204;\/\/3007;$/;"	m	namespace:CMD
+CMD_DCL__GET_DEVICE_LIST_OF_USER_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_DEVICE_LIST_OF_USER_MEMBER            = 0x1A16;\/\/302A; \/\/获取群用户成员的设备列表$/;"	m	namespace:CMD
+CMD_DCL__GET_DEVICE_MEMBER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_DEVICE_MEMBER_LIST                    = 0x1A12;\/\/3004; \/\/获取设备群的设备成员列表$/;"	m	namespace:CMD
+CMD_DCL__GET_DEVICE_MEMBER_ONLINE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_DEVICE_MEMBER_ONLINE_LIST             = 0x1A13;\/\/3006; \/\/获取设备群的设备在线列表$/;"	m	namespace:CMD
+CMD_DCL__GET_OPERATOR_LIST_OF_DEV_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_OPERATOR_LIST_OF_DEV_MEMBER           = 0x1A14;\/\/302B; \/\/获取群设备成员的操作员列表$/;"	m	namespace:CMD
+CMD_DCL__GET_SESSION_KEY_WITH_DEVICE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_SESSION_KEY_WITH_DEVICE               = 0x1A41;$/;"	m	namespace:CMD
+CMD_DCL__GET_TRANSER_DEVICE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_TRANSER_DEVICE_LIST                   = 0x1A20;$/;"	m	namespace:CMD
+CMD_DCL__GET_UNCLAIMED_DEVICE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_UNCLAIMED_DEVICE_LIST                 = 0x1A17;$/;"	m	namespace:CMD
+CMD_DCL__GET_USER_MEMBER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_USER_MEMBER_LIST                      = 0x1A15;\/\/3005; \/\/获取设备群的用户成员列表$/;"	m	namespace:CMD
+CMD_DCL__GET_USER_MEMBER_ONLINE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_USER_MEMBER_ONLINE_LIST               = 0x1A18;\/\/3005; \/\/获取设备群的用户成员列表$/;"	m	namespace:CMD
+CMD_DCL__INVITE_TO_JOIN__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__INVITE_TO_JOIN__APPROVAL                  = 0x1A08;\/\/3022; \/\/邀请加入设备群，审批$/;"	m	namespace:CMD
+CMD_DCL__INVITE_TO_JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__INVITE_TO_JOIN__REQ                       = 0x1A07;\/\/3021; \/\/邀请加入设备群，请求$/;"	m	namespace:CMD
+CMD_DCL__INVITE_TO_JOIN__SEARCH_INVITEE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__INVITE_TO_JOIN__SEARCH_INVITEE            = 0x2201;\/\/3020; \/\/邀请加入设备群，搜索用户$/;"	m	namespace:CMD
+CMD_DCL__JOIN__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__JOIN__APPROVAL                            = 0x1A05;\/\/3015; \/\/加入设备群，审批$/;"	m	namespace:CMD
+CMD_DCL__JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__JOIN__REQ                                 = 0x1A04;\/\/3014; \/\/加入设备群，请求$/;"	m	namespace:CMD
+CMD_DCL__JOIN__SEARCH_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__JOIN__SEARCH_CLUSTER                      = 0x1A03;\/\/3012; \/\/搜索设备群$/;"	m	namespace:CMD
+CMD_DCL__MODIFY_DISCRIPTION	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__MODIFY_DISCRIPTION                        = 0x1A32;\/\/3042; \/\/修改设备群描述$/;"	m	namespace:CMD
+CMD_DCL__MODIFY_NOTENAME	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__MODIFY_NOTENAME                           = 0x1A31;\/\/3041; \/\/修改设备群备注名$/;"	m	namespace:CMD
+CMD_DCL__MODIFY_USER_MEMBER_ROLE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__MODIFY_USER_MEMBER_ROLE                   = 0x1A30;\/\/3040; \/\/修改设备群的用户成员角色（设置／取消管理员）$/;"	m	namespace:CMD
+CMD_DCL__REMOVE_DEVICES_OF_USER_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__REMOVE_DEVICES_OF_USER_MEMBER             = 0x1A34;\/\/3027; \/\/为群用户成员批量删除设备$/;"	m	namespace:CMD
+CMD_DCL__REMOVE_OPERATORS_OF_DEV_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__REMOVE_OPERATORS_OF_DEV_MEMBER            = 0x1A36;\/\/3029; \/\/为群设备成员批量删除操作员$/;"	m	namespace:CMD
+CMD_DCL__REMOVE_USER_MEMBERS	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__REMOVE_USER_MEMBERS                       = 0X1A09;\/\/3024; \/\/批量移除设备群的用户成员$/;"	m	namespace:CMD
+CMD_DCL__TRANSFER_DEVCLUSTER_REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__TRANSFER_DEVCLUSTER_REQ                   = 0x1A23;$/;"	m	namespace:CMD
+CMD_DCL__TRANSFER_DEVCLUSTER_VERIRY	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__TRANSFER_DEVCLUSTER_VERIRY                = 0x1A24;$/;"	m	namespace:CMD
+CMD_DCL__TRANSFER_DEVICES__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__TRANSFER_DEVICES__APPROVAL                = 0x1A22;\/\/$/;"	m	namespace:CMD
+CMD_DCL__TRANSFER_DEVICES__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__TRANSFER_DEVICES__REQ                     = 0x1A21;\/\/3031$/;"	m	namespace:CMD
+CMD_DEV__GET_MY_DEVICE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DEV__GET_MY_DEVICE_LIST                        = 0x1810;\/\/3001; \/\/获取我的设备列表$/;"	m	namespace:CMD
+CMD_DEV__GET_MY_DEVICE_ONLINE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DEV__GET_MY_DEVICE_ONLINE_LIST                 = 0x1811;\/\/3002; \/\/获取我的设备在线列表$/;"	m	namespace:CMD
+CMD_DEV__MODIFY_DEVICE_DESCRIPTION	../protocoldef/protocol.h	/^    const uint16_t CMD_DEV__MODIFY_DEVICE_DESCRIPTION                 = 0x1801;\/\/300A;$/;"	m	namespace:CMD
+CMD_DEV__MODIFY_DEVICE_NOTENAME	../protocoldef/protocol.h	/^    const uint16_t CMD_DEV__MODIFY_DEVICE_NOTENAME                    = 0x1800;\/\/3009;$/;"	m	namespace:CMD
+CMD_DeleteNotif	../protocoldef/protocol.h	/^    const uint16_t CMD_DeleteNotif                               = 0x001C;$/;"	m	namespace:CMD
+CMD_FRI__ADD_FRIEND__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t CMD_FRI__ADD_FRIEND__APPROVAL                      = 0x1401;\/\/2021; \/\/$/;"	m	namespace:CMD
+CMD_FRI__ADD_FRIEND__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_FRI__ADD_FRIEND__REQ                           = 0x1400;\/\/2020; \/\/加好友请求$/;"	m	namespace:CMD
+CMD_FRI__ADD_FRIEND__SEARCH_USER	../protocoldef/protocol.h	/^    const uint16_t CMD_FRI__ADD_FRIEND__SEARCH_USER                   = 0x2200;\/\/2010; \/\/搜索用户$/;"	m	namespace:CMD
+CMD_FRI__GET_FRIEND_INFO_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_FRI__GET_FRIEND_INFO_LIST                      = 0x1410;\/\/2001; \/\/获取好友信息列表$/;"	m	namespace:CMD
+CMD_FRI__GET_USER_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_FRI__GET_USER_INFO                             = 0x2203;\/\/2004; \/\/$/;"	m	namespace:CMD
+CMD_GEN__FEEDBACK	../protocoldef/protocol.h	/^    const uint16_t CMD_GEN__FEEDBACK                                = 0x1E00;\/\/101C;$/;"	m	namespace:CMD
+CMD_GEN__HEART_BEAT	../protocoldef/protocol.h	/^    const uint16_t CMD_GEN__HEART_BEAT                                = 0xFFFF;\/\/FFFF; \/\/客户端心跳包$/;"	m	namespace:CMD
+CMD_GEN__NOTIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_GEN__NOTIFY                                    = 0xFFFE;\/\/FFFE; \/\/通知$/;"	m	namespace:CMD
+CMD_GET_SCENE_CONNECTOR_DEVICES	../protocoldef/protocol.h	/^    const uint16_t CMD_GET_SCENE_CONNECTOR_DEVICES = 0x1C28; \/\/ 取得场景连接的设备$/;"	m	namespace:CMD
+CMD_GET_SERVER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_GET_SERVER_LIST                                = 0x1206;\/\/1012; \/\/注销$/;"	m	namespace:CMD
+CMD_GetNotifWhenBackOnline	../protocoldef/protocol.h	/^    const uint16_t CMD_GetNotifWhenBackOnline                    = 0x001B;$/;"	m	namespace:CMD
+CMD_GetNotifWhenLogin	../protocoldef/protocol.h	/^    const uint16_t CMD_GetNotifWhenLogin                         = 0x001A;$/;"	m	namespace:CMD
+CMD_HMI__CANCEL_SHARE_SCENE	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__CANCEL_SHARE_SCENE                        = 0x1C13;\/\/400A; \/\/HMI，取消共享场景$/;"	m	namespace:CMD
+CMD_HMI__CLOSE_RELAY_CHANNELS	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__CLOSE_RELAY_CHANNELS                      = 0x1C04;\/\/4004; \/\/HMI，批量关闭转发通道$/;"	m	namespace:CMD
+CMD_HMI__CLOSE_RELAY_CHANNELS_RESULT	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__CLOSE_RELAY_CHANNELS_RESULT          = 0x0016;\/\/4004; \/\/HMI，批量关闭转发通道$/;"	m	namespace:CMD
+CMD_HMI__DELETE_SCENE	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__DELETE_SCENE                              = 0x1C14;\/\/400C; \/\/HMI，删除场景$/;"	m	namespace:CMD
+CMD_HMI__DOWNLOAD_SCENE	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__DOWNLOAD_SCENE                            = 0x1C11;\/\/4007; \/\/HMI，下载场景$/;"	m	namespace:CMD
+CMD_HMI__GET_EXTRANET_IP_PORT	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__GET_EXTRANET_IP_PORT                      = 0x1C02;\/\/4002; \/\/HMI，获取外网ip，port$/;"	m	namespace:CMD
+CMD_HMI__GET_MY_SCENE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__GET_MY_SCENE_LIST                         = 0x1C20;\/\/4006; \/\/HMI，获取我的场景列表$/;"	m	namespace:CMD
+CMD_HMI__GET_NEW_CDSESSION_KEY	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__GET_NEW_CDSESSION_KEY                     = 0x1C22;$/;"	m	namespace:CMD
+CMD_HMI__GET_SCENE_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__GET_SCENE_INFO                          = 0x1C25;$/;"	m	namespace:CMD
+CMD_HMI__GET_SCENE_USER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__GET_SCENE_USER_LIST                       = 0x1C21;\/\/400F; \/\/HMI，获取场景的用户列表$/;"	m	namespace:CMD
+CMD_HMI__MODIFY_NOTENAME	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__MODIFY_NOTENAME                         = 0x1C24;$/;"	m	namespace:CMD
+CMD_HMI__MODIFY_SCENE_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__MODIFY_SCENE_INFO                       = 0x1C23;$/;"	m	namespace:CMD
+CMD_HMI__OPEN_RELAY_CHANNELS	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__OPEN_RELAY_CHANNELS                       = 0x1C03;\/\/4003; \/\/HMI，批量打开转发通道$/;"	m	namespace:CMD
+CMD_HMI__OPEN_RELAY_CHANNELS_RESULT	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__OPEN_RELAY_CHANNELS_RESULT           = 0x0015;\/\/4004; \/\/HMI，批量关闭转发通道$/;"	m	namespace:CMD
+CMD_HMI__PENETRATE__GET_MY_DEVICE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__PENETRATE__GET_MY_DEVICE_LIST             = 0x1C00;\/\/4000; \/\/HMI，批量穿透，获取我的设备列表$/;"	m	namespace:CMD
+CMD_HMI__PENETRATE__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__PENETRATE__REQ                            = 0x1C01;\/\/4001; \/\/HMI，批量穿透$/;"	m	namespace:CMD
+CMD_HMI__SET_SHARE_SCENE_AUTH	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__SET_SHARE_SCENE_AUTH                    = 0x1C16;$/;"	m	namespace:CMD
+CMD_HMI__SHARE_SCENE	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__SHARE_SCENE                               = 0x1C12;\/\/4008; \/\/HMI，共享场景$/;"	m	namespace:CMD
+CMD_HMI__SHARE_SCENE__SEARCH_USER	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__SHARE_SCENE__SEARCH_USER                  = 0x2202;\/\/400E; \/\/HMI，共享场景，搜索用户$/;"	m	namespace:CMD
+CMD_HMI__TRANSFER_SYSADMIN	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__TRANSFER_SYSADMIN                         = 0x1C15;$/;"	m	namespace:CMD
+CMD_HMI__UPLOAD_SCENE	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__UPLOAD_SCENE                              = 0x1C10;\/\/4005; \/\/HMI，上传场景$/;"	m	namespace:CMD
+CMD_HMI__UPLOAD_SCENE_CONFIRM	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__UPLOAD_SCENE_CONFIRM                      = 0x1C19;\/\/4005; \/\/HMI，上传场景Confirm$/;"	m	namespace:CMD
+CMD_NOTIFY_RESP	../protocoldef/protocol.h	/^    const uint16_t CMD_NOTIFY_RESP                                    = 0xFFFD;\/\/FFFD; \/\/客户端通知服务器收到通知$/;"	m	namespace:CMD
+CMD_NewNotify	../protocoldef/protocol.h	/^    const uint16_t CMD_NewNotify                                 = 0x0018;$/;"	m	namespace:CMD
+CMD_NewSessionalNotify	../protocoldef/protocol.h	/^    const uint16_t CMD_NewSessionalNotify                        = 0x0019;$/;"	m	namespace:CMD
+CMD_PER__GET_USER_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__GET_USER_INFO                             = 0x1230;\/\/1016; \/\/*获取个人信息$/;"	m	namespace:CMD
+CMD_PER__LOGIN1__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__LOGIN1__REQ                               = 0x1203;\/\/1010; \/\/登录第一步$/;"	m	namespace:CMD
+CMD_PER__LOGIN2__VERIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__LOGIN2__VERIFY                            = 0x1204;\/\/1011; \/\/登录第二步$/;"	m	namespace:CMD
+CMD_PER__LOGOUT	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__LOGOUT                                    = 0x1205;\/\/1012; \/\/注销$/;"	m	namespace:CMD
+CMD_PER__MODIFY_MAILBOX1__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__MODIFY_MAILBOX1__REQ                      = 0x1214;\/\/1018; \/\/*修改邮箱第一步$/;"	m	namespace:CMD
+CMD_PER__MODIFY_MAILBOX2__VERIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__MODIFY_MAILBOX2__VERIFY                   = 0x1215;\/\/1019; \/\/*修改邮箱第二步$/;"	m	namespace:CMD
+CMD_PER__MODIFY_NICKNAME	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__MODIFY_NICKNAME                           = 0x1216;\/\/101A; \/\/*修改昵称$/;"	m	namespace:CMD
+CMD_PER__MODIFY_PASSWORD	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__MODIFY_PASSWORD                           = 0x1213;\/\/1017; \/\/*修改密码$/;"	m	namespace:CMD
+CMD_PER__MODIFY_SIGNATURE	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__MODIFY_SIGNATURE                          = 0x1217;\/\/101B; \/\/*修改签名$/;"	m	namespace:CMD
+CMD_PER__RECOVER_PWD1__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__RECOVER_PWD1__REQ                         = 0x1210;\/\/1013; \/\/找回密码第一步$/;"	m	namespace:CMD
+CMD_PER__RECOVER_PWD2__VERIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__RECOVER_PWD2__VERIFY                      = 0x1211;\/\/1014; \/\/找回密码第二步$/;"	m	namespace:CMD
+CMD_PER__RECOVER_PWD3__RESET	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__RECOVER_PWD3__RESET                       = 0x1212;\/\/1015; \/\/找回密码第三步$/;"	m	namespace:CMD
+CMD_PER__REGISTER1__SET_MAILBOX	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__REGISTER1__SET_MAILBOX                    = 0x1200;\/\/1000; \/\/注册第一步，设置邮箱$/;"	m	namespace:CMD
+CMD_PER__REGISTER2__ACTIVATE	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__REGISTER2__ACTIVATE                       = 0x1201;\/\/1001; \/\/注册第二步，激活$/;"	m	namespace:CMD
+CMD_PER__REGISTER3__SET_ACCOUNT_PWD	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__REGISTER3__SET_ACCOUNT_PWD                = 0x1202;\/\/1002; \/\/注册第三步，设置帐号密码$/;"	m	namespace:CMD
+CMD_SCENE_FILE_CHANGED	../protocoldef/protocol.h	/^    const uint16_t CMD_SCENE_FILE_CHANGED = 0x1C18; \/\/ 服务器收到此命令后给场景的所有共享者发送通知,告知场景文件被修改需要从新下载$/;"	m	namespace:CMD
+CMD_SEARCH_DEVICE_BY_NAME_AND_MAC	../protocoldef/protocol.h	/^    const uint16_t CMD_SEARCH_DEVICE_BY_NAME_AND_MAC                  = 0x2205;\/\/ 搜索设备$/;"	m	namespace:CMD
+CMD_SET_SCENE_CONNECTOR_DEVICES	../protocoldef/protocol.h	/^    const uint16_t CMD_SET_SCENE_CONNECTOR_DEVICES = 0x1C27; \/\/ 修改场景连接的设备$/;"	m	namespace:CMD
+CMD_SendNotif	../protocoldef/protocol.h	/^    const uint16_t CMD_SendNotif                                 = 0x0017;$/;"	m	namespace:CMD
+CMD_UCL__CREATE	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__CREATE                                    = 0x1600;\/\/2012; \/\/创建用户群$/;"	m	namespace:CMD
+CMD_UCL__GET_CLUSTER_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__GET_CLUSTER_INFO                          = 0x1611;\/\/2005;$/;"	m	namespace:CMD
+CMD_UCL__GET_CLUSTER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__GET_CLUSTER_LIST                          = 0x1610;\/\/2003; \/\/获取用户群列表$/;"	m	namespace:CMD
+CMD_UCL__JOIN__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__JOIN__APPROVAL                            = 0x1603;\/\/2023; \/\/加入群，审批$/;"	m	namespace:CMD
+CMD_UCL__JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__JOIN__REQ                                 = 0x1602;\/\/2022; \/\/加入群，请求$/;"	m	namespace:CMD
+CMD_UCL__JOIN__SEARCH_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__JOIN__SEARCH_CLUSTER                      = 0x1601;\/\/2011; \/\/搜索用户群$/;"	m	namespace:CMD
+Check	Message/MsgInput.cpp	/^bool MsgInput::Check(char *msgBuf, int msgLen)$/;"	f	class:MsgInput	signature:(char *msgBuf, int msgLen)
+Check	Message/MsgInput.h	/^    bool Check(char *msgBuf, int msgLen);$/;"	p	class:MsgInput	access:private	signature:(char *msgBuf, int msgLen)
+ClearContent	../Message/Message.cpp	/^void Message::ClearContent()$/;"	f	class:Message	signature:()
+ClearContent	../Message/Message.h	/^    void ClearContent();$/;"	p	class:Message	access:public	signature:()
+ClientNeedUpdate	../protocoldef/protocol.h	/^    const uint8_t ClientNeedUpdate      = 0x1A; \/\/客户端版本太低，需要更新$/;"	m	namespace:ANSC
+CloseAllChannel	../protocoldef/protocol.h	/^    const uint8_t CloseAllChannel = 0x03;$/;"	m	namespace:Relay
+CloseChannel	../protocoldef/protocol.h	/^    const uint8_t CloseChannel = 0x02;$/;"	m	namespace:Relay
+CloudMemNotEnough	../protocoldef/protocol.h	/^    const uint8_t CloudMemNotEnough     = 0x0D; \/\/场景上传失败，服务器上空间不够，请删除旧的场景$/;"	m	namespace:ANSC
+ClusterAuth	../protocoldef/protocol.h	/^namespace ClusterAuth$/;"	n
+ClusterAuth::Manager	../protocoldef/protocol.h	/^    const uint8_t Manager = 2;  \/\/ 管理员$/;"	m	namespace:ClusterAuth
+ClusterAuth::Operator	../protocoldef/protocol.h	/^    const uint8_t Operator = 3; \/\/ 操作者$/;"	m	namespace:ClusterAuth
+ClusterAuth::Owner	../protocoldef/protocol.h	/^    const uint8_t Owner = 1; \/\/ 群主, 系统管理员$/;"	m	namespace:ClusterAuth
+ClusterIdErr	../protocoldef/protocol.h	/^    const uint8_t ClusterIdErr          = 0x0F; \/\/设备群不存在或没有权限$/;"	m	namespace:ANSC
+ClusterIdOrDeviceIdErr	../protocoldef/protocol.h	/^    const uint8_t ClusterIdOrDeviceIdErr= 0x12; \/\/群或设备不存在或没有权限$/;"	m	namespace:ANSC
+ClusterIdOrUserIdErr	../protocoldef/protocol.h	/^    const uint8_t ClusterIdOrUserIdErr  = 0x14; \/\/群或用户不存在或没有权限$/;"	m	namespace:ANSC
+CommandID	../Message/Message.h	/^    uint16_t     CommandID()     { return m_commandID; }$/;"	f	class:Message	access:public	signature:()
+Configure	../config/configreader.cpp	/^Configure::Configure(): extconn_srv_port(8888),$/;"	f	class:Configure	signature:()
+Configure::Configure	../config/configreader.cpp	/^Configure::Configure(): extconn_srv_port(8888),$/;"	f	class:Configure	signature:()
+Configure::config	../config/configreader.cpp	/^Configure Configure::config;$/;"	m	class:Configure	file:
+Configure::getConfig	../config/configreader.cpp	/^Configure *Configure::getConfig()$/;"	f	class:Configure	signature:()
+Configure::getConfigFilePath	../config/configreader.cpp	/^int Configure::getConfigFilePath(char *buf, int sizeofbuf)$/;"	f	class:Configure	signature:(char *buf, int sizeofbuf)
+Configure::parse	../config/configreader.cpp	/^void Configure::parse(const char *token, const char *value)$/;"	f	class:Configure	signature:(const char *token, const char *value)
+Configure::read	../config/configreader.cpp	/^int Configure::read(const char *path)$/;"	f	class:Configure	signature:(const char *path)
+Content	../Message/Message.h	/^    char*        Content()       { return m_content.size() > 0 ? &m_content[0] : NULL ; }\/\/m_buf + OFFSET_CONTENT; }$/;"	f	class:Message	access:public	signature:()
+ContentLen	../Message/Message.h	/^    uint16_t     ContentLen()    { return m_content.size();}\/\/m_contentLen; }$/;"	f	class:Message	access:public	signature:()
+CopyHeader	../Message/Message.cpp	/^void Message::CopyHeader (const Message* msg)$/;"	f	class:Message	signature:(const Message* msg)
+CopyHeader	../Message/Message.h	/^    void CopyHeader(const Message* msg);$/;"	p	class:Message	access:public	signature:(const Message* msg)
+D	../thread/mutexwrap.cpp	4;"	d	file:
+DCL__TRANSFER_DEVICES__NOTIFY_DEST_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t DCL__TRANSFER_DEVICES__NOTIFY_DEST_CLUSTER         = 0x1A0A;\/\/$/;"	m	namespace:CMD
+DCL__TRANSFER_DEVICES__NOTIFY_SRC_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t DCL__TRANSFER_DEVICES__NOTIFY_SRC_CLUSTER          = 0x1A0D;\/\/$/;"	m	namespace:CMD
+DCMD__LOGIN1	../protocoldef/protocol.h	/^    const uint16_t DCMD__LOGIN1                                       = 0x1002;$/;"	m	namespace:CMD
+DCMD__LOGIN2	../protocoldef/protocol.h	/^    const uint16_t DCMD__LOGIN2                                       = 0x1003;$/;"	m	namespace:CMD
+DCMD__LOGOUT	../protocoldef/protocol.h	/^    const uint16_t DCMD__LOGOUT                                       = 0x1004;$/;"	m	namespace:CMD
+DCMD__LONG_HEART_BEAT	../protocoldef/protocol.h	/^    const uint16_t DCMD__LONG_HEART_BEAT                              = 0x1005;$/;"	m	namespace:CMD
+DCMD__OLD_FUNCTION	../protocoldef/protocol.h	/^    const uint16_t DCMD__OLD_FUNCTION                                 = 0x1000;$/;"	m	namespace:CMD
+DCMD__REGISTER	../protocoldef/protocol.h	/^    const uint16_t DCMD__REGISTER                                     = 0x1001;$/;"	m	namespace:CMD
+DCMD__SHORT_HEART_BEAT	../protocoldef/protocol.h	/^    const uint16_t DCMD__SHORT_HEART_BEAT                             = 0x1006;$/;"	m	namespace:CMD
+DEVICE_MSG_PREFIX	../protocoldef/protocol.h	/^const uint8_t  DEVICE_MSG_PREFIX = 0xE0;  \/\/消息开始标识$/;"	v
+DEVICE_MSG_SUFFIX	../protocoldef/protocol.h	/^const uint8_t  DEVICE_MSG_SUFFIX = 0xE1;  \/\/消息结束标识$/;"	v
+DNTP__TRANSFER_DEIVCES	../protocoldef/protocol.h	/^    const uint16_t DNTP__TRANSFER_DEIVCES                             = 0x1008;$/;"	m	namespace:CMD
+Decrypt	../Message/Message.cpp	/^int Message::Decrypt (char* key)$/;"	f	class:Message	signature:(char* key)
+Decrypt	../Message/Message.h	/^    int Decrypt(char* key);$/;"	p	class:Message	access:public	signature:(char* key)
+DelLocalCache	../protocoldef/protocol.h	/^    const uint16_t DelLocalCache = 0x001D;\/\/ 在本地删除用户的登录信息$/;"	m	namespace:CMD
+DestID	../Message/Message.h	/^    uint64_t     DestID()        { return m_destID; }$/;"	f	class:Message	access:public	signature:()
+DeviceIdErr	../protocoldef/protocol.h	/^    const uint8_t DeviceIdErr           = 0x0A; \/\/设备不存在或没有权限$/;"	m	namespace:ANSC
+DeviceNoResp	../protocoldef/protocol.h	/^    const uint8_t DeviceNoResp          = 0x18; \/\/ 设备没有回复$/;"	m	namespace:ANSC
+DeviceOffline	../protocoldef/protocol.h	/^    const uint8_t DeviceOffline         = 0x10; \/\/认领设备失败，设备不在线或没有权限$/;"	m	namespace:ANSC
+DevicePwdErr	../protocoldef/protocol.h	/^    const uint8_t DevicePwdErr          = 0x11; \/\/认领设备失败，密码错误$/;"	m	namespace:ANSC
+EXEC_NAME	makefile	/^	EXEC_NAME = ..\/dbin\/ExtConnSrv_d$/;"	m
+EXEC_NAME	makefile	/^	EXEC_NAME = ..\/rbin\/ExtConnSrv_d$/;"	m
+EXEC_PATH	makefile	/^EXEC_PATH = .\/$(EXEC_NAME)$/;"	m
+EmailNotExist	../protocoldef/protocol.h	/^    const uint8_t EmailNotExist         = 0x06; \/\/邮箱错误$/;"	m	namespace:ANSC
+EmailUsed	../protocoldef/protocol.h	/^    const uint8_t EmailUsed             = 0x07; \/\/邮箱已被使用$/;"	m	namespace:ANSC
+Encrypt	../Message/Message.cpp	/^void Message::Encrypt (char* key, int keylen)$/;"	f	class:Message	signature:(char* key, int keylen)
+Encrypt	../Message/Message.h	/^    void Encrypt(char* key, int len = 16);$/;"	p	class:Message	access:public	signature:(char* key, int len = 16)
+EncryptByteArray	../Message/itobytearray.cpp	/^EncryptByteArray::EncryptByteArray(IToByteArray *target,$/;"	f	class:EncryptByteArray	signature:(IToByteArray *target, std::vector<char> *enckey)
+EncryptByteArray	../Message/itobytearray.h	/^    EncryptByteArray(IToByteArray *target, std::vector<char> *enckey);$/;"	p	class:EncryptByteArray	access:public	signature:(IToByteArray *target, std::vector<char> *enckey)
+EncryptByteArray	../Message/itobytearray.h	/^class EncryptByteArray : public IToByteArray$/;"	c	inherits:IToByteArray
+EncryptByteArray::EncryptByteArray	../Message/itobytearray.cpp	/^EncryptByteArray::EncryptByteArray(IToByteArray *target,$/;"	f	class:EncryptByteArray	signature:(IToByteArray *target, std::vector<char> *enckey)
+EncryptByteArray::EncryptByteArray	../Message/itobytearray.h	/^    EncryptByteArray(IToByteArray *target, std::vector<char> *enckey);$/;"	p	class:EncryptByteArray	access:public	signature:(IToByteArray *target, std::vector<char> *enckey)
+EncryptByteArray::m_bytearray	../Message/itobytearray.h	/^    IToByteArray      *m_bytearray;$/;"	m	class:EncryptByteArray	access:private
+EncryptByteArray::m_enckey	../Message/itobytearray.h	/^    std::vector<char> *m_enckey;$/;"	m	class:EncryptByteArray	access:private
+EncryptByteArray::toByteArray	../Message/itobytearray.cpp	/^void EncryptByteArray::toByteArray(std::vector<char> *out)$/;"	f	class:EncryptByteArray	signature:(std::vector<char> *out)
+EncryptByteArray::toByteArray	../Message/itobytearray.h	/^    void toByteArray(std::vector<char> *out);$/;"	p	class:EncryptByteArray	access:public	signature:(std::vector<char> *out)
+FLAG	makefile	/^FLAG = -Wall$/;"	m
+Failed	../protocoldef/protocol.h	/^    const uint8_t Failed                = 0x16; \/\/ 失败$/;"	m	namespace:ANSC
+FieldSize	../Message/Message.h	/^    enum FieldSize$/;"	g	class:Message	access:public
+FromAnotherServer	../Message/Message.h	/^        FromAnotherServer,$/;"	e	enum:InternalMessage::InternalMessageType
+FromExtserver	../Message/Message.h	/^        FromExtserver = 1,$/;"	e	enum:InternalMessage::InternalMessageType
+FromNotifyServer	../Message/Message.h	/^        FromNotifyServer,$/;"	e	enum:InternalMessage::InternalMessageType
+FromRelayServer	../Message/Message.h	/^        FromRelayServer,$/;"	e	enum:InternalMessage::InternalMessageType
+GetCreateTime	../Message/Notification.h	/^    time_t GetCreateTime() const { return m_createTime; }$/;"	f	class:Notification	access:public	signature:() const
+GetIDType	../protocoldef/protocol.cpp	/^IdType GetIDType (uint64_t id)$/;"	f	signature:(uint64_t id)
+GetIDType	../protocoldef/protocol.h	/^IdType GetIDType(uint64_t id);$/;"	p	signature:(uint64_t id)
+GetIdType	../protocoldef/protocol.h	27;"	d
+GetMsgBuf	../Message/Notification.cpp	/^const char* Notification::GetMsgBuf() const$/;"	f	class:Notification	signature:() const
+GetMsgBuf	../Message/Notification.h	/^    const char* GetMsgBuf() const ;$/;"	p	class:Notification	access:public	signature:() const
+GetMsgLen	../Message/Notification.h	/^    uint16_t GetMsgLen() const { return m_msgLen; }$/;"	f	class:Notification	access:public	signature:() const
+GetObjectID	../Message/Notification.h	/^    uint64_t GetObjectID() const {return m_objectID; }$/;"	f	class:Notification	access:public	signature:() const
+HEART_BEAT_INTERVAL	../protocoldef/protocol.h	/^const time_t HEART_BEAT_INTERVAL = 30;$/;"	v
+HEART_BEAT_TIMEOUT	../protocoldef/protocol.h	/^const int HEART_BEAT_TIMEOUT = 30;$/;"	v
+HandleMsgInput	Business/BusinessManager.cpp	/^int BusinessManager::HandleMsgInput()$/;"	f	class:BusinessManager	signature:()
+HandleMsgInput	Business/BusinessManager.h	/^    int HandleMsgInput();$/;"	p	class:BusinessManager	access:public	signature:()
+HandleMsgOutput	Business/BusinessManager.cpp	/^int BusinessManager::HandleMsgOutput()$/;"	f	class:BusinessManager	signature:()
+HandleMsgOutput	Business/BusinessManager.h	/^    int HandleMsgOutput();$/;"	p	class:BusinessManager	access:public	signature:()
+INCMD_DEVICE_OFFLINE	../protocoldef/protocol.h	/^    const uint16_t INCMD_DEVICE_OFFLINE                          = 0x0013; \/\/设备下线$/;"	m	namespace:CMD
+INCMD_DEVICE_ONLINE	../protocoldef/protocol.h	/^    const uint16_t INCMD_DEVICE_ONLINE                           = 0x0012; \/\/设备上线$/;"	m	namespace:CMD
+INCMD_GET_DEVICE_ONLINE_LIST	../protocoldef/protocol.h	/^    const uint16_t INCMD_GET_DEVICE_ONLINE_LIST                  = 0x0014; \/\/获取设备在线列表$/;"	m	namespace:CMD
+INCMD_USER_OFFLINE	../protocoldef/protocol.h	/^    const uint16_t INCMD_USER_OFFLINE                            = 0x0011; \/\/用户下线$/;"	m	namespace:CMD
+INCMD_USER_ONLINE	../protocoldef/protocol.h	/^    const uint16_t INCMD_USER_ONLINE                             = 0x0010; \/\/用户上线$/;"	m	namespace:CMD
+INTERNAL_CLAIM_TIMER_RESEND	../protocoldef/protocol.h	/^    const uint16_t INTERNAL_CLAIM_TIMER_RESEND  = 0x1;$/;"	m	namespace:CMD
+IT_DClus	../protocoldef/protocol.h	/^enum IdType{ IT_Unknown, IT_User, IT_Device, IT_UClus, IT_DClus};$/;"	e	enum:IdType
+IT_Device	../protocoldef/protocol.h	/^enum IdType{ IT_Unknown, IT_User, IT_Device, IT_UClus, IT_DClus};$/;"	e	enum:IdType
+IT_UClus	../protocoldef/protocol.h	/^enum IdType{ IT_Unknown, IT_User, IT_Device, IT_UClus, IT_DClus};$/;"	e	enum:IdType
+IT_Unknown	../protocoldef/protocol.h	/^enum IdType{ IT_Unknown, IT_User, IT_Device, IT_UClus, IT_DClus};$/;"	e	enum:IdType
+IT_User	../protocoldef/protocol.h	/^enum IdType{ IT_Unknown, IT_User, IT_Device, IT_UClus, IT_DClus};$/;"	e	enum:IdType
+IToByteArray	../Message/itobytearray.h	/^class IToByteArray$/;"	c
+IToByteArray::toByteArray	../Message/itobytearray.h	/^    virtual void toByteArray(std::vector<char> *out) = 0;$/;"	p	class:IToByteArray	access:public	signature:(std::vector<char> *out)
+IToByteArray::~IToByteArray	../Message/itobytearray.h	/^    virtual ~IToByteArray(){}$/;"	f	class:IToByteArray	access:public	signature:()
+I_TO_BYTEARRY_H	../Message/itobytearray.h	2;"	d
+IdType	../protocoldef/protocol.h	/^enum IdType{ IT_Unknown, IT_User, IT_Device, IT_UClus, IT_DClus};$/;"	g
+IncludePath	makefile	/^IncludePath = -I..\/$/;"	m
+Init	../Message/Notification.cpp	/^void Notification::Init($/;"	f	class:Notification	signature:( uint64_t objectID, uint8_t answccode, uint16_t notifType, uint64_t sn, uint16_t msgLen, char* msgBuf)
+Init	../Message/Notification.h	/^    void Init(uint64_t objectID, uint8_t as, uint16_t notifType, uint64_t sn, uint16_t msgLen, char* msgBuf);$/;"	p	class:Notification	access:public	signature:(uint64_t objectID, uint8_t as, uint16_t notifType, uint64_t sn, uint16_t msgLen, char* msgBuf)
+Init	Business/BusinessManager.cpp	/^int BusinessManager::Init()$/;"	f	class:BusinessManager	signature:()
+Init	Business/BusinessManager.h	/^    int Init();$/;"	p	class:BusinessManager	access:public	signature:()
+Init	Message/MsgInput.cpp	/^void MsgInput::Init(MessageQueuePosix *q, int sock)$/;"	f	class:MsgInput	signature:(MessageQueuePosix *q, int sock)
+Init	Message/MsgInput.h	/^    void Init(MessageQueuePosix *q, int sock);$/;"	p	class:MsgInput	access:public	signature:(MessageQueuePosix *q, int sock)
+Init	Message/MsgOutput.cpp	/^void MsgOutput::Init(MessageQueuePosix *q, int sock)$/;"	f	class:MsgOutput	signature:(MessageQueuePosix *q, int sock)
+Init	Message/MsgOutput.h	/^    void Init(MessageQueuePosix *q, int sock);$/;"	p	class:MsgOutput	access:public	signature:(MessageQueuePosix *q, int sock)
+Internal	../Message/Message.h	/^        Internal$/;"	e	enum:InternalMessage::InternalMessageType
+InternalMessage	../Message/Message.cpp	/^InternalMessage::InternalMessage(Message *msg)$/;"	f	class:InternalMessage	signature:(Message *msg)
+InternalMessage	../Message/Message.cpp	/^InternalMessage::InternalMessage(Message *msg, uint16_t type, uint16_t subtype)$/;"	f	class:InternalMessage	signature:(Message *msg, uint16_t type, uint16_t subtype)
+InternalMessage	../Message/Message.h	/^    InternalMessage(Message *);$/;"	p	class:InternalMessage	access:public	signature:(Message *)
+InternalMessage	../Message/Message.h	/^    InternalMessage(Message *, uint16_t type, uint16_t subtype);$/;"	p	class:InternalMessage	access:public	signature:(Message *, uint16_t type, uint16_t subtype)
+InternalMessage	../Message/Message.h	/^class InternalMessage : public IToByteArray$/;"	c	inherits:IToByteArray
+InternalMessage::FromAnotherServer	../Message/Message.h	/^        FromAnotherServer,$/;"	e	enum:InternalMessage::InternalMessageType
+InternalMessage::FromExtserver	../Message/Message.h	/^        FromExtserver = 1,$/;"	e	enum:InternalMessage::InternalMessageType
+InternalMessage::FromNotifyServer	../Message/Message.h	/^        FromNotifyServer,$/;"	e	enum:InternalMessage::InternalMessageType
+InternalMessage::FromRelayServer	../Message/Message.h	/^        FromRelayServer,$/;"	e	enum:InternalMessage::InternalMessageType
+InternalMessage::Internal	../Message/Message.h	/^        Internal$/;"	e	enum:InternalMessage::InternalMessageType
+InternalMessage::InternalMessage	../Message/Message.cpp	/^InternalMessage::InternalMessage(Message *msg)$/;"	f	class:InternalMessage	signature:(Message *msg)
+InternalMessage::InternalMessage	../Message/Message.cpp	/^InternalMessage::InternalMessage(Message *msg, uint16_t type, uint16_t subtype)$/;"	f	class:InternalMessage	signature:(Message *msg, uint16_t type, uint16_t subtype)
+InternalMessage::InternalMessage	../Message/Message.h	/^    InternalMessage(Message *);$/;"	p	class:InternalMessage	access:public	signature:(Message *)
+InternalMessage::InternalMessage	../Message/Message.h	/^    InternalMessage(Message *, uint16_t type, uint16_t subtype);$/;"	p	class:InternalMessage	access:public	signature:(Message *, uint16_t type, uint16_t subtype)
+InternalMessage::InternalMessageType	../Message/Message.h	/^    enum InternalMessageType$/;"	g	class:InternalMessage	access:public
+InternalMessage::JustForward	../Message/Message.h	/^        JustForward,       \/\/ 此消息直接转发到外面$/;"	e	enum:InternalMessage::InternalMessageType
+InternalMessage::ToExtServer	../Message/Message.h	/^        ToExtServer, \/\/ 发到外面...$/;"	e	enum:InternalMessage::InternalMessageType
+InternalMessage::ToNotify	../Message/Message.h	/^        ToNotify, \/\/ 发到通知进程去$/;"	e	enum:InternalMessage::InternalMessageType
+InternalMessage::ToRelay	../Message/Message.h	/^        ToRelay, \/\/ 发到转发进程去$/;"	e	enum:InternalMessage::InternalMessageType
+InternalMessage::ToServer	../Message/Message.h	/^        ToServer, \/\/ 消息是服务器产生, 发到另一个服务器的$/;"	e	enum:InternalMessage::InternalMessageType
+InternalMessage::Unused	../Message/Message.h	/^        Unused = 0,$/;"	e	enum:InternalMessage::InternalMessageType
+InternalMessage::fromByteArray	../Message/Message.cpp	/^bool InternalMessage::fromByteArray(const char *buf, int buflen)$/;"	f	class:InternalMessage	signature:(const char *buf, int buflen)
+InternalMessage::fromByteArray	../Message/Message.h	/^    bool fromByteArray(const char *buf, int buflen);$/;"	p	class:InternalMessage	access:public	signature:(const char *buf, int buflen)
+InternalMessage::m_encryptMethod	../Message/Message.h	/^    uint8_t  m_encryptMethod;$/;"	m	class:InternalMessage	access:private
+InternalMessage::m_msg	../Message/Message.h	/^    Message *m_msg;$/;"	m	class:InternalMessage	access:private
+InternalMessage::m_subtype	../Message/Message.h	/^    uint16_t m_subtype;$/;"	m	class:InternalMessage	access:private
+InternalMessage::m_type	../Message/Message.h	/^    uint16_t m_type;$/;"	m	class:InternalMessage	access:private
+InternalMessage::m_version	../Message/Message.h	/^    uint16_t m_version;$/;"	m	class:InternalMessage	access:private
+InternalMessage::message	../Message/Message.h	/^    Message *message() {return m_msg; }$/;"	f	class:InternalMessage	access:public	signature:()
+InternalMessage::setEncrypt	../Message/Message.cpp	/^void InternalMessage::setEncrypt(bool t)$/;"	f	class:InternalMessage	signature:(bool t)
+InternalMessage::setEncrypt	../Message/Message.h	/^    void setEncrypt(bool t);$/;"	p	class:InternalMessage	access:public	signature:(bool t)
+InternalMessage::setSubType	../Message/Message.h	/^    void setSubType(uint16_t subtype) {m_subtype = subtype;}$/;"	f	class:InternalMessage	access:public	signature:(uint16_t subtype)
+InternalMessage::setType	../Message/Message.h	/^    void setType(uint16_t type) { m_type = type;}$/;"	f	class:InternalMessage	access:public	signature:(uint16_t type)
+InternalMessage::shouldEncrypt	../Message/Message.cpp	/^bool InternalMessage::shouldEncrypt()$/;"	f	class:InternalMessage	signature:()
+InternalMessage::shouldEncrypt	../Message/Message.h	/^    bool shouldEncrypt();$/;"	p	class:InternalMessage	access:public	signature:()
+InternalMessage::subtype	../Message/Message.h	/^    uint16_t subtype() {return m_subtype; }$/;"	f	class:InternalMessage	access:public	signature:()
+InternalMessage::toByteArray	../Message/Message.cpp	/^void InternalMessage::toByteArray(std::vector<char> *out)$/;"	f	class:InternalMessage	signature:(std::vector<char> *out)
+InternalMessage::toByteArray	../Message/Message.h	/^    void toByteArray(std::vector<char> *out);$/;"	p	class:InternalMessage	access:public	signature:(std::vector<char> *out)
+InternalMessage::type	../Message/Message.h	/^    uint16_t type() {return m_type; }$/;"	f	class:InternalMessage	access:public	signature:()
+InternalMessage::~InternalMessage	../Message/Message.cpp	/^InternalMessage::~InternalMessage()$/;"	f	class:InternalMessage	signature:()
+InternalMessage::~InternalMessage	../Message/Message.h	/^    ~InternalMessage();$/;"	p	class:InternalMessage	access:public	signature:()
+InternalMessageType	../Message/Message.h	/^    enum InternalMessageType$/;"	g	class:InternalMessage	access:public
+JustForward	../Message/Message.h	/^        JustForward,       \/\/ 此消息直接转发到外面$/;"	e	enum:InternalMessage::InternalMessageType
+LoginRetryTimesOut	../protocoldef/protocol.h	/^    const uint8_t LoginRetryTimesOut    = 0x09; \/\/同一个帐号密码错误重试十次，限制一小时不允许登录$/;"	m	namespace:ANSC
+MACRO	makefile	/^	MACRO = -D _DEBUG_VERSION$/;"	m
+MACRO	makefile	/^	MACRO = -DNDEBUG$/;"	m
+MAX_MSG_DATA_SIZE_V2	../protocoldef/protocol.h	/^const uint32_t MAX_MSG_DATA_SIZE_V2 = MAX_MSG_SIZE_V2 - PACK_HEADER_SIZE_V2;$/;"	v
+MAX_MSG_IN_MSG_QUEUE	../protocoldef/protocol.h	/^const uint32_t MAX_MSG_IN_MSG_QUEUE = 2000; $/;"	v
+MAX_MSG_SIZE	../protocoldef/protocol.h	/^const uint32_t MAX_MSG_SIZE      = 10 * 1024; \/\/ 10 k$/;"	v
+MAX_MSG_SIZE_V2	../protocoldef/protocol.h	/^const uint32_t MAX_MSG_SIZE_V2   = 512; \/\/ 协义版本号为2时最大包长度为1024字节$/;"	v
+MAX_RECVIVE_MESSAGES	Message/MsgInput.h	/^static const int MAX_RECVIVE_MESSAGES = 512;$/;"	v
+MAX_RETRY_WHEN_MSGQUEUE_FULL	../protocoldef/protocol.h	/^const uint32_t MAX_RETRY_WHEN_MSGQUEUE_FULL = 10;$/;"	v
+MESSAGE_H	../Message/Message.h	2;"	d
+MSGQUEUE_H	../msgqueue/msgqueue.h	2;"	d
+MSG_INPUT_H	Message/MsgInput.h	2;"	d
+MSG_OUTPUT_H	Message/MsgOutput.h	2;"	d
+MSG_READER_H	../Message/MsgReader.h	2;"	d
+MSG_WRITER_H	../Message/MsgWriter.h	2;"	d
+Mac2DevID	../protocoldef/protocol.cpp	/^uint64_t Mac2DevID(uint64_t macAddr)$/;"	f	signature:(uint64_t macAddr)
+Mac2DevID	../protocoldef/protocol.h	/^uint64_t Mac2DevID(uint64_t macAddr);$/;"	p	signature:(uint64_t macAddr)
+Mac2DevId	../protocoldef/protocol.h	28;"	d
+Manager	../protocoldef/protocol.h	/^    const uint8_t Manager = 2;  \/\/ 管理员$/;"	m	namespace:ClusterAuth
+Message	../Message/Message.cpp	/^Message::Message()$/;"	f	class:Message	signature:()
+Message	../Message/Message.h	/^    Message();$/;"	p	class:Message	access:public	signature:()
+Message	../Message/Message.h	/^class Message$/;"	c
+Message::ClearContent	../Message/Message.cpp	/^void Message::ClearContent()$/;"	f	class:Message	signature:()
+Message::ClearContent	../Message/Message.h	/^    void ClearContent();$/;"	p	class:Message	access:public	signature:()
+Message::CommandID	../Message/Message.h	/^    uint16_t     CommandID()     { return m_commandID; }$/;"	f	class:Message	access:public	signature:()
+Message::Content	../Message/Message.h	/^    char*        Content()       { return m_content.size() > 0 ? &m_content[0] : NULL ; }\/\/m_buf + OFFSET_CONTENT; }$/;"	f	class:Message	access:public	signature:()
+Message::ContentLen	../Message/Message.h	/^    uint16_t     ContentLen()    { return m_content.size();}\/\/m_contentLen; }$/;"	f	class:Message	access:public	signature:()
+Message::CopyHeader	../Message/Message.cpp	/^void Message::CopyHeader (const Message* msg)$/;"	f	class:Message	signature:(const Message* msg)
+Message::CopyHeader	../Message/Message.h	/^    void CopyHeader(const Message* msg);$/;"	p	class:Message	access:public	signature:(const Message* msg)
+Message::Decrypt	../Message/Message.cpp	/^int Message::Decrypt (char* key)$/;"	f	class:Message	signature:(char* key)
+Message::Decrypt	../Message/Message.h	/^    int Decrypt(char* key);$/;"	p	class:Message	access:public	signature:(char* key)
+Message::DestID	../Message/Message.h	/^    uint64_t     DestID()        { return m_destID; }$/;"	f	class:Message	access:public	signature:()
+Message::Encrypt	../Message/Message.cpp	/^void Message::Encrypt (char* key, int keylen)$/;"	f	class:Message	signature:(char* key, int keylen)
+Message::Encrypt	../Message/Message.h	/^    void Encrypt(char* key, int len = 16);$/;"	p	class:Message	access:public	signature:(char* key, int len = 16)
+Message::FieldSize	../Message/Message.h	/^    enum FieldSize$/;"	g	class:Message	access:public
+Message::Message	../Message/Message.cpp	/^Message::Message()$/;"	f	class:Message	signature:()
+Message::Message	../Message/Message.h	/^    Message();$/;"	p	class:Message	access:public	signature:()
+Message::ObjectID	../Message/Message.h	/^    uint64_t     ObjectID()      { return m_objectID; }$/;"	f	class:Message	access:public	signature:()
+Message::Prefix	../Message/Message.h	/^    uint8_t      Prefix()        { return m_prefix; }$/;"	f	class:Message	access:public	signature:()
+Message::Reset	../Message/Message.cpp	/^void Message::Reset()$/;"	f	class:Message	signature:()
+Message::Reset	../Message/Message.h	/^    void Reset();$/;"	p	class:Message	access:public	signature:()
+Message::SIZE_ANSWER_CODE	../Message/Message.h	/^        SIZE_ANSWER_CODE    = sizeof(uint8_t),$/;"	e	enum:Message::FieldSize
+Message::SIZE_COMMAND_ID	../Message/Message.h	/^        SIZE_COMMAND_ID     = sizeof(uint16_t),$/;"	e	enum:Message::FieldSize
+Message::SIZE_CONTENT_LEN	../Message/Message.h	/^        SIZE_CONTENT_LEN    = sizeof(uint16_t),$/;"	e	enum:Message::FieldSize
+Message::SIZE_DEST_ID	../Message/Message.h	/^        SIZE_DEST_ID        = sizeof(uint64_t),$/;"	e	enum:Message::FieldSize
+Message::SIZE_HEADER_AND_ENDING	../Message/Message.h	/^        SIZE_HEADER_AND_ENDING = $/;"	e	enum:Message::FieldSize
+Message::SIZE_NOTIF_NUMBER	../Message/Message.h	/^        SIZE_NOTIF_NUMBER  = sizeof(uint32_t),$/;"	e	enum:Message::FieldSize
+Message::SIZE_NOTIF_TYPE	../Message/Message.h	/^        SIZE_NOTIF_TYPE    = sizeof(uint16_t)$/;"	e	enum:Message::FieldSize
+Message::SIZE_OBJECT_ID	../Message/Message.h	/^        SIZE_OBJECT_ID      = sizeof(uint64_t),$/;"	e	enum:Message::FieldSize
+Message::SIZE_PREFIX	../Message/Message.h	/^        SIZE_PREFIX         = sizeof(uint8_t),$/;"	e	enum:Message::FieldSize
+Message::SIZE_SERIAL_NUMBER	../Message/Message.h	/^        SIZE_SERIAL_NUMBER  = sizeof(uint16_t),$/;"	e	enum:Message::FieldSize
+Message::SIZE_SUFFIX	../Message/Message.h	/^        SIZE_SUFFIX         = sizeof(uint8_t),$/;"	e	enum:Message::FieldSize
+Message::SIZE_VERSION_NUMBER	../Message/Message.h	/^        SIZE_VERSION_NUMBER = sizeof(uint16_t),$/;"	e	enum:Message::FieldSize
+Message::SerialNumber	../Message/Message.h	/^    uint16_t     SerialNumber()  { return m_serialNumber; }$/;"	f	class:Message	access:public	signature:()
+Message::SetCommandID	../Message/Message.cpp	/^void Message::SetCommandID(uint16_t commandID)$/;"	f	class:Message	signature:(uint16_t commandID)
+Message::SetCommandID	../Message/Message.h	/^    void SetCommandID(uint16_t cmdID);$/;"	p	class:Message	access:public	signature:(uint16_t cmdID)
+Message::SetDestID	../Message/Message.cpp	/^void Message::SetDestID(uint64_t destID)$/;"	f	class:Message	signature:(uint64_t destID)
+Message::SetDestID	../Message/Message.h	/^    void SetDestID(uint64_t destID);$/;"	p	class:Message	access:public	signature:(uint64_t destID)
+Message::SetObjectID	../Message/Message.cpp	/^void Message::SetObjectID(uint64_t objectID)$/;"	f	class:Message	signature:(uint64_t objectID)
+Message::SetObjectID	../Message/Message.h	/^    void SetObjectID(uint64_t objectID);$/;"	p	class:Message	access:public	signature:(uint64_t objectID)
+Message::SetPrefix	../Message/Message.cpp	/^void Message::SetPrefix(uint8_t prefix)$/;"	f	class:Message	signature:(uint8_t prefix)
+Message::SetPrefix	../Message/Message.h	/^    void SetPrefix(uint8_t prefix);$/;"	p	class:Message	access:public	signature:(uint8_t prefix)
+Message::SetSerialNumber	../Message/Message.cpp	/^void Message::SetSerialNumber(uint16_t serialNumber)$/;"	f	class:Message	signature:(uint16_t serialNumber)
+Message::SetSerialNumber	../Message/Message.h	/^    void SetSerialNumber(uint16_t serialNumber);$/;"	p	class:Message	access:public	signature:(uint16_t serialNumber)
+Message::SetSockAddr	../Message/Message.cpp	/^void Message::SetSockAddr(sockaddr_in sockAddr)$/;"	f	class:Message	signature:(sockaddr_in sockAddr)
+Message::SetSockAddr	../Message/Message.h	/^    void SetSockAddr(sockaddr_in sockAddr);$/;"	p	class:Message	access:public	signature:(sockaddr_in sockAddr)
+Message::SetSuffix	../Message/Message.cpp	/^void Message::SetSuffix(uint8_t suffix)$/;"	f	class:Message	signature:(uint8_t suffix)
+Message::SetSuffix	../Message/Message.h	/^    void SetSuffix(uint8_t suffix);$/;"	p	class:Message	access:public	signature:(uint8_t suffix)
+Message::SetVersionNumber	../Message/Message.cpp	/^void Message::SetVersionNumber(uint16_t versionNumber)$/;"	f	class:Message	signature:(uint16_t versionNumber)
+Message::SetVersionNumber	../Message/Message.h	/^    void SetVersionNumber(uint16_t versionNumber);$/;"	p	class:Message	access:public	signature:(uint16_t versionNumber)
+Message::SockAddr	../Message/Message.h	/^    sockaddr_in& SockAddr()      { return m_sockAddr; }$/;"	f	class:Message	access:public	signature:()
+Message::Suffix	../Message/Message.h	/^    uint8_t      Suffix()        { return m_suffix; }$/;"	f	class:Message	access:public	signature:()
+Message::VersionNumber	../Message/Message.h	/^    uint16_t     VersionNumber() { return m_versionNumber;}$/;"	f	class:Message	access:public	signature:()
+Message::appendContent	../Message/Message.cpp	/^void Message::appendContent (const void* data, uint16_t dataLen)$/;"	f	class:Message	signature:(const void* data, uint16_t dataLen)
+Message::appendContent	../Message/Message.cpp	/^void Message::appendContent(IToByteArray *data)$/;"	f	class:Message	signature:(IToByteArray *data)
+Message::appendContent	../Message/Message.cpp	/^void Message::appendContent(const std::string &data)$/;"	f	class:Message	signature:(const std::string &data)
+Message::appendContent	../Message/Message.cpp	/^void Message::appendContent(uint16_t d)$/;"	f	class:Message	signature:(uint16_t d)
+Message::appendContent	../Message/Message.cpp	/^void Message::appendContent(uint32_t d)$/;"	f	class:Message	signature:(uint32_t d)
+Message::appendContent	../Message/Message.cpp	/^void Message::appendContent(uint64_t d)$/;"	f	class:Message	signature:(uint64_t d)
+Message::appendContent	../Message/Message.cpp	/^void Message::appendContent(uint8_t d)$/;"	f	class:Message	signature:(uint8_t d)
+Message::appendContent	../Message/Message.h	/^    void appendContent(IToByteArray *);$/;"	p	class:Message	access:public	signature:(IToByteArray *)
+Message::appendContent	../Message/Message.h	/^    void appendContent(const std::string &data = "");$/;"	p	class:Message	access:public	signature:(const std::string &data = �)
+Message::appendContent	../Message/Message.h	/^    void appendContent(const void* data, uint16_t dataLen);$/;"	p	class:Message	access:public	signature:(const void* data, uint16_t dataLen)
+Message::appendContent	../Message/Message.h	/^    void appendContent(uint16_t d);$/;"	p	class:Message	access:public	signature:(uint16_t d)
+Message::appendContent	../Message/Message.h	/^    void appendContent(uint32_t d);$/;"	p	class:Message	access:public	signature:(uint32_t d)
+Message::appendContent	../Message/Message.h	/^    void appendContent(uint64_t d);$/;"	p	class:Message	access:public	signature:(uint64_t d)
+Message::appendContent	../Message/Message.h	/^    void appendContent(uint8_t d);$/;"	p	class:Message	access:public	signature:(uint8_t d)
+Message::createClientMessage	../Message/Message.cpp	/^Message *Message::createClientMessage()$/;"	f	class:Message	signature:()
+Message::createClientMessage	../Message/Message.h	/^    static Message *createClientMessage();$/;"	p	class:Message	access:public	signature:()
+Message::createDeviceMessage	../Message/Message.cpp	/^Message *Message::createDeviceMessage()$/;"	f	class:Message	signature:()
+Message::createDeviceMessage	../Message/Message.h	/^    static Message *createDeviceMessage();$/;"	p	class:Message	access:public	signature:()
+Message::fromByteArray	../Message/Message.cpp	/^bool Message::fromByteArray(const char *buf, int buflen)$/;"	f	class:Message	signature:(const char *buf, int buflen)
+Message::fromByteArray	../Message/Message.h	/^    bool fromByteArray(const char *buf, int buflen);$/;"	p	class:Message	access:public	signature:(const char *buf, int buflen)
+Message::m_commandID	../Message/Message.h	/^    uint16_t m_commandID;$/;"	m	class:Message	access:private
+Message::m_content	../Message/Message.h	/^    std::vector<char> m_content;$/;"	m	class:Message	access:private
+Message::m_destID	../Message/Message.h	/^    uint64_t m_destID;$/;"	m	class:Message	access:private
+Message::m_objectID	../Message/Message.h	/^    uint64_t m_objectID;$/;"	m	class:Message	access:private
+Message::m_prefix	../Message/Message.h	/^    uint8_t  m_prefix;$/;"	m	class:Message	access:private
+Message::m_serialNumber	../Message/Message.h	/^    uint16_t m_serialNumber;$/;"	m	class:Message	access:private
+Message::m_sockAddr	../Message/Message.h	/^    struct sockaddr_in m_sockAddr;$/;"	m	class:Message	typeref:struct:Message::sockaddr_in	access:private
+Message::m_suffix	../Message/Message.h	/^    uint8_t  m_suffix;$/;"	m	class:Message	access:private
+Message::m_versionNumber	../Message/Message.h	/^    uint16_t m_versionNumber;$/;"	m	class:Message	access:private
+Message::pack	../Message/Message.cpp	/^void Message::pack(std::vector<char> *out)$/;"	f	class:Message	signature:(std::vector<char> *out)
+Message::pack	../Message/Message.h	/^    void pack(std::vector<char> *out);$/;"	p	class:Message	access:public	signature:(std::vector<char> *out)
+Message::toByteArray	../Message/Message.cpp	/^void Message::toByteArray(std::vector<char> *out)$/;"	f	class:Message	signature:(std::vector<char> *out)
+Message::toByteArray	../Message/Message.h	/^    void toByteArray(std::vector<char> *out);$/;"	p	class:Message	access:public	signature:(std::vector<char> *out)
+Message::unpack	../Message/Message.cpp	/^bool Message::unpack(const char *buf, int buflen)$/;"	f	class:Message	signature:(const char *buf, int buflen)
+Message::unpack	../Message/Message.h	/^    bool unpack(const char *buf, int buflen);$/;"	p	class:Message	access:public	signature:(const char *buf, int buflen)
+Message::~Message	../Message/Message.cpp	/^Message::~Message()$/;"	f	class:Message	signature:()
+Message::~Message	../Message/Message.h	/^    ~Message();$/;"	p	class:Message	access:public	signature:()
+MessageQueuePosix	../msgqueue/posixmsgqueue.cpp	/^MessageQueuePosix::MessageQueuePosix(const char *name,$/;"	f	class:MessageQueuePosix	signature:(const char *name, int maxQueueSize, int maxMessageSize)
+MessageQueuePosix::MessageQueuePosix	../msgqueue/posixmsgqueue.cpp	/^MessageQueuePosix::MessageQueuePosix(const char *name,$/;"	f	class:MessageQueuePosix	signature:(const char *name, int maxQueueSize, int maxMessageSize)
+MessageQueuePosix::create	../msgqueue/posixmsgqueue.cpp	/^bool MessageQueuePosix::create()$/;"	f	class:MessageQueuePosix	signature:()
+MessageQueuePosix::get	../msgqueue/posixmsgqueue.cpp	/^int MessageQueuePosix::get(char *buf, int *buflen)$/;"	f	class:MessageQueuePosix	signature:(char *buf, int *buflen)
+MessageQueuePosix::put	../msgqueue/posixmsgqueue.cpp	/^int MessageQueuePosix::put(const char *data, int datalen)$/;"	f	class:MessageQueuePosix	signature:(const char *data, int datalen)
+MessageQueuePosix::remove	../msgqueue/posixmsgqueue.cpp	/^int MessageQueuePosix::remove(char *name)$/;"	f	class:MessageQueuePosix	signature:(char *name)
+MessageQueuePosix::~MessageQueuePosix	../msgqueue/posixmsgqueue.cpp	/^MessageQueuePosix::~MessageQueuePosix()$/;"	f	class:MessageQueuePosix	signature:()
+MsgErr	../protocoldef/protocol.h	/^    const uint8_t MsgErr                = 0x7F; \/\/命令格式错误$/;"	m	namespace:ANSC
+MsgInput	Message/MsgInput.cpp	/^MsgInput::MsgInput()$/;"	f	class:MsgInput	signature:()
+MsgInput	Message/MsgInput.h	/^    MsgInput();$/;"	p	class:MsgInput	access:public	signature:()
+MsgInput	Message/MsgInput.h	/^class MsgInput$/;"	c
+MsgInput::Check	Message/MsgInput.cpp	/^bool MsgInput::Check(char *msgBuf, int msgLen)$/;"	f	class:MsgInput	signature:(char *msgBuf, int msgLen)
+MsgInput::Check	Message/MsgInput.h	/^    bool Check(char *msgBuf, int msgLen);$/;"	p	class:MsgInput	access:private	signature:(char *msgBuf, int msgLen)
+MsgInput::Init	Message/MsgInput.cpp	/^void MsgInput::Init(MessageQueuePosix *q, int sock)$/;"	f	class:MsgInput	signature:(MessageQueuePosix *q, int sock)
+MsgInput::Init	Message/MsgInput.h	/^    void Init(MessageQueuePosix *q, int sock);$/;"	p	class:MsgInput	access:public	signature:(MessageQueuePosix *q, int sock)
+MsgInput::MsgInput	Message/MsgInput.cpp	/^MsgInput::MsgInput()$/;"	f	class:MsgInput	signature:()
+MsgInput::MsgInput	Message/MsgInput.h	/^    MsgInput();$/;"	p	class:MsgInput	access:public	signature:()
+MsgInput::UdpRecv	Message/MsgInput.cpp	/^int MsgInput::UdpRecv()$/;"	f	class:MsgInput	signature:()
+MsgInput::UdpRecv	Message/MsgInput.h	/^    int  UdpRecv();$/;"	p	class:MsgInput	access:public	signature:()
+MsgInput::Write	Message/MsgInput.cpp	/^void MsgInput::Write(char *msgBuf, int msgLen, const sockaddr_in &sockAddr)$/;"	f	class:MsgInput	signature:(char *msgBuf, int msgLen, const sockaddr_in &sockAddr)
+MsgInput::Write	Message/MsgInput.h	/^    void Write(char *msgBuf, int msgLen, const sockaddr_in &sockAddr);$/;"	p	class:MsgInput	access:private	signature:(char *msgBuf, int msgLen, const sockaddr_in &sockAddr)
+MsgInput::buf	Message/MsgInput.h	/^    char buf[MAX_RECVIVE_MESSAGES][1024 * 2]; \/\/ 512 * 2k?$/;"	m	class:MsgInput	access:private
+MsgInput::bufvec	Message/MsgInput.h	/^    struct iovec bufvec[MAX_RECVIVE_MESSAGES];$/;"	m	class:MsgInput	typeref:struct:MsgInput::iovec	access:private
+MsgInput::control	Message/MsgInput.h	/^    char control[MAX_RECVIVE_MESSAGES][20];$/;"	m	class:MsgInput	access:private
+MsgInput::hdr	Message/MsgInput.h	/^    struct mmsghdr hdr[MAX_RECVIVE_MESSAGES];$/;"	m	class:MsgInput	typeref:struct:MsgInput::mmsghdr	access:private
+MsgInput::m_queue	Message/MsgInput.h	/^    MessageQueuePosix *m_queue;$/;"	m	class:MsgInput	access:private
+MsgInput::m_sock	Message/MsgInput.h	/^    int m_sock;$/;"	m	class:MsgInput	access:private
+MsgInput::srcaddr	Message/MsgInput.h	/^    sockaddr_in srcaddr[MAX_RECVIVE_MESSAGES];$/;"	m	class:MsgInput	access:private
+MsgInput::~MsgInput	Message/MsgInput.cpp	/^MsgInput::~MsgInput()$/;"	f	class:MsgInput	signature:()
+MsgInput::~MsgInput	Message/MsgInput.h	/^    ~MsgInput();$/;"	p	class:MsgInput	access:public	signature:()
+MsgOutput	Message/MsgOutput.cpp	/^MsgOutput::MsgOutput()$/;"	f	class:MsgOutput	signature:()
+MsgOutput	Message/MsgOutput.h	/^    MsgOutput();$/;"	p	class:MsgOutput	access:public	signature:()
+MsgOutput	Message/MsgOutput.h	/^class MsgOutput$/;"	c
+MsgOutput::Init	Message/MsgOutput.cpp	/^void MsgOutput::Init(MessageQueuePosix *q, int sock)$/;"	f	class:MsgOutput	signature:(MessageQueuePosix *q, int sock)
+MsgOutput::Init	Message/MsgOutput.h	/^    void Init(MessageQueuePosix *q, int sock);$/;"	p	class:MsgOutput	access:public	signature:(MessageQueuePosix *q, int sock)
+MsgOutput::MsgOutput	Message/MsgOutput.cpp	/^MsgOutput::MsgOutput()$/;"	f	class:MsgOutput	signature:()
+MsgOutput::MsgOutput	Message/MsgOutput.h	/^    MsgOutput();$/;"	p	class:MsgOutput	access:public	signature:()
+MsgOutput::Read	Message/MsgOutput.cpp	/^int MsgOutput::Read()$/;"	f	class:MsgOutput	signature:()
+MsgOutput::Read	Message/MsgOutput.h	/^    int Read();$/;"	p	class:MsgOutput	access:public	signature:()
+MsgOutput::UdpSend	Message/MsgOutput.cpp	/^int MsgOutput::UdpSend()$/;"	f	class:MsgOutput	signature:()
+MsgOutput::UdpSend	Message/MsgOutput.h	/^    int UdpSend();$/;"	p	class:MsgOutput	access:public	signature:()
+MsgOutput::m_msgBuf	Message/MsgOutput.h	/^    char* m_msgBuf;$/;"	m	class:MsgOutput	access:private
+MsgOutput::m_msgLen	Message/MsgOutput.h	/^    uint16_t m_msgLen;   $/;"	m	class:MsgOutput	access:private
+MsgOutput::m_queue	Message/MsgOutput.h	/^    MessageQueuePosix *m_queue;$/;"	m	class:MsgOutput	access:private
+MsgOutput::m_sock	Message/MsgOutput.h	/^    int m_sock;$/;"	m	class:MsgOutput	access:private
+MsgOutput::m_sockAddr	Message/MsgOutput.h	/^    sockaddr_in m_sockAddr;  $/;"	m	class:MsgOutput	access:private
+MsgOutput::~MsgOutput	Message/MsgOutput.cpp	/^MsgOutput::~MsgOutput()$/;"	f	class:MsgOutput	signature:()
+MsgOutput::~MsgOutput	Message/MsgOutput.h	/^    ~MsgOutput();$/;"	p	class:MsgOutput	access:public	signature:()
+MsgReaderPosixMsgQueue	../Message/MsgReader.cpp	/^MsgReaderPosixMsgQueue::MsgReaderPosixMsgQueue(MessageQueuePosix *queue)$/;"	f	class:MsgReaderPosixMsgQueue	signature:(MessageQueuePosix *queue)
+MsgReaderPosixMsgQueue	../Message/MsgReader.h	/^    MsgReaderPosixMsgQueue(MessageQueuePosix *queue = 0);$/;"	p	class:MsgReaderPosixMsgQueue	access:public	signature:(MessageQueuePosix *queue = 0)
+MsgReaderPosixMsgQueue	../Message/MsgReader.h	/^class MsgReaderPosixMsgQueue$/;"	c
+MsgReaderPosixMsgQueue::MsgReaderPosixMsgQueue	../Message/MsgReader.cpp	/^MsgReaderPosixMsgQueue::MsgReaderPosixMsgQueue(MessageQueuePosix *queue)$/;"	f	class:MsgReaderPosixMsgQueue	signature:(MessageQueuePosix *queue)
+MsgReaderPosixMsgQueue::MsgReaderPosixMsgQueue	../Message/MsgReader.h	/^    MsgReaderPosixMsgQueue(MessageQueuePosix *queue = 0);$/;"	p	class:MsgReaderPosixMsgQueue	access:public	signature:(MessageQueuePosix *queue = 0)
+MsgReaderPosixMsgQueue::m_queue	../Message/MsgReader.h	/^    MessageQueuePosix *m_queue;$/;"	m	class:MsgReaderPosixMsgQueue	access:private
+MsgReaderPosixMsgQueue::read	../Message/MsgReader.cpp	/^Message *MsgReaderPosixMsgQueue::read()$/;"	f	class:MsgReaderPosixMsgQueue	signature:()
+MsgReaderPosixMsgQueue::read	../Message/MsgReader.h	/^    Message *read();$/;"	p	class:MsgReaderPosixMsgQueue	access:public	signature:()
+MsgReaderPosixMsgQueue::setReadQueue	../Message/MsgReader.cpp	/^void MsgReaderPosixMsgQueue::setReadQueue(MessageQueuePosix *queue)$/;"	f	class:MsgReaderPosixMsgQueue	signature:(MessageQueuePosix *queue)
+MsgReaderPosixMsgQueue::setReadQueue	../Message/MsgReader.h	/^    void setReadQueue(MessageQueuePosix *queue);$/;"	p	class:MsgReaderPosixMsgQueue	access:public	signature:(MessageQueuePosix *queue)
+MsgReaderPosixMsgQueue::~MsgReaderPosixMsgQueue	../Message/MsgReader.cpp	/^MsgReaderPosixMsgQueue::~MsgReaderPosixMsgQueue()$/;"	f	class:MsgReaderPosixMsgQueue	signature:()
+MsgReaderPosixMsgQueue::~MsgReaderPosixMsgQueue	../Message/MsgReader.h	/^    ~MsgReaderPosixMsgQueue();$/;"	p	class:MsgReaderPosixMsgQueue	access:public	signature:()
+MsgWriterPosixMsgQueue	../Message/MsgWriter.cpp	/^MsgWriterPosixMsgQueue::MsgWriterPosixMsgQueue(MessageQueuePosix *q)$/;"	f	class:MsgWriterPosixMsgQueue	signature:(MessageQueuePosix *q)
+MsgWriterPosixMsgQueue	../Message/MsgWriter.h	/^    MsgWriterPosixMsgQueue(MessageQueuePosix *q = 0);$/;"	p	class:MsgWriterPosixMsgQueue	access:public	signature:(MessageQueuePosix *q = 0)
+MsgWriterPosixMsgQueue	../Message/MsgWriter.h	/^class MsgWriterPosixMsgQueue$/;"	c
+MsgWriterPosixMsgQueue::MsgWriterPosixMsgQueue	../Message/MsgWriter.cpp	/^MsgWriterPosixMsgQueue::MsgWriterPosixMsgQueue(MessageQueuePosix *q)$/;"	f	class:MsgWriterPosixMsgQueue	signature:(MessageQueuePosix *q)
+MsgWriterPosixMsgQueue::MsgWriterPosixMsgQueue	../Message/MsgWriter.h	/^    MsgWriterPosixMsgQueue(MessageQueuePosix *q = 0);$/;"	p	class:MsgWriterPosixMsgQueue	access:public	signature:(MessageQueuePosix *q = 0)
+MsgWriterPosixMsgQueue::Write	../Message/MsgWriter.cpp	/^int MsgWriterPosixMsgQueue::Write(Message* msg)$/;"	f	class:MsgWriterPosixMsgQueue	signature:(Message* msg)
+MsgWriterPosixMsgQueue::Write	../Message/MsgWriter.h	/^    int Write(Message* msg);$/;"	p	class:MsgWriterPosixMsgQueue	access:public	signature:(Message* msg)
+MsgWriterPosixMsgQueue::m_queue	../Message/MsgWriter.h	/^    MessageQueuePosix *m_queue;$/;"	m	class:MsgWriterPosixMsgQueue	access:private
+MsgWriterPosixMsgQueue::setQueue	../Message/MsgWriter.h	/^    void setQueue(MessageQueuePosix *q) { m_queue = q;}$/;"	f	class:MsgWriterPosixMsgQueue	access:public	signature:(MessageQueuePosix *q)
+MsgWriterPosixMsgQueue::~MsgWriterPosixMsgQueue	../Message/MsgWriter.cpp	/^MsgWriterPosixMsgQueue::~MsgWriterPosixMsgQueue()$/;"	f	class:MsgWriterPosixMsgQueue	signature:()
+MsgWriterPosixMsgQueue::~MsgWriterPosixMsgQueue	../Message/MsgWriter.h	/^    ~MsgWriterPosixMsgQueue();$/;"	p	class:MsgWriterPosixMsgQueue	access:public	signature:()
+MutexGuard	../thread/mutexguard.cpp	/^MutexGuard::MutexGuard(MutexWrap *mutex) : m_mutex(mutex)$/;"	f	class:MutexGuard	signature:(MutexWrap *mutex)
+MutexGuard::MutexGuard	../thread/mutexguard.cpp	/^MutexGuard::MutexGuard(MutexWrap *mutex) : m_mutex(mutex)$/;"	f	class:MutexGuard	signature:(MutexWrap *mutex)
+MutexGuard::~MutexGuard	../thread/mutexguard.cpp	/^MutexGuard::~MutexGuard()$/;"	f	class:MutexGuard	signature:()
+MutexWrap	../thread/mutexwrap.cpp	/^MutexWrap::MutexWrap() : d(new MutexWrapData)$/;"	f	class:MutexWrap	signature:()
+MutexWrap::MutexWrap	../thread/mutexwrap.cpp	/^MutexWrap::MutexWrap() : d(new MutexWrapData)$/;"	f	class:MutexWrap	signature:()
+MutexWrap::lock	../thread/mutexwrap.cpp	/^bool MutexWrap::lock()$/;"	f	class:MutexWrap	signature:()
+MutexWrap::mutex	../thread/mutexwrap.cpp	/^pthread_mutex_t *MutexWrap::mutex()$/;"	f	class:MutexWrap	signature:()
+MutexWrap::release	../thread/mutexwrap.cpp	/^bool MutexWrap::release()$/;"	f	class:MutexWrap	signature:()
+MutexWrap::trylock	../thread/mutexwrap.cpp	/^bool MutexWrap::trylock()$/;"	f	class:MutexWrap	signature:()
+MutexWrap::~MutexWrap	../thread/mutexwrap.cpp	/^MutexWrap::~MutexWrap()$/;"	f	class:MutexWrap	signature:()
+MutexWrapData	../thread/mutexwrap.cpp	/^class MutexWrapData$/;"	c	file:
+MutexWrapData::mutex	../thread/mutexwrap.cpp	/^    pthread_mutex_t mutex;$/;"	m	class:MutexWrapData	file:	access:public
+NOTIFICATION_H	../Message/Notification.h	2;"	d
+NOTIFY_NEW_ADDED_TO_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t NOTIFY_NEW_ADDED_TO_CLUSTER                        = 0x1A0B;\/\/3015; \/\/加入设备群，审批$/;"	m	namespace:CMD
+NOTIFY_SCNEE_CONNECTOR_DEVICES_CHANGED	../protocoldef/protocol.h	/^    const uint16_t NOTIFY_SCNEE_CONNECTOR_DEVICES_CHANGED = 0x1C29; \/\/ 场景连接设备被修改$/;"	m	namespace:CMD
+NTP_CMD_DEVICE_NAME_CHANGED	../protocoldef/protocol.h	/^    const uint16_t NTP_CMD_DEVICE_NAME_CHANGED                      = 0x2002;$/;"	m	namespace:CMD
+NTP_DCL__ASSIGN_DEVICES_TO_USER_MEMBER	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__ASSIGN_DEVICES_TO_USER_MEMBER             = 0x1A33;\/\/3026;$/;"	m	namespace:CMD
+NTP_DCL__ASSIGN_OPERATORS_TO_DEV_MEMBER	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__ASSIGN_OPERATORS_TO_DEV_MEMBER            = 0x1A35;\/\/3028;$/;"	m	namespace:CMD
+NTP_DCL__CLAIM_DEVICE	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__CLAIM_DEVICE                              = 0x1A40;$/;"	m	namespace:CMD
+NTP_DCL__DELETE	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__DELETE                                    = 0x1A01;\/\/301A;$/;"	m	namespace:CMD
+NTP_DCL__INVITE_TO_JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__INVITE_TO_JOIN__REQ                       = 0x1A07;\/\/3021; \/\/邀请加入设备群，通知请求$/;"	m	namespace:CMD
+NTP_DCL__INVITE_TO_JOIN__RESULT	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__INVITE_TO_JOIN__RESULT                    = 0x1A08;\/\/3022; \/\/邀请加入设备群，通知结果$/;"	m	namespace:CMD
+NTP_DCL__JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__JOIN__REQ                                 = 0x1A04;\/\/3014; \/\/加入设备群，通知请求$/;"	m	namespace:CMD
+NTP_DCL__JOIN__RESULT	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__JOIN__RESULT                              = 0x1A05;\/\/3015; \/\/加入设备群，通知结果$/;"	m	namespace:CMD
+NTP_DCL__REMOVE_DEVICES_OF_USER_MEMBER	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__REMOVE_DEVICES_OF_USER_MEMBER             = 0x1A34;\/\/3027;$/;"	m	namespace:CMD
+NTP_DCL__REMOVE_OPERATORS_OF_DEV_MEMBER	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__REMOVE_OPERATORS_OF_DEV_MEMBER            = 0x1A36;\/\/3029;$/;"	m	namespace:CMD
+NTP_DCL__REMOVE_USER_MEMBERS	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__REMOVE_USER_MEMBERS                       = 0x1A09;\/\/3024;$/;"	m	namespace:CMD
+NTP_DCL__TRANSFER_DEVICES__REQ	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__TRANSFER_DEVICES__REQ                     = 0x1A21;\/\/3031$/;"	m	namespace:CMD
+NTP_DCL__TRANSFER_DEVICES__RESULT	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__TRANSFER_DEVICES__RESULT                  = 0x1A22;\/\/$/;"	m	namespace:CMD
+NTP_DEV__DEVICE_ONLINE_STATUS_CHANGE	../protocoldef/protocol.h	/^    const uint16_t NTP_DEV__DEVICE_ONLINE_STATUS_CHANGE             = 0x2000;\/\/3008;$/;"	m	namespace:CMD
+NTP_DEV__USER_ONLINE_STATUS_CHANGE	../protocoldef/protocol.h	/^    const uint16_t NTP_DEV__USER_ONLINE_STATUS_CHANGE               = 0x2001;\/\/3008;$/;"	m	namespace:CMD
+NTP_FRI__ADD_FRIEND__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t NTP_FRI__ADD_FRIEND__APPROVAL                      = 0x1401;\/\/2021; \/\/$/;"	m	namespace:CMD
+NTP_FRI__ADD_FRIEND__REQ	../protocoldef/protocol.h	/^    const uint16_t NTP_FRI__ADD_FRIEND__REQ                           = 0x1400;\/\/2020; \/\/加好友请求$/;"	m	namespace:CMD
+NTP_UCL__JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t NTP_UCL__JOIN__REQ                                 = 0x1602;\/\/2022; \/\/加入群，通知请求$/;"	m	namespace:CMD
+NTP_UCL__JOIN__RESULT	../protocoldef/protocol.h	/^    const uint16_t NTP_UCL__JOIN__RESULT                              = 0x1603;\/\/2023; \/\/加入群，通知结果$/;"	m	namespace:CMD
+NTP_USER_LOGIN_AT_ANOTHER_CLIENT	../protocoldef/protocol.h	/^    const uint16_t NTP_USER_LOGIN_AT_ANOTHER_CLIENT                   = 0x1207; \/\/ 通知, 用户在别处登录了$/;"	m	namespace:CMD
+Notification	../Message/Notification.cpp	/^Notification::Notification()$/;"	f	class:Notification	signature:()
+Notification	../Message/Notification.h	/^    Notification();$/;"	p	class:Notification	access:public	signature:()
+Notification	../Message/Notification.h	/^class Notification : public IToByteArray$/;"	c	inherits:IToByteArray
+Notification::GetCreateTime	../Message/Notification.h	/^    time_t GetCreateTime() const { return m_createTime; }$/;"	f	class:Notification	access:public	signature:() const
+Notification::GetMsgBuf	../Message/Notification.cpp	/^const char* Notification::GetMsgBuf() const$/;"	f	class:Notification	signature:() const
+Notification::GetMsgBuf	../Message/Notification.h	/^    const char* GetMsgBuf() const ;$/;"	p	class:Notification	access:public	signature:() const
+Notification::GetMsgLen	../Message/Notification.h	/^    uint16_t GetMsgLen() const { return m_msgLen; }$/;"	f	class:Notification	access:public	signature:() const
+Notification::GetObjectID	../Message/Notification.h	/^    uint64_t GetObjectID() const {return m_objectID; }$/;"	f	class:Notification	access:public	signature:() const
+Notification::Init	../Message/Notification.cpp	/^void Notification::Init($/;"	f	class:Notification	signature:( uint64_t objectID, uint8_t answccode, uint16_t notifType, uint64_t sn, uint16_t msgLen, char* msgBuf)
+Notification::Init	../Message/Notification.h	/^    void Init(uint64_t objectID, uint8_t as, uint16_t notifType, uint64_t sn, uint16_t msgLen, char* msgBuf);$/;"	p	class:Notification	access:public	signature:(uint64_t objectID, uint8_t as, uint16_t notifType, uint64_t sn, uint16_t msgLen, char* msgBuf)
+Notification::Notification	../Message/Notification.cpp	/^Notification::Notification()$/;"	f	class:Notification	signature:()
+Notification::Notification	../Message/Notification.h	/^    Notification();$/;"	p	class:Notification	access:public	signature:()
+Notification::SetCreateTime	../Message/Notification.h	/^    void SetCreateTime(time_t createTime) { m_createTime = createTime; }$/;"	f	class:Notification	access:public	signature:(time_t createTime)
+Notification::SetMsg	../Message/Notification.cpp	/^void Notification::SetMsg(char* msgBuf, uint16_t msgLen)$/;"	f	class:Notification	signature:(char* msgBuf, uint16_t msgLen)
+Notification::SetMsg	../Message/Notification.h	/^    void SetMsg(char* msgBuf, uint16_t msgLen);$/;"	p	class:Notification	access:public	signature:(char* msgBuf, uint16_t msgLen)
+Notification::SetObjectID	../Message/Notification.h	/^    void SetObjectID(uint64_t objectID) { m_objectID = objectID; }$/;"	f	class:Notification	access:public	signature:(uint64_t objectID)
+Notification::answercode	../Message/Notification.h	/^    uint8_t answercode() const {return m_answercode; }$/;"	f	class:Notification	access:public	signature:() const
+Notification::fromByteArray	../Message/Notification.cpp	/^bool Notification::fromByteArray(char *buf, int len)$/;"	f	class:Notification	signature:(char *buf, int len)
+Notification::fromByteArray	../Message/Notification.h	/^    bool fromByteArray(char *d, int len);$/;"	p	class:Notification	access:public	signature:(char *d, int len)
+Notification::getNotifyType	../Message/Notification.h	/^    uint16_t getNotifyType() const { return m_notifyType; }$/;"	f	class:Notification	access:public	signature:() const
+Notification::m_answercode	../Message/Notification.h	/^    uint8_t m_answercode;$/;"	m	class:Notification	access:private
+Notification::m_createTime	../Message/Notification.h	/^    time_t m_createTime;$/;"	m	class:Notification	access:private
+Notification::m_msgBuf	../Message/Notification.h	/^    std::vector<char> m_msgBuf;$/;"	m	class:Notification	access:private
+Notification::m_msgLen	../Message/Notification.h	/^    uint16_t m_msgLen;$/;"	m	class:Notification	access:private
+Notification::m_notifyType	../Message/Notification.h	/^    uint16_t m_notifyType;$/;"	m	class:Notification	access:private
+Notification::m_objectID	../Message/Notification.h	/^    uint64_t m_objectID;$/;"	m	class:Notification	access:private
+Notification::m_serialNumber	../Message/Notification.h	/^    uint64_t m_serialNumber;$/;"	m	class:Notification	access:private
+Notification::serialNumber	../Message/Notification.h	/^    uint64_t serialNumber() const {return m_serialNumber; }$/;"	f	class:Notification	access:public	signature:() const
+Notification::setAnswcCode	../Message/Notification.h	/^    void setAnswcCode(uint8_t c) { m_answercode = c; }$/;"	f	class:Notification	access:public	signature:(uint8_t c)
+Notification::setNotifyType	../Message/Notification.h	/^    void setNotifyType(uint16_t notifNumber) { m_notifyType = notifNumber; }$/;"	f	class:Notification	access:public	signature:(uint16_t notifNumber)
+Notification::setSerialNumber	../Message/Notification.h	/^    void setSerialNumber(uint64_t sn) { m_serialNumber = sn; }$/;"	f	class:Notification	access:public	signature:(uint64_t sn)
+Notification::toByteArray	../Message/Notification.cpp	/^void Notification::toByteArray(std::vector<char> *out)$/;"	f	class:Notification	signature:(std::vector<char> *out)
+Notification::toByteArray	../Message/Notification.h	/^    void toByteArray(std::vector<char> *out);$/;"	p	class:Notification	access:public	signature:(std::vector<char> *out)
+Notification::~Notification	../Message/Notification.cpp	/^Notification::~Notification()$/;"	f	class:Notification	signature:()
+Notification::~Notification	../Message/Notification.h	/^    ~Notification();$/;"	p	class:Notification	access:public	signature:()
+OPTION	makefile	/^OPTION = -lrt -L..\/thread -lthreadpool -lpthread -L..\/Crypt -lcrypt$/;"	m
+OS_Offline	../protocoldef/protocol.h	/^    OS_Offline = 0x02,$/;"	e	enum:OnlineStatus
+OS_Online	../protocoldef/protocol.h	/^    OS_Online  = 0x01,$/;"	e	enum:OnlineStatus
+OS_other	../protocoldef/protocol.h	/^    OS_other   = 0x03$/;"	e	enum:OnlineStatus
+ObjectID	../Message/Message.h	/^    uint64_t     ObjectID()      { return m_objectID; }$/;"	f	class:Message	access:public	signature:()
+OnlineStatus	../protocoldef/protocol.h	/^enum OnlineStatus$/;"	g
+OpenChannel	../protocoldef/protocol.h	/^    const uint8_t OpenChannel = 0x01;$/;"	m	namespace:Relay
+Operator	../protocoldef/protocol.h	/^    const uint8_t Operator = 3; \/\/ 操作者$/;"	m	namespace:ClusterAuth
+Owner	../protocoldef/protocol.h	/^    const uint8_t Owner = 1; \/\/ 群主, 系统管理员$/;"	m	namespace:ClusterAuth
+PACK_HEADER_SIZE_V2	../protocoldef/protocol.h	/^const uint32_t PACK_HEADER_SIZE_V2  = 26; $/;"	v
+PROTOCOL_H	../protocoldef/protocol.h	2;"	d
+Pending	../protocoldef/protocol.h	/^    const uint8_t Pending               = 0x00; \/\/待处理$/;"	m	namespace:ANSC
+Prefix	../Message/Message.h	/^    uint8_t      Prefix()        { return m_prefix; }$/;"	f	class:Message	access:public	signature:()
+Proc::run	../thread/threadwrap.cpp	/^void Proc::run()$/;"	f	class:Proc	signature:()
+PwdErr	../protocoldef/protocol.h	/^    const uint8_t PwdErr                = 0x05; \/\/登录失败，帐号或密码错误$/;"	m	namespace:ANSC
+RELAYMESSAGE_H	../Message/relaymessage.h	2;"	d
+Read	../protocoldef/protocol.h	/^    const uint8_t Read = 1;$/;"	m	namespace:SceneAuth
+Read	Message/MsgOutput.cpp	/^int MsgOutput::Read()$/;"	f	class:MsgOutput	signature:()
+Read	Message/MsgOutput.h	/^    int Read();$/;"	p	class:MsgOutput	access:public	signature:()
+ReadWrie	../protocoldef/protocol.h	/^    const uint8_t ReadWrie = 2;$/;"	m	namespace:SceneAuth
+RegistFailed	../protocoldef/protocol.h	/^    const uint8_t RegistFailed          = 0x02; \/\/注册失败，帐号或邮箱已被使用$/;"	m	namespace:ANSC
+RegistRetryTimesOut	../protocoldef/protocol.h	/^    const uint8_t RegistRetryTimesOut   = 0x08; \/\/同一个IP频繁注册，限制一小时不允许注册$/;"	m	namespace:ANSC
+Relay	../protocoldef/protocol.h	/^namespace Relay$/;"	n
+Relay::CloseAllChannel	../protocoldef/protocol.h	/^    const uint8_t CloseAllChannel = 0x03;$/;"	m	namespace:Relay
+Relay::CloseChannel	../protocoldef/protocol.h	/^    const uint8_t CloseChannel = 0x02;$/;"	m	namespace:Relay
+Relay::OpenChannel	../protocoldef/protocol.h	/^    const uint8_t OpenChannel = 0x01;$/;"	m	namespace:Relay
+RelayDevice	../Message/relaymessage.h	/^class RelayDevice$/;"	c
+RelayDevice::RelayDeviceSize	../Message/relaymessage.h	/^    static const uint32_t RelayDeviceSize$/;"	m	class:RelayDevice	access:public
+RelayDevice::auth	../Message/relaymessage.h	/^    uint8_t auth;$/;"	m	class:RelayDevice	access:public
+RelayDevice::devicdid	../Message/relaymessage.h	/^    uint64_t devicdid;$/;"	m	class:RelayDevice	access:public
+RelayDevice::devicesockaddr	../Message/relaymessage.h	/^    sockaddr_in devicesockaddr;$/;"	m	class:RelayDevice	access:public
+RelayDevice::devrandomNumber	../Message/relaymessage.h	/^    uint64_t devrandomNumber;$/;"	m	class:RelayDevice	access:public
+RelayDevice::portforclient	../Message/relaymessage.h	/^    uint16_t portforclient;$/;"	m	class:RelayDevice	access:public
+RelayDevice::portfordevice	../Message/relaymessage.h	/^    uint16_t portfordevice;$/;"	m	class:RelayDevice	access:public
+RelayDevice::userrandomNumber	../Message/relaymessage.h	/^    uint64_t userrandomNumber;$/;"	m	class:RelayDevice	access:public
+RelayDeviceSize	../Message/relaymessage.h	/^    static const uint32_t RelayDeviceSize$/;"	m	class:RelayDevice	access:public
+RelayMessage	../Message/relaymessage.cpp	/^RelayMessage::RelayMessage()$/;"	f	class:RelayMessage	signature:()
+RelayMessage	../Message/relaymessage.h	/^    RelayMessage();$/;"	p	class:RelayMessage	access:public	signature:()
+RelayMessage	../Message/relaymessage.h	/^class RelayMessage : public IToByteArray$/;"	c	inherits:IToByteArray
+RelayMessage::RelayMessage	../Message/relaymessage.cpp	/^RelayMessage::RelayMessage()$/;"	f	class:RelayMessage	signature:()
+RelayMessage::RelayMessage	../Message/relaymessage.h	/^    RelayMessage();$/;"	p	class:RelayMessage	access:public	signature:()
+RelayMessage::appendRelayDevice	../Message/relaymessage.cpp	/^void RelayMessage::appendRelayDevice(const RelayDevice &rd)$/;"	f	class:RelayMessage	signature:(const RelayDevice &rd)
+RelayMessage::appendRelayDevice	../Message/relaymessage.h	/^    void appendRelayDevice(const RelayDevice &rd);$/;"	p	class:RelayMessage	access:public	signature:(const RelayDevice &rd)
+RelayMessage::commandcode	../Message/relaymessage.h	/^    uint8_t commandcode() const {return this->m_commandcode; }$/;"	f	class:RelayMessage	access:public	signature:() const
+RelayMessage::fromByteArray	../Message/relaymessage.cpp	/^bool RelayMessage::fromByteArray(char *d, uint32_t len)$/;"	f	class:RelayMessage	signature:(char *d, uint32_t len)
+RelayMessage::fromByteArray	../Message/relaymessage.h	/^    bool fromByteArray(char *d, uint32_t len);$/;"	p	class:RelayMessage	access:public	signature:(char *d, uint32_t len)
+RelayMessage::m_commandcode	../Message/relaymessage.h	/^    uint8_t m_commandcode;$/;"	m	class:RelayMessage	access:private
+RelayMessage::m_relaydevice	../Message/relaymessage.h	/^    std::list<RelayDevice> m_relaydevice;$/;"	m	class:RelayMessage	access:private
+RelayMessage::m_relayserveraddr	../Message/relaymessage.h	/^    sockaddr_in m_relayserveraddr;$/;"	m	class:RelayMessage	access:private
+RelayMessage::m_userid	../Message/relaymessage.h	/^    uint64_t m_userid;$/;"	m	class:RelayMessage	access:private
+RelayMessage::m_usersockaddr	../Message/relaymessage.h	/^    sockaddr_in m_usersockaddr;$/;"	m	class:RelayMessage	access:private
+RelayMessage::relayServeraddr	../Message/relaymessage.h	/^    sockaddr_in relayServeraddr() { return m_relayserveraddr;};$/;"	f	class:RelayMessage	access:public	signature:()
+RelayMessage::relaydevice	../Message/relaymessage.h	/^    const std::list<RelayDevice> &relaydevice() const { return m_relaydevice; };$/;"	f	class:RelayMessage	access:public	signature:() const
+RelayMessage::setCommandCode	../Message/relaymessage.h	/^    void setCommandCode(uint8_t c) { this->m_commandcode = c; }$/;"	f	class:RelayMessage	access:public	signature:(uint8_t c)
+RelayMessage::setRelayServeraddr	../Message/relaymessage.h	/^    void setRelayServeraddr(const sockaddr_in &addr) { m_relayserveraddr = addr; }$/;"	f	class:RelayMessage	access:public	signature:(const sockaddr_in &addr)
+RelayMessage::setUserSockaddr	../Message/relaymessage.h	/^    void setUserSockaddr(const sockaddr_in &addr) { m_usersockaddr = addr; }$/;"	f	class:RelayMessage	access:public	signature:(const sockaddr_in &addr)
+RelayMessage::setUserid	../Message/relaymessage.h	/^    void setUserid(uint64_t uid) { m_userid = uid; }$/;"	f	class:RelayMessage	access:public	signature:(uint64_t uid)
+RelayMessage::toByteArray	../Message/relaymessage.cpp	/^void RelayMessage::toByteArray(std::vector<char> *out)$/;"	f	class:RelayMessage	signature:(std::vector<char> *out)
+RelayMessage::toByteArray	../Message/relaymessage.h	/^    void toByteArray(std::vector<char> *out);$/;"	p	class:RelayMessage	access:public	signature:(std::vector<char> *out)
+RelayMessage::userRandomNumber	../Message/relaymessage.h	/^    uint64_t userRandomNumber;$/;"	m	class:RelayMessage	access:private
+RelayMessage::userid	../Message/relaymessage.h	/^    uint64_t userid() const { return m_userid; }$/;"	f	class:RelayMessage	access:public	signature:() const
+RelayMessage::usersockaddr	../Message/relaymessage.h	/^    sockaddr_in usersockaddr() const { return m_usersockaddr; }$/;"	f	class:RelayMessage	access:public	signature:() const
+Reset	../Message/Message.cpp	/^void Message::Reset()$/;"	f	class:Message	signature:()
+Reset	../Message/Message.h	/^    void Reset();$/;"	p	class:Message	access:public	signature:()
+RsltAccept	../protocoldef/protocol.h	/^    const uint8_t RsltAccept            = 0x7D; \/\/审批同意$/;"	m	namespace:ANSC
+RsltRefuse	../protocoldef/protocol.h	/^    const uint8_t RsltRefuse            = 0x7E; \/\/审批拒绝$/;"	m	namespace:ANSC
+SIZE_ANSWER_CODE	../Message/Message.h	/^        SIZE_ANSWER_CODE    = sizeof(uint8_t),$/;"	e	enum:Message::FieldSize
+SIZE_COMMAND_ID	../Message/Message.h	/^        SIZE_COMMAND_ID     = sizeof(uint16_t),$/;"	e	enum:Message::FieldSize
+SIZE_CONTENT_LEN	../Message/Message.h	/^        SIZE_CONTENT_LEN    = sizeof(uint16_t),$/;"	e	enum:Message::FieldSize
+SIZE_DEST_ID	../Message/Message.h	/^        SIZE_DEST_ID        = sizeof(uint64_t),$/;"	e	enum:Message::FieldSize
+SIZE_HEADER_AND_ENDING	../Message/Message.h	/^        SIZE_HEADER_AND_ENDING = $/;"	e	enum:Message::FieldSize
+SIZE_NOTIF_NUMBER	../Message/Message.h	/^        SIZE_NOTIF_NUMBER  = sizeof(uint32_t),$/;"	e	enum:Message::FieldSize
+SIZE_NOTIF_TYPE	../Message/Message.h	/^        SIZE_NOTIF_TYPE    = sizeof(uint16_t)$/;"	e	enum:Message::FieldSize
+SIZE_OBJECT_ID	../Message/Message.h	/^        SIZE_OBJECT_ID      = sizeof(uint64_t),$/;"	e	enum:Message::FieldSize
+SIZE_PREFIX	../Message/Message.h	/^        SIZE_PREFIX         = sizeof(uint8_t),$/;"	e	enum:Message::FieldSize
+SIZE_SERIAL_NUMBER	../Message/Message.h	/^        SIZE_SERIAL_NUMBER  = sizeof(uint16_t),$/;"	e	enum:Message::FieldSize
+SIZE_SUFFIX	../Message/Message.h	/^        SIZE_SUFFIX         = sizeof(uint8_t),$/;"	e	enum:Message::FieldSize
+SIZE_VERSION_NUMBER	../Message/Message.h	/^        SIZE_VERSION_NUMBER = sizeof(uint16_t),$/;"	e	enum:Message::FieldSize
+SceneAuth	../protocoldef/protocol.h	/^namespace SceneAuth$/;"	n
+SceneAuth::Read	../protocoldef/protocol.h	/^    const uint8_t Read = 1;$/;"	m	namespace:SceneAuth
+SceneAuth::ReadWrie	../protocoldef/protocol.h	/^    const uint8_t ReadWrie = 2;$/;"	m	namespace:SceneAuth
+SceneIdErr	../protocoldef/protocol.h	/^    const uint8_t SceneIdErr            = 0x0B; \/\/场景不存在或没有权限$/;"	m	namespace:ANSC
+SceneIdOrUserIdErr	../protocoldef/protocol.h	/^    const uint8_t SceneIdOrUserIdErr    = 0x0C; \/\/场景或用户不存在或没有权限$/;"	m	namespace:ANSC
+SerialNumber	../Message/Message.h	/^    uint16_t     SerialNumber()  { return m_serialNumber; }$/;"	f	class:Message	access:public	signature:()
+SetCommandID	../Message/Message.cpp	/^void Message::SetCommandID(uint16_t commandID)$/;"	f	class:Message	signature:(uint16_t commandID)
+SetCommandID	../Message/Message.h	/^    void SetCommandID(uint16_t cmdID);$/;"	p	class:Message	access:public	signature:(uint16_t cmdID)
+SetCreateTime	../Message/Notification.h	/^    void SetCreateTime(time_t createTime) { m_createTime = createTime; }$/;"	f	class:Notification	access:public	signature:(time_t createTime)
+SetDestID	../Message/Message.cpp	/^void Message::SetDestID(uint64_t destID)$/;"	f	class:Message	signature:(uint64_t destID)
+SetDestID	../Message/Message.h	/^    void SetDestID(uint64_t destID);$/;"	p	class:Message	access:public	signature:(uint64_t destID)
+SetMsg	../Message/Notification.cpp	/^void Notification::SetMsg(char* msgBuf, uint16_t msgLen)$/;"	f	class:Notification	signature:(char* msgBuf, uint16_t msgLen)
+SetMsg	../Message/Notification.h	/^    void SetMsg(char* msgBuf, uint16_t msgLen);$/;"	p	class:Notification	access:public	signature:(char* msgBuf, uint16_t msgLen)
+SetObjectID	../Message/Message.cpp	/^void Message::SetObjectID(uint64_t objectID)$/;"	f	class:Message	signature:(uint64_t objectID)
+SetObjectID	../Message/Message.h	/^    void SetObjectID(uint64_t objectID);$/;"	p	class:Message	access:public	signature:(uint64_t objectID)
+SetObjectID	../Message/Notification.h	/^    void SetObjectID(uint64_t objectID) { m_objectID = objectID; }$/;"	f	class:Notification	access:public	signature:(uint64_t objectID)
+SetPrefix	../Message/Message.cpp	/^void Message::SetPrefix(uint8_t prefix)$/;"	f	class:Message	signature:(uint8_t prefix)
+SetPrefix	../Message/Message.h	/^    void SetPrefix(uint8_t prefix);$/;"	p	class:Message	access:public	signature:(uint8_t prefix)
+SetSerialNumber	../Message/Message.cpp	/^void Message::SetSerialNumber(uint16_t serialNumber)$/;"	f	class:Message	signature:(uint16_t serialNumber)
+SetSerialNumber	../Message/Message.h	/^    void SetSerialNumber(uint16_t serialNumber);$/;"	p	class:Message	access:public	signature:(uint16_t serialNumber)
+SetSockAddr	../Message/Message.cpp	/^void Message::SetSockAddr(sockaddr_in sockAddr)$/;"	f	class:Message	signature:(sockaddr_in sockAddr)
+SetSockAddr	../Message/Message.h	/^    void SetSockAddr(sockaddr_in sockAddr);$/;"	p	class:Message	access:public	signature:(sockaddr_in sockAddr)
+SetSuffix	../Message/Message.cpp	/^void Message::SetSuffix(uint8_t suffix)$/;"	f	class:Message	signature:(uint8_t suffix)
+SetSuffix	../Message/Message.h	/^    void SetSuffix(uint8_t suffix);$/;"	p	class:Message	access:public	signature:(uint8_t suffix)
+SetVersionNumber	../Message/Message.cpp	/^void Message::SetVersionNumber(uint16_t versionNumber)$/;"	f	class:Message	signature:(uint16_t versionNumber)
+SetVersionNumber	../Message/Message.h	/^    void SetVersionNumber(uint16_t versionNumber);$/;"	p	class:Message	access:public	signature:(uint16_t versionNumber)
+SockAddr	../Message/Message.h	/^    sockaddr_in& SockAddr()      { return m_sockAddr; }$/;"	f	class:Message	access:public	signature:()
+Success	../protocoldef/protocol.h	/^    const uint8_t Success               = 0x01; \/\/成功$/;"	m	namespace:ANSC
+Suffix	../Message/Message.h	/^    uint8_t      Suffix()        { return m_suffix; }$/;"	f	class:Message	access:public	signature:()
+TProcwrap	../thread/threadwrap.cpp	/^    TProcwrap(const std::function<void()> &f) : m_fun(f) $/;"	f	class:TProcwrap	access:public	signature:(const std::function<void()> &f)
+TProcwrap	../thread/threadwrap.cpp	/^class TProcwrap : public Proc$/;"	c	file:	inherits:Proc
+TProcwrap::TProcwrap	../thread/threadwrap.cpp	/^    TProcwrap(const std::function<void()> &f) : m_fun(f) $/;"	f	class:TProcwrap	access:public	signature:(const std::function<void()> &f)
+TProcwrap::m_fun	../thread/threadwrap.cpp	/^    std::function<void()> m_fun;$/;"	m	class:TProcwrap	file:	access:private
+Thread	../thread/threadwrap.cpp	/^Thread::Thread(Proc *tp)$/;"	f	class:Thread	signature:(Proc *tp)
+Thread	../thread/threadwrap.cpp	/^Thread::Thread(const std::function<void()> &t) : Thread(new TProcwrap(t))$/;"	f	class:Thread	signature:(const std::function<void()> &t)
+Thread::Thread	../thread/threadwrap.cpp	/^Thread::Thread(Proc *tp)$/;"	f	class:Thread	signature:(Proc *tp)
+Thread::Thread	../thread/threadwrap.cpp	/^Thread::Thread(const std::function<void()> &t) : Thread(new TProcwrap(t))$/;"	f	class:Thread	signature:(const std::function<void()> &t)
+Thread::~Thread	../thread/threadwrap.cpp	/^Thread::~Thread()$/;"	f	class:Thread	signature:()
+ThreadData	../thread/threadwrap.cpp	/^    ThreadData(Thread *p)$/;"	f	class:ThreadData	access:public	signature:(Thread *p)
+ThreadData	../thread/threadwrap.cpp	/^class ThreadData$/;"	c	file:
+ThreadData::ThreadData	../thread/threadwrap.cpp	/^    ThreadData(Thread *p)$/;"	f	class:ThreadData	access:public	signature:(Thread *p)
+ThreadData::isthreadvalid	../thread/threadwrap.cpp	/^    bool    isthreadvalid;$/;"	m	class:ThreadData	file:	access:public
+ThreadData::thread	../thread/threadwrap.cpp	/^    Thread *thread;$/;"	m	class:ThreadData	file:	access:public
+ThreadData::tid	../thread/threadwrap.cpp	/^    pthread_t tid;$/;"	m	class:ThreadData	file:	access:public
+ThreadData::tp	../thread/threadwrap.cpp	/^    Proc *tp;$/;"	m	class:ThreadData	file:	access:public
+ToExtServer	../Message/Message.h	/^        ToExtServer, \/\/ 发到外面...$/;"	e	enum:InternalMessage::InternalMessageType
+ToNotify	../Message/Message.h	/^        ToNotify, \/\/ 发到通知进程去$/;"	e	enum:InternalMessage::InternalMessageType
+ToRelay	../Message/Message.h	/^        ToRelay, \/\/ 发到转发进程去$/;"	e	enum:InternalMessage::InternalMessageType
+ToServer	../Message/Message.h	/^        ToServer, \/\/ 消息是服务器产生, 发到另一个服务器的$/;"	e	enum:InternalMessage::InternalMessageType
+TurnNotExist	../protocoldef/protocol.h	/^    const uint8_t TurnNotExist          = 0x19; \/\/转发通道未打开, 这个错误码没有用到$/;"	m	namespace:ANSC
+UdpRecv	Message/MsgInput.cpp	/^int MsgInput::UdpRecv()$/;"	f	class:MsgInput	signature:()
+UdpRecv	Message/MsgInput.h	/^    int  UdpRecv();$/;"	p	class:MsgInput	access:public	signature:()
+UdpSend	Message/MsgOutput.cpp	/^int MsgOutput::UdpSend()$/;"	f	class:MsgOutput	signature:()
+UdpSend	Message/MsgOutput.h	/^    int UdpSend();$/;"	p	class:MsgOutput	access:public	signature:()
+Unused	../Message/Message.h	/^        Unused = 0,$/;"	e	enum:InternalMessage::InternalMessageType
+UserIdOrDeviceIdErr	../protocoldef/protocol.h	/^    const uint8_t UserIdOrDeviceIdErr   = 0x13; \/\/用户或设备不存在或没有权限$/;"	m	namespace:ANSC
+VerifyCodeErr	../protocoldef/protocol.h	/^    const uint8_t VerifyCodeErr         = 0x03; \/\/验证码错误$/;"	m	namespace:ANSC
+VerifyCodeExpired	../protocoldef/protocol.h	/^    const uint8_t VerifyCodeExpired     = 0x17; \/\/ 失败$/;"	m	namespace:ANSC
+VersionNumber	../Message/Message.h	/^    uint16_t     VersionNumber() { return m_versionNumber;}$/;"	f	class:Message	access:public	signature:()
+Write	../Message/MsgWriter.cpp	/^int MsgWriterPosixMsgQueue::Write(Message* msg)$/;"	f	class:MsgWriterPosixMsgQueue	signature:(Message* msg)
+Write	../Message/MsgWriter.h	/^    int Write(Message* msg);$/;"	p	class:MsgWriterPosixMsgQueue	access:public	signature:(Message* msg)
+Write	Message/MsgInput.cpp	/^void MsgInput::Write(char *msgBuf, int msgLen, const sockaddr_in &sockAddr)$/;"	f	class:MsgInput	signature:(char *msgBuf, int msgLen, const sockaddr_in &sockAddr)
+Write	Message/MsgInput.h	/^    void Write(char *msgBuf, int msgLen, const sockaddr_in &sockAddr);$/;"	p	class:MsgInput	access:private	signature:(char *msgBuf, int msgLen, const sockaddr_in &sockAddr)
+answercode	../Message/Notification.h	/^    uint8_t answercode() const {return m_answercode; }$/;"	f	class:Notification	access:public	signature:() const
+appendContent	../Message/Message.cpp	/^void Message::appendContent (const void* data, uint16_t dataLen)$/;"	f	class:Message	signature:(const void* data, uint16_t dataLen)
+appendContent	../Message/Message.cpp	/^void Message::appendContent(IToByteArray *data)$/;"	f	class:Message	signature:(IToByteArray *data)
+appendContent	../Message/Message.cpp	/^void Message::appendContent(const std::string &data)$/;"	f	class:Message	signature:(const std::string &data)
+appendContent	../Message/Message.cpp	/^void Message::appendContent(uint16_t d)$/;"	f	class:Message	signature:(uint16_t d)
+appendContent	../Message/Message.cpp	/^void Message::appendContent(uint32_t d)$/;"	f	class:Message	signature:(uint32_t d)
+appendContent	../Message/Message.cpp	/^void Message::appendContent(uint64_t d)$/;"	f	class:Message	signature:(uint64_t d)
+appendContent	../Message/Message.cpp	/^void Message::appendContent(uint8_t d)$/;"	f	class:Message	signature:(uint8_t d)
+appendContent	../Message/Message.h	/^    void appendContent(IToByteArray *);$/;"	p	class:Message	access:public	signature:(IToByteArray *)
+appendContent	../Message/Message.h	/^    void appendContent(const std::string &data = "");$/;"	p	class:Message	access:public	signature:(const std::string &data = �)
+appendContent	../Message/Message.h	/^    void appendContent(const void* data, uint16_t dataLen);$/;"	p	class:Message	access:public	signature:(const void* data, uint16_t dataLen)
+appendContent	../Message/Message.h	/^    void appendContent(uint16_t d);$/;"	p	class:Message	access:public	signature:(uint16_t d)
+appendContent	../Message/Message.h	/^    void appendContent(uint32_t d);$/;"	p	class:Message	access:public	signature:(uint32_t d)
+appendContent	../Message/Message.h	/^    void appendContent(uint64_t d);$/;"	p	class:Message	access:public	signature:(uint64_t d)
+appendContent	../Message/Message.h	/^    void appendContent(uint8_t d);$/;"	p	class:Message	access:public	signature:(uint8_t d)
+appendRelayDevice	../Message/relaymessage.cpp	/^void RelayMessage::appendRelayDevice(const RelayDevice &rd)$/;"	f	class:RelayMessage	signature:(const RelayDevice &rd)
+appendRelayDevice	../Message/relaymessage.h	/^    void appendRelayDevice(const RelayDevice &rd);$/;"	p	class:RelayMessage	access:public	signature:(const RelayDevice &rd)
+auth	../Message/relaymessage.h	/^    uint8_t auth;$/;"	m	class:RelayDevice	access:public
+buf	Message/MsgInput.h	/^    char buf[MAX_RECVIVE_MESSAGES][1024 * 2]; \/\/ 512 * 2k?$/;"	m	class:MsgInput	access:private
+bufvec	Message/MsgInput.h	/^    struct iovec bufvec[MAX_RECVIVE_MESSAGES];$/;"	m	class:MsgInput	typeref:struct:MsgInput::iovec	access:private
+commandcode	../Message/relaymessage.h	/^    uint8_t commandcode() const {return this->m_commandcode; }$/;"	f	class:RelayMessage	access:public	signature:() const
+config	../config/configreader.cpp	/^Configure Configure::config;$/;"	m	class:Configure	file:
+control	Message/MsgInput.h	/^    char control[MAX_RECVIVE_MESSAGES][20];$/;"	m	class:MsgInput	access:private
+create	../msgqueue/posixmsgqueue.cpp	/^bool MessageQueuePosix::create()$/;"	f	class:MessageQueuePosix	signature:()
+createClientMessage	../Message/Message.cpp	/^Message *Message::createClientMessage()$/;"	f	class:Message	signature:()
+createClientMessage	../Message/Message.h	/^    static Message *createClientMessage();$/;"	p	class:Message	access:public	signature:()
+createDeviceMessage	../Message/Message.cpp	/^Message *Message::createDeviceMessage()$/;"	f	class:Message	signature:()
+createDeviceMessage	../Message/Message.h	/^    static Message *createDeviceMessage();$/;"	p	class:Message	access:public	signature:()
+createMsgQueue	../msgqueue/ipcmsgqueue.cpp	/^int createMsgQueue(int which)$/;"	f	signature:(int which)
+devicdid	../Message/relaymessage.h	/^    uint64_t devicdid;$/;"	m	class:RelayDevice	access:public
+devicesockaddr	../Message/relaymessage.h	/^    sockaddr_in devicesockaddr;$/;"	m	class:RelayDevice	access:public
+devrandomNumber	../Message/relaymessage.h	/^    uint64_t devrandomNumber;$/;"	m	class:RelayDevice	access:public
+extserverToLogical	../msgqueue/ipcmsgqueue.cpp	/^static MessageQueuePosix *extserverToLogical = 0;$/;"	v	file:
+fromByteArray	../Message/Message.cpp	/^bool InternalMessage::fromByteArray(const char *buf, int buflen)$/;"	f	class:InternalMessage	signature:(const char *buf, int buflen)
+fromByteArray	../Message/Message.cpp	/^bool Message::fromByteArray(const char *buf, int buflen)$/;"	f	class:Message	signature:(const char *buf, int buflen)
+fromByteArray	../Message/Message.h	/^    bool fromByteArray(const char *buf, int buflen);$/;"	p	class:InternalMessage	access:public	signature:(const char *buf, int buflen)
+fromByteArray	../Message/Message.h	/^    bool fromByteArray(const char *buf, int buflen);$/;"	p	class:Message	access:public	signature:(const char *buf, int buflen)
+fromByteArray	../Message/Notification.cpp	/^bool Notification::fromByteArray(char *buf, int len)$/;"	f	class:Notification	signature:(char *buf, int len)
+fromByteArray	../Message/Notification.h	/^    bool fromByteArray(char *d, int len);$/;"	p	class:Notification	access:public	signature:(char *d, int len)
+fromByteArray	../Message/relaymessage.cpp	/^bool RelayMessage::fromByteArray(char *d, uint32_t len)$/;"	f	class:RelayMessage	signature:(char *d, uint32_t len)
+fromByteArray	../Message/relaymessage.h	/^    bool fromByteArray(char *d, uint32_t len);$/;"	p	class:RelayMessage	access:public	signature:(char *d, uint32_t len)
+get	../msgqueue/msgqueue.h	/^    T get()$/;"	f	class:BlockMessageQueue	access:public	signature:()
+get	../msgqueue/posixmsgqueue.cpp	/^int MessageQueuePosix::get(char *buf, int *buflen)$/;"	f	class:MessageQueuePosix	signature:(char *buf, int *buflen)
+getConfig	../config/configreader.cpp	/^Configure *Configure::getConfig()$/;"	f	class:Configure	signature:()
+getConfigFilePath	../config/configreader.cpp	/^int Configure::getConfigFilePath(char *buf, int sizeofbuf)$/;"	f	class:Configure	signature:(char *buf, int sizeofbuf)
+getNotifyType	../Message/Notification.h	/^    uint16_t getNotifyType() const { return m_notifyType; }$/;"	f	class:Notification	access:public	signature:() const
+hasMessage	../msgqueue/msgqueue.h	/^    bool hasMessage()$/;"	f	class:BlockMessageQueue	access:public	signature:()
+hdr	Message/MsgInput.h	/^    struct mmsghdr hdr[MAX_RECVIVE_MESSAGES];$/;"	m	class:MsgInput	typeref:struct:MsgInput::mmsghdr	access:private
+internalSrvToLogical	../msgqueue/ipcmsgqueue.cpp	/^static MessageQueuePosix *internalSrvToLogical = 0;$/;"	v	file:
+isthreadvalid	../thread/threadwrap.cpp	/^    bool    isthreadvalid;$/;"	m	class:ThreadData	file:	access:public
+lock	../thread/mutexwrap.cpp	/^bool MutexWrap::lock()$/;"	f	class:MutexWrap	signature:()
+logicalToExtserver	../msgqueue/ipcmsgqueue.cpp	/^static MessageQueuePosix *logicalToExtserver = 0;$/;"	v	file:
+logicalToInternalSrv	../msgqueue/ipcmsgqueue.cpp	/^static MessageQueuePosix *logicalToInternalSrv = 0;$/;"	v	file:
+logicalToNotifySrv	../msgqueue/ipcmsgqueue.cpp	/^static MessageQueuePosix *logicalToNotifySrv = 0;$/;"	v	file:
+logicalToRelaySrv	../msgqueue/ipcmsgqueue.cpp	/^static MessageQueuePosix *logicalToRelaySrv = 0;$/;"	v	file:
+m_answercode	../Message/Notification.h	/^    uint8_t m_answercode;$/;"	m	class:Notification	access:private
+m_bytearray	../Message/itobytearray.h	/^    IToByteArray      *m_bytearray;$/;"	m	class:EncryptByteArray	access:private
+m_commandID	../Message/Message.h	/^    uint16_t m_commandID;$/;"	m	class:Message	access:private
+m_commandcode	../Message/relaymessage.h	/^    uint8_t m_commandcode;$/;"	m	class:RelayMessage	access:private
+m_content	../Message/Message.h	/^    std::vector<char> m_content;$/;"	m	class:Message	access:private
+m_createTime	../Message/Notification.h	/^    time_t m_createTime;$/;"	m	class:Notification	access:private
+m_destID	../Message/Message.h	/^    uint64_t m_destID;$/;"	m	class:Message	access:private
+m_enckey	../Message/itobytearray.h	/^    std::vector<char> *m_enckey;$/;"	m	class:EncryptByteArray	access:private
+m_encryptMethod	../Message/Message.h	/^    uint8_t  m_encryptMethod;$/;"	m	class:InternalMessage	access:private
+m_fun	../thread/threadwrap.cpp	/^    std::function<void()> m_fun;$/;"	m	class:TProcwrap	file:	access:private
+m_isrun	../msgqueue/msgqueue.h	/^    std::atomic<bool> m_isrun;$/;"	m	class:BlockMessageQueue	access:private
+m_msg	../Message/Message.h	/^    Message *m_msg;$/;"	m	class:InternalMessage	access:private
+m_msgBuf	../Message/Notification.h	/^    std::vector<char> m_msgBuf;$/;"	m	class:Notification	access:private
+m_msgBuf	Message/MsgOutput.h	/^    char* m_msgBuf;$/;"	m	class:MsgOutput	access:private
+m_msgInput	Business/BusinessManager.h	/^    MsgInput m_msgInput;    \/\/ 从客户端收到消息$/;"	m	class:BusinessManager	access:private
+m_msgLen	../Message/Notification.h	/^    uint16_t m_msgLen;$/;"	m	class:Notification	access:private
+m_msgLen	Message/MsgOutput.h	/^    uint16_t m_msgLen;   $/;"	m	class:MsgOutput	access:private
+m_msgOutput	Business/BusinessManager.h	/^    MsgOutput m_msgOutput;  \/\/ 发消息到客户端$/;"	m	class:BusinessManager	access:private
+m_notEmpty	../msgqueue/msgqueue.h	/^    ConditionWrap m_notEmpty;$/;"	m	class:BlockMessageQueue	access:private
+m_notifyType	../Message/Notification.h	/^    uint16_t m_notifyType;$/;"	m	class:Notification	access:private
+m_objectID	../Message/Message.h	/^    uint64_t m_objectID;$/;"	m	class:Message	access:private
+m_objectID	../Message/Notification.h	/^    uint64_t m_objectID;$/;"	m	class:Notification	access:private
+m_prefix	../Message/Message.h	/^    uint8_t  m_prefix;$/;"	m	class:Message	access:private
+m_queue	../Message/MsgReader.h	/^    MessageQueuePosix *m_queue;$/;"	m	class:MsgReaderPosixMsgQueue	access:private
+m_queue	../Message/MsgWriter.h	/^    MessageQueuePosix *m_queue;$/;"	m	class:MsgWriterPosixMsgQueue	access:private
+m_queue	../msgqueue/msgqueue.h	/^    std::list<T> m_queue; $/;"	m	class:BlockMessageQueue	access:private
+m_queue	Message/MsgInput.h	/^    MessageQueuePosix *m_queue;$/;"	m	class:MsgInput	access:private
+m_queue	Message/MsgOutput.h	/^    MessageQueuePosix *m_queue;$/;"	m	class:MsgOutput	access:private
+m_queueMutex	../msgqueue/msgqueue.h	/^    MutexWrap m_queueMutex;$/;"	m	class:BlockMessageQueue	access:private
+m_queuesize	../msgqueue/msgqueue.h	/^    int m_queuesize;\/\/ c++ 03 m_queue.size()是线性复杂志度, 所以添加了这个成员$/;"	m	class:BlockMessageQueue	access:private
+m_relaydevice	../Message/relaymessage.h	/^    std::list<RelayDevice> m_relaydevice;$/;"	m	class:RelayMessage	access:private
+m_relayserveraddr	../Message/relaymessage.h	/^    sockaddr_in m_relayserveraddr;$/;"	m	class:RelayMessage	access:private
+m_serialNumber	../Message/Message.h	/^    uint16_t m_serialNumber;$/;"	m	class:Message	access:private
+m_serialNumber	../Message/Notification.h	/^    uint64_t m_serialNumber;$/;"	m	class:Notification	access:private
+m_sock	Message/MsgInput.h	/^    int m_sock;$/;"	m	class:MsgInput	access:private
+m_sock	Message/MsgOutput.h	/^    int m_sock;$/;"	m	class:MsgOutput	access:private
+m_sockAddr	../Message/Message.h	/^    struct sockaddr_in m_sockAddr;$/;"	m	class:Message	typeref:struct:Message::sockaddr_in	access:private
+m_sockAddr	Message/MsgOutput.h	/^    sockaddr_in m_sockAddr;  $/;"	m	class:MsgOutput	access:private
+m_subtype	../Message/Message.h	/^    uint16_t m_subtype;$/;"	m	class:InternalMessage	access:private
+m_suffix	../Message/Message.h	/^    uint8_t  m_suffix;$/;"	m	class:Message	access:private
+m_type	../Message/Message.h	/^    uint16_t m_type;$/;"	m	class:InternalMessage	access:private
+m_userid	../Message/relaymessage.h	/^    uint64_t m_userid;$/;"	m	class:RelayMessage	access:private
+m_usersockaddr	../Message/relaymessage.h	/^    sockaddr_in m_usersockaddr;$/;"	m	class:RelayMessage	access:private
+m_version	../Message/Message.h	/^    uint16_t m_version;$/;"	m	class:InternalMessage	access:private
+m_versionNumber	../Message/Message.h	/^    uint16_t m_versionNumber;$/;"	m	class:Message	access:private
+main	main.cpp	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+message	../Message/Message.h	/^    Message *message() {return m_msg; }$/;"	f	class:InternalMessage	access:public	signature:()
+msgqueueExtserverToLogical	../msgqueue/ipcmsgqueue.cpp	/^MessageQueuePosix *msgqueueExtserverToLogical()$/;"	f	signature:()
+msgqueueInternalSrvToLogical	../msgqueue/ipcmsgqueue.cpp	/^MessageQueuePosix *msgqueueInternalSrvToLogical()$/;"	f	signature:()
+msgqueueLogicalToExtserver	../msgqueue/ipcmsgqueue.cpp	/^MessageQueuePosix *msgqueueLogicalToExtserver()$/;"	f	signature:()
+msgqueueLogicalToInternalSrv	../msgqueue/ipcmsgqueue.cpp	/^MessageQueuePosix *msgqueueLogicalToInternalSrv()$/;"	f	signature:()
+msgqueueLogicalToNotifySrv	../msgqueue/ipcmsgqueue.cpp	/^MessageQueuePosix *msgqueueLogicalToNotifySrv()$/;"	f	signature:()
+msgqueueLogicalToRelaySrv	../msgqueue/ipcmsgqueue.cpp	/^MessageQueuePosix *msgqueueLogicalToRelaySrv()$/;"	f	signature:()
+msgqueueNotifySrvToLogical	../msgqueue/ipcmsgqueue.cpp	/^MessageQueuePosix *msgqueueNotifySrvToLogical()$/;"	f	signature:()
+msgqueueRelaySrvToLogical	../msgqueue/ipcmsgqueue.cpp	/^MessageQueuePosix *msgqueueRelaySrvToLogical()$/;"	f	signature:()
+mutex	../thread/mutexwrap.cpp	/^    pthread_mutex_t mutex;$/;"	m	class:MutexWrapData	file:	access:public
+mutex	../thread/mutexwrap.cpp	/^pthread_mutex_t *MutexWrap::mutex()$/;"	f	class:MutexWrap	signature:()
+notifySrvToLogical	../msgqueue/ipcmsgqueue.cpp	/^static MessageQueuePosix *notifySrvToLogical = 0;$/;"	v	file:
+pack	../Message/Message.cpp	/^void Message::pack(std::vector<char> *out)$/;"	f	class:Message	signature:(std::vector<char> *out)
+pack	../Message/Message.h	/^    void pack(std::vector<char> *out);$/;"	p	class:Message	access:public	signature:(std::vector<char> *out)
+parse	../config/configreader.cpp	/^void Configure::parse(const char *token, const char *value)$/;"	f	class:Configure	signature:(const char *token, const char *value)
+portforclient	../Message/relaymessage.h	/^    uint16_t portforclient;$/;"	m	class:RelayDevice	access:public
+portfordevice	../Message/relaymessage.h	/^    uint16_t portfordevice;$/;"	m	class:RelayDevice	access:public
+put	../msgqueue/msgqueue.h	/^    void put(T t)$/;"	f	class:BlockMessageQueue	access:public	signature:(T t)
+put	../msgqueue/posixmsgqueue.cpp	/^int MessageQueuePosix::put(const char *data, int datalen)$/;"	f	class:MessageQueuePosix	signature:(const char *data, int datalen)
+quit	../msgqueue/msgqueue.h	/^    void quit()$/;"	f	class:BlockMessageQueue	access:public	signature:()
+read	../Message/MsgReader.cpp	/^Message *MsgReaderPosixMsgQueue::read()$/;"	f	class:MsgReaderPosixMsgQueue	signature:()
+read	../Message/MsgReader.h	/^    Message *read();$/;"	p	class:MsgReaderPosixMsgQueue	access:public	signature:()
+read	../config/configreader.cpp	/^int Configure::read(const char *path)$/;"	f	class:Configure	signature:(const char *path)
+relayServeraddr	../Message/relaymessage.h	/^    sockaddr_in relayServeraddr() { return m_relayserveraddr;};$/;"	f	class:RelayMessage	access:public	signature:()
+relaySrvToLogical	../msgqueue/ipcmsgqueue.cpp	/^static MessageQueuePosix *relaySrvToLogical = 0;$/;"	v	file:
+relaydevice	../Message/relaymessage.h	/^    const std::list<RelayDevice> &relaydevice() const { return m_relaydevice; };$/;"	f	class:RelayMessage	access:public	signature:() const
+release	../thread/mutexwrap.cpp	/^bool MutexWrap::release()$/;"	f	class:MutexWrap	signature:()
+remove	../msgqueue/posixmsgqueue.cpp	/^int MessageQueuePosix::remove(char *name)$/;"	f	class:MessageQueuePosix	signature:(char *name)
+run	../thread/threadwrap.cpp	/^void Proc::run()$/;"	f	class:Proc	signature:()
+runasdaemon	main.cpp	/^bool runasdaemon = false;$/;"	v
+serialNumber	../Message/Notification.h	/^    uint64_t serialNumber() const {return m_serialNumber; }$/;"	f	class:Notification	access:public	signature:() const
+setAnswcCode	../Message/Notification.h	/^    void setAnswcCode(uint8_t c) { m_answercode = c; }$/;"	f	class:Notification	access:public	signature:(uint8_t c)
+setCommandCode	../Message/relaymessage.h	/^    void setCommandCode(uint8_t c) { this->m_commandcode = c; }$/;"	f	class:RelayMessage	access:public	signature:(uint8_t c)
+setEncrypt	../Message/Message.cpp	/^void InternalMessage::setEncrypt(bool t)$/;"	f	class:InternalMessage	signature:(bool t)
+setEncrypt	../Message/Message.h	/^    void setEncrypt(bool t);$/;"	p	class:InternalMessage	access:public	signature:(bool t)
+setNotifyType	../Message/Notification.h	/^    void setNotifyType(uint16_t notifNumber) { m_notifyType = notifNumber; }$/;"	f	class:Notification	access:public	signature:(uint16_t notifNumber)
+setQueue	../Message/MsgWriter.h	/^    void setQueue(MessageQueuePosix *q) { m_queue = q;}$/;"	f	class:MsgWriterPosixMsgQueue	access:public	signature:(MessageQueuePosix *q)
+setReadQueue	../Message/MsgReader.cpp	/^void MsgReaderPosixMsgQueue::setReadQueue(MessageQueuePosix *queue)$/;"	f	class:MsgReaderPosixMsgQueue	signature:(MessageQueuePosix *queue)
+setReadQueue	../Message/MsgReader.h	/^    void setReadQueue(MessageQueuePosix *queue);$/;"	p	class:MsgReaderPosixMsgQueue	access:public	signature:(MessageQueuePosix *queue)
+setRelayServeraddr	../Message/relaymessage.h	/^    void setRelayServeraddr(const sockaddr_in &addr) { m_relayserveraddr = addr; }$/;"	f	class:RelayMessage	access:public	signature:(const sockaddr_in &addr)
+setSerialNumber	../Message/Notification.h	/^    void setSerialNumber(uint64_t sn) { m_serialNumber = sn; }$/;"	f	class:Notification	access:public	signature:(uint64_t sn)
+setSubType	../Message/Message.h	/^    void setSubType(uint16_t subtype) {m_subtype = subtype;}$/;"	f	class:InternalMessage	access:public	signature:(uint16_t subtype)
+setType	../Message/Message.h	/^    void setType(uint16_t type) { m_type = type;}$/;"	f	class:InternalMessage	access:public	signature:(uint16_t type)
+setUserSockaddr	../Message/relaymessage.h	/^    void setUserSockaddr(const sockaddr_in &addr) { m_usersockaddr = addr; }$/;"	f	class:RelayMessage	access:public	signature:(const sockaddr_in &addr)
+setUserid	../Message/relaymessage.h	/^    void setUserid(uint64_t uid) { m_userid = uid; }$/;"	f	class:RelayMessage	access:public	signature:(uint64_t uid)
+shouldEncrypt	../Message/Message.cpp	/^bool InternalMessage::shouldEncrypt()$/;"	f	class:InternalMessage	signature:()
+shouldEncrypt	../Message/Message.h	/^    bool shouldEncrypt();$/;"	p	class:InternalMessage	access:public	signature:()
+srcaddr	Message/MsgInput.h	/^    sockaddr_in srcaddr[MAX_RECVIVE_MESSAGES];$/;"	m	class:MsgInput	access:private
+subtype	../Message/Message.h	/^    uint16_t subtype() {return m_subtype; }$/;"	f	class:InternalMessage	access:public	signature:()
+thread	../thread/threadwrap.cpp	/^    Thread *thread;$/;"	m	class:ThreadData	file:	access:public
+threadProc	../thread/threadwrap.cpp	/^static void *threadProc(void *d)$/;"	f	file:	signature:(void *d)
+tid	../thread/threadwrap.cpp	/^    pthread_t tid;$/;"	m	class:ThreadData	file:	access:public
+toByteArray	../Message/Message.cpp	/^void InternalMessage::toByteArray(std::vector<char> *out)$/;"	f	class:InternalMessage	signature:(std::vector<char> *out)
+toByteArray	../Message/Message.cpp	/^void Message::toByteArray(std::vector<char> *out)$/;"	f	class:Message	signature:(std::vector<char> *out)
+toByteArray	../Message/Message.h	/^    void toByteArray(std::vector<char> *out);$/;"	p	class:InternalMessage	access:public	signature:(std::vector<char> *out)
+toByteArray	../Message/Message.h	/^    void toByteArray(std::vector<char> *out);$/;"	p	class:Message	access:public	signature:(std::vector<char> *out)
+toByteArray	../Message/Notification.cpp	/^void Notification::toByteArray(std::vector<char> *out)$/;"	f	class:Notification	signature:(std::vector<char> *out)
+toByteArray	../Message/Notification.h	/^    void toByteArray(std::vector<char> *out);$/;"	p	class:Notification	access:public	signature:(std::vector<char> *out)
+toByteArray	../Message/itobytearray.cpp	/^void EncryptByteArray::toByteArray(std::vector<char> *out)$/;"	f	class:EncryptByteArray	signature:(std::vector<char> *out)
+toByteArray	../Message/itobytearray.h	/^    virtual void toByteArray(std::vector<char> *out) = 0;$/;"	p	class:IToByteArray	access:public	signature:(std::vector<char> *out)
+toByteArray	../Message/itobytearray.h	/^    void toByteArray(std::vector<char> *out);$/;"	p	class:EncryptByteArray	access:public	signature:(std::vector<char> *out)
+toByteArray	../Message/relaymessage.cpp	/^void RelayMessage::toByteArray(std::vector<char> *out)$/;"	f	class:RelayMessage	signature:(std::vector<char> *out)
+toByteArray	../Message/relaymessage.h	/^    void toByteArray(std::vector<char> *out);$/;"	p	class:RelayMessage	access:public	signature:(std::vector<char> *out)
+tp	../thread/threadwrap.cpp	/^    Proc *tp;$/;"	m	class:ThreadData	file:	access:public
+trylock	../thread/mutexwrap.cpp	/^bool MutexWrap::trylock()$/;"	f	class:MutexWrap	signature:()
+type	../Message/Message.h	/^    uint16_t type() {return m_type; }$/;"	f	class:InternalMessage	access:public	signature:()
+unpack	../Message/Message.cpp	/^bool Message::unpack(const char *buf, int buflen)$/;"	f	class:Message	signature:(const char *buf, int buflen)
+unpack	../Message/Message.h	/^    bool unpack(const char *buf, int buflen);$/;"	p	class:Message	access:public	signature:(const char *buf, int buflen)
+userRandomNumber	../Message/relaymessage.h	/^    uint64_t userRandomNumber;$/;"	m	class:RelayMessage	access:private
+userid	../Message/relaymessage.h	/^    uint64_t userid() const { return m_userid; }$/;"	f	class:RelayMessage	access:public	signature:() const
+userrandomNumber	../Message/relaymessage.h	/^    uint64_t userrandomNumber;$/;"	m	class:RelayDevice	access:public
+usersockaddr	../Message/relaymessage.h	/^    sockaddr_in usersockaddr() const { return m_usersockaddr; }$/;"	f	class:RelayMessage	access:public	signature:() const
+~BlockMessageQueue	../msgqueue/msgqueue.h	/^    ~BlockMessageQueue(){}$/;"	f	class:BlockMessageQueue	access:public	signature:()
+~BusinessManager	Business/BusinessManager.cpp	/^BusinessManager::~BusinessManager()$/;"	f	class:BusinessManager	signature:()
+~BusinessManager	Business/BusinessManager.h	/^    ~BusinessManager();$/;"	p	class:BusinessManager	access:public	signature:()
+~IToByteArray	../Message/itobytearray.h	/^    virtual ~IToByteArray(){}$/;"	f	class:IToByteArray	access:public	signature:()
+~InternalMessage	../Message/Message.cpp	/^InternalMessage::~InternalMessage()$/;"	f	class:InternalMessage	signature:()
+~InternalMessage	../Message/Message.h	/^    ~InternalMessage();$/;"	p	class:InternalMessage	access:public	signature:()
+~Message	../Message/Message.cpp	/^Message::~Message()$/;"	f	class:Message	signature:()
+~Message	../Message/Message.h	/^    ~Message();$/;"	p	class:Message	access:public	signature:()
+~MessageQueuePosix	../msgqueue/posixmsgqueue.cpp	/^MessageQueuePosix::~MessageQueuePosix()$/;"	f	class:MessageQueuePosix	signature:()
+~MsgInput	Message/MsgInput.cpp	/^MsgInput::~MsgInput()$/;"	f	class:MsgInput	signature:()
+~MsgInput	Message/MsgInput.h	/^    ~MsgInput();$/;"	p	class:MsgInput	access:public	signature:()
+~MsgOutput	Message/MsgOutput.cpp	/^MsgOutput::~MsgOutput()$/;"	f	class:MsgOutput	signature:()
+~MsgOutput	Message/MsgOutput.h	/^    ~MsgOutput();$/;"	p	class:MsgOutput	access:public	signature:()
+~MsgReaderPosixMsgQueue	../Message/MsgReader.cpp	/^MsgReaderPosixMsgQueue::~MsgReaderPosixMsgQueue()$/;"	f	class:MsgReaderPosixMsgQueue	signature:()
+~MsgReaderPosixMsgQueue	../Message/MsgReader.h	/^    ~MsgReaderPosixMsgQueue();$/;"	p	class:MsgReaderPosixMsgQueue	access:public	signature:()
+~MsgWriterPosixMsgQueue	../Message/MsgWriter.cpp	/^MsgWriterPosixMsgQueue::~MsgWriterPosixMsgQueue()$/;"	f	class:MsgWriterPosixMsgQueue	signature:()
+~MsgWriterPosixMsgQueue	../Message/MsgWriter.h	/^    ~MsgWriterPosixMsgQueue();$/;"	p	class:MsgWriterPosixMsgQueue	access:public	signature:()
+~MutexGuard	../thread/mutexguard.cpp	/^MutexGuard::~MutexGuard()$/;"	f	class:MutexGuard	signature:()
+~MutexWrap	../thread/mutexwrap.cpp	/^MutexWrap::~MutexWrap()$/;"	f	class:MutexWrap	signature:()
+~Notification	../Message/Notification.cpp	/^Notification::~Notification()$/;"	f	class:Notification	signature:()
+~Notification	../Message/Notification.h	/^    ~Notification();$/;"	p	class:Notification	access:public	signature:()
+~Thread	../thread/threadwrap.cpp	/^Thread::~Thread()$/;"	f	class:Thread	signature:()

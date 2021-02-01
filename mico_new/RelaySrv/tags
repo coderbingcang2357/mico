@@ -1,0 +1,563 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddChannel	relaythread.h	/^        AddChannel,$/;"	e	enum:RelayThreadCommand::__anon1
+CC	makefile	/^CC = g++$/;"	m
+CHANNELDATABASE__H_	channelDatabase.h	2;"	d
+CHANNEL_MANAGER_H	ChannelManager.h	2;"	d
+CHANNEL_TIMEOUT	ChannelManager.cpp	/^static const int64_t CHANNEL_TIMEOUT = 120;$/;"	v	file:
+CHANNEL_TIMEOUT	relaythread.cpp	/^static const uint32_t CHANNEL_TIMEOUT = 60; \/\/ 60s$/;"	m	namespace:__anon3	file:
+ChannelDatabase	channelDatabase.cpp	/^ChannelDatabase::ChannelDatabase(IMysqlConnPool *p) : mysqlpool(p)$/;"	f	class:ChannelDatabase	signature:(IMysqlConnPool *p)
+ChannelDatabase	channelDatabase.h	/^    ChannelDatabase(IMysqlConnPool *p);$/;"	p	class:ChannelDatabase	access:public	signature:(IMysqlConnPool *p)
+ChannelDatabase	channelDatabase.h	/^class ChannelDatabase$/;"	c
+ChannelDatabase::ChannelDatabase	channelDatabase.cpp	/^ChannelDatabase::ChannelDatabase(IMysqlConnPool *p) : mysqlpool(p)$/;"	f	class:ChannelDatabase	signature:(IMysqlConnPool *p)
+ChannelDatabase::ChannelDatabase	channelDatabase.h	/^    ChannelDatabase(IMysqlConnPool *p);$/;"	p	class:ChannelDatabase	access:public	signature:(IMysqlConnPool *p)
+ChannelDatabase::deleteAll	channelDatabase.cpp	/^void ChannelDatabase::deleteAll()$/;"	f	class:ChannelDatabase	signature:()
+ChannelDatabase::deleteAll	channelDatabase.h	/^    void deleteAll();$/;"	p	class:ChannelDatabase	access:public	signature:()
+ChannelDatabase::insertChannel	channelDatabase.cpp	/^int ChannelDatabase::insertChannel(uint64_t userid, uint64_t deviceid,$/;"	f	class:ChannelDatabase	signature:(uint64_t userid, uint64_t deviceid, uint16_t userport, uint16_t deviceport, int userfd, int devicefd, const sockaddr_in &useraddr, const sockaddr_in &deviceaddr)
+ChannelDatabase::insertChannel	channelDatabase.h	/^    int insertChannel(uint64_t userid, uint64_t deviceid,$/;"	p	class:ChannelDatabase	access:public	signature:(uint64_t userid, uint64_t deviceid, uint16_t userport, uint16_t deviceport, int userfd, int devicefd, const sockaddr_in &useraddr, const sockaddr_in &deviceaddr)
+ChannelDatabase::mysqlpool	channelDatabase.h	/^    IMysqlConnPool *mysqlpool;$/;"	m	class:ChannelDatabase	access:private
+ChannelDatabase::readChannel	channelDatabase.cpp	/^std::list<std::shared_ptr<ChannelInfo>> ChannelDatabase::readChannel()$/;"	f	class:ChannelDatabase	signature:()
+ChannelDatabase::readChannel	channelDatabase.h	/^    std::list<std::shared_ptr<ChannelInfo>> readChannel();$/;"	p	class:ChannelDatabase	access:public	signature:()
+ChannelDatabase::removeChannel	channelDatabase.cpp	/^int ChannelDatabase::removeChannel(uint64_t userid, uint64_t deviceid)$/;"	f	class:ChannelDatabase	signature:(uint64_t userid, uint64_t deviceid)
+ChannelDatabase::removeChannel	channelDatabase.h	/^    int removeChannel(uint64_t userid, uint64_t deviceid);$/;"	p	class:ChannelDatabase	access:public	signature:(uint64_t userid, uint64_t deviceid)
+ChannelInfo	ChannelManager.h	/^    ChannelInfo()$/;"	f	struct:ChannelInfo	access:public	signature:()
+ChannelInfo	ChannelManager.h	/^struct ChannelInfo$/;"	s
+ChannelInfo::ChannelInfo	ChannelManager.h	/^    ChannelInfo()$/;"	f	struct:ChannelInfo	access:public	signature:()
+ChannelInfo::channelid	ChannelManager.h	/^    uint64_t channelid; \/\/ 每次打开通道时分配一个唯一的id$/;"	m	struct:ChannelInfo	access:public
+ChannelInfo::devSessionRandomNumber	ChannelManager.h	/^    uint64_t devSessionRandomNumber;$/;"	m	struct:ChannelInfo	access:public
+ChannelInfo::devfd	ChannelManager.h	/^    int devfd;$/;"	m	struct:ChannelInfo	access:public
+ChannelInfo::deviceID	ChannelManager.h	/^    uint64_t deviceID;$/;"	m	struct:ChannelInfo	access:public
+ChannelInfo::deviceSockAddr	ChannelManager.h	/^    sockaddr_in deviceSockAddr;$/;"	m	struct:ChannelInfo	access:public
+ChannelInfo::deviceport	ChannelManager.h	/^    uint16_t deviceport;$/;"	m	struct:ChannelInfo	access:public
+ChannelInfo::lastCommuniteTime	ChannelManager.h	/^    timeval lastCommuniteTime;$/;"	m	struct:ChannelInfo	access:public
+ChannelInfo::userID	ChannelManager.h	/^    uint64_t userID;$/;"	m	struct:ChannelInfo	access:public
+ChannelInfo::userSessionRandomNumber	ChannelManager.h	/^    uint64_t userSessionRandomNumber;$/;"	m	struct:ChannelInfo	access:public
+ChannelInfo::userSockAddr	ChannelManager.h	/^    sockaddr_in userSockAddr;$/;"	m	struct:ChannelInfo	access:public
+ChannelInfo::userfd	ChannelManager.h	/^    int userfd;$/;"	m	struct:ChannelInfo	access:public
+ChannelInfo::userport	ChannelManager.h	/^    uint16_t userport;$/;"	m	struct:ChannelInfo	access:public
+ChannelManager	ChannelManager.cpp	/^ChannelManager::ChannelManager()$/;"	f	class:ChannelManager	signature:()
+ChannelManager	ChannelManager.h	/^    ChannelManager();$/;"	p	class:ChannelManager	access:public	signature:()
+ChannelManager	ChannelManager.h	/^class ChannelManager$/;"	c
+ChannelManager::ChannelManager	ChannelManager.cpp	/^ChannelManager::ChannelManager()$/;"	f	class:ChannelManager	signature:()
+ChannelManager::ChannelManager	ChannelManager.h	/^    ChannelManager();$/;"	p	class:ChannelManager	access:public	signature:()
+ChannelManager::closeChannel	ChannelManager.cpp	/^void ChannelManager::closeChannel(const UserDevPair &ud)$/;"	f	class:ChannelManager	signature:(const UserDevPair &ud)
+ChannelManager::closeChannel	ChannelManager.h	/^    void closeChannel(const UserDevPair &ud);$/;"	p	class:ChannelManager	access:public	signature:(const UserDevPair &ud)
+ChannelManager::findChannel	ChannelManager.cpp	/^std::shared_ptr<ChannelInfo> ChannelManager::findChannel(const UserDevPair &ud)$/;"	f	class:ChannelManager	signature:(const UserDevPair &ud)
+ChannelManager::findChannel	ChannelManager.h	/^    std::shared_ptr<ChannelInfo> findChannel(const UserDevPair &ud);$/;"	p	class:ChannelManager	access:public	signature:(const UserDevPair &ud)
+ChannelManager::insert	ChannelManager.cpp	/^void ChannelManager::insert(const std::shared_ptr<ChannelInfo> &ch)$/;"	f	class:ChannelManager	signature:(const std::shared_ptr<ChannelInfo> &ch)
+ChannelManager::insert	ChannelManager.h	/^    void insert(const std::shared_ptr<ChannelInfo> &ch);$/;"	p	class:ChannelManager	access:public	signature:(const std::shared_ptr<ChannelInfo> &ch)
+ChannelManager::m_channels	ChannelManager.h	/^    std::map<UserDevPair, std::shared_ptr<ChannelInfo>> m_channels;$/;"	m	class:ChannelManager	access:private
+ChannelManager::m_rndChannels	ChannelManager.h	/^    std::map<uint64_t, std::shared_ptr<ChannelInfo>> m_rndChannels;$/;"	m	class:ChannelManager	access:private
+ChannelManager::openChannel	ChannelManager.cpp	/^void ChannelManager::openChannel(const std::shared_ptr<ChannelInfo> &ch)$/;"	f	class:ChannelManager	signature:(const std::shared_ptr<ChannelInfo> &ch)
+ChannelManager::openChannel	ChannelManager.h	/^    void openChannel(const std::shared_ptr<ChannelInfo> &ch);$/;"	p	class:ChannelManager	access:public	signature:(const std::shared_ptr<ChannelInfo> &ch)
+ChannelManager::poll	ChannelManager.cpp	/^void ChannelManager::poll()$/;"	f	class:ChannelManager	signature:()
+ChannelManager::poll	ChannelManager.h	/^    void poll();$/;"	p	class:ChannelManager	access:public	signature:()
+ChannelManager::updateAddress	ChannelManager.cpp	/^bool ChannelManager::updateAddress(uint64_t randomnumber, const sockaddr_in &addr)$/;"	f	class:ChannelManager	signature:(uint64_t randomnumber, const sockaddr_in &addr)
+ChannelManager::updateAddress	ChannelManager.h	/^    bool updateAddress(uint64_t randomnumber, const sockaddr_in &addr);$/;"	p	class:ChannelManager	access:public	signature:(uint64_t randomnumber, const sockaddr_in &addr)
+ChannelManager::~ChannelManager	ChannelManager.cpp	/^ChannelManager::~ChannelManager()$/;"	f	class:ChannelManager	signature:()
+ChannelManager::~ChannelManager	ChannelManager.h	/^    ~ChannelManager();$/;"	p	class:ChannelManager	access:public	signature:()
+ChannelTimeOut	relayinternalmessage.h	/^        ChannelTimeOut, $/;"	e	enum:RelayInterMessage::MessagegType
+CloseChannel	relayinternalmessage.h	/^        CloseChannel,$/;"	e	enum:RelayInterMessage::MessagegType
+CloseChannel	relaythread.h	/^        CloseChannel,$/;"	e	enum:RelayThreadCommand::__anon1
+Comp	relaythread.h	/^    static bool Comp(const std::shared_ptr<RelayTimer> &l, const std::shared_ptr<RelayTimer> &r);$/;"	p	class:RelayTimer	access:public	signature:(const std::shared_ptr<RelayTimer> &l, const std::shared_ptr<RelayTimer> &r)
+DataToWrite	relaythread.h	/^    class DataToWrite$/;"	c	class:RelayThread	access:private
+EXEC_NAME	makefile	/^	EXEC_NAME = ..\/dbin\/RelaySrv_d$/;"	m
+EXEC_NAME	makefile	/^	EXEC_NAME = ..\/rbin\/RelaySrv_d$/;"	m
+EXEC_PATH	makefile	/^EXEC_PATH = .\/$(EXEC_NAME)$/;"	m
+ExitCode	relaythread.cpp	/^static const uint8_t ExitCode = 1;$/;"	m	namespace:__anon3	file:
+FLAG	makefile	/^FLAG = -Wall --std=c++0x$/;"	m
+IncludePath	makefile	/^IncludePath = -I..\/$/;"	m
+InsertChannel	relaythread.h	/^        InsertChannel$/;"	e	enum:RelayThreadCommand::__anon1
+InsertChannelToDatabase	relayinternalmessage.h	/^        InsertChannelToDatabase,$/;"	e	enum:RelayInterMessage::MessagegType
+MACRO	makefile	/^	MACRO = -D _DEBUG_VERSION$/;"	m
+MACRO	makefile	/^	MACRO = -DNDEBUG$/;"	m
+MAINQUEUE__H	mainqueue.h	2;"	d
+MAX_SEND_PACKETS	relaythread.cpp	/^static const int MAX_SEND_PACKETS = 500;$/;"	v	file:
+MESSAGETHREAD__H	messagethread.h	2;"	d
+MainQueue	mainqueue.cpp	/^namespace MainQueue$/;"	n	file:
+MainQueue	mainqueue.h	/^namespace MainQueue$/;"	n
+MainQueue::getMsg	mainqueue.cpp	/^RelayInterMessage *getMsg()$/;"	f	namespace:MainQueue	signature:()
+MainQueue::getMsg	mainqueue.h	/^    RelayInterMessage *getMsg();$/;"	p	namespace:MainQueue	signature:()
+MainQueue::hasMsg	mainqueue.cpp	/^bool hasMsg()$/;"	f	namespace:MainQueue	signature:()
+MainQueue::hasMsg	mainqueue.h	/^    bool hasMsg();$/;"	p	namespace:MainQueue	signature:()
+MainQueue::mainqueue_p	mainqueue.cpp	/^static BlockMessageQueue<RelayInterMessage *> mainqueue_p;$/;"	m	namespace:MainQueue	file:
+MainQueue::postMsg	mainqueue.cpp	/^void postMsg(RelayInterMessage *msg)$/;"	f	namespace:MainQueue	signature:(RelayInterMessage *msg)
+MainQueue::postMsg	mainqueue.h	/^    void postMsg(RelayInterMessage *msg);$/;"	p	namespace:MainQueue	signature:(RelayInterMessage *msg)
+MainQueue::quit	mainqueue.cpp	/^void quit()$/;"	f	namespace:MainQueue	signature:()
+MainQueue::quit	mainqueue.h	/^    void quit();$/;"	p	namespace:MainQueue	signature:()
+MessageChannelTimeout	relayinternalmessage.cpp	/^MessageChannelTimeout::MessageChannelTimeout(uint64_t userid, uint64_t devid)$/;"	f	class:MessageChannelTimeout	signature:(uint64_t userid, uint64_t devid)
+MessageChannelTimeout	relayinternalmessage.h	/^    MessageChannelTimeout(uint64_t userid, uint64_t devid);$/;"	p	class:MessageChannelTimeout	access:public	signature:(uint64_t userid, uint64_t devid)
+MessageChannelTimeout	relayinternalmessage.h	/^class MessageChannelTimeout : public RelayInterMessage$/;"	c	inherits:RelayInterMessage
+MessageChannelTimeout::MessageChannelTimeout	relayinternalmessage.cpp	/^MessageChannelTimeout::MessageChannelTimeout(uint64_t userid, uint64_t devid)$/;"	f	class:MessageChannelTimeout	signature:(uint64_t userid, uint64_t devid)
+MessageChannelTimeout::MessageChannelTimeout	relayinternalmessage.h	/^    MessageChannelTimeout(uint64_t userid, uint64_t devid);$/;"	p	class:MessageChannelTimeout	access:public	signature:(uint64_t userid, uint64_t devid)
+MessageChannelTimeout::deviceid	relayinternalmessage.h	/^    uint64_t deviceid() { return m_devid; }$/;"	f	class:MessageChannelTimeout	access:public	signature:()
+MessageChannelTimeout::m_devid	relayinternalmessage.h	/^    uint64_t m_devid;$/;"	m	class:MessageChannelTimeout	access:private
+MessageChannelTimeout::m_userid	relayinternalmessage.h	/^    uint64_t m_userid;$/;"	m	class:MessageChannelTimeout	access:private
+MessageChannelTimeout::userid	relayinternalmessage.h	/^    uint64_t userid() { return m_userid; }$/;"	f	class:MessageChannelTimeout	access:public	signature:()
+MessageCloseChannel	relayinternalmessage.cpp	/^MessageCloseChannel::MessageCloseChannel(uint64_t userid, uint64_t devid)$/;"	f	class:MessageCloseChannel	signature:(uint64_t userid, uint64_t devid)
+MessageCloseChannel	relayinternalmessage.h	/^    MessageCloseChannel(uint64_t userid, uint64_t devid);$/;"	p	class:MessageCloseChannel	access:public	signature:(uint64_t userid, uint64_t devid)
+MessageCloseChannel	relayinternalmessage.h	/^class MessageCloseChannel : public RelayInterMessage$/;"	c	inherits:RelayInterMessage
+MessageCloseChannel::MessageCloseChannel	relayinternalmessage.cpp	/^MessageCloseChannel::MessageCloseChannel(uint64_t userid, uint64_t devid)$/;"	f	class:MessageCloseChannel	signature:(uint64_t userid, uint64_t devid)
+MessageCloseChannel::MessageCloseChannel	relayinternalmessage.h	/^    MessageCloseChannel(uint64_t userid, uint64_t devid);$/;"	p	class:MessageCloseChannel	access:public	signature:(uint64_t userid, uint64_t devid)
+MessageCloseChannel::devid	relayinternalmessage.h	/^    uint64_t devid() {return m_devid;}$/;"	f	class:MessageCloseChannel	access:public	signature:()
+MessageCloseChannel::m_devid	relayinternalmessage.h	/^    uint64_t m_devid;$/;"	m	class:MessageCloseChannel	access:private
+MessageCloseChannel::m_userid	relayinternalmessage.h	/^    uint64_t m_userid;$/;"	m	class:MessageCloseChannel	access:private
+MessageCloseChannel::userid	relayinternalmessage.h	/^    uint64_t userid() {return m_userid;}$/;"	f	class:MessageCloseChannel	access:public	signature:()
+MessageFromOtherServer	relayinternalmessage.cpp	/^MessageFromOtherServer::MessageFromOtherServer(Message *msg)$/;"	f	class:MessageFromOtherServer	signature:(Message *msg)
+MessageFromOtherServer	relayinternalmessage.h	/^    MessageFromOtherServer(Message *msg);$/;"	p	class:MessageFromOtherServer	access:public	signature:(Message *msg)
+MessageFromOtherServer	relayinternalmessage.h	/^class MessageFromOtherServer : public RelayInterMessage$/;"	c	inherits:RelayInterMessage
+MessageFromOtherServer::MessageFromOtherServer	relayinternalmessage.cpp	/^MessageFromOtherServer::MessageFromOtherServer(Message *msg)$/;"	f	class:MessageFromOtherServer	signature:(Message *msg)
+MessageFromOtherServer::MessageFromOtherServer	relayinternalmessage.h	/^    MessageFromOtherServer(Message *msg);$/;"	p	class:MessageFromOtherServer	access:public	signature:(Message *msg)
+MessageFromOtherServer::getMsg	relayinternalmessage.cpp	/^Message *MessageFromOtherServer::getMsg()$/;"	f	class:MessageFromOtherServer	signature:()
+MessageFromOtherServer::getMsg	relayinternalmessage.h	/^    Message *getMsg();$/;"	p	class:MessageFromOtherServer	access:public	signature:()
+MessageFromOtherServer::m_msg	relayinternalmessage.h	/^    Message *m_msg;$/;"	m	class:MessageFromOtherServer	access:private
+MessageFromOtherServer::~MessageFromOtherServer	relayinternalmessage.cpp	/^MessageFromOtherServer::~MessageFromOtherServer()$/;"	f	class:MessageFromOtherServer	signature:()
+MessageFromOtherServer::~MessageFromOtherServer	relayinternalmessage.h	/^    ~MessageFromOtherServer();$/;"	p	class:MessageFromOtherServer	access:public	signature:()
+MessageInsertChannelToDatabase	relayinternalmessage.cpp	/^MessageInsertChannelToDatabase::MessageInsertChannelToDatabase()$/;"	f	class:MessageInsertChannelToDatabase	signature:()
+MessageInsertChannelToDatabase	relayinternalmessage.h	/^    MessageInsertChannelToDatabase();$/;"	p	class:MessageInsertChannelToDatabase	access:public	signature:()
+MessageInsertChannelToDatabase	relayinternalmessage.h	/^class MessageInsertChannelToDatabase : public RelayInterMessage$/;"	c	inherits:RelayInterMessage
+MessageInsertChannelToDatabase::MessageInsertChannelToDatabase	relayinternalmessage.cpp	/^MessageInsertChannelToDatabase::MessageInsertChannelToDatabase()$/;"	f	class:MessageInsertChannelToDatabase	signature:()
+MessageInsertChannelToDatabase::MessageInsertChannelToDatabase	relayinternalmessage.h	/^    MessageInsertChannelToDatabase();$/;"	p	class:MessageInsertChannelToDatabase	access:public	signature:()
+MessageInsertChannelToDatabase::deviceaddress	relayinternalmessage.h	/^    sockaddr_in & deviceaddress() { return m_deviceaddress; }$/;"	f	class:MessageInsertChannelToDatabase	access:public	signature:()
+MessageInsertChannelToDatabase::devicefd	relayinternalmessage.h	/^    int & devicefd() { return m_devicefd; }$/;"	f	class:MessageInsertChannelToDatabase	access:public	signature:()
+MessageInsertChannelToDatabase::deviceid	relayinternalmessage.h	/^    uint64_t & deviceid() { return m_deviceid; }$/;"	f	class:MessageInsertChannelToDatabase	access:public	signature:()
+MessageInsertChannelToDatabase::deviceport	relayinternalmessage.h	/^    uint16_t & deviceport() { return m_deviceport; }$/;"	f	class:MessageInsertChannelToDatabase	access:public	signature:()
+MessageInsertChannelToDatabase::m_deviceaddress	relayinternalmessage.h	/^    sockaddr_in m_deviceaddress;$/;"	m	class:MessageInsertChannelToDatabase	access:private
+MessageInsertChannelToDatabase::m_devicefd	relayinternalmessage.h	/^    int m_devicefd;$/;"	m	class:MessageInsertChannelToDatabase	access:private
+MessageInsertChannelToDatabase::m_deviceid	relayinternalmessage.h	/^    uint64_t m_deviceid;$/;"	m	class:MessageInsertChannelToDatabase	access:private
+MessageInsertChannelToDatabase::m_deviceport	relayinternalmessage.h	/^    uint16_t m_deviceport;$/;"	m	class:MessageInsertChannelToDatabase	access:private
+MessageInsertChannelToDatabase::m_serverid	relayinternalmessage.h	/^    int m_serverid;$/;"	m	class:MessageInsertChannelToDatabase	access:private
+MessageInsertChannelToDatabase::m_useraddress	relayinternalmessage.h	/^    sockaddr_in m_useraddress;$/;"	m	class:MessageInsertChannelToDatabase	access:private
+MessageInsertChannelToDatabase::m_userfd	relayinternalmessage.h	/^    int m_userfd;$/;"	m	class:MessageInsertChannelToDatabase	access:private
+MessageInsertChannelToDatabase::m_userid	relayinternalmessage.h	/^    uint64_t m_userid;$/;"	m	class:MessageInsertChannelToDatabase	access:private
+MessageInsertChannelToDatabase::m_userport	relayinternalmessage.h	/^    uint16_t m_userport;$/;"	m	class:MessageInsertChannelToDatabase	access:private
+MessageInsertChannelToDatabase::serverid	relayinternalmessage.h	/^    int &serverid() { return m_serverid; }$/;"	f	class:MessageInsertChannelToDatabase	access:public	signature:()
+MessageInsertChannelToDatabase::useraddress	relayinternalmessage.h	/^    sockaddr_in & useraddress() { return m_useraddress; }$/;"	f	class:MessageInsertChannelToDatabase	access:public	signature:()
+MessageInsertChannelToDatabase::userfd	relayinternalmessage.h	/^    int & userfd() { return m_userfd; }$/;"	f	class:MessageInsertChannelToDatabase	access:public	signature:()
+MessageInsertChannelToDatabase::userid	relayinternalmessage.h	/^    uint64_t & userid() { return m_userid; }$/;"	f	class:MessageInsertChannelToDatabase	access:public	signature:()
+MessageInsertChannelToDatabase::userport	relayinternalmessage.h	/^    uint16_t & userport() { return m_userport; }$/;"	f	class:MessageInsertChannelToDatabase	access:public	signature:()
+MessageOpenChannel	relayinternalmessage.cpp	/^MessageOpenChannel::MessageOpenChannel(const std::shared_ptr<ChannelInfo> &i)$/;"	f	class:MessageOpenChannel	signature:(const std::shared_ptr<ChannelInfo> &i)
+MessageOpenChannel	relayinternalmessage.h	/^    MessageOpenChannel(const std::shared_ptr<ChannelInfo> &i);$/;"	p	class:MessageOpenChannel	access:public	signature:(const std::shared_ptr<ChannelInfo> &i)
+MessageOpenChannel	relayinternalmessage.h	/^class MessageOpenChannel : public RelayInterMessage$/;"	c	inherits:RelayInterMessage
+MessageOpenChannel::MessageOpenChannel	relayinternalmessage.cpp	/^MessageOpenChannel::MessageOpenChannel(const std::shared_ptr<ChannelInfo> &i)$/;"	f	class:MessageOpenChannel	signature:(const std::shared_ptr<ChannelInfo> &i)
+MessageOpenChannel::MessageOpenChannel	relayinternalmessage.h	/^    MessageOpenChannel(const std::shared_ptr<ChannelInfo> &i);$/;"	p	class:MessageOpenChannel	access:public	signature:(const std::shared_ptr<ChannelInfo> &i)
+MessageOpenChannel::channelinfo	relayinternalmessage.h	/^    std::shared_ptr<ChannelInfo> channelinfo() { return m_ci; }$/;"	f	class:MessageOpenChannel	access:public	signature:()
+MessageOpenChannel::m_ci	relayinternalmessage.h	/^    std::shared_ptr<ChannelInfo> m_ci;$/;"	m	class:MessageOpenChannel	access:private
+MessageReleasePort	relayinternalmessage.cpp	/^MessageReleasePort::MessageReleasePort(uint64_t userid, uint64_t deviceid, uint64_t chid)$/;"	f	class:MessageReleasePort	signature:(uint64_t userid, uint64_t deviceid, uint64_t chid)
+MessageReleasePort	relayinternalmessage.h	/^    MessageReleasePort(uint64_t userid, uint64_t deviceid, uint64_t chid);$/;"	p	class:MessageReleasePort	access:public	signature:(uint64_t userid, uint64_t deviceid, uint64_t chid)
+MessageReleasePort	relayinternalmessage.h	/^class MessageReleasePort : public RelayInterMessage$/;"	c	inherits:RelayInterMessage
+MessageReleasePort::MessageReleasePort	relayinternalmessage.cpp	/^MessageReleasePort::MessageReleasePort(uint64_t userid, uint64_t deviceid, uint64_t chid)$/;"	f	class:MessageReleasePort	signature:(uint64_t userid, uint64_t deviceid, uint64_t chid)
+MessageReleasePort::MessageReleasePort	relayinternalmessage.h	/^    MessageReleasePort(uint64_t userid, uint64_t deviceid, uint64_t chid);$/;"	p	class:MessageReleasePort	access:public	signature:(uint64_t userid, uint64_t deviceid, uint64_t chid)
+MessageReleasePort::channelid	relayinternalmessage.h	/^    uint64_t channelid() {return m_channelid;}$/;"	f	class:MessageReleasePort	access:public	signature:()
+MessageReleasePort::deviceID	relayinternalmessage.h	/^    uint64_t deviceID() {return m_deviceID;}$/;"	f	class:MessageReleasePort	access:public	signature:()
+MessageReleasePort::m_channelid	relayinternalmessage.h	/^    uint64_t m_channelid;$/;"	m	class:MessageReleasePort	access:private
+MessageReleasePort::m_deviceID	relayinternalmessage.h	/^    uint64_t m_deviceID;$/;"	m	class:MessageReleasePort	access:private
+MessageReleasePort::m_userID	relayinternalmessage.h	/^    uint64_t m_userID;$/;"	m	class:MessageReleasePort	access:private
+MessageReleasePort::userID	relayinternalmessage.h	/^    uint64_t userID() {return m_userID;}$/;"	f	class:MessageReleasePort	access:public	signature:()
+MessageRemoveChannelFromDatabase	relayinternalmessage.cpp	/^MessageRemoveChannelFromDatabase::MessageRemoveChannelFromDatabase$/;"	f	class:MessageRemoveChannelFromDatabase	signature:(uint64_t userid, uint64_t devid)
+MessageRemoveChannelFromDatabase	relayinternalmessage.h	/^    MessageRemoveChannelFromDatabase(uint64_t userid, uint64_t devid);$/;"	p	class:MessageRemoveChannelFromDatabase	access:public	signature:(uint64_t userid, uint64_t devid)
+MessageRemoveChannelFromDatabase	relayinternalmessage.h	/^class MessageRemoveChannelFromDatabase : public RelayInterMessage$/;"	c	inherits:RelayInterMessage
+MessageRemoveChannelFromDatabase::MessageRemoveChannelFromDatabase	relayinternalmessage.cpp	/^MessageRemoveChannelFromDatabase::MessageRemoveChannelFromDatabase$/;"	f	class:MessageRemoveChannelFromDatabase	signature:(uint64_t userid, uint64_t devid)
+MessageRemoveChannelFromDatabase::MessageRemoveChannelFromDatabase	relayinternalmessage.h	/^    MessageRemoveChannelFromDatabase(uint64_t userid, uint64_t devid);$/;"	p	class:MessageRemoveChannelFromDatabase	access:public	signature:(uint64_t userid, uint64_t devid)
+MessageRemoveChannelFromDatabase::getDeviceID	relayinternalmessage.cpp	/^uint64_t MessageRemoveChannelFromDatabase::getDeviceID()$/;"	f	class:MessageRemoveChannelFromDatabase	signature:()
+MessageRemoveChannelFromDatabase::getDeviceID	relayinternalmessage.h	/^    uint64_t getDeviceID();$/;"	p	class:MessageRemoveChannelFromDatabase	access:public	signature:()
+MessageRemoveChannelFromDatabase::getUserID	relayinternalmessage.cpp	/^uint64_t MessageRemoveChannelFromDatabase::getUserID()$/;"	f	class:MessageRemoveChannelFromDatabase	signature:()
+MessageRemoveChannelFromDatabase::getUserID	relayinternalmessage.h	/^    uint64_t getUserID();$/;"	p	class:MessageRemoveChannelFromDatabase	access:public	signature:()
+MessageRemoveChannelFromDatabase::m_deviceid	relayinternalmessage.h	/^    uint64_t m_deviceid;$/;"	m	class:MessageRemoveChannelFromDatabase	access:private
+MessageRemoveChannelFromDatabase::m_userid	relayinternalmessage.h	/^    uint64_t m_userid;$/;"	m	class:MessageRemoveChannelFromDatabase	access:private
+MessageThread	messagethread.cpp	/^MessageThread::MessageThread() :$/;"	f	class:MessageThread	signature:()
+MessageThread	messagethread.h	/^    MessageThread();$/;"	p	class:MessageThread	access:public	signature:()
+MessageThread	messagethread.h	/^class MessageThread$/;"	c
+MessageThread::MessageThread	messagethread.cpp	/^MessageThread::MessageThread() :$/;"	f	class:MessageThread	signature:()
+MessageThread::MessageThread	messagethread.h	/^    MessageThread();$/;"	p	class:MessageThread	access:public	signature:()
+MessageThread::create	messagethread.cpp	/^bool MessageThread::create()$/;"	f	class:MessageThread	signature:()
+MessageThread::create	messagethread.h	/^    bool create();$/;"	p	class:MessageThread	access:public	signature:()
+MessageThread::m_isrun	messagethread.h	/^    bool m_isrun;$/;"	m	class:MessageThread	access:private
+MessageThread::m_thread	messagethread.h	/^    Thread *m_thread;$/;"	m	class:MessageThread	access:private
+MessageThread::quit	messagethread.h	/^    void quit() {m_isrun = false;}$/;"	f	class:MessageThread	access:public	signature:()
+MessageThread::run	messagethread.cpp	/^void MessageThread::run()$/;"	f	class:MessageThread	signature:()
+MessageThread::run	messagethread.h	/^    void run();$/;"	p	class:MessageThread	access:private	signature:()
+MessageThread::~MessageThread	messagethread.cpp	/^MessageThread::~MessageThread()$/;"	f	class:MessageThread	signature:()
+MessageThread::~MessageThread	messagethread.h	/^    ~MessageThread();$/;"	p	class:MessageThread	access:public	signature:()
+MessagegType	relayinternalmessage.h	/^    enum MessagegType$/;"	g	class:RelayInterMessage	access:public
+NewMessageFromOtherServer	relayinternalmessage.h	/^        NewMessageFromOtherServer = 1,$/;"	e	enum:RelayInterMessage::MessagegType
+Nothing	relaythread.h	/^        Nothing,$/;"	e	enum:RelayThreadCommand::__anon1
+OPTION	makefile	/^OPTION = -lmysqlclient -lm -lrt -L..\/Crypt -lcrypt -L..\/thread -lthreadpool -lpthread -lcurl $/;"	m
+OpenChannel	relayinternalmessage.h	/^        OpenChannel,$/;"	e	enum:RelayInterMessage::MessagegType
+PortPair	relayports.h	/^class PortPair$/;"	c
+PortPair::channelid	relayports.h	/^    uint64_t channelid = 0;$/;"	m	class:PortPair	access:public
+PortPair::devicefd	relayports.h	/^    int devicefd = -1;$/;"	m	class:PortPair	access:public
+PortPair::devport	relayports.h	/^    uint16_t devport = 0;$/;"	m	class:PortPair	access:public
+PortPair::operator bool	relayports.h	/^    operator bool () const$/;"	f	class:PortPair	access:public	signature:() const
+PortPair::userfd	relayports.h	/^    int userfd = -1;$/;"	m	class:PortPair	access:public
+PortPair::userport	relayports.h	/^    uint16_t userport = 0;$/;"	m	class:PortPair	access:public
+PortSocket	relayports.h	/^    class PortSocket$/;"	c	class:RelayPorts	access:private
+RELAYINTERNALMESSAGE__H	relayinternalmessage.h	2;"	d
+RELAY_REQ_HANDLER_H	RelayReqHandler.h	2;"	d
+REPLAYPORTS__H__	relayports.h	2;"	d
+RelayInterMessage	relayinternalmessage.cpp	/^RelayInterMessage::RelayInterMessage(RelayInterMessage::MessagegType t)$/;"	f	class:RelayInterMessage	signature:(RelayInterMessage::MessagegType t)
+RelayInterMessage	relayinternalmessage.h	/^    RelayInterMessage(RelayInterMessage::MessagegType t);$/;"	p	class:RelayInterMessage	access:public	signature:(RelayInterMessage::MessagegType t)
+RelayInterMessage	relayinternalmessage.h	/^class RelayInterMessage $/;"	c
+RelayInterMessage::ChannelTimeOut	relayinternalmessage.h	/^        ChannelTimeOut, $/;"	e	enum:RelayInterMessage::MessagegType
+RelayInterMessage::CloseChannel	relayinternalmessage.h	/^        CloseChannel,$/;"	e	enum:RelayInterMessage::MessagegType
+RelayInterMessage::InsertChannelToDatabase	relayinternalmessage.h	/^        InsertChannelToDatabase,$/;"	e	enum:RelayInterMessage::MessagegType
+RelayInterMessage::MessagegType	relayinternalmessage.h	/^    enum MessagegType$/;"	g	class:RelayInterMessage	access:public
+RelayInterMessage::NewMessageFromOtherServer	relayinternalmessage.h	/^        NewMessageFromOtherServer = 1,$/;"	e	enum:RelayInterMessage::MessagegType
+RelayInterMessage::OpenChannel	relayinternalmessage.h	/^        OpenChannel,$/;"	e	enum:RelayInterMessage::MessagegType
+RelayInterMessage::RelayInterMessage	relayinternalmessage.cpp	/^RelayInterMessage::RelayInterMessage(RelayInterMessage::MessagegType t)$/;"	f	class:RelayInterMessage	signature:(RelayInterMessage::MessagegType t)
+RelayInterMessage::RelayInterMessage	relayinternalmessage.h	/^    RelayInterMessage(RelayInterMessage::MessagegType t);$/;"	p	class:RelayInterMessage	access:public	signature:(RelayInterMessage::MessagegType t)
+RelayInterMessage::ReleasePort	relayinternalmessage.h	/^        ReleasePort,$/;"	e	enum:RelayInterMessage::MessagegType
+RelayInterMessage::RemoveChannelFromDatabase	relayinternalmessage.h	/^        RemoveChannelFromDatabase$/;"	e	enum:RelayInterMessage::MessagegType
+RelayInterMessage::m_msgtype	relayinternalmessage.h	/^    MessagegType m_msgtype;$/;"	m	class:RelayInterMessage	access:private
+RelayInterMessage::type	relayinternalmessage.cpp	/^RelayInterMessage::MessagegType RelayInterMessage::type()$/;"	f	class:RelayInterMessage	signature:()
+RelayInterMessage::type	relayinternalmessage.h	/^    RelayInterMessage::MessagegType type();$/;"	p	class:RelayInterMessage	access:public	signature:()
+RelayInterMessage::~RelayInterMessage	relayinternalmessage.cpp	/^RelayInterMessage::~RelayInterMessage(){}$/;"	f	class:RelayInterMessage	signature:()
+RelayInterMessage::~RelayInterMessage	relayinternalmessage.h	/^    virtual ~RelayInterMessage();$/;"	p	class:RelayInterMessage	access:public	signature:()
+RelayPorts	relayports.cpp	/^RelayPorts::RelayPorts()$/;"	f	class:RelayPorts	signature:()
+RelayPorts	relayports.h	/^    RelayPorts();$/;"	p	class:RelayPorts	access:public	signature:()
+RelayPorts	relayports.h	/^class RelayPorts$/;"	c
+RelayPorts::PortSocket	relayports.h	/^    class PortSocket$/;"	c	class:RelayPorts	access:private
+RelayPorts::PortSocket::deviceids	relayports.h	/^        std::set<uint64_t> deviceids;\/\/ 这个正在使用这个port的device$/;"	m	class:RelayPorts::PortSocket	access:public
+RelayPorts::PortSocket::operator bool	relayports.h	/^        operator bool () const$/;"	f	class:RelayPorts::PortSocket	access:public	signature:() const
+RelayPorts::PortSocket::port	relayports.h	/^        uint16_t port = 0;$/;"	m	class:RelayPorts::PortSocket	access:public
+RelayPorts::PortSocket::socketfd	relayports.h	/^        int socketfd = -1;$/;"	m	class:RelayPorts::PortSocket	access:public
+RelayPorts::RelayPorts	relayports.cpp	/^RelayPorts::RelayPorts()$/;"	f	class:RelayPorts	signature:()
+RelayPorts::RelayPorts	relayports.h	/^    RelayPorts();$/;"	p	class:RelayPorts	access:public	signature:()
+RelayPorts::add	relayports.cpp	/^void RelayPorts::add(int sockfd, uint16_t port)$/;"	f	class:RelayPorts	signature:(int sockfd, uint16_t port)
+RelayPorts::add	relayports.h	/^    void add(int sockfd, uint16_t port);$/;"	p	class:RelayPorts	access:public	signature:(int sockfd, uint16_t port)
+RelayPorts::allocate	relayports.cpp	/^PortPair RelayPorts::allocate(uint64_t userid, uint64_t deviceid)$/;"	f	class:RelayPorts	signature:(uint64_t userid, uint64_t deviceid)
+RelayPorts::allocate	relayports.h	/^    PortPair allocate(uint64_t userid, uint64_t deviceid);$/;"	p	class:RelayPorts	access:public	signature:(uint64_t userid, uint64_t deviceid)
+RelayPorts::findValidDevicePort	relayports.cpp	/^uint16_t RelayPorts::findValidDevicePort(uint64_t devid)$/;"	f	class:RelayPorts	signature:(uint64_t devid)
+RelayPorts::findValidDevicePort	relayports.h	/^    uint16_t findValidDevicePort(uint64_t devid);$/;"	p	class:RelayPorts	access:private	signature:(uint64_t devid)
+RelayPorts::insert	relayports.cpp	/^void RelayPorts::insert(uint64_t userid, uint64_t deviceid, const PortPair &pp)$/;"	f	class:RelayPorts	signature:(uint64_t userid, uint64_t deviceid, const PortPair &pp)
+RelayPorts::insert	relayports.h	/^    void insert(uint64_t userid, uint64_t deviceid, const PortPair &pp);$/;"	p	class:RelayPorts	access:public	signature:(uint64_t userid, uint64_t deviceid, const PortPair &pp)
+RelayPorts::m_channelid	relayports.h	/^    uint64_t m_channelid = 1;$/;"	m	class:RelayPorts	access:private
+RelayPorts::m_channels	relayports.h	/^    std::map<UserDevPair, PortPair> m_channels;$/;"	m	class:RelayPorts	access:private
+RelayPorts::m_ports	relayports.h	/^    std::map<uint16_t, PortSocket> m_ports;$/;"	m	class:RelayPorts	access:private
+RelayPorts::release	relayports.cpp	/^void RelayPorts::release(uint64_t userid, uint64_t deviceid, uint64_t channelid)$/;"	f	class:RelayPorts	signature:(uint64_t userid, uint64_t deviceid, uint64_t channelid)
+RelayPorts::release	relayports.h	/^    void release(uint64_t userid, uint64_t deviceid, uint64_t chid);$/;"	p	class:RelayPorts	access:public	signature:(uint64_t userid, uint64_t deviceid, uint64_t chid)
+RelayPorts::test	relayports.cpp	/^void RelayPorts::test()$/;"	f	class:RelayPorts	signature:()
+RelayPorts::test	relayports.h	/^    static void test();$/;"	p	class:RelayPorts	access:public	signature:()
+RelayProc	relaythread.cpp	/^    RelayProc(RelayThread *r) : rt(r)$/;"	f	class:RelayProc	access:public	signature:(RelayThread *r)
+RelayProc	relaythread.cpp	/^class RelayProc : public Proc$/;"	c	file:	inherits:Proc
+RelayProc::RelayProc	relaythread.cpp	/^    RelayProc(RelayThread *r) : rt(r)$/;"	f	class:RelayProc	access:public	signature:(RelayThread *r)
+RelayProc::rt	relaythread.cpp	/^    RelayThread *rt;$/;"	m	class:RelayProc	file:	access:public
+RelayProc::run	relaythread.cpp	/^    void run()$/;"	f	class:RelayProc	access:public	signature:()
+RelayReqHandler	RelayReqHandler.cpp	/^RelayReqHandler::RelayReqHandler(RelayPorts *ports)$/;"	f	class:RelayReqHandler	signature:(RelayPorts *ports)
+RelayReqHandler	RelayReqHandler.h	/^    RelayReqHandler(RelayPorts *ports);$/;"	p	class:RelayReqHandler	access:public	signature:(RelayPorts *ports)
+RelayReqHandler	RelayReqHandler.h	/^class RelayReqHandler$/;"	c
+RelayReqHandler::RelayReqHandler	RelayReqHandler.cpp	/^RelayReqHandler::RelayReqHandler(RelayPorts *ports)$/;"	f	class:RelayReqHandler	signature:(RelayPorts *ports)
+RelayReqHandler::RelayReqHandler	RelayReqHandler.h	/^    RelayReqHandler(RelayPorts *ports);$/;"	p	class:RelayReqHandler	access:public	signature:(RelayPorts *ports)
+RelayReqHandler::handle	RelayReqHandler.cpp	/^void RelayReqHandler::handle(Message *msg)$/;"	f	class:RelayReqHandler	signature:(Message *msg)
+RelayReqHandler::handle	RelayReqHandler.h	/^    void handle(Message *msg);$/;"	p	class:RelayReqHandler	access:public	signature:(Message *msg)
+RelayReqHandler::m_ports	RelayReqHandler.h	/^    RelayPorts *m_ports;$/;"	m	class:RelayReqHandler	access:private
+RelayReqHandler::onCloseAllChannel	RelayReqHandler.cpp	/^void RelayReqHandler::onCloseAllChannel(const RelayMessage &r)$/;"	f	class:RelayReqHandler	signature:(const RelayMessage &r)
+RelayReqHandler::onCloseAllChannel	RelayReqHandler.h	/^    void onCloseAllChannel(const RelayMessage &);$/;"	p	class:RelayReqHandler	access:private	signature:(const RelayMessage &)
+RelayReqHandler::onCloseChannel	RelayReqHandler.cpp	/^void RelayReqHandler::onCloseChannel(const RelayMessage &imsg)$/;"	f	class:RelayReqHandler	signature:(const RelayMessage &imsg)
+RelayReqHandler::onCloseChannel	RelayReqHandler.h	/^    void onCloseChannel(const RelayMessage &);$/;"	p	class:RelayReqHandler	access:private	signature:(const RelayMessage &)
+RelayReqHandler::onOpenChannel	RelayReqHandler.cpp	/^void RelayReqHandler::onOpenChannel(const RelayMessage &rmsg, RelayMessage *response)$/;"	f	class:RelayReqHandler	signature:(const RelayMessage &rmsg, RelayMessage *response)
+RelayReqHandler::onOpenChannel	RelayReqHandler.h	/^    void onOpenChannel(const RelayMessage &, RelayMessage *response);$/;"	p	class:RelayReqHandler	access:private	signature:(const RelayMessage &, RelayMessage *response)
+RelayReqHandler::~RelayReqHandler	RelayReqHandler.cpp	/^RelayReqHandler::~RelayReqHandler()$/;"	f	class:RelayReqHandler	signature:()
+RelayReqHandler::~RelayReqHandler	RelayReqHandler.h	/^    ~RelayReqHandler();$/;"	p	class:RelayReqHandler	access:public	signature:()
+RelayThread	relaythread.cpp	/^RelayThread::RelayThread() : m_thread(0),$/;"	f	class:RelayThread	signature:()
+RelayThread	relaythread.h	/^    RelayThread();$/;"	p	class:RelayThread	access:public	signature:()
+RelayThread	relaythread.h	/^class RelayThread$/;"	c
+RelayThread::DataToWrite	relaythread.h	/^    class DataToWrite$/;"	c	class:RelayThread	access:private
+RelayThread::DataToWrite::data	relaythread.h	/^        std::vector<char> data;$/;"	m	class:RelayThread::DataToWrite	access:public
+RelayThread::DataToWrite::dest	relaythread.h	/^        sockaddr_in dest;$/;"	m	class:RelayThread::DataToWrite	access:public
+RelayThread::DataToWrite::sendfd	relaythread.h	/^        int sendfd;$/;"	m	class:RelayThread::DataToWrite	access:public
+RelayThread::RelayThread	relaythread.cpp	/^RelayThread::RelayThread() : m_thread(0),$/;"	f	class:RelayThread	signature:()
+RelayThread::RelayThread	relaythread.h	/^    RelayThread();$/;"	p	class:RelayThread	access:public	signature:()
+RelayThread::addCommand	relaythread.cpp	/^void RelayThread::addCommand(RelayThreadCommand *c)$/;"	f	class:RelayThread	signature:(RelayThreadCommand *c)
+RelayThread::addCommand	relaythread.h	/^    void addCommand(RelayThreadCommand *c);$/;"	p	class:RelayThread	access:public	signature:(RelayThreadCommand *c)
+RelayThread::create	relaythread.cpp	/^bool RelayThread::create()$/;"	f	class:RelayThread	signature:()
+RelayThread::create	relaythread.h	/^    bool create();$/;"	p	class:RelayThread	access:public	signature:()
+RelayThread::createRelaySocket	relaythread.cpp	/^std::pair<bool, int> RelayThread::createRelaySocket(uint16_t port)$/;"	f	class:RelayThread	signature:(uint16_t port)
+RelayThread::createRelaySocket	relaythread.h	/^    std::pair<bool, int> createRelaySocket(uint16_t port);$/;"	p	class:RelayThread	access:public	signature:(uint16_t port)
+RelayThread::createWakeupfd	relaythread.cpp	/^void RelayThread::createWakeupfd()$/;"	f	class:RelayThread	signature:()
+RelayThread::createWakeupfd	relaythread.h	/^    void createWakeupfd();$/;"	p	class:RelayThread	access:private	signature:()
+RelayThread::m_channels	relaythread.h	/^    ChannelManager *m_channels = nullptr;$/;"	m	class:RelayThread	access:private
+RelayThread::m_command	relaythread.h	/^    std::list<RelayThreadCommand *> m_command;$/;"	m	class:RelayThread	access:private
+RelayThread::m_epollfd	relaythread.h	/^    int m_epollfd;$/;"	m	class:RelayThread	access:private
+RelayThread::m_isrun	relaythread.h	/^    bool m_isrun;$/;"	m	class:RelayThread	access:private
+RelayThread::m_relayfd	relaythread.h	/^    std::list<int> m_relayfd; \/\/ 转发的socket$/;"	m	class:RelayThread	access:private
+RelayThread::m_thread	relaythread.h	/^    Thread *m_thread;$/;"	m	class:RelayThread	access:private
+RelayThread::m_writelist	relaythread.h	/^    std::list<DataToWrite*> m_writelist;$/;"	m	class:RelayThread	access:private
+RelayThread::mutex	relaythread.h	/^    MutexWrap mutex;$/;"	m	class:RelayThread	access:private
+RelayThread::polltimer	relaythread.h	/^    timeval polltimer;$/;"	m	class:RelayThread	access:private
+RelayThread::processQueueMessage	relaythread.cpp	/^void RelayThread::processQueueMessage()$/;"	f	class:RelayThread	signature:()
+RelayThread::processQueueMessage	relaythread.h	/^    void processQueueMessage();$/;"	p	class:RelayThread	access:private	signature:()
+RelayThread::processTimer	relaythread.cpp	/^void RelayThread::processTimer()$/;"	f	class:RelayThread	signature:()
+RelayThread::processTimer	relaythread.h	/^    void processTimer();$/;"	p	class:RelayThread	access:private	signature:()
+RelayThread::quit	relaythread.h	/^    void quit() { m_isrun = false; }$/;"	f	class:RelayThread	access:public	signature:()
+RelayThread::readData	relaythread.cpp	/^void RelayThread::readData(int sockfd)$/;"	f	class:RelayThread	signature:(int sockfd)
+RelayThread::readData	relaythread.h	/^    void readData(int sockfd);$/;"	p	class:RelayThread	access:private	signature:(int sockfd)
+RelayThread::run	relaythread.cpp	/^void RelayThread::run()$/;"	f	class:RelayThread	signature:()
+RelayThread::run	relaythread.h	/^    void run();$/;"	p	class:RelayThread	access:private	signature:()
+RelayThread::wakeup	relaythread.cpp	/^void RelayThread::wakeup()$/;"	f	class:RelayThread	signature:()
+RelayThread::wakeup	relaythread.h	/^    void wakeup();$/;"	p	class:RelayThread	access:private	signature:()
+RelayThread::wakeupfd	relaythread.h	/^    int wakeupfd[2];$/;"	m	class:RelayThread	access:private
+RelayThread::~RelayThread	relaythread.cpp	/^RelayThread::~RelayThread()$/;"	f	class:RelayThread	signature:()
+RelayThread::~RelayThread	relaythread.h	/^    ~RelayThread();$/;"	p	class:RelayThread	access:public	signature:()
+RelayThreadCommand	relaythread.h	/^class RelayThreadCommand$/;"	c
+RelayThreadCommand::AddChannel	relaythread.h	/^        AddChannel,$/;"	e	enum:RelayThreadCommand::__anon1
+RelayThreadCommand::CloseChannel	relaythread.h	/^        CloseChannel,$/;"	e	enum:RelayThreadCommand::__anon1
+RelayThreadCommand::InsertChannel	relaythread.h	/^        InsertChannel$/;"	e	enum:RelayThreadCommand::__anon1
+RelayThreadCommand::Nothing	relaythread.h	/^        Nothing,$/;"	e	enum:RelayThreadCommand::__anon1
+RelayThreadCommand::addr1	relaythread.h	/^    sockaddr_in addr1;$/;"	m	class:RelayThreadCommand	access:public
+RelayThreadCommand::addr2	relaythread.h	/^    sockaddr_in addr2;$/;"	m	class:RelayThreadCommand	access:public
+RelayThreadCommand::channel	relaythread.h	/^    std::shared_ptr<ChannelInfo> channel;$/;"	m	class:RelayThreadCommand	access:public
+RelayThreadCommand::commandid	relaythread.h	/^    int commandid;$/;"	m	class:RelayThreadCommand	access:public
+RelayThreadCommand::devSessionRandomNumber	relaythread.h	/^    uint64_t devSessionRandomNumber;$/;"	m	class:RelayThreadCommand	access:public
+RelayThreadCommand::devid	relaythread.h	/^    uint64_t devid;$/;"	m	class:RelayThreadCommand	access:public
+RelayThreadCommand::fd1	relaythread.h	/^    int fd1;$/;"	m	class:RelayThreadCommand	access:public
+RelayThreadCommand::fd2	relaythread.h	/^    int fd2;$/;"	m	class:RelayThreadCommand	access:public
+RelayThreadCommand::port1	relaythread.h	/^    uint16_t port1;$/;"	m	class:RelayThreadCommand	access:public
+RelayThreadCommand::port2	relaythread.h	/^    uint16_t port2;$/;"	m	class:RelayThreadCommand	access:public
+RelayThreadCommand::userSessionRandomNumber	relaythread.h	/^    uint64_t userSessionRandomNumber;$/;"	m	class:RelayThreadCommand	access:public
+RelayThreadCommand::userid	relaythread.h	/^    uint64_t userid;$/;"	m	class:RelayThreadCommand	access:public
+RelayTimer	relaythread.h	/^class RelayTimer$/;"	c
+RelayTimer::Comp	relaythread.h	/^    static bool Comp(const std::shared_ptr<RelayTimer> &l, const std::shared_ptr<RelayTimer> &r);$/;"	p	class:RelayTimer	access:public	signature:(const std::shared_ptr<RelayTimer> &l, const std::shared_ptr<RelayTimer> &r)
+RelayTimer::callback	relaythread.h	/^    std::function<void()> callback;$/;"	m	class:RelayTimer	access:public
+RelayTimer::time	relaythread.h	/^    timeval time;$/;"	m	class:RelayTimer	access:public
+ReleasePort	relayinternalmessage.h	/^        ReleasePort,$/;"	e	enum:RelayInterMessage::MessagegType
+RemoveChannelFromDatabase	relayinternalmessage.h	/^        RemoveChannelFromDatabase$/;"	e	enum:RelayInterMessage::MessagegType
+SESSIONRANDOMNUMBER__H	sessionRandomNumber.h	2;"	d
+USERDEVICEPAIR__H_	userdevicepair.h	2;"	d
+UserDevPair	userdevicepair.h	/^    UserDevPair(uint64_t id1, uint64_t id2)$/;"	f	class:UserDevPair	access:public	signature:(uint64_t id1, uint64_t id2)
+UserDevPair	userdevicepair.h	/^class UserDevPair$/;"	c
+UserDevPair::UserDevPair	userdevicepair.h	/^    UserDevPair(uint64_t id1, uint64_t id2)$/;"	f	class:UserDevPair	access:public	signature:(uint64_t id1, uint64_t id2)
+UserDevPair::m_maxID	userdevicepair.h	/^    uint64_t m_maxID;$/;"	m	class:UserDevPair	access:private
+UserDevPair::m_minID	userdevicepair.h	/^    uint64_t m_minID;$/;"	m	class:UserDevPair	access:private
+UserDevPair::operator <	userdevicepair.h	/^    bool operator < (const UserDevPair& other) const$/;"	f	class:UserDevPair	access:public	signature:(const UserDevPair& other) const
+UserDevPair::operator ==	userdevicepair.h	/^    bool operator==(const UserDevPair& other) const$/;"	f	class:UserDevPair	access:public	signature:(const UserDevPair& other) const
+WakeUpCode	relaythread.cpp	/^static const uint8_t WakeUpCode = 0;$/;"	m	namespace:__anon3	file:
+__RELAYTHREAD__H	relaythread.h	2;"	d
+__anon2::g_inc	sessionRandomNumber.cpp	/^static uint32_t g_inc = 0;$/;"	m	namespace:__anon2	file:
+__anon2::g_serverid	sessionRandomNumber.cpp	/^static uint32_t g_serverid = 0;$/;"	m	namespace:__anon2	file:
+__anon3::CHANNEL_TIMEOUT	relaythread.cpp	/^static const uint32_t CHANNEL_TIMEOUT = 60; \/\/ 60s$/;"	m	namespace:__anon3	file:
+__anon3::ExitCode	relaythread.cpp	/^static const uint8_t ExitCode = 1;$/;"	m	namespace:__anon3	file:
+__anon3::WakeUpCode	relaythread.cpp	/^static const uint8_t WakeUpCode = 0;$/;"	m	namespace:__anon3	file:
+add	relayports.cpp	/^void RelayPorts::add(int sockfd, uint16_t port)$/;"	f	class:RelayPorts	signature:(int sockfd, uint16_t port)
+add	relayports.h	/^    void add(int sockfd, uint16_t port);$/;"	p	class:RelayPorts	access:public	signature:(int sockfd, uint16_t port)
+addCommand	relaythread.cpp	/^void RelayThread::addCommand(RelayThreadCommand *c)$/;"	f	class:RelayThread	signature:(RelayThreadCommand *c)
+addCommand	relaythread.h	/^    void addCommand(RelayThreadCommand *c);$/;"	p	class:RelayThread	access:public	signature:(RelayThreadCommand *c)
+addr1	relaythread.h	/^    sockaddr_in addr1;$/;"	m	class:RelayThreadCommand	access:public
+addr2	relaythread.h	/^    sockaddr_in addr2;$/;"	m	class:RelayThreadCommand	access:public
+allocate	relayports.cpp	/^PortPair RelayPorts::allocate(uint64_t userid, uint64_t deviceid)$/;"	f	class:RelayPorts	signature:(uint64_t userid, uint64_t deviceid)
+allocate	relayports.h	/^    PortPair allocate(uint64_t userid, uint64_t deviceid);$/;"	p	class:RelayPorts	access:public	signature:(uint64_t userid, uint64_t deviceid)
+callback	relaythread.h	/^    std::function<void()> callback;$/;"	m	class:RelayTimer	access:public
+channel	relaythread.h	/^    std::shared_ptr<ChannelInfo> channel;$/;"	m	class:RelayThreadCommand	access:public
+channelid	ChannelManager.h	/^    uint64_t channelid; \/\/ 每次打开通道时分配一个唯一的id$/;"	m	struct:ChannelInfo	access:public
+channelid	relayinternalmessage.h	/^    uint64_t channelid() {return m_channelid;}$/;"	f	class:MessageReleasePort	access:public	signature:()
+channelid	relayports.h	/^    uint64_t channelid = 0;$/;"	m	class:PortPair	access:public
+channelinfo	relayinternalmessage.h	/^    std::shared_ptr<ChannelInfo> channelinfo() { return m_ci; }$/;"	f	class:MessageOpenChannel	access:public	signature:()
+closeChannel	ChannelManager.cpp	/^void ChannelManager::closeChannel(const UserDevPair &ud)$/;"	f	class:ChannelManager	signature:(const UserDevPair &ud)
+closeChannel	ChannelManager.h	/^    void closeChannel(const UserDevPair &ud);$/;"	p	class:ChannelManager	access:public	signature:(const UserDevPair &ud)
+commandid	relaythread.h	/^    int commandid;$/;"	m	class:RelayThreadCommand	access:public
+create	messagethread.cpp	/^bool MessageThread::create()$/;"	f	class:MessageThread	signature:()
+create	messagethread.h	/^    bool create();$/;"	p	class:MessageThread	access:public	signature:()
+create	relaythread.cpp	/^bool RelayThread::create()$/;"	f	class:RelayThread	signature:()
+create	relaythread.h	/^    bool create();$/;"	p	class:RelayThread	access:public	signature:()
+createRelaySocket	relaythread.cpp	/^std::pair<bool, int> RelayThread::createRelaySocket(uint16_t port)$/;"	f	class:RelayThread	signature:(uint16_t port)
+createRelaySocket	relaythread.h	/^    std::pair<bool, int> createRelaySocket(uint16_t port);$/;"	p	class:RelayThread	access:public	signature:(uint16_t port)
+createWakeupfd	relaythread.cpp	/^void RelayThread::createWakeupfd()$/;"	f	class:RelayThread	signature:()
+createWakeupfd	relaythread.h	/^    void createWakeupfd();$/;"	p	class:RelayThread	access:private	signature:()
+data	relaythread.h	/^        std::vector<char> data;$/;"	m	class:RelayThread::DataToWrite	access:public
+deleteAll	channelDatabase.cpp	/^void ChannelDatabase::deleteAll()$/;"	f	class:ChannelDatabase	signature:()
+deleteAll	channelDatabase.h	/^    void deleteAll();$/;"	p	class:ChannelDatabase	access:public	signature:()
+dest	relaythread.h	/^        sockaddr_in dest;$/;"	m	class:RelayThread::DataToWrite	access:public
+devSessionRandomNumber	ChannelManager.h	/^    uint64_t devSessionRandomNumber;$/;"	m	struct:ChannelInfo	access:public
+devSessionRandomNumber	relaythread.h	/^    uint64_t devSessionRandomNumber;$/;"	m	class:RelayThreadCommand	access:public
+devfd	ChannelManager.h	/^    int devfd;$/;"	m	struct:ChannelInfo	access:public
+deviceID	ChannelManager.h	/^    uint64_t deviceID;$/;"	m	struct:ChannelInfo	access:public
+deviceID	relayinternalmessage.h	/^    uint64_t deviceID() {return m_deviceID;}$/;"	f	class:MessageReleasePort	access:public	signature:()
+deviceSockAddr	ChannelManager.h	/^    sockaddr_in deviceSockAddr;$/;"	m	struct:ChannelInfo	access:public
+deviceaddress	relayinternalmessage.h	/^    sockaddr_in & deviceaddress() { return m_deviceaddress; }$/;"	f	class:MessageInsertChannelToDatabase	access:public	signature:()
+devicefd	relayinternalmessage.h	/^    int & devicefd() { return m_devicefd; }$/;"	f	class:MessageInsertChannelToDatabase	access:public	signature:()
+devicefd	relayports.h	/^    int devicefd = -1;$/;"	m	class:PortPair	access:public
+deviceid	relayinternalmessage.h	/^    uint64_t & deviceid() { return m_deviceid; }$/;"	f	class:MessageInsertChannelToDatabase	access:public	signature:()
+deviceid	relayinternalmessage.h	/^    uint64_t deviceid() { return m_devid; }$/;"	f	class:MessageChannelTimeout	access:public	signature:()
+deviceids	relayports.h	/^        std::set<uint64_t> deviceids;\/\/ 这个正在使用这个port的device$/;"	m	class:RelayPorts::PortSocket	access:public
+deviceport	ChannelManager.h	/^    uint16_t deviceport;$/;"	m	struct:ChannelInfo	access:public
+deviceport	relayinternalmessage.h	/^    uint16_t & deviceport() { return m_deviceport; }$/;"	f	class:MessageInsertChannelToDatabase	access:public	signature:()
+devid	relayinternalmessage.h	/^    uint64_t devid() {return m_devid;}$/;"	f	class:MessageCloseChannel	access:public	signature:()
+devid	relaythread.h	/^    uint64_t devid;$/;"	m	class:RelayThreadCommand	access:public
+devport	relayports.h	/^    uint16_t devport = 0;$/;"	m	class:PortPair	access:public
+fd1	relaythread.h	/^    int fd1;$/;"	m	class:RelayThreadCommand	access:public
+fd2	relaythread.h	/^    int fd2;$/;"	m	class:RelayThreadCommand	access:public
+findChannel	ChannelManager.cpp	/^std::shared_ptr<ChannelInfo> ChannelManager::findChannel(const UserDevPair &ud)$/;"	f	class:ChannelManager	signature:(const UserDevPair &ud)
+findChannel	ChannelManager.h	/^    std::shared_ptr<ChannelInfo> findChannel(const UserDevPair &ud);$/;"	p	class:ChannelManager	access:public	signature:(const UserDevPair &ud)
+findValidDevicePort	relayports.cpp	/^uint16_t RelayPorts::findValidDevicePort(uint64_t devid)$/;"	f	class:RelayPorts	signature:(uint64_t devid)
+findValidDevicePort	relayports.h	/^    uint16_t findValidDevicePort(uint64_t devid);$/;"	p	class:RelayPorts	access:private	signature:(uint64_t devid)
+g_inc	sessionRandomNumber.cpp	/^static uint32_t g_inc = 0;$/;"	m	namespace:__anon2	file:
+g_serverid	sessionRandomNumber.cpp	/^static uint32_t g_serverid = 0;$/;"	m	namespace:__anon2	file:
+genSessionRandomNumber	sessionRandomNumber.cpp	/^uint64_t genSessionRandomNumber()$/;"	f	signature:()
+genSessionRandomNumber	sessionRandomNumber.h	/^uint64_t genSessionRandomNumber();$/;"	p	signature:()
+getDeviceID	relayinternalmessage.cpp	/^uint64_t MessageRemoveChannelFromDatabase::getDeviceID()$/;"	f	class:MessageRemoveChannelFromDatabase	signature:()
+getDeviceID	relayinternalmessage.h	/^    uint64_t getDeviceID();$/;"	p	class:MessageRemoveChannelFromDatabase	access:public	signature:()
+getMsg	mainqueue.cpp	/^RelayInterMessage *getMsg()$/;"	f	namespace:MainQueue	signature:()
+getMsg	mainqueue.h	/^    RelayInterMessage *getMsg();$/;"	p	namespace:MainQueue	signature:()
+getMsg	relayinternalmessage.cpp	/^Message *MessageFromOtherServer::getMsg()$/;"	f	class:MessageFromOtherServer	signature:()
+getMsg	relayinternalmessage.h	/^    Message *getMsg();$/;"	p	class:MessageFromOtherServer	access:public	signature:()
+getSessionRandomNumber	sessionRandomNumber.cpp	/^uint64_t getSessionRandomNumber(char *p, int len)$/;"	f	signature:(char *p, int len)
+getSessionRandomNumber	sessionRandomNumber.h	/^uint64_t getSessionRandomNumber(char *p, int plen);$/;"	p	signature:(char *p, int plen)
+getUserID	relayinternalmessage.cpp	/^uint64_t MessageRemoveChannelFromDatabase::getUserID()$/;"	f	class:MessageRemoveChannelFromDatabase	signature:()
+getUserID	relayinternalmessage.h	/^    uint64_t getUserID();$/;"	p	class:MessageRemoveChannelFromDatabase	access:public	signature:()
+handle	RelayReqHandler.cpp	/^void RelayReqHandler::handle(Message *msg)$/;"	f	class:RelayReqHandler	signature:(Message *msg)
+handle	RelayReqHandler.h	/^    void handle(Message *msg);$/;"	p	class:RelayReqHandler	access:public	signature:(Message *msg)
+hasMsg	mainqueue.cpp	/^bool hasMsg()$/;"	f	namespace:MainQueue	signature:()
+hasMsg	mainqueue.h	/^    bool hasMsg();$/;"	p	namespace:MainQueue	signature:()
+initialRandomnumberGenerator	sessionRandomNumber.cpp	/^void initialRandomnumberGenerator(uint32_t serverid)$/;"	f	signature:(uint32_t serverid)
+initialRandomnumberGenerator	sessionRandomNumber.h	/^void initialRandomnumberGenerator(uint32_t serverid);$/;"	p	signature:(uint32_t serverid)
+insert	ChannelManager.cpp	/^void ChannelManager::insert(const std::shared_ptr<ChannelInfo> &ch)$/;"	f	class:ChannelManager	signature:(const std::shared_ptr<ChannelInfo> &ch)
+insert	ChannelManager.h	/^    void insert(const std::shared_ptr<ChannelInfo> &ch);$/;"	p	class:ChannelManager	access:public	signature:(const std::shared_ptr<ChannelInfo> &ch)
+insert	relayports.cpp	/^void RelayPorts::insert(uint64_t userid, uint64_t deviceid, const PortPair &pp)$/;"	f	class:RelayPorts	signature:(uint64_t userid, uint64_t deviceid, const PortPair &pp)
+insert	relayports.h	/^    void insert(uint64_t userid, uint64_t deviceid, const PortPair &pp);$/;"	p	class:RelayPorts	access:public	signature:(uint64_t userid, uint64_t deviceid, const PortPair &pp)
+insertChannel	channelDatabase.cpp	/^int ChannelDatabase::insertChannel(uint64_t userid, uint64_t deviceid,$/;"	f	class:ChannelDatabase	signature:(uint64_t userid, uint64_t deviceid, uint16_t userport, uint16_t deviceport, int userfd, int devicefd, const sockaddr_in &useraddr, const sockaddr_in &deviceaddr)
+insertChannel	channelDatabase.h	/^    int insertChannel(uint64_t userid, uint64_t deviceid,$/;"	p	class:ChannelDatabase	access:public	signature:(uint64_t userid, uint64_t deviceid, uint16_t userport, uint16_t deviceport, int userfd, int devicefd, const sockaddr_in &useraddr, const sockaddr_in &deviceaddr)
+istest	main.cpp	/^bool istest = false;$/;"	v
+lastCommuniteTime	ChannelManager.h	/^    timeval lastCommuniteTime;$/;"	m	struct:ChannelInfo	access:public
+loadChannelFromDatabase	main.cpp	/^void loadChannelFromDatabase($/;"	f	signature:( const std::list<std::shared_ptr<ChannelInfo>> &channelsindb, RelayPorts *relayports, RelayThread *relaythread)
+loadChannelFromDatabase	main.cpp	/^void loadChannelFromDatabase(const std::list<std::shared_ptr<ChannelInfo>> &portindb, RelayPorts *relayports, RelayThread *relaythread);$/;"	p	file:	signature:(const std::list<std::shared_ptr<ChannelInfo>> &portindb, RelayPorts *relayports, RelayThread *relaythread)
+m_channelid	relayinternalmessage.h	/^    uint64_t m_channelid;$/;"	m	class:MessageReleasePort	access:private
+m_channelid	relayports.h	/^    uint64_t m_channelid = 1;$/;"	m	class:RelayPorts	access:private
+m_channels	ChannelManager.h	/^    std::map<UserDevPair, std::shared_ptr<ChannelInfo>> m_channels;$/;"	m	class:ChannelManager	access:private
+m_channels	relayports.h	/^    std::map<UserDevPair, PortPair> m_channels;$/;"	m	class:RelayPorts	access:private
+m_channels	relaythread.h	/^    ChannelManager *m_channels = nullptr;$/;"	m	class:RelayThread	access:private
+m_ci	relayinternalmessage.h	/^    std::shared_ptr<ChannelInfo> m_ci;$/;"	m	class:MessageOpenChannel	access:private
+m_command	relaythread.h	/^    std::list<RelayThreadCommand *> m_command;$/;"	m	class:RelayThread	access:private
+m_deviceID	relayinternalmessage.h	/^    uint64_t m_deviceID;$/;"	m	class:MessageReleasePort	access:private
+m_deviceaddress	relayinternalmessage.h	/^    sockaddr_in m_deviceaddress;$/;"	m	class:MessageInsertChannelToDatabase	access:private
+m_devicefd	relayinternalmessage.h	/^    int m_devicefd;$/;"	m	class:MessageInsertChannelToDatabase	access:private
+m_deviceid	relayinternalmessage.h	/^    uint64_t m_deviceid;$/;"	m	class:MessageInsertChannelToDatabase	access:private
+m_deviceid	relayinternalmessage.h	/^    uint64_t m_deviceid;$/;"	m	class:MessageRemoveChannelFromDatabase	access:private
+m_deviceport	relayinternalmessage.h	/^    uint16_t m_deviceport;$/;"	m	class:MessageInsertChannelToDatabase	access:private
+m_devid	relayinternalmessage.h	/^    uint64_t m_devid;$/;"	m	class:MessageChannelTimeout	access:private
+m_devid	relayinternalmessage.h	/^    uint64_t m_devid;$/;"	m	class:MessageCloseChannel	access:private
+m_epollfd	relaythread.h	/^    int m_epollfd;$/;"	m	class:RelayThread	access:private
+m_isrun	messagethread.h	/^    bool m_isrun;$/;"	m	class:MessageThread	access:private
+m_isrun	relaythread.h	/^    bool m_isrun;$/;"	m	class:RelayThread	access:private
+m_maxID	userdevicepair.h	/^    uint64_t m_maxID;$/;"	m	class:UserDevPair	access:private
+m_minID	userdevicepair.h	/^    uint64_t m_minID;$/;"	m	class:UserDevPair	access:private
+m_msg	relayinternalmessage.h	/^    Message *m_msg;$/;"	m	class:MessageFromOtherServer	access:private
+m_msgtype	relayinternalmessage.h	/^    MessagegType m_msgtype;$/;"	m	class:RelayInterMessage	access:private
+m_ports	RelayReqHandler.h	/^    RelayPorts *m_ports;$/;"	m	class:RelayReqHandler	access:private
+m_ports	relayports.h	/^    std::map<uint16_t, PortSocket> m_ports;$/;"	m	class:RelayPorts	access:private
+m_relayfd	relaythread.h	/^    std::list<int> m_relayfd; \/\/ 转发的socket$/;"	m	class:RelayThread	access:private
+m_rndChannels	ChannelManager.h	/^    std::map<uint64_t, std::shared_ptr<ChannelInfo>> m_rndChannels;$/;"	m	class:ChannelManager	access:private
+m_serverid	relayinternalmessage.h	/^    int m_serverid;$/;"	m	class:MessageInsertChannelToDatabase	access:private
+m_thread	messagethread.h	/^    Thread *m_thread;$/;"	m	class:MessageThread	access:private
+m_thread	relaythread.h	/^    Thread *m_thread;$/;"	m	class:RelayThread	access:private
+m_userID	relayinternalmessage.h	/^    uint64_t m_userID;$/;"	m	class:MessageReleasePort	access:private
+m_useraddress	relayinternalmessage.h	/^    sockaddr_in m_useraddress;$/;"	m	class:MessageInsertChannelToDatabase	access:private
+m_userfd	relayinternalmessage.h	/^    int m_userfd;$/;"	m	class:MessageInsertChannelToDatabase	access:private
+m_userid	relayinternalmessage.h	/^    uint64_t m_userid;$/;"	m	class:MessageChannelTimeout	access:private
+m_userid	relayinternalmessage.h	/^    uint64_t m_userid;$/;"	m	class:MessageCloseChannel	access:private
+m_userid	relayinternalmessage.h	/^    uint64_t m_userid;$/;"	m	class:MessageInsertChannelToDatabase	access:private
+m_userid	relayinternalmessage.h	/^    uint64_t m_userid;$/;"	m	class:MessageRemoveChannelFromDatabase	access:private
+m_userport	relayinternalmessage.h	/^    uint16_t m_userport;$/;"	m	class:MessageInsertChannelToDatabase	access:private
+m_writelist	relaythread.h	/^    std::list<DataToWrite*> m_writelist;$/;"	m	class:RelayThread	access:private
+main	main.cpp	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+main	test/testgensessionnumber/main.cpp	/^int main()$/;"	f	signature:()
+mainqueue_p	mainqueue.cpp	/^static BlockMessageQueue<RelayInterMessage *> mainqueue_p;$/;"	m	namespace:MainQueue	file:
+mutex	relaythread.h	/^    MutexWrap mutex;$/;"	m	class:RelayThread	access:private
+mysqlpool	channelDatabase.h	/^    IMysqlConnPool *mysqlpool;$/;"	m	class:ChannelDatabase	access:private
+onCloseAllChannel	RelayReqHandler.cpp	/^void RelayReqHandler::onCloseAllChannel(const RelayMessage &r)$/;"	f	class:RelayReqHandler	signature:(const RelayMessage &r)
+onCloseAllChannel	RelayReqHandler.h	/^    void onCloseAllChannel(const RelayMessage &);$/;"	p	class:RelayReqHandler	access:private	signature:(const RelayMessage &)
+onCloseChannel	RelayReqHandler.cpp	/^void RelayReqHandler::onCloseChannel(const RelayMessage &imsg)$/;"	f	class:RelayReqHandler	signature:(const RelayMessage &imsg)
+onCloseChannel	RelayReqHandler.h	/^    void onCloseChannel(const RelayMessage &);$/;"	p	class:RelayReqHandler	access:private	signature:(const RelayMessage &)
+onOpenChannel	RelayReqHandler.cpp	/^void RelayReqHandler::onOpenChannel(const RelayMessage &rmsg, RelayMessage *response)$/;"	f	class:RelayReqHandler	signature:(const RelayMessage &rmsg, RelayMessage *response)
+onOpenChannel	RelayReqHandler.h	/^    void onOpenChannel(const RelayMessage &, RelayMessage *response);$/;"	p	class:RelayReqHandler	access:private	signature:(const RelayMessage &, RelayMessage *response)
+openChannel	ChannelManager.cpp	/^void ChannelManager::openChannel(const std::shared_ptr<ChannelInfo> &ch)$/;"	f	class:ChannelManager	signature:(const std::shared_ptr<ChannelInfo> &ch)
+openChannel	ChannelManager.h	/^    void openChannel(const std::shared_ptr<ChannelInfo> &ch);$/;"	p	class:ChannelManager	access:public	signature:(const std::shared_ptr<ChannelInfo> &ch)
+operator <	userdevicepair.h	/^    bool operator < (const UserDevPair& other) const$/;"	f	class:UserDevPair	access:public	signature:(const UserDevPair& other) const
+operator ==	userdevicepair.h	/^    bool operator==(const UserDevPair& other) const$/;"	f	class:UserDevPair	access:public	signature:(const UserDevPair& other) const
+operator bool	relayports.h	/^        operator bool () const$/;"	f	class:RelayPorts::PortSocket	access:public	signature:() const
+operator bool	relayports.h	/^    operator bool () const$/;"	f	class:PortPair	access:public	signature:() const
+poll	ChannelManager.cpp	/^void ChannelManager::poll()$/;"	f	class:ChannelManager	signature:()
+poll	ChannelManager.h	/^    void poll();$/;"	p	class:ChannelManager	access:public	signature:()
+polltimer	relaythread.h	/^    timeval polltimer;$/;"	m	class:RelayThread	access:private
+port	relayports.h	/^        uint16_t port = 0;$/;"	m	class:RelayPorts::PortSocket	access:public
+port1	relaythread.h	/^    uint16_t port1;$/;"	m	class:RelayThreadCommand	access:public
+port2	relaythread.h	/^    uint16_t port2;$/;"	m	class:RelayThreadCommand	access:public
+postMsg	mainqueue.cpp	/^void postMsg(RelayInterMessage *msg)$/;"	f	namespace:MainQueue	signature:(RelayInterMessage *msg)
+postMsg	mainqueue.h	/^    void postMsg(RelayInterMessage *msg);$/;"	p	namespace:MainQueue	signature:(RelayInterMessage *msg)
+processQueueMessage	relaythread.cpp	/^void RelayThread::processQueueMessage()$/;"	f	class:RelayThread	signature:()
+processQueueMessage	relaythread.h	/^    void processQueueMessage();$/;"	p	class:RelayThread	access:private	signature:()
+processTimer	relaythread.cpp	/^void RelayThread::processTimer()$/;"	f	class:RelayThread	signature:()
+processTimer	relaythread.h	/^    void processTimer();$/;"	p	class:RelayThread	access:private	signature:()
+quit	mainqueue.cpp	/^void quit()$/;"	f	namespace:MainQueue	signature:()
+quit	mainqueue.h	/^    void quit();$/;"	p	namespace:MainQueue	signature:()
+quit	messagethread.h	/^    void quit() {m_isrun = false;}$/;"	f	class:MessageThread	access:public	signature:()
+quit	relaythread.h	/^    void quit() { m_isrun = false; }$/;"	f	class:RelayThread	access:public	signature:()
+readChannel	channelDatabase.cpp	/^std::list<std::shared_ptr<ChannelInfo>> ChannelDatabase::readChannel()$/;"	f	class:ChannelDatabase	signature:()
+readChannel	channelDatabase.h	/^    std::list<std::shared_ptr<ChannelInfo>> readChannel();$/;"	p	class:ChannelDatabase	access:public	signature:()
+readData	relaythread.cpp	/^void RelayThread::readData(int sockfd)$/;"	f	class:RelayThread	signature:(int sockfd)
+readData	relaythread.h	/^    void readData(int sockfd);$/;"	p	class:RelayThread	access:private	signature:(int sockfd)
+release	relayports.cpp	/^void RelayPorts::release(uint64_t userid, uint64_t deviceid, uint64_t channelid)$/;"	f	class:RelayPorts	signature:(uint64_t userid, uint64_t deviceid, uint64_t channelid)
+release	relayports.h	/^    void release(uint64_t userid, uint64_t deviceid, uint64_t chid);$/;"	p	class:RelayPorts	access:public	signature:(uint64_t userid, uint64_t deviceid, uint64_t chid)
+removeChannel	channelDatabase.cpp	/^int ChannelDatabase::removeChannel(uint64_t userid, uint64_t deviceid)$/;"	f	class:ChannelDatabase	signature:(uint64_t userid, uint64_t deviceid)
+removeChannel	channelDatabase.h	/^    int removeChannel(uint64_t userid, uint64_t deviceid);$/;"	p	class:ChannelDatabase	access:public	signature:(uint64_t userid, uint64_t deviceid)
+rt	relaythread.cpp	/^    RelayThread *rt;$/;"	m	class:RelayProc	file:	access:public
+run	messagethread.cpp	/^void MessageThread::run()$/;"	f	class:MessageThread	signature:()
+run	messagethread.h	/^    void run();$/;"	p	class:MessageThread	access:private	signature:()
+run	relaythread.cpp	/^    void run()$/;"	f	class:RelayProc	access:public	signature:()
+run	relaythread.cpp	/^void RelayThread::run()$/;"	f	class:RelayThread	signature:()
+run	relaythread.h	/^    void run();$/;"	p	class:RelayThread	access:private	signature:()
+runasdaemon	main.cpp	/^bool runasdaemon = false;$/;"	v
+sendfd	relaythread.h	/^        int sendfd;$/;"	m	class:RelayThread::DataToWrite	access:public
+serverid	relayinternalmessage.h	/^    int &serverid() { return m_serverid; }$/;"	f	class:MessageInsertChannelToDatabase	access:public	signature:()
+sigalrm	main.cpp	/^void sigalrm(int)$/;"	f	signature:(int)
+socketfd	relayports.h	/^        int socketfd = -1;$/;"	m	class:RelayPorts::PortSocket	access:public
+stressTest	main.cpp	/^void stressTest();$/;"	p	file:	signature:()
+test	main.cpp	/^void test()$/;"	f	signature:()
+test	main.cpp	/^void test();$/;"	p	file:	signature:()
+test	main.cpp	/^void test(uint64_t uid, uint64_t did)$/;"	f	signature:(uint64_t uid, uint64_t did)
+test	main.cpp	/^void test(uint64_t uid, uint64_t did);$/;"	p	file:	signature:(uint64_t uid, uint64_t did)
+test	relayports.cpp	/^void RelayPorts::test()$/;"	f	class:RelayPorts	signature:()
+test	relayports.h	/^    static void test();$/;"	p	class:RelayPorts	access:public	signature:()
+testInit	main.cpp	/^void testInit()$/;"	f	signature:()
+testInit	main.cpp	/^void testInit();$/;"	p	file:	signature:()
+testclosechannel	main.cpp	/^void testclosechannel()$/;"	f	signature:()
+testclosechannel	main.cpp	/^void testclosechannel();$/;"	p	file:	signature:()
+time	relaythread.h	/^    timeval time;$/;"	m	class:RelayTimer	access:public
+type	relayinternalmessage.cpp	/^RelayInterMessage::MessagegType RelayInterMessage::type()$/;"	f	class:RelayInterMessage	signature:()
+type	relayinternalmessage.h	/^    RelayInterMessage::MessagegType type();$/;"	p	class:RelayInterMessage	access:public	signature:()
+updateAddress	ChannelManager.cpp	/^bool ChannelManager::updateAddress(uint64_t randomnumber, const sockaddr_in &addr)$/;"	f	class:ChannelManager	signature:(uint64_t randomnumber, const sockaddr_in &addr)
+updateAddress	ChannelManager.h	/^    bool updateAddress(uint64_t randomnumber, const sockaddr_in &addr);$/;"	p	class:ChannelManager	access:public	signature:(uint64_t randomnumber, const sockaddr_in &addr)
+userID	ChannelManager.h	/^    uint64_t userID;$/;"	m	struct:ChannelInfo	access:public
+userID	relayinternalmessage.h	/^    uint64_t userID() {return m_userID;}$/;"	f	class:MessageReleasePort	access:public	signature:()
+userSessionRandomNumber	ChannelManager.h	/^    uint64_t userSessionRandomNumber;$/;"	m	struct:ChannelInfo	access:public
+userSessionRandomNumber	relaythread.h	/^    uint64_t userSessionRandomNumber;$/;"	m	class:RelayThreadCommand	access:public
+userSockAddr	ChannelManager.h	/^    sockaddr_in userSockAddr;$/;"	m	struct:ChannelInfo	access:public
+useraddress	relayinternalmessage.h	/^    sockaddr_in & useraddress() { return m_useraddress; }$/;"	f	class:MessageInsertChannelToDatabase	access:public	signature:()
+userfd	ChannelManager.h	/^    int userfd;$/;"	m	struct:ChannelInfo	access:public
+userfd	relayinternalmessage.h	/^    int & userfd() { return m_userfd; }$/;"	f	class:MessageInsertChannelToDatabase	access:public	signature:()
+userfd	relayports.h	/^    int userfd = -1;$/;"	m	class:PortPair	access:public
+userid	relayinternalmessage.h	/^    uint64_t & userid() { return m_userid; }$/;"	f	class:MessageInsertChannelToDatabase	access:public	signature:()
+userid	relayinternalmessage.h	/^    uint64_t userid() { return m_userid; }$/;"	f	class:MessageChannelTimeout	access:public	signature:()
+userid	relayinternalmessage.h	/^    uint64_t userid() {return m_userid;}$/;"	f	class:MessageCloseChannel	access:public	signature:()
+userid	relaythread.h	/^    uint64_t userid;$/;"	m	class:RelayThreadCommand	access:public
+userport	ChannelManager.h	/^    uint16_t userport;$/;"	m	struct:ChannelInfo	access:public
+userport	relayinternalmessage.h	/^    uint16_t & userport() { return m_userport; }$/;"	f	class:MessageInsertChannelToDatabase	access:public	signature:()
+userport	relayports.h	/^    uint16_t userport = 0;$/;"	m	class:PortPair	access:public
+wakeup	relaythread.cpp	/^void RelayThread::wakeup()$/;"	f	class:RelayThread	signature:()
+wakeup	relaythread.h	/^    void wakeup();$/;"	p	class:RelayThread	access:private	signature:()
+wakeupfd	relaythread.h	/^    int wakeupfd[2];$/;"	m	class:RelayThread	access:private
+~ChannelManager	ChannelManager.cpp	/^ChannelManager::~ChannelManager()$/;"	f	class:ChannelManager	signature:()
+~ChannelManager	ChannelManager.h	/^    ~ChannelManager();$/;"	p	class:ChannelManager	access:public	signature:()
+~MessageFromOtherServer	relayinternalmessage.cpp	/^MessageFromOtherServer::~MessageFromOtherServer()$/;"	f	class:MessageFromOtherServer	signature:()
+~MessageFromOtherServer	relayinternalmessage.h	/^    ~MessageFromOtherServer();$/;"	p	class:MessageFromOtherServer	access:public	signature:()
+~MessageThread	messagethread.cpp	/^MessageThread::~MessageThread()$/;"	f	class:MessageThread	signature:()
+~MessageThread	messagethread.h	/^    ~MessageThread();$/;"	p	class:MessageThread	access:public	signature:()
+~RelayInterMessage	relayinternalmessage.cpp	/^RelayInterMessage::~RelayInterMessage(){}$/;"	f	class:RelayInterMessage	signature:()
+~RelayInterMessage	relayinternalmessage.h	/^    virtual ~RelayInterMessage();$/;"	p	class:RelayInterMessage	access:public	signature:()
+~RelayReqHandler	RelayReqHandler.cpp	/^RelayReqHandler::~RelayReqHandler()$/;"	f	class:RelayReqHandler	signature:()
+~RelayReqHandler	RelayReqHandler.h	/^    ~RelayReqHandler();$/;"	p	class:RelayReqHandler	access:public	signature:()
+~RelayThread	relaythread.cpp	/^RelayThread::~RelayThread()$/;"	f	class:RelayThread	signature:()
+~RelayThread	relaythread.h	/^    ~RelayThread();$/;"	p	class:RelayThread	access:public	signature:()

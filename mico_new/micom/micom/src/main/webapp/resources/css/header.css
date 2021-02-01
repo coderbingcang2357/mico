@@ -1,0 +1,28 @@
+body
+{
+    font-family: "Microsoft YaHei", "Consolas";
+}
+
+.hdr
+{
+    font-family: "Microsoft YaHei", "Consolas";
+}
+
+div.hdr ul
+{
+    float: left;
+    list-style:none;
+    margin-left:1px;
+}
+
+div.hdr ul li
+{
+    display: inline;
+    margin-left:0px;
+    margin-right:20px;
+}
+
+.clear
+{
+    clear: both;
+}

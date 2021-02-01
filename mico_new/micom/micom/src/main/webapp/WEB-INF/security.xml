@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+             xmlns:beans="http://www.springframework.org/schema/beans"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans.xsd
+                http://www.springframework.org/schema/security
+                http://www.springframework.org/schema/security/spring-security.xsd">
+    <debug/>
+    <authentication-manager>
+        <authentication-provider>
+            <user-service>
+                <user name="liushenghong@ct.com" password="i**wui-+e*" authorities="ROLE_USER, ROLE_ADMIN"/>
+                <user name="wangqiaosheng@ct.com" password="ajkdeuOOP%^))" authorities="ROLE_USER, ROLE_ADMIN"/>
+                <user name="ot@ct.com" password="aloi@#$%.,9" authorities="ROLE_USER"/>
+            </user-service>
+        </authentication-provider>
+    </authentication-manager>
+    <http pattern="/resources/**" security="none" />
+    <http auto-config="false" use-expressions="true">
+        <csrf disabled="true"></csrf>
+        <intercept-url pattern="/favicon.ico" access='permitAll()'/>
+        <intercept-url pattern="/login" access='permitAll()'/>
+        <intercept-url pattern="/serverlist" access='hasRole("ADMIN")' />
+        <intercept-url pattern="/**" access='hasRole("USER")' />
+        <form-login login-page='/login'/>
+        <logout logout-url="/logout" />
+        <access-denied-handler error-page="/noauth.html"/>
+        <custom-filter before="FILTER_SECURITY_INTERCEPTOR" ref="myFilter"/>
+    </http>
+
+    <beans:bean id="myFilter" class="config.RestfulFilter">
+        <!--
+        <beans:property name="authenticationManager" ref="authenticationManager"/>
+        <beans:property name="accessDecisionManager" ref="accessDecisionManager"/>
+        <beans:property name="runAsManager" ref="runAsManager"/>
+        -->
+    </beans:bean>
+    <!-- <beans:bean id="http403EntryPoint" class="org.springframework.security.web.authentication.Http403ForbiddenEntryPoint">
+    </beans:bean> -->
+</beans:beans>

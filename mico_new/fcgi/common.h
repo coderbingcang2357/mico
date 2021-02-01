@@ -1,0 +1,50 @@
+#pragma once
+#include <iostream>
+#include <unordered_map>
+#include <vector>
+#include <string>
+#include <cstring>
+#include <sstream>
+#include <algorithm>
+#include <thread>
+#include <ctime>
+#include <random>
+
+#include "rapidjson/rapidjson.h"
+#include "rapidjson/document.h"
+#include "rapidjson/writer.h"
+#include "rapidjson/prettywriter.h"
+#include "rapidjson/stringbuffer.h"
+#include <iconv.h>
+#include <openssl/sha.h>
+#include <openssl/ssl.h>
+#include <openssl/rand.h>
+#include <openssl/crypto.h>
+#include <openssl/err.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "tinyxml2.h"
+#include <errno.h>
+#include <fcntl.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <netinet/in.h>
+#include <netdb.h>
+#include <unistd.h>
+#include "../rabbitmq/rbq.h"
+#include "../mysqlcli/mysqlconnection.h"
+#include "../mysqlcli/mysqlconnpool.h"
+#include "../util/formatsql.h"
+#include "../util/logwriter.h"
+#include "../config/configreader.h"
+#include "redisConnPool/redisConnPool.h"
+#include "WXBizMsgCrypt.h"
+#include "WXBizDataCrypt.h"
+#include "urlDecode.h"
+
+// 放最后面，容易干扰别的头文件
+#include "fcgi_stdio.h"
+using namespace std;
+

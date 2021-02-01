@@ -1,0 +1,66 @@
+<header class="main-header">
+  <!-- Logo -->
+  <a href="/online" class="logo">
+    <!-- mini logo for sidebar mini 50x50 pixels -->
+    <span class="logo-mini"><b>MICO</b></span>
+    <!-- logo for regular state and mobile devices -->
+    <span class="logo-lg"><b>MICO</b></span>
+  </a>
+  <!-- Header Navbar: style can be found in header.less -->
+  <nav class="navbar navbar-static-top">
+    <!-- Sidebar toggle button-->
+    <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+      <span class="sr-only">Toggle navigation</span>
+    </a>
+    <form action="/search" method="get" style="width:200px;float:left; margin: 0px; border:0px; height:50px;padding: 0px;" >
+        <div class="input-group">
+          <input type="text" name="name" id="navbar-search-input" class="form-control" style="height: 50px;background: transparent;" placeholder="Search...">
+              <span class="input-group-btn">
+                <button type="submit" style="height:50px; background: rgba(0, 166, 90, .2);"  class="btn btn-flat"><i class="fa fa-search"></i>
+                </button>
+              </span>
+        </div>
+    </form>
+    <div class="navbar-custom-menu">
+      <ul class="nav navbar-nav">
+        <!-- Messages: style can be found in dropdown.less-->
+
+        <!-- Notifications: style can be found in dropdown.less -->
+
+        <!-- Tasks: style can be found in dropdown.less -->
+
+        <!-- User Account: style can be found in dropdown.less -->
+        <li class="dropdown user user-menu">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <img src="/resources/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+            <span class="hidden-xs">
+              <sec:authentication property="principal.username" />
+            </span>
+          </a>
+          <ul class="dropdown-menu">
+            <!-- User image -->
+            <li class="user-header">
+              <img src="/resources/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+
+              <p>
+                <small><sec:authentication property="principal.authorities" /></small>
+              </p>
+            </li>
+            <!-- Menu Body -->
+            <!-- Menu Footer-->
+            <li class="user-footer">
+              <div class="pull-right">
+                <a href="/logout" class="btn btn-default btn-flat">Sign out</a>
+                <!-- <form method='post' action='/logout'>
+                <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
+                <button type="submit" class="btn btn-default btn-flat">Sign out</button>
+                </form>
+                -->
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>

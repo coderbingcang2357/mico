@@ -1,0 +1,66 @@
+<aside class="main-sidebar">
+  <!-- sidebar: style can be found in sidebar.less -->
+  <section class="sidebar">
+    <!-- Sidebar user panel -->
+    <!-- sidebar menu: : style can be found in sidebar.less -->
+    <ul class="sidebar-menu">
+      <li id="searchusermenu">
+        <a href="/searchuser">
+          <i class="fa fa-files-o"></i>
+          <span>Search</span>
+        </a>
+      </li>
+
+      <li id="onlinemenu">
+        <a href="/online">
+          <i class="fa fa-th"></i> <span>Online</span>
+          <span class="pull-right-container">
+            <!-- <small class="label pull-right bg-green">new</small> -->
+          </span>
+        </a>
+      </li>
+      
+      <li id="serverlistmenu">
+        <a href="/serverlist">
+          <i class="fa fa-laptop"></i>
+          <span>Server List</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/db">
+          <i class="fa fa-laptop"></i>
+          <span>Database</span>
+        </a>
+      </li>
+
+      <li id="feedbackmenu">
+        <a href="/feedback">
+          <i class="fa fa-laptop"></i>
+          <span>FeedBack</span>
+        </a>
+      </li>
+
+      <li id="pushmessagemenu">
+        <a href="/pushmessage">
+          <i class="fa fa-laptop"></i>
+          <span>Push Messages</span>
+        </a>
+      </li>
+
+      <li id="channelmenu">
+        <a href="/channels">
+          <i class="fa fa-laptop"></i>
+          <span>Relay Channels</span>
+        </a>
+      </li>
+
+      <li id="logmenu">
+        <a href="/log">
+          <i class="fa fa-laptop"></i>
+          <span>Log</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+</aside>

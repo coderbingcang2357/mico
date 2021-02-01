@@ -1,0 +1,1274 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCEPT	../protocoldef/protocol.h	/^    const uint8_t ACCEPT            = 0x7D; \/\/审批同意$/;"	m	namespace:ANSC
+ACCOUNT_NOT_EXIST	../protocoldef/protocol.h	/^    const uint8_t ACCOUNT_NOT_EXIST       = 0x04; \/\/帐号不存在$/;"	m	namespace:ANSC
+ACCOUNT_USED	../protocoldef/protocol.h	/^    const uint8_t ACCOUNT_USED           = 0x0E; \/\/创建设备群失败，帐号已存在$/;"	m	namespace:ANSC
+ANSC	../protocoldef/protocol.h	/^namespace ANSC$/;"	n
+ANSC::ACCEPT	../protocoldef/protocol.h	/^    const uint8_t ACCEPT            = 0x7D; \/\/审批同意$/;"	m	namespace:ANSC
+ANSC::ACCOUNT_NOT_EXIST	../protocoldef/protocol.h	/^    const uint8_t ACCOUNT_NOT_EXIST       = 0x04; \/\/帐号不存在$/;"	m	namespace:ANSC
+ANSC::ACCOUNT_USED	../protocoldef/protocol.h	/^    const uint8_t ACCOUNT_USED           = 0x0E; \/\/创建设备群失败，帐号已存在$/;"	m	namespace:ANSC
+ANSC::AUTH_ERROR	../protocoldef/protocol.h	/^    const uint8_t AUTH_ERROR               = 0x15; \/\/没有权限$/;"	m	namespace:ANSC
+ANSC::CLIENT_NEED_UPDATE	../protocoldef/protocol.h	/^    const uint8_t CLIENT_NEED_UPDATE      = 0x1A; \/\/客户端版本太低，需要更新$/;"	m	namespace:ANSC
+ANSC::CLOUD_DISK_NOT_ENOUGH	../protocoldef/protocol.h	/^    const uint8_t CLOUD_DISK_NOT_ENOUGH     = 0x0D; \/\/场景上传失败，服务器上空间不够，请删除旧的场景$/;"	m	namespace:ANSC
+ANSC::CLUSTER_ID_ERROR	../protocoldef/protocol.h	/^    const uint8_t CLUSTER_ID_ERROR          = 0x0F; \/\/设备群不存在或没有权限$/;"	m	namespace:ANSC
+ANSC::CLUSTER_ID_OR_DEVICE_ID_ERROR	../protocoldef/protocol.h	/^    const uint8_t CLUSTER_ID_OR_DEVICE_ID_ERROR= 0x12; \/\/群或设备不存在或没有权限$/;"	m	namespace:ANSC
+ANSC::CLUSTER_ID_OR_USER_ID_ERROR	../protocoldef/protocol.h	/^    const uint8_t CLUSTER_ID_OR_USER_ID_ERROR  = 0x14; \/\/群或用户不存在或没有权限$/;"	m	namespace:ANSC
+ANSC::CLUSTER_MAX_DEVICE_LIMIT	../protocoldef/protocol.h	/^    const uint8_t CLUSTER_MAX_DEVICE_LIMIT        = 0x1C; \/\/ 群里设备数达到最大限制$/;"	m	namespace:ANSC
+ANSC::CLUSTER_MAX_LIMIT	../protocoldef/protocol.h	/^    const uint8_t CLUSTER_MAX_LIMIT        = 0x1D; \/\/ 群数量达到最大限制$/;"	m	namespace:ANSC
+ANSC::CLUSTER_MAX_USER_LIMIT	../protocoldef/protocol.h	/^    const uint8_t CLUSTER_MAX_USER_LIMIT          = 0x1B; \/\/ 群里用户数达到最大限制$/;"	m	namespace:ANSC
+ANSC::DEVICE_ID_ERROR	../protocoldef/protocol.h	/^    const uint8_t DEVICE_ID_ERROR           = 0x0A; \/\/设备不存在或没有权限$/;"	m	namespace:ANSC
+ANSC::DEVICE_NO_RESP	../protocoldef/protocol.h	/^    const uint8_t DEVICE_NO_RESP          = 0x18; \/\/ 设备没有回复$/;"	m	namespace:ANSC
+ANSC::DEVICE_OFFLINE	../protocoldef/protocol.h	/^    const uint8_t DEVICE_OFFLINE         = 0x10; \/\/认领设备失败，设备不在线或没有权限$/;"	m	namespace:ANSC
+ANSC::DEVICE_PASSWORD_ERROR	../protocoldef/protocol.h	/^    const uint8_t DEVICE_PASSWORD_ERROR          = 0x11; \/\/认领设备失败，密码错误$/;"	m	namespace:ANSC
+ANSC::EMAIL_NOT_EXIST	../protocoldef/protocol.h	/^    const uint8_t EMAIL_NOT_EXIST         = 0x06; \/\/邮箱错误$/;"	m	namespace:ANSC
+ANSC::EMAIL_USED	../protocoldef/protocol.h	/^    const uint8_t EMAIL_USED             = 0x07; \/\/邮箱已被使用$/;"	m	namespace:ANSC
+ANSC::FAILED	../protocoldef/protocol.h	/^    const uint8_t FAILED                = 0x16; \/\/ 失败$/;"	m	namespace:ANSC
+ANSC::LOGIN_RETRY_TIMES_OUT	../protocoldef/protocol.h	/^    const uint8_t LOGIN_RETRY_TIMES_OUT    = 0x09; \/\/同一个帐号密码错误重试十次，限制一小时不允许登录$/;"	m	namespace:ANSC
+ANSC::MESSAGE_ERROR	../protocoldef/protocol.h	/^    const uint8_t MESSAGE_ERROR                = 0x7F; \/\/命令格式错误$/;"	m	namespace:ANSC
+ANSC::PASSWORD_ERROR	../protocoldef/protocol.h	/^    const uint8_t PASSWORD_ERROR                = 0x05; \/\/登录失败，帐号或密码错误$/;"	m	namespace:ANSC
+ANSC::PENDING	../protocoldef/protocol.h	/^    const uint8_t PENDING               = 0x00; \/\/待处理$/;"	m	namespace:ANSC
+ANSC::REFUSE	../protocoldef/protocol.h	/^    const uint8_t REFUSE            = 0x7E; \/\/审批拒绝$/;"	m	namespace:ANSC
+ANSC::REGIST_FAILED	../protocoldef/protocol.h	/^    const uint8_t REGIST_FAILED          = 0x02; \/\/注册失败，帐号或邮箱已被使用$/;"	m	namespace:ANSC
+ANSC::REGIST_RETRY_TIMES_OUT	../protocoldef/protocol.h	/^    const uint8_t REGIST_RETRY_TIMES_OUT   = 0x08; \/\/同一个IP频繁注册，限制一小时不允许注册$/;"	m	namespace:ANSC
+ANSC::SCENE_ID_ERROR	../protocoldef/protocol.h	/^    const uint8_t SCENE_ID_ERROR            = 0x0B; \/\/场景不存在或没有权限$/;"	m	namespace:ANSC
+ANSC::SCENE_ID_OR_USER_ID_ERROR	../protocoldef/protocol.h	/^    const uint8_t SCENE_ID_OR_USER_ID_ERROR    = 0x0C; \/\/场景或用户不存在或没有权限$/;"	m	namespace:ANSC
+ANSC::SCENE_SHARE_MAX_LIMIT	../protocoldef/protocol.h	/^    const uint8_t SCENE_SHARE_MAX_LIMIT        = 0x1E; \/\/ 场景共享次数达到最大限制$/;"	m	namespace:ANSC
+ANSC::SUCCESS	../protocoldef/protocol.h	/^    const uint8_t SUCCESS               = 0x01; \/\/成功$/;"	m	namespace:ANSC
+ANSC::TURN_NOT_EXIST	../protocoldef/protocol.h	/^    const uint8_t TURN_NOT_EXIST          = 0x19; \/\/转发通道未打开, 这个错误码没有用到$/;"	m	namespace:ANSC
+ANSC::USER_ID_OR_DEVICE_ID_ERROR	../protocoldef/protocol.h	/^    const uint8_t USER_ID_OR_DEVICE_ID_ERROR   = 0x13; \/\/用户或设备不存在或没有权限$/;"	m	namespace:ANSC
+ANSC::VERIFY_CODE_ERROR	../protocoldef/protocol.h	/^    const uint8_t VERIFY_CODE_ERROR         = 0x03; \/\/验证码错误$/;"	m	namespace:ANSC
+ANSC::VERIFY_CODE_EXPIRED	../protocoldef/protocol.h	/^    const uint8_t VERIFY_CODE_EXPIRED     = 0x17; \/\/ 失败$/;"	m	namespace:ANSC
+AUTH_ERROR	../protocoldef/protocol.h	/^    const uint8_t AUTH_ERROR               = 0x15; \/\/没有权限$/;"	m	namespace:ANSC
+BUSINESS_MANAGER_H	BusinessManager.h	2;"	d
+BusinessManager	BusinessManager.cpp	/^BusinessManager::BusinessManager()$/;"	f	class:BusinessManager	signature:()
+BusinessManager	BusinessManager.h	/^    BusinessManager();$/;"	p	class:BusinessManager	access:public	signature:()
+BusinessManager	BusinessManager.h	/^class BusinessManager$/;"	c
+BusinessManager::BusinessManager	BusinessManager.cpp	/^BusinessManager::BusinessManager()$/;"	f	class:BusinessManager	signature:()
+BusinessManager::BusinessManager	BusinessManager.h	/^    BusinessManager();$/;"	p	class:BusinessManager	access:public	signature:()
+BusinessManager::HandleIpcRequest	BusinessManager.cpp	/^int BusinessManager::HandleIpcRequest(Message *notifReq) \/\/ 处理从 LogicalSrv 通过共享内存发过来的数据$/;"	f	class:BusinessManager	signature:(Message *notifReq)
+BusinessManager::HandleIpcRequest	BusinessManager.h	/^    int HandleIpcRequest(Message *notifReq);$/;"	p	class:BusinessManager	access:public	signature:(Message *notifReq)
+BusinessManager::m_dboperator	BusinessManager.h	/^    IDBoperator *m_dboperator;$/;"	m	class:BusinessManager	access:private
+BusinessManager::m_notifymanager	BusinessManager.h	/^    NotifyManager m_notifymanager;$/;"	m	class:BusinessManager	access:private
+BusinessManager::m_notifytimeout	BusinessManager.h	/^    NotifyTimeOut m_notifytimeout;$/;"	m	class:BusinessManager	access:private
+BusinessManager::m_reqhandler	BusinessManager.h	/^    NotifReqHandler *m_reqhandler;$/;"	m	class:BusinessManager	access:private
+BusinessManager::m_resWriter	BusinessManager.h	/^    MsgWriterPosixMsgQueue m_resWriter;$/;"	m	class:BusinessManager	access:private
+BusinessManager::notifyTimeout	BusinessManager.cpp	/^void BusinessManager::notifyTimeout(uint64_t notifyid, int times)$/;"	f	class:BusinessManager	signature:(uint64_t notifyid, int times)
+BusinessManager::notifyTimeout	BusinessManager.h	/^    void notifyTimeout(uint64_t notifyid, int times);$/;"	p	class:BusinessManager	access:public	signature:(uint64_t notifyid, int times)
+BusinessManager::writeMessage	BusinessManager.cpp	/^void BusinessManager::writeMessage(const Message &msg)$/;"	f	class:BusinessManager	signature:(const Message &msg)
+BusinessManager::writeMessage	BusinessManager.h	/^    void writeMessage(const Message &msg);$/;"	p	class:BusinessManager	access:private	signature:(const Message &msg)
+BusinessManager::~BusinessManager	BusinessManager.cpp	/^BusinessManager::~BusinessManager()$/;"	f	class:BusinessManager	signature:()
+BusinessManager::~BusinessManager	BusinessManager.h	/^    ~BusinessManager();$/;"	p	class:BusinessManager	access:public	signature:()
+BytesToStr	../util/util.cpp	/^string BytesToStr(const byte* bytes)$/;"	f	signature:(const byte* bytes)
+BytesToStr	../util/util.cpp	/^void BytesToStr(const byte* in, char* out)$/;"	f	signature:(const byte* in, char* out)
+CACHE_MANAGER_H	notifyManager.h	2;"	d
+CC	makefile	/^CC = g++$/;"	m
+CCMD__DEVICE_CLAIM	../protocoldef/protocol.h	/^    const uint16_t CCMD__DEVICE_CLAIM                                 = 0x1A40;$/;"	m	namespace:CMD
+CLIENT_MSG_PREFIX	../protocoldef/protocol.h	/^const uint8_t  CLIENT_MSG_PREFIX = 0xF0;  \/\/消息开始标识$/;"	v
+CLIENT_MSG_SUFFIX	../protocoldef/protocol.h	/^const uint8_t  CLIENT_MSG_SUFFIX = 0xF1;  \/\/消息结束标识$/;"	v
+CLIENT_NEED_UPDATE	../protocoldef/protocol.h	/^    const uint8_t CLIENT_NEED_UPDATE      = 0x1A; \/\/客户端版本太低，需要更新$/;"	m	namespace:ANSC
+CLOSE_ALL_CHANNEL	../protocoldef/protocol.h	/^    const uint8_t CLOSE_ALL_CHANNEL = 0x03;$/;"	m	namespace:Relay
+CLOSE_CHANNEL	../protocoldef/protocol.h	/^    const uint8_t CLOSE_CHANNEL = 0x02;$/;"	m	namespace:Relay
+CLOUD_DISK_NOT_ENOUGH	../protocoldef/protocol.h	/^    const uint8_t CLOUD_DISK_NOT_ENOUGH     = 0x0D; \/\/场景上传失败，服务器上空间不够，请删除旧的场景$/;"	m	namespace:ANSC
+CLUSTER_ID_ERROR	../protocoldef/protocol.h	/^    const uint8_t CLUSTER_ID_ERROR          = 0x0F; \/\/设备群不存在或没有权限$/;"	m	namespace:ANSC
+CLUSTER_ID_OR_DEVICE_ID_ERROR	../protocoldef/protocol.h	/^    const uint8_t CLUSTER_ID_OR_DEVICE_ID_ERROR= 0x12; \/\/群或设备不存在或没有权限$/;"	m	namespace:ANSC
+CLUSTER_ID_OR_USER_ID_ERROR	../protocoldef/protocol.h	/^    const uint8_t CLUSTER_ID_OR_USER_ID_ERROR  = 0x14; \/\/群或用户不存在或没有权限$/;"	m	namespace:ANSC
+CLUSTER_MAX_DEVICE_LIMIT	../protocoldef/protocol.h	/^    const uint8_t CLUSTER_MAX_DEVICE_LIMIT        = 0x1C; \/\/ 群里设备数达到最大限制$/;"	m	namespace:ANSC
+CLUSTER_MAX_LIMIT	../protocoldef/protocol.h	/^    const uint8_t CLUSTER_MAX_LIMIT        = 0x1D; \/\/ 群数量达到最大限制$/;"	m	namespace:ANSC
+CLUSTER_MAX_USER_LIMIT	../protocoldef/protocol.h	/^    const uint8_t CLUSTER_MAX_USER_LIMIT          = 0x1B; \/\/ 群里用户数达到最大限制$/;"	m	namespace:ANSC
+CL_MAX_OBJECT_COUNT	../config/shmconfig.h	/^        CL_MAX_OBJECT_COUNT = 10000$/;"	e	enum:Cache::CountLimit
+CMD	../protocoldef/protocol.h	/^namespace CMD$/;"	n
+CMD::CCMD__DEVICE_CLAIM	../protocoldef/protocol.h	/^    const uint16_t CCMD__DEVICE_CLAIM                                 = 0x1A40;$/;"	m	namespace:CMD
+CMD::CMD_A_USER_BE_REMOVED_FROM_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t CMD_A_USER_BE_REMOVED_FROM_CLUSTER                 = 0x1A0C;$/;"	m	namespace:CMD
+CMD::CMD_CLAIM_CHECK_PASSWORD	../protocoldef/protocol.h	/^    const uint16_t CMD_CLAIM_CHECK_PASSWORD                           = 0x1A43;$/;"	m	namespace:CMD
+CMD::CMD_DCL__ASSIGN_DEVICES_TO_USER_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__ASSIGN_DEVICES_TO_USER_MEMBER             = 0x1A33;\/\/3026; \/\/为群用户成员批量指派设备$/;"	m	namespace:CMD
+CMD::CMD_DCL__ASSIGN_OPERATORS_TO_DEV_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__ASSIGN_OPERATORS_TO_DEV_MEMBER            = 0x1A35;\/\/3028; \/\/为群设备成员批量指派操作员$/;"	m	namespace:CMD
+CMD::CMD_DCL__CANCEL_COMMUNICATION_WITH_DEVICE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__CANCEL_COMMUNICATION_WITH_DEVICE          = 0x1A42;$/;"	m	namespace:CMD
+CMD::CMD_DCL__CLAIM_DEVICE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__CLAIM_DEVICE                              = 0x1A40;$/;"	m	namespace:CMD
+CMD::CMD_DCL__CREATE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__CREATE                                    = 0x1A00;\/\/3017; \/\/创建设备群$/;"	m	namespace:CMD
+CMD::CMD_DCL__DELETE__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__DELETE__REQ                               = 0x1A01;\/\/301A; \/\/删除设备群请求$/;"	m	namespace:CMD
+CMD::CMD_DCL__DELETE__VERIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__DELETE__VERIFY                            = 0x1A02;\/\/301B; \/\/删除设备群确认（通过验证码）$/;"	m	namespace:CMD
+CMD::CMD_DCL__EXIT	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__EXIT                                      = 0x1A06;\/\/3019; \/\/退出设备群$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_CLUSTER_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_CLUSTER_INFO                          = 0x1A10;\/\/3018; \/\/获取设备群信息$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_CLUSTER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_CLUSTER_LIST                          = 0x1A11;\/\/3003; \/\/获取设备群列表$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_DEVICE_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_DEVICE_INFO                           = 0x2204;\/\/3007;$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_DEVICE_LIST_OF_USER_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_DEVICE_LIST_OF_USER_MEMBER            = 0x1A16;\/\/302A; \/\/获取群用户成员的设备列表$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_DEVICE_MEMBER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_DEVICE_MEMBER_LIST                    = 0x1A12;\/\/3004; \/\/获取设备群的设备成员列表$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_DEVICE_MEMBER_ONLINE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_DEVICE_MEMBER_ONLINE_LIST             = 0x1A13;\/\/3006; \/\/获取设备群的设备在线列表$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_OPERATOR_LIST_OF_DEV_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_OPERATOR_LIST_OF_DEV_MEMBER           = 0x1A14;\/\/302B; \/\/获取群设备成员的操作员列表$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_SESSION_KEY_WITH_DEVICE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_SESSION_KEY_WITH_DEVICE               = 0x1A41;$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_TRANSER_DEVICE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_TRANSER_DEVICE_LIST                   = 0x1A20;$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_UNCLAIMED_DEVICE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_UNCLAIMED_DEVICE_LIST                 = 0x1A17;$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_USER_MEMBER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_USER_MEMBER_LIST                      = 0x1A15;\/\/3005; \/\/获取设备群的用户成员列表$/;"	m	namespace:CMD
+CMD::CMD_DCL__GET_USER_MEMBER_ONLINE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_USER_MEMBER_ONLINE_LIST               = 0x1A18;\/\/3005; \/\/获取设备群的用户成员列表$/;"	m	namespace:CMD
+CMD::CMD_DCL__INVITE_TO_JOIN__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__INVITE_TO_JOIN__APPROVAL                  = 0x1A08;\/\/3022; \/\/邀请加入设备群，审批$/;"	m	namespace:CMD
+CMD::CMD_DCL__INVITE_TO_JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__INVITE_TO_JOIN__REQ                       = 0x1A07;\/\/3021; \/\/邀请加入设备群，请求$/;"	m	namespace:CMD
+CMD::CMD_DCL__INVITE_TO_JOIN__SEARCH_INVITEE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__INVITE_TO_JOIN__SEARCH_INVITEE            = 0x2201;\/\/3020; \/\/邀请加入设备群，搜索用户$/;"	m	namespace:CMD
+CMD::CMD_DCL__JOIN__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__JOIN__APPROVAL                            = 0x1A05;\/\/3015; \/\/加入设备群，审批$/;"	m	namespace:CMD
+CMD::CMD_DCL__JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__JOIN__REQ                                 = 0x1A04;\/\/3014; \/\/加入设备群，请求$/;"	m	namespace:CMD
+CMD::CMD_DCL__JOIN__SEARCH_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__JOIN__SEARCH_CLUSTER                      = 0x1A03;\/\/3012; \/\/搜索设备群$/;"	m	namespace:CMD
+CMD::CMD_DCL__MODIFY_DISCRIPTION	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__MODIFY_DISCRIPTION                        = 0x1A32;\/\/3042; \/\/修改设备群描述$/;"	m	namespace:CMD
+CMD::CMD_DCL__MODIFY_NOTENAME	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__MODIFY_NOTENAME                           = 0x1A31;\/\/3041; \/\/修改设备群备注名$/;"	m	namespace:CMD
+CMD::CMD_DCL__MODIFY_USER_MEMBER_ROLE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__MODIFY_USER_MEMBER_ROLE                   = 0x1A30;\/\/3040; \/\/修改设备群的用户成员角色（设置／取消管理员）$/;"	m	namespace:CMD
+CMD::CMD_DCL__REMOVE_DEVICES_OF_USER_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__REMOVE_DEVICES_OF_USER_MEMBER             = 0x1A34;\/\/3027; \/\/为群用户成员批量删除设备$/;"	m	namespace:CMD
+CMD::CMD_DCL__REMOVE_OPERATORS_OF_DEV_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__REMOVE_OPERATORS_OF_DEV_MEMBER            = 0x1A36;\/\/3029; \/\/为群设备成员批量删除操作员$/;"	m	namespace:CMD
+CMD::CMD_DCL__REMOVE_USER_MEMBERS	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__REMOVE_USER_MEMBERS                       = 0X1A09;\/\/3024; \/\/批量移除设备群的用户成员$/;"	m	namespace:CMD
+CMD::CMD_DCL__TRANSFER_DEVCLUSTER_REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__TRANSFER_DEVCLUSTER_REQ                   = 0x1A23;$/;"	m	namespace:CMD
+CMD::CMD_DCL__TRANSFER_DEVCLUSTER_VERIRY	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__TRANSFER_DEVCLUSTER_VERIRY                = 0x1A24;$/;"	m	namespace:CMD
+CMD::CMD_DCL__TRANSFER_DEVICES__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__TRANSFER_DEVICES__APPROVAL                = 0x1A22;\/\/$/;"	m	namespace:CMD
+CMD::CMD_DCL__TRANSFER_DEVICES__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__TRANSFER_DEVICES__REQ                     = 0x1A21;\/\/3031$/;"	m	namespace:CMD
+CMD::CMD_DELETE_NOTIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_DELETE_NOTIFY                               = 0x001C;$/;"	m	namespace:CMD
+CMD::CMD_DEL_LOCAL_CACHE	../protocoldef/protocol.h	/^    const uint16_t CMD_DEL_LOCAL_CACHE = 0x001D;\/\/ 在本地删除用户的登录信息$/;"	m	namespace:CMD
+CMD::CMD_DEV__GET_MY_DEVICE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DEV__GET_MY_DEVICE_LIST                        = 0x1810;\/\/3001; \/\/获取我的设备列表$/;"	m	namespace:CMD
+CMD::CMD_DEV__GET_MY_DEVICE_ONLINE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DEV__GET_MY_DEVICE_ONLINE_LIST                 = 0x1811;\/\/3002; \/\/获取我的设备在线列表$/;"	m	namespace:CMD
+CMD::CMD_DEV__MODIFY_DEVICE_DESCRIPTION	../protocoldef/protocol.h	/^    const uint16_t CMD_DEV__MODIFY_DEVICE_DESCRIPTION                 = 0x1801;\/\/300A;$/;"	m	namespace:CMD
+CMD::CMD_DEV__MODIFY_DEVICE_NOTENAME	../protocoldef/protocol.h	/^    const uint16_t CMD_DEV__MODIFY_DEVICE_NOTENAME                    = 0x1800;\/\/3009;$/;"	m	namespace:CMD
+CMD::CMD_FRI__ADD_FRIEND__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t CMD_FRI__ADD_FRIEND__APPROVAL                      = 0x1401;\/\/2021; \/\/$/;"	m	namespace:CMD
+CMD::CMD_FRI__ADD_FRIEND__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_FRI__ADD_FRIEND__REQ                           = 0x1400;\/\/2020; \/\/加好友请求$/;"	m	namespace:CMD
+CMD::CMD_FRI__ADD_FRIEND__SEARCH_USER	../protocoldef/protocol.h	/^    const uint16_t CMD_FRI__ADD_FRIEND__SEARCH_USER                   = 0x2200;\/\/2010; \/\/搜索用户$/;"	m	namespace:CMD
+CMD::CMD_FRI__GET_FRIEND_INFO_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_FRI__GET_FRIEND_INFO_LIST                      = 0x1410;\/\/2001; \/\/获取好友信息列表$/;"	m	namespace:CMD
+CMD::CMD_FRI__GET_USER_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_FRI__GET_USER_INFO                             = 0x2203;\/\/2004; \/\/$/;"	m	namespace:CMD
+CMD::CMD_GEN__FEEDBACK	../protocoldef/protocol.h	/^    const uint16_t CMD_GEN__FEEDBACK                                = 0x1E00;\/\/101C;$/;"	m	namespace:CMD
+CMD::CMD_GEN__HEART_BEAT	../protocoldef/protocol.h	/^    const uint16_t CMD_GEN__HEART_BEAT                                = 0xFFFF;\/\/FFFF; \/\/客户端心跳包$/;"	m	namespace:CMD
+CMD::CMD_GEN__NOTIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_GEN__NOTIFY                                    = 0xFFFE;\/\/FFFE; \/\/通知$/;"	m	namespace:CMD
+CMD::CMD_GET_NOTIFY_WHEN_BACK_ONLINE	../protocoldef/protocol.h	/^    const uint16_t CMD_GET_NOTIFY_WHEN_BACK_ONLINE                    = 0x001B;$/;"	m	namespace:CMD
+CMD::CMD_GET_NOTIFY_WHEN_LOGIN	../protocoldef/protocol.h	/^    const uint16_t CMD_GET_NOTIFY_WHEN_LOGIN                         = 0x001A;$/;"	m	namespace:CMD
+CMD::CMD_GET_SCENE_CONNECTOR_DEVICES	../protocoldef/protocol.h	/^    const uint16_t CMD_GET_SCENE_CONNECTOR_DEVICES = 0x1C28; \/\/ 取得场景连接的设备$/;"	m	namespace:CMD
+CMD::CMD_GET_SERVER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_GET_SERVER_LIST                                = 0x1206;\/\/1012; \/\/注销$/;"	m	namespace:CMD
+CMD::CMD_HMI__CANCEL_SHARE_SCENE	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__CANCEL_SHARE_SCENE                        = 0x1C13;\/\/400A; \/\/HMI，取消共享场景$/;"	m	namespace:CMD
+CMD::CMD_HMI__CLOSE_RELAY_CHANNELS	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__CLOSE_RELAY_CHANNELS                      = 0x1C04;\/\/4004; \/\/HMI，批量关闭转发通道$/;"	m	namespace:CMD
+CMD::CMD_HMI__CLOSE_RELAY_CHANNELS_RESULT	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__CLOSE_RELAY_CHANNELS_RESULT          = 0x0016;\/\/4004; \/\/HMI，批量关闭转发通道$/;"	m	namespace:CMD
+CMD::CMD_HMI__DELETE_SCENE	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__DELETE_SCENE                              = 0x1C14;\/\/400C; \/\/HMI，删除场景$/;"	m	namespace:CMD
+CMD::CMD_HMI__DOWNLOAD_SCENE	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__DOWNLOAD_SCENE                            = 0x1C11;\/\/4007; \/\/HMI，下载场景$/;"	m	namespace:CMD
+CMD::CMD_HMI__GET_EXTRANET_IP_PORT	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__GET_EXTRANET_IP_PORT                      = 0x1C02;\/\/4002; \/\/HMI，获取外网ip，port$/;"	m	namespace:CMD
+CMD::CMD_HMI__GET_MY_SCENE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__GET_MY_SCENE_LIST                         = 0x1C20;\/\/4006; \/\/HMI，获取我的场景列表$/;"	m	namespace:CMD
+CMD::CMD_HMI__GET_NEW_CDSESSION_KEY	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__GET_NEW_CDSESSION_KEY                     = 0x1C22;$/;"	m	namespace:CMD
+CMD::CMD_HMI__GET_SCENE_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__GET_SCENE_INFO                          = 0x1C25; \/\/ 取场景信息$/;"	m	namespace:CMD
+CMD::CMD_HMI__GET_SCENE_USER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__GET_SCENE_USER_LIST                       = 0x1C21;\/\/400F; \/\/HMI，获取场景的用户列表$/;"	m	namespace:CMD
+CMD::CMD_HMI__MODIFY_NOTENAME	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__MODIFY_NOTENAME                         = 0x1C24; \/\/ 修改场景备注名$/;"	m	namespace:CMD
+CMD::CMD_HMI__MODIFY_SCENE_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__MODIFY_SCENE_INFO                       = 0x1C23; \/\/ 修改场景信息$/;"	m	namespace:CMD
+CMD::CMD_HMI__OPEN_RELAY_CHANNELS	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__OPEN_RELAY_CHANNELS                       = 0x1C03;\/\/4003; \/\/HMI，批量打开转发通道$/;"	m	namespace:CMD
+CMD::CMD_HMI__OPEN_RELAY_CHANNELS_RESULT	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__OPEN_RELAY_CHANNELS_RESULT           = 0x0015;\/\/4004; \/\/HMI，批量关闭转发通道$/;"	m	namespace:CMD
+CMD::CMD_HMI__PENETRATE__GET_MY_DEVICE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__PENETRATE__GET_MY_DEVICE_LIST             = 0x1C00;\/\/4000; \/\/HMI，批量穿透，获取我的设备列表$/;"	m	namespace:CMD
+CMD::CMD_HMI__PENETRATE__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__PENETRATE__REQ                            = 0x1C01;\/\/4001; \/\/HMI，批量穿透$/;"	m	namespace:CMD
+CMD::CMD_HMI__SET_SHARE_SCENE_AUTH	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__SET_SHARE_SCENE_AUTH                    = 0x1C16;$/;"	m	namespace:CMD
+CMD::CMD_HMI__SHARE_SCENE	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__SHARE_SCENE                               = 0x1C12;\/\/4008; \/\/HMI，共享场景$/;"	m	namespace:CMD
+CMD::CMD_HMI__SHARE_SCENE__SEARCH_USER	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__SHARE_SCENE__SEARCH_USER                  = 0x2202;\/\/400E; \/\/HMI，共享场景，搜索用户$/;"	m	namespace:CMD
+CMD::CMD_HMI__TRANSFER_SYSADMIN	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__TRANSFER_SYSADMIN                         = 0x1C15;$/;"	m	namespace:CMD
+CMD::CMD_HMI__UPLOAD_SCENE	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__UPLOAD_SCENE                              = 0x1C10;\/\/4005; \/\/HMI，上传场景$/;"	m	namespace:CMD
+CMD::CMD_HMI__UPLOAD_SCENE_CONFIRM	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__UPLOAD_SCENE_CONFIRM                      = 0x1C19;\/\/4005; \/\/HMI，上传场景Confirm$/;"	m	namespace:CMD
+CMD::CMD_NEW_NOTIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_NEW_NOTIFY                                 = 0x0018;$/;"	m	namespace:CMD
+CMD::CMD_NEW_SESSIONAL_NOTIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_NEW_SESSIONAL_NOTIFY                        = 0x0019;$/;"	m	namespace:CMD
+CMD::CMD_NOTIFY_RESP	../protocoldef/protocol.h	/^    const uint16_t CMD_NOTIFY_RESP                                    = 0xFFFD;\/\/FFFD; \/\/客户端通知服务器收到通知$/;"	m	namespace:CMD
+CMD::CMD_PER__GET_USER_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__GET_USER_INFO                             = 0x1230;\/\/1016; \/\/*获取个人信息$/;"	m	namespace:CMD
+CMD::CMD_PER__LOGIN1__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__LOGIN1__REQ                               = 0x1203;\/\/1010; \/\/登录第一步$/;"	m	namespace:CMD
+CMD::CMD_PER__LOGIN2__VERIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__LOGIN2__VERIFY                            = 0x1204;\/\/1011; \/\/登录第二步$/;"	m	namespace:CMD
+CMD::CMD_PER__LOGOUT	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__LOGOUT                                    = 0x1205;\/\/1012; \/\/注销$/;"	m	namespace:CMD
+CMD::CMD_PER__MODIFY_HEAD	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__MODIFY_HEAD                               = 0x1218;\/\/101B; \/\/*修改头像$/;"	m	namespace:CMD
+CMD::CMD_PER__MODIFY_MAILBOX1__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__MODIFY_MAILBOX1__REQ                      = 0x1214;\/\/1018; \/\/*修改邮箱第一步$/;"	m	namespace:CMD
+CMD::CMD_PER__MODIFY_MAILBOX2__VERIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__MODIFY_MAILBOX2__VERIFY                   = 0x1215;\/\/1019; \/\/*修改邮箱第二步$/;"	m	namespace:CMD
+CMD::CMD_PER__MODIFY_NICKNAME	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__MODIFY_NICKNAME                           = 0x1216;\/\/101A; \/\/*修改昵称$/;"	m	namespace:CMD
+CMD::CMD_PER__MODIFY_PASSWORD	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__MODIFY_PASSWORD                           = 0x1213;\/\/1017; \/\/*修改密码$/;"	m	namespace:CMD
+CMD::CMD_PER__MODIFY_SIGNATURE	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__MODIFY_SIGNATURE                          = 0x1217;\/\/101B; \/\/*修改签名$/;"	m	namespace:CMD
+CMD::CMD_PER__RECOVER_PWD1__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__RECOVER_PWD1__REQ                         = 0x1210;\/\/1013; \/\/找回密码第一步$/;"	m	namespace:CMD
+CMD::CMD_PER__RECOVER_PWD2__VERIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__RECOVER_PWD2__VERIFY                      = 0x1211;\/\/1014; \/\/找回密码第二步$/;"	m	namespace:CMD
+CMD::CMD_PER__RECOVER_PWD3__RESET	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__RECOVER_PWD3__RESET                       = 0x1212;\/\/1015; \/\/找回密码第三步$/;"	m	namespace:CMD
+CMD::CMD_PER__REGISTER1__SET_MAILBOX	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__REGISTER1__SET_MAILBOX                    = 0x1200;\/\/1000; \/\/注册第一步，设置邮箱$/;"	m	namespace:CMD
+CMD::CMD_PER__REGISTER2__ACTIVATE	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__REGISTER2__ACTIVATE                       = 0x1201;\/\/1001; \/\/注册第二步，激活$/;"	m	namespace:CMD
+CMD::CMD_PER__REGISTER3__SET_ACCOUNT_PWD	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__REGISTER3__SET_ACCOUNT_PWD                = 0x1202;\/\/1002; \/\/注册第三步，设置帐号密码$/;"	m	namespace:CMD
+CMD::CMD_SCENE_FILE_CHANGED	../protocoldef/protocol.h	/^    const uint16_t CMD_SCENE_FILE_CHANGED = 0x1C18; \/\/ 服务器收到此命令后给场景的所有共享者发送通知,告知场景文件被修改需要从新下载$/;"	m	namespace:CMD
+CMD::CMD_SEARCH_DEVICE_BY_NAME_AND_MAC	../protocoldef/protocol.h	/^    const uint16_t CMD_SEARCH_DEVICE_BY_NAME_AND_MAC                  = 0x2205;\/\/ 搜索设备$/;"	m	namespace:CMD
+CMD::CMD_SEND_NOTIF	../protocoldef/protocol.h	/^    const uint16_t CMD_SEND_NOTIF                                 = 0x0017;$/;"	m	namespace:CMD
+CMD::CMD_SET_SCENE_CONNECTOR_DEVICES	../protocoldef/protocol.h	/^    const uint16_t CMD_SET_SCENE_CONNECTOR_DEVICES = 0x1C27; \/\/ 修改场景连接的设备$/;"	m	namespace:CMD
+CMD::CMD_UCL__CREATE	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__CREATE                                    = 0x1600;\/\/2012; \/\/创建用户群$/;"	m	namespace:CMD
+CMD::CMD_UCL__GET_CLUSTER_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__GET_CLUSTER_INFO                          = 0x1611;\/\/2005;$/;"	m	namespace:CMD
+CMD::CMD_UCL__GET_CLUSTER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__GET_CLUSTER_LIST                          = 0x1610;\/\/2003; \/\/获取用户群列表$/;"	m	namespace:CMD
+CMD::CMD_UCL__JOIN__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__JOIN__APPROVAL                            = 0x1603;\/\/2023; \/\/加入群，审批$/;"	m	namespace:CMD
+CMD::CMD_UCL__JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__JOIN__REQ                                 = 0x1602;\/\/2022; \/\/加入群，请求$/;"	m	namespace:CMD
+CMD::CMD_UCL__JOIN__SEARCH_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__JOIN__SEARCH_CLUSTER                      = 0x1601;\/\/2011; \/\/搜索用户群$/;"	m	namespace:CMD
+CMD::DCL__TRANSFER_DEVICES__NOTIFY_DEST_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t DCL__TRANSFER_DEVICES__NOTIFY_DEST_CLUSTER         = 0x1A0A;\/\/$/;"	m	namespace:CMD
+CMD::DCL__TRANSFER_DEVICES__NOTIFY_SRC_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t DCL__TRANSFER_DEVICES__NOTIFY_SRC_CLUSTER          = 0x1A0D;\/\/$/;"	m	namespace:CMD
+CMD::DCMD__LOGIN1	../protocoldef/protocol.h	/^    const uint16_t DCMD__LOGIN1                                       = 0x1002;$/;"	m	namespace:CMD
+CMD::DCMD__LOGIN2	../protocoldef/protocol.h	/^    const uint16_t DCMD__LOGIN2                                       = 0x1003;$/;"	m	namespace:CMD
+CMD::DCMD__LOGOUT	../protocoldef/protocol.h	/^    const uint16_t DCMD__LOGOUT                                       = 0x1004;$/;"	m	namespace:CMD
+CMD::DCMD__LONG_HEART_BEAT	../protocoldef/protocol.h	/^    const uint16_t DCMD__LONG_HEART_BEAT                              = 0x1005;$/;"	m	namespace:CMD
+CMD::DCMD__OLD_FUNCTION	../protocoldef/protocol.h	/^    const uint16_t DCMD__OLD_FUNCTION                                 = 0x1000;$/;"	m	namespace:CMD
+CMD::DCMD__REGISTER	../protocoldef/protocol.h	/^    const uint16_t DCMD__REGISTER                                     = 0x1001;$/;"	m	namespace:CMD
+CMD::DCMD__SHORT_HEART_BEAT	../protocoldef/protocol.h	/^    const uint16_t DCMD__SHORT_HEART_BEAT                             = 0x1006;$/;"	m	namespace:CMD
+CMD::DNTP__TRANSFER_DEIVCES	../protocoldef/protocol.h	/^    const uint16_t DNTP__TRANSFER_DEIVCES                             = 0x1008;$/;"	m	namespace:CMD
+CMD::INCMD_DEVICE_OFFLINE	../protocoldef/protocol.h	/^    const uint16_t INCMD_DEVICE_OFFLINE                          = 0x0013; \/\/设备下线$/;"	m	namespace:CMD
+CMD::INCMD_DEVICE_ONLINE	../protocoldef/protocol.h	/^    const uint16_t INCMD_DEVICE_ONLINE                           = 0x0012; \/\/设备上线$/;"	m	namespace:CMD
+CMD::INCMD_GET_DEVICE_ONLINE_LIST	../protocoldef/protocol.h	/^    const uint16_t INCMD_GET_DEVICE_ONLINE_LIST                  = 0x0014; \/\/获取设备在线列表$/;"	m	namespace:CMD
+CMD::INCMD_USER_OFFLINE	../protocoldef/protocol.h	/^    const uint16_t INCMD_USER_OFFLINE                            = 0x0011; \/\/用户下线$/;"	m	namespace:CMD
+CMD::INCMD_USER_ONLINE	../protocoldef/protocol.h	/^    const uint16_t INCMD_USER_ONLINE                             = 0x0010; \/\/用户上线$/;"	m	namespace:CMD
+CMD::INTERNAL_CLAIM_TIMER_RESEND	../protocoldef/protocol.h	/^    const uint16_t INTERNAL_CLAIM_TIMER_RESEND  = 0x1;$/;"	m	namespace:CMD
+CMD::NOTIFY_NEW_ADDED_TO_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t NOTIFY_NEW_ADDED_TO_CLUSTER                        = 0x1A0B;\/\/3015; \/\/加入设备群，审批$/;"	m	namespace:CMD
+CMD::NOTIFY_SCNEE_CONNECTOR_DEVICES_CHANGED	../protocoldef/protocol.h	/^    const uint16_t NOTIFY_SCNEE_CONNECTOR_DEVICES_CHANGED = 0x1C29; \/\/ 场景连接设备被修改$/;"	m	namespace:CMD
+CMD::NTP_CMD_DEVICE_NAME_CHANGED	../protocoldef/protocol.h	/^    const uint16_t NTP_CMD_DEVICE_NAME_CHANGED                      = 0x2002;$/;"	m	namespace:CMD
+CMD::NTP_DCL__ASSIGN_DEVICES_TO_USER_MEMBER	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__ASSIGN_DEVICES_TO_USER_MEMBER             = 0x1A33;\/\/3026;$/;"	m	namespace:CMD
+CMD::NTP_DCL__ASSIGN_OPERATORS_TO_DEV_MEMBER	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__ASSIGN_OPERATORS_TO_DEV_MEMBER            = 0x1A35;\/\/3028;$/;"	m	namespace:CMD
+CMD::NTP_DCL__CLAIM_DEVICE	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__CLAIM_DEVICE                              = 0x1A40;$/;"	m	namespace:CMD
+CMD::NTP_DCL__DELETE	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__DELETE                                    = 0x1A01;\/\/301A;$/;"	m	namespace:CMD
+CMD::NTP_DCL__INVITE_TO_JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__INVITE_TO_JOIN__REQ                       = 0x1A07;\/\/3021; \/\/邀请加入设备群，通知请求$/;"	m	namespace:CMD
+CMD::NTP_DCL__INVITE_TO_JOIN__RESULT	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__INVITE_TO_JOIN__RESULT                    = 0x1A08;\/\/3022; \/\/邀请加入设备群，通知结果$/;"	m	namespace:CMD
+CMD::NTP_DCL__JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__JOIN__REQ                                 = 0x1A04;\/\/3014; \/\/加入设备群，通知请求$/;"	m	namespace:CMD
+CMD::NTP_DCL__JOIN__RESULT	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__JOIN__RESULT                              = 0x1A05;\/\/3015; \/\/加入设备群，通知结果$/;"	m	namespace:CMD
+CMD::NTP_DCL__REMOVE_DEVICES_OF_USER_MEMBER	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__REMOVE_DEVICES_OF_USER_MEMBER             = 0x1A34;\/\/3027;$/;"	m	namespace:CMD
+CMD::NTP_DCL__REMOVE_OPERATORS_OF_DEV_MEMBER	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__REMOVE_OPERATORS_OF_DEV_MEMBER            = 0x1A36;\/\/3029;$/;"	m	namespace:CMD
+CMD::NTP_DCL__REMOVE_USER_MEMBERS	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__REMOVE_USER_MEMBERS                       = 0x1A09;\/\/3024;$/;"	m	namespace:CMD
+CMD::NTP_DCL__TRANSFER_DEVICES__REQ	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__TRANSFER_DEVICES__REQ                     = 0x1A21;\/\/3031$/;"	m	namespace:CMD
+CMD::NTP_DCL__TRANSFER_DEVICES__RESULT	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__TRANSFER_DEVICES__RESULT                  = 0x1A22;\/\/$/;"	m	namespace:CMD
+CMD::NTP_DEV__DEVICE_ONLINE_STATUS_CHANGE	../protocoldef/protocol.h	/^    const uint16_t NTP_DEV__DEVICE_ONLINE_STATUS_CHANGE             = 0x2000;\/\/3008;$/;"	m	namespace:CMD
+CMD::NTP_DEV__USER_ONLINE_STATUS_CHANGE	../protocoldef/protocol.h	/^    const uint16_t NTP_DEV__USER_ONLINE_STATUS_CHANGE               = 0x2001;\/\/3008;$/;"	m	namespace:CMD
+CMD::NTP_FRI__ADD_FRIEND__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t NTP_FRI__ADD_FRIEND__APPROVAL                      = 0x1401;\/\/2021; \/\/$/;"	m	namespace:CMD
+CMD::NTP_FRI__ADD_FRIEND__REQ	../protocoldef/protocol.h	/^    const uint16_t NTP_FRI__ADD_FRIEND__REQ                           = 0x1400;\/\/2020; \/\/加好友请求$/;"	m	namespace:CMD
+CMD::NTP_UCL__JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t NTP_UCL__JOIN__REQ                                 = 0x1602;\/\/2022; \/\/加入群，通知请求$/;"	m	namespace:CMD
+CMD::NTP_UCL__JOIN__RESULT	../protocoldef/protocol.h	/^    const uint16_t NTP_UCL__JOIN__RESULT                              = 0x1603;\/\/2023; \/\/加入群，通知结果$/;"	m	namespace:CMD
+CMD::NTP_USER_LOGIN_AT_ANOTHER_CLIENT	../protocoldef/protocol.h	/^    const uint16_t NTP_USER_LOGIN_AT_ANOTHER_CLIENT                   = 0x1207; \/\/ 通知, 用户在别处登录了$/;"	m	namespace:CMD
+CMD_A_USER_BE_REMOVED_FROM_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t CMD_A_USER_BE_REMOVED_FROM_CLUSTER                 = 0x1A0C;$/;"	m	namespace:CMD
+CMD_CLAIM_CHECK_PASSWORD	../protocoldef/protocol.h	/^    const uint16_t CMD_CLAIM_CHECK_PASSWORD                           = 0x1A43;$/;"	m	namespace:CMD
+CMD_DCL__ASSIGN_DEVICES_TO_USER_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__ASSIGN_DEVICES_TO_USER_MEMBER             = 0x1A33;\/\/3026; \/\/为群用户成员批量指派设备$/;"	m	namespace:CMD
+CMD_DCL__ASSIGN_OPERATORS_TO_DEV_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__ASSIGN_OPERATORS_TO_DEV_MEMBER            = 0x1A35;\/\/3028; \/\/为群设备成员批量指派操作员$/;"	m	namespace:CMD
+CMD_DCL__CANCEL_COMMUNICATION_WITH_DEVICE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__CANCEL_COMMUNICATION_WITH_DEVICE          = 0x1A42;$/;"	m	namespace:CMD
+CMD_DCL__CLAIM_DEVICE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__CLAIM_DEVICE                              = 0x1A40;$/;"	m	namespace:CMD
+CMD_DCL__CREATE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__CREATE                                    = 0x1A00;\/\/3017; \/\/创建设备群$/;"	m	namespace:CMD
+CMD_DCL__DELETE__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__DELETE__REQ                               = 0x1A01;\/\/301A; \/\/删除设备群请求$/;"	m	namespace:CMD
+CMD_DCL__DELETE__VERIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__DELETE__VERIFY                            = 0x1A02;\/\/301B; \/\/删除设备群确认（通过验证码）$/;"	m	namespace:CMD
+CMD_DCL__EXIT	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__EXIT                                      = 0x1A06;\/\/3019; \/\/退出设备群$/;"	m	namespace:CMD
+CMD_DCL__GET_CLUSTER_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_CLUSTER_INFO                          = 0x1A10;\/\/3018; \/\/获取设备群信息$/;"	m	namespace:CMD
+CMD_DCL__GET_CLUSTER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_CLUSTER_LIST                          = 0x1A11;\/\/3003; \/\/获取设备群列表$/;"	m	namespace:CMD
+CMD_DCL__GET_DEVICE_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_DEVICE_INFO                           = 0x2204;\/\/3007;$/;"	m	namespace:CMD
+CMD_DCL__GET_DEVICE_LIST_OF_USER_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_DEVICE_LIST_OF_USER_MEMBER            = 0x1A16;\/\/302A; \/\/获取群用户成员的设备列表$/;"	m	namespace:CMD
+CMD_DCL__GET_DEVICE_MEMBER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_DEVICE_MEMBER_LIST                    = 0x1A12;\/\/3004; \/\/获取设备群的设备成员列表$/;"	m	namespace:CMD
+CMD_DCL__GET_DEVICE_MEMBER_ONLINE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_DEVICE_MEMBER_ONLINE_LIST             = 0x1A13;\/\/3006; \/\/获取设备群的设备在线列表$/;"	m	namespace:CMD
+CMD_DCL__GET_OPERATOR_LIST_OF_DEV_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_OPERATOR_LIST_OF_DEV_MEMBER           = 0x1A14;\/\/302B; \/\/获取群设备成员的操作员列表$/;"	m	namespace:CMD
+CMD_DCL__GET_SESSION_KEY_WITH_DEVICE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_SESSION_KEY_WITH_DEVICE               = 0x1A41;$/;"	m	namespace:CMD
+CMD_DCL__GET_TRANSER_DEVICE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_TRANSER_DEVICE_LIST                   = 0x1A20;$/;"	m	namespace:CMD
+CMD_DCL__GET_UNCLAIMED_DEVICE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_UNCLAIMED_DEVICE_LIST                 = 0x1A17;$/;"	m	namespace:CMD
+CMD_DCL__GET_USER_MEMBER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_USER_MEMBER_LIST                      = 0x1A15;\/\/3005; \/\/获取设备群的用户成员列表$/;"	m	namespace:CMD
+CMD_DCL__GET_USER_MEMBER_ONLINE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__GET_USER_MEMBER_ONLINE_LIST               = 0x1A18;\/\/3005; \/\/获取设备群的用户成员列表$/;"	m	namespace:CMD
+CMD_DCL__INVITE_TO_JOIN__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__INVITE_TO_JOIN__APPROVAL                  = 0x1A08;\/\/3022; \/\/邀请加入设备群，审批$/;"	m	namespace:CMD
+CMD_DCL__INVITE_TO_JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__INVITE_TO_JOIN__REQ                       = 0x1A07;\/\/3021; \/\/邀请加入设备群，请求$/;"	m	namespace:CMD
+CMD_DCL__INVITE_TO_JOIN__SEARCH_INVITEE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__INVITE_TO_JOIN__SEARCH_INVITEE            = 0x2201;\/\/3020; \/\/邀请加入设备群，搜索用户$/;"	m	namespace:CMD
+CMD_DCL__JOIN__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__JOIN__APPROVAL                            = 0x1A05;\/\/3015; \/\/加入设备群，审批$/;"	m	namespace:CMD
+CMD_DCL__JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__JOIN__REQ                                 = 0x1A04;\/\/3014; \/\/加入设备群，请求$/;"	m	namespace:CMD
+CMD_DCL__JOIN__SEARCH_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__JOIN__SEARCH_CLUSTER                      = 0x1A03;\/\/3012; \/\/搜索设备群$/;"	m	namespace:CMD
+CMD_DCL__MODIFY_DISCRIPTION	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__MODIFY_DISCRIPTION                        = 0x1A32;\/\/3042; \/\/修改设备群描述$/;"	m	namespace:CMD
+CMD_DCL__MODIFY_NOTENAME	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__MODIFY_NOTENAME                           = 0x1A31;\/\/3041; \/\/修改设备群备注名$/;"	m	namespace:CMD
+CMD_DCL__MODIFY_USER_MEMBER_ROLE	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__MODIFY_USER_MEMBER_ROLE                   = 0x1A30;\/\/3040; \/\/修改设备群的用户成员角色（设置／取消管理员）$/;"	m	namespace:CMD
+CMD_DCL__REMOVE_DEVICES_OF_USER_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__REMOVE_DEVICES_OF_USER_MEMBER             = 0x1A34;\/\/3027; \/\/为群用户成员批量删除设备$/;"	m	namespace:CMD
+CMD_DCL__REMOVE_OPERATORS_OF_DEV_MEMBER	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__REMOVE_OPERATORS_OF_DEV_MEMBER            = 0x1A36;\/\/3029; \/\/为群设备成员批量删除操作员$/;"	m	namespace:CMD
+CMD_DCL__REMOVE_USER_MEMBERS	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__REMOVE_USER_MEMBERS                       = 0X1A09;\/\/3024; \/\/批量移除设备群的用户成员$/;"	m	namespace:CMD
+CMD_DCL__TRANSFER_DEVCLUSTER_REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__TRANSFER_DEVCLUSTER_REQ                   = 0x1A23;$/;"	m	namespace:CMD
+CMD_DCL__TRANSFER_DEVCLUSTER_VERIRY	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__TRANSFER_DEVCLUSTER_VERIRY                = 0x1A24;$/;"	m	namespace:CMD
+CMD_DCL__TRANSFER_DEVICES__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__TRANSFER_DEVICES__APPROVAL                = 0x1A22;\/\/$/;"	m	namespace:CMD
+CMD_DCL__TRANSFER_DEVICES__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_DCL__TRANSFER_DEVICES__REQ                     = 0x1A21;\/\/3031$/;"	m	namespace:CMD
+CMD_DELETE_NOTIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_DELETE_NOTIFY                               = 0x001C;$/;"	m	namespace:CMD
+CMD_DEL_LOCAL_CACHE	../protocoldef/protocol.h	/^    const uint16_t CMD_DEL_LOCAL_CACHE = 0x001D;\/\/ 在本地删除用户的登录信息$/;"	m	namespace:CMD
+CMD_DEV__GET_MY_DEVICE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DEV__GET_MY_DEVICE_LIST                        = 0x1810;\/\/3001; \/\/获取我的设备列表$/;"	m	namespace:CMD
+CMD_DEV__GET_MY_DEVICE_ONLINE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_DEV__GET_MY_DEVICE_ONLINE_LIST                 = 0x1811;\/\/3002; \/\/获取我的设备在线列表$/;"	m	namespace:CMD
+CMD_DEV__MODIFY_DEVICE_DESCRIPTION	../protocoldef/protocol.h	/^    const uint16_t CMD_DEV__MODIFY_DEVICE_DESCRIPTION                 = 0x1801;\/\/300A;$/;"	m	namespace:CMD
+CMD_DEV__MODIFY_DEVICE_NOTENAME	../protocoldef/protocol.h	/^    const uint16_t CMD_DEV__MODIFY_DEVICE_NOTENAME                    = 0x1800;\/\/3009;$/;"	m	namespace:CMD
+CMD_FRI__ADD_FRIEND__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t CMD_FRI__ADD_FRIEND__APPROVAL                      = 0x1401;\/\/2021; \/\/$/;"	m	namespace:CMD
+CMD_FRI__ADD_FRIEND__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_FRI__ADD_FRIEND__REQ                           = 0x1400;\/\/2020; \/\/加好友请求$/;"	m	namespace:CMD
+CMD_FRI__ADD_FRIEND__SEARCH_USER	../protocoldef/protocol.h	/^    const uint16_t CMD_FRI__ADD_FRIEND__SEARCH_USER                   = 0x2200;\/\/2010; \/\/搜索用户$/;"	m	namespace:CMD
+CMD_FRI__GET_FRIEND_INFO_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_FRI__GET_FRIEND_INFO_LIST                      = 0x1410;\/\/2001; \/\/获取好友信息列表$/;"	m	namespace:CMD
+CMD_FRI__GET_USER_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_FRI__GET_USER_INFO                             = 0x2203;\/\/2004; \/\/$/;"	m	namespace:CMD
+CMD_GEN__FEEDBACK	../protocoldef/protocol.h	/^    const uint16_t CMD_GEN__FEEDBACK                                = 0x1E00;\/\/101C;$/;"	m	namespace:CMD
+CMD_GEN__HEART_BEAT	../protocoldef/protocol.h	/^    const uint16_t CMD_GEN__HEART_BEAT                                = 0xFFFF;\/\/FFFF; \/\/客户端心跳包$/;"	m	namespace:CMD
+CMD_GEN__NOTIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_GEN__NOTIFY                                    = 0xFFFE;\/\/FFFE; \/\/通知$/;"	m	namespace:CMD
+CMD_GET_NOTIFY_WHEN_BACK_ONLINE	../protocoldef/protocol.h	/^    const uint16_t CMD_GET_NOTIFY_WHEN_BACK_ONLINE                    = 0x001B;$/;"	m	namespace:CMD
+CMD_GET_NOTIFY_WHEN_LOGIN	../protocoldef/protocol.h	/^    const uint16_t CMD_GET_NOTIFY_WHEN_LOGIN                         = 0x001A;$/;"	m	namespace:CMD
+CMD_GET_SCENE_CONNECTOR_DEVICES	../protocoldef/protocol.h	/^    const uint16_t CMD_GET_SCENE_CONNECTOR_DEVICES = 0x1C28; \/\/ 取得场景连接的设备$/;"	m	namespace:CMD
+CMD_GET_SERVER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_GET_SERVER_LIST                                = 0x1206;\/\/1012; \/\/注销$/;"	m	namespace:CMD
+CMD_HMI__CANCEL_SHARE_SCENE	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__CANCEL_SHARE_SCENE                        = 0x1C13;\/\/400A; \/\/HMI，取消共享场景$/;"	m	namespace:CMD
+CMD_HMI__CLOSE_RELAY_CHANNELS	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__CLOSE_RELAY_CHANNELS                      = 0x1C04;\/\/4004; \/\/HMI，批量关闭转发通道$/;"	m	namespace:CMD
+CMD_HMI__CLOSE_RELAY_CHANNELS_RESULT	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__CLOSE_RELAY_CHANNELS_RESULT          = 0x0016;\/\/4004; \/\/HMI，批量关闭转发通道$/;"	m	namespace:CMD
+CMD_HMI__DELETE_SCENE	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__DELETE_SCENE                              = 0x1C14;\/\/400C; \/\/HMI，删除场景$/;"	m	namespace:CMD
+CMD_HMI__DOWNLOAD_SCENE	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__DOWNLOAD_SCENE                            = 0x1C11;\/\/4007; \/\/HMI，下载场景$/;"	m	namespace:CMD
+CMD_HMI__GET_EXTRANET_IP_PORT	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__GET_EXTRANET_IP_PORT                      = 0x1C02;\/\/4002; \/\/HMI，获取外网ip，port$/;"	m	namespace:CMD
+CMD_HMI__GET_MY_SCENE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__GET_MY_SCENE_LIST                         = 0x1C20;\/\/4006; \/\/HMI，获取我的场景列表$/;"	m	namespace:CMD
+CMD_HMI__GET_NEW_CDSESSION_KEY	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__GET_NEW_CDSESSION_KEY                     = 0x1C22;$/;"	m	namespace:CMD
+CMD_HMI__GET_SCENE_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__GET_SCENE_INFO                          = 0x1C25; \/\/ 取场景信息$/;"	m	namespace:CMD
+CMD_HMI__GET_SCENE_USER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__GET_SCENE_USER_LIST                       = 0x1C21;\/\/400F; \/\/HMI，获取场景的用户列表$/;"	m	namespace:CMD
+CMD_HMI__MODIFY_NOTENAME	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__MODIFY_NOTENAME                         = 0x1C24; \/\/ 修改场景备注名$/;"	m	namespace:CMD
+CMD_HMI__MODIFY_SCENE_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__MODIFY_SCENE_INFO                       = 0x1C23; \/\/ 修改场景信息$/;"	m	namespace:CMD
+CMD_HMI__OPEN_RELAY_CHANNELS	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__OPEN_RELAY_CHANNELS                       = 0x1C03;\/\/4003; \/\/HMI，批量打开转发通道$/;"	m	namespace:CMD
+CMD_HMI__OPEN_RELAY_CHANNELS_RESULT	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__OPEN_RELAY_CHANNELS_RESULT           = 0x0015;\/\/4004; \/\/HMI，批量关闭转发通道$/;"	m	namespace:CMD
+CMD_HMI__PENETRATE__GET_MY_DEVICE_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__PENETRATE__GET_MY_DEVICE_LIST             = 0x1C00;\/\/4000; \/\/HMI，批量穿透，获取我的设备列表$/;"	m	namespace:CMD
+CMD_HMI__PENETRATE__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__PENETRATE__REQ                            = 0x1C01;\/\/4001; \/\/HMI，批量穿透$/;"	m	namespace:CMD
+CMD_HMI__SET_SHARE_SCENE_AUTH	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__SET_SHARE_SCENE_AUTH                    = 0x1C16;$/;"	m	namespace:CMD
+CMD_HMI__SHARE_SCENE	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__SHARE_SCENE                               = 0x1C12;\/\/4008; \/\/HMI，共享场景$/;"	m	namespace:CMD
+CMD_HMI__SHARE_SCENE__SEARCH_USER	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__SHARE_SCENE__SEARCH_USER                  = 0x2202;\/\/400E; \/\/HMI，共享场景，搜索用户$/;"	m	namespace:CMD
+CMD_HMI__TRANSFER_SYSADMIN	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__TRANSFER_SYSADMIN                         = 0x1C15;$/;"	m	namespace:CMD
+CMD_HMI__UPLOAD_SCENE	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__UPLOAD_SCENE                              = 0x1C10;\/\/4005; \/\/HMI，上传场景$/;"	m	namespace:CMD
+CMD_HMI__UPLOAD_SCENE_CONFIRM	../protocoldef/protocol.h	/^    const uint16_t CMD_HMI__UPLOAD_SCENE_CONFIRM                      = 0x1C19;\/\/4005; \/\/HMI，上传场景Confirm$/;"	m	namespace:CMD
+CMD_NEW_NOTIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_NEW_NOTIFY                                 = 0x0018;$/;"	m	namespace:CMD
+CMD_NEW_SESSIONAL_NOTIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_NEW_SESSIONAL_NOTIFY                        = 0x0019;$/;"	m	namespace:CMD
+CMD_NOTIFY_RESP	../protocoldef/protocol.h	/^    const uint16_t CMD_NOTIFY_RESP                                    = 0xFFFD;\/\/FFFD; \/\/客户端通知服务器收到通知$/;"	m	namespace:CMD
+CMD_PER__GET_USER_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__GET_USER_INFO                             = 0x1230;\/\/1016; \/\/*获取个人信息$/;"	m	namespace:CMD
+CMD_PER__LOGIN1__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__LOGIN1__REQ                               = 0x1203;\/\/1010; \/\/登录第一步$/;"	m	namespace:CMD
+CMD_PER__LOGIN2__VERIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__LOGIN2__VERIFY                            = 0x1204;\/\/1011; \/\/登录第二步$/;"	m	namespace:CMD
+CMD_PER__LOGOUT	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__LOGOUT                                    = 0x1205;\/\/1012; \/\/注销$/;"	m	namespace:CMD
+CMD_PER__MODIFY_HEAD	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__MODIFY_HEAD                               = 0x1218;\/\/101B; \/\/*修改头像$/;"	m	namespace:CMD
+CMD_PER__MODIFY_MAILBOX1__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__MODIFY_MAILBOX1__REQ                      = 0x1214;\/\/1018; \/\/*修改邮箱第一步$/;"	m	namespace:CMD
+CMD_PER__MODIFY_MAILBOX2__VERIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__MODIFY_MAILBOX2__VERIFY                   = 0x1215;\/\/1019; \/\/*修改邮箱第二步$/;"	m	namespace:CMD
+CMD_PER__MODIFY_NICKNAME	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__MODIFY_NICKNAME                           = 0x1216;\/\/101A; \/\/*修改昵称$/;"	m	namespace:CMD
+CMD_PER__MODIFY_PASSWORD	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__MODIFY_PASSWORD                           = 0x1213;\/\/1017; \/\/*修改密码$/;"	m	namespace:CMD
+CMD_PER__MODIFY_SIGNATURE	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__MODIFY_SIGNATURE                          = 0x1217;\/\/101B; \/\/*修改签名$/;"	m	namespace:CMD
+CMD_PER__RECOVER_PWD1__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__RECOVER_PWD1__REQ                         = 0x1210;\/\/1013; \/\/找回密码第一步$/;"	m	namespace:CMD
+CMD_PER__RECOVER_PWD2__VERIFY	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__RECOVER_PWD2__VERIFY                      = 0x1211;\/\/1014; \/\/找回密码第二步$/;"	m	namespace:CMD
+CMD_PER__RECOVER_PWD3__RESET	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__RECOVER_PWD3__RESET                       = 0x1212;\/\/1015; \/\/找回密码第三步$/;"	m	namespace:CMD
+CMD_PER__REGISTER1__SET_MAILBOX	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__REGISTER1__SET_MAILBOX                    = 0x1200;\/\/1000; \/\/注册第一步，设置邮箱$/;"	m	namespace:CMD
+CMD_PER__REGISTER2__ACTIVATE	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__REGISTER2__ACTIVATE                       = 0x1201;\/\/1001; \/\/注册第二步，激活$/;"	m	namespace:CMD
+CMD_PER__REGISTER3__SET_ACCOUNT_PWD	../protocoldef/protocol.h	/^    const uint16_t CMD_PER__REGISTER3__SET_ACCOUNT_PWD                = 0x1202;\/\/1002; \/\/注册第三步，设置帐号密码$/;"	m	namespace:CMD
+CMD_SCENE_FILE_CHANGED	../protocoldef/protocol.h	/^    const uint16_t CMD_SCENE_FILE_CHANGED = 0x1C18; \/\/ 服务器收到此命令后给场景的所有共享者发送通知,告知场景文件被修改需要从新下载$/;"	m	namespace:CMD
+CMD_SEARCH_DEVICE_BY_NAME_AND_MAC	../protocoldef/protocol.h	/^    const uint16_t CMD_SEARCH_DEVICE_BY_NAME_AND_MAC                  = 0x2205;\/\/ 搜索设备$/;"	m	namespace:CMD
+CMD_SEND_NOTIF	../protocoldef/protocol.h	/^    const uint16_t CMD_SEND_NOTIF                                 = 0x0017;$/;"	m	namespace:CMD
+CMD_SET_SCENE_CONNECTOR_DEVICES	../protocoldef/protocol.h	/^    const uint16_t CMD_SET_SCENE_CONNECTOR_DEVICES = 0x1C27; \/\/ 修改场景连接的设备$/;"	m	namespace:CMD
+CMD_UCL__CREATE	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__CREATE                                    = 0x1600;\/\/2012; \/\/创建用户群$/;"	m	namespace:CMD
+CMD_UCL__GET_CLUSTER_INFO	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__GET_CLUSTER_INFO                          = 0x1611;\/\/2005;$/;"	m	namespace:CMD
+CMD_UCL__GET_CLUSTER_LIST	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__GET_CLUSTER_LIST                          = 0x1610;\/\/2003; \/\/获取用户群列表$/;"	m	namespace:CMD
+CMD_UCL__JOIN__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__JOIN__APPROVAL                            = 0x1603;\/\/2023; \/\/加入群，审批$/;"	m	namespace:CMD
+CMD_UCL__JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__JOIN__REQ                                 = 0x1602;\/\/2022; \/\/加入群，请求$/;"	m	namespace:CMD
+CMD_UCL__JOIN__SEARCH_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t CMD_UCL__JOIN__SEARCH_CLUSTER                      = 0x1601;\/\/2011; \/\/搜索用户群$/;"	m	namespace:CMD
+Cache	../config/shmconfig.h	/^namespace Cache$/;"	n
+Cache::CL_MAX_OBJECT_COUNT	../config/shmconfig.h	/^        CL_MAX_OBJECT_COUNT = 10000$/;"	e	enum:Cache::CountLimit
+Cache::CountLimit	../config/shmconfig.h	/^    enum CountLimit$/;"	g	namespace:Cache
+Cache::DL_DATA_BLOCK_SIZE	../config/shmconfig.h	/^        DL_DATA_BLOCK_SIZE = 8 * 1024$/;"	e	enum:Cache::DataLimit
+Cache::DataLimit	../config/shmconfig.h	/^    enum DataLimit$/;"	g	namespace:Cache
+Cache::DevKeyUpdateStatus	../config/shmconfig.h	/^    enum DevKeyUpdateStatus$/;"	g	namespace:Cache
+Cache::HL_MAX_HASH_RANGE	../config/shmconfig.h	/^        HL_MAX_HASH_RANGE = 19997$/;"	e	enum:Cache::HashLimit
+Cache::HashLimit	../config/shmconfig.h	/^    enum HashLimit$/;"	g	namespace:Cache
+Cache::KUS_NeedUpdate	../config/shmconfig.h	/^        KUS_NeedUpdate = 0x02,$/;"	e	enum:Cache::DevKeyUpdateStatus
+Cache::KUS_Updated	../config/shmconfig.h	/^        KUS_Updated    = 0x01,$/;"	e	enum:Cache::DevKeyUpdateStatus
+Cache::KUS_Updating	../config/shmconfig.h	/^        KUS_Updating   = 0x03$/;"	e	enum:Cache::DevKeyUpdateStatus
+ClearResponses	NotifReqHandler.cpp	/^void NotifReqHandler::ClearResponses()$/;"	f	class:NotifReqHandler	signature:()
+ClearResponses	NotifReqHandler.h	/^    void ClearResponses();$/;"	p	class:NotifReqHandler	access:public	signature:()
+ClusterAuth	../protocoldef/protocol.h	/^namespace ClusterAuth$/;"	n
+ClusterAuth::MANAGER	../protocoldef/protocol.h	/^    const uint8_t MANAGER = 2;  \/\/ 管理员$/;"	m	namespace:ClusterAuth
+ClusterAuth::OPERATOR	../protocoldef/protocol.h	/^    const uint8_t OPERATOR = 3; \/\/ 操作者$/;"	m	namespace:ClusterAuth
+ClusterAuth::OWNER	../protocoldef/protocol.h	/^    const uint8_t OWNER = 1; \/\/ 群主, 系统管理员$/;"	m	namespace:ClusterAuth
+Configure	../config/configreader.cpp	/^Configure::Configure(): extconn_srv_port(8888),$/;"	f	class:Configure	signature:()
+Configure::Configure	../config/configreader.cpp	/^Configure::Configure(): extconn_srv_port(8888),$/;"	f	class:Configure	signature:()
+Configure::config	../config/configreader.cpp	/^Configure Configure::config;$/;"	m	class:Configure	file:
+Configure::getConfig	../config/configreader.cpp	/^Configure *Configure::getConfig()$/;"	f	class:Configure	signature:()
+Configure::getConfigFilePath	../config/configreader.cpp	/^int Configure::getConfigFilePath(char *buf, int sizeofbuf)$/;"	f	class:Configure	signature:(char *buf, int sizeofbuf)
+Configure::parse	../config/configreader.cpp	/^void Configure::parse(const char *token, const char *value)$/;"	f	class:Configure	signature:(const char *token, const char *value)
+Configure::read	../config/configreader.cpp	/^int Configure::read(const char *path)$/;"	f	class:Configure	signature:(const char *path)
+CopyHeader	../Message/Message.cpp	/^void Message::CopyHeader (const Message* msg)$/;"	f	class:Message	signature:(const Message* msg)
+CountLimit	../config/shmconfig.h	/^    enum CountLimit$/;"	g	namespace:Cache
+D	../thread/mutexwrap.cpp	4;"	d	file:
+DB	../config/dbconfig.h	/^namespace DB$/;"	n
+DB::TDEVCL	../config/dbconfig.h	/^    const char* const TDEVCL                       = "T_DeviceCluster";$/;"	m	namespace:DB
+DB::TDEVCL_SCENE	../config/dbconfig.h	/^    const char* const TDEVCL_SCENE                 = "T_DevCLuster_Scene";$/;"	m	namespace:DB
+DB::TDEVCL_SCENE__DEVCLUSTER_ID	../config/dbconfig.h	/^    const char* const TDEVCL_SCENE__DEVCLUSTER_ID  = "deviceClusterID";$/;"	m	namespace:DB
+DB::TDEVCL_SCENE__SCENE_ID	../config/dbconfig.h	/^    const char* const TDEVCL_SCENE__SCENE_ID       = "sceneID";$/;"	m	namespace:DB
+DB::TDEVCL__ACCOUNT	../config/dbconfig.h	/^    const char* const TDEVCL__ACCOUNT              = "account";$/;"	m	namespace:DB
+DB::TDEVCL__CREATE_DATE	../config/dbconfig.h	/^    const char* const TDEVCL__CREATE_DATE          = "createDate";$/;"	m	namespace:DB
+DB::TDEVCL__CREATOR_ID	../config/dbconfig.h	/^    const char* const TDEVCL__CREATOR_ID           = "creatorID";$/;"	m	namespace:DB
+DB::TDEVCL__DESCRIPTION	../config/dbconfig.h	/^    const char* const TDEVCL__DESCRIPTION          = "describ";$/;"	m	namespace:DB
+DB::TDEVCL__FULL_NAME	../config/dbconfig.h	/^    const char* const TDEVCL__FULL_NAME            = "fullName";$/;"	m	namespace:DB
+DB::TDEVCL__ID	../config/dbconfig.h	/^    const char* const TDEVCL__ID                   = "ID";$/;"	m	namespace:DB
+DB::TDEVCL__NOTENAME	../config/dbconfig.h	/^    const char* const TDEVCL__NOTENAME             = "noteName";$/;"	m	namespace:DB
+DB::TDEVCL__SYSADMIN_ID	../config/dbconfig.h	/^    const char* const TDEVCL__SYSADMIN_ID          = "sysAdminID";$/;"	m	namespace:DB
+DB::TDEVCL__TYPE	../config/dbconfig.h	/^    const char* const TDEVCL__TYPE                 = "type";$/;"	m	namespace:DB
+DB::TDEVICE	../config/dbconfig.h	/^    const char* const TDEVICE                      = "T_Device";$/;"	m	namespace:DB
+DB::TDEVICE__CLAIM_METHOD	../config/dbconfig.h	/^    const char* const TDEVICE__CLAIM_METHOD        = "claimMethod";$/;"	m	namespace:DB
+DB::TDEVICE__CLIENT_TRANSFER_FLAG	../config/dbconfig.h	/^    const char* const TDEVICE__CLIENT_TRANSFER_FLAG    = "clientTransferFlag";$/;"	m	namespace:DB
+DB::TDEVICE__CLUSTER_ID	../config/dbconfig.h	/^    const char* const TDEVICE__CLUSTER_ID          = "clusterID";$/;"	m	namespace:DB
+DB::TDEVICE__CREATE_DATE	../config/dbconfig.h	/^    const char* const TDEVICE__CREATE_DATE         = "createDate";$/;"	m	namespace:DB
+DB::TDEVICE__DELETE_FLAG	../config/dbconfig.h	/^    const char* const TDEVICE__DELETE_FLAG         = "deleteFlag";$/;"	m	namespace:DB
+DB::TDEVICE__DESCRIPTION	../config/dbconfig.h	/^    const char* const TDEVICE__DESCRIPTION         = "description";$/;"	m	namespace:DB
+DB::TDEVICE__ENCRYPTION_METHOD	../config/dbconfig.h	/^    const char* const TDEVICE__ENCRYPTION_METHOD   = "encryptionMethod";$/;"	m	namespace:DB
+DB::TDEVICE__FIRM_CLUSTER_ID	../config/dbconfig.h	/^    const char* const TDEVICE__FIRM_CLUSTER_ID     = "firmClusterID";$/;"	m	namespace:DB
+DB::TDEVICE__ID	../config/dbconfig.h	/^    const char* const TDEVICE__ID                  = "ID";$/;"	m	namespace:DB
+DB::TDEVICE__KEY_GENERATION_METHOD	../config/dbconfig.h	/^    const char* const TDEVICE__KEY_GENERATION_METHOD   = "keyGenerationMethod";$/;"	m	namespace:DB
+DB::TDEVICE__LOCAL_UDP_PORT	../config/dbconfig.h	/^    const char* const TDEVICE__LOCAL_UDP_PORT      = "localUDPPort";$/;"	m	namespace:DB
+DB::TDEVICE__LOGIN_KEY	../config/dbconfig.h	/^    const char* const TDEVICE__LOGIN_KEY           = "szLoginKey";$/;"	m	namespace:DB
+DB::TDEVICE__MAC_ADDR	../config/dbconfig.h	/^    const char* const TDEVICE__MAC_ADDR            = "macAddr";$/;"	m	namespace:DB
+DB::TDEVICE__NAME	../config/dbconfig.h	/^    const char* const TDEVICE__NAME                = "name";$/;"	m	namespace:DB
+DB::TDEVICE__NEW_PROTOCOL_FLAG	../config/dbconfig.h	/^    const char* const TDEVICE__NEW_PROTOCOL_FLAG   = "newProtocolFlag";$/;"	m	namespace:DB
+DB::TDEVICE__NOTENAME	../config/dbconfig.h	/^    const char* const TDEVICE__NOTENAME            = "noteName";$/;"	m	namespace:DB
+DB::TDEVICE__PREVIOUS_ID	../config/dbconfig.h	/^    const char* const TDEVICE__PREVIOUS_ID          = "previousID";$/;"	m	namespace:DB
+DB::TDEVICE__TRANSFER_METHOD	../config/dbconfig.h	/^    const char* const TDEVICE__TRANSFER_METHOD     = "transferMethod";$/;"	m	namespace:DB
+DB::TDEVICE__TYPE	../config/dbconfig.h	/^    const char* const TDEVICE__TYPE                = "type";$/;"	m	namespace:DB
+DB::TFEEDBACK	../config/dbconfig.h	/^    const char* const TFEEDBACK                    = "T_Feedback";$/;"	m	namespace:DB
+DB::TFEEDBACK__FEEDBACK	../config/dbconfig.h	/^    const char* const TFEEDBACK__FEEDBACK          = "feedback";$/;"	m	namespace:DB
+DB::TFEEDBACK__SUBMIT_TIME	../config/dbconfig.h	/^    const char* const TFEEDBACK__SUBMIT_TIME       = "submitTime";$/;"	m	namespace:DB
+DB::TFEEDBACK__USER_ID	../config/dbconfig.h	/^    const char* const TFEEDBACK__USER_ID           = "userID";$/;"	m	namespace:DB
+DB::TFRIENDS	../config/dbconfig.h	/^    const char* const TFRIENDS                     = "T_FriendShip";$/;"	m	namespace:DB
+DB::TFRIENDS__CREATE_DATE	../config/dbconfig.h	/^    const char* const TFRIENDS__CREATE_DATE        = "createDate";$/;"	m	namespace:DB
+DB::TFRIENDS__FRIEND_ID	../config/dbconfig.h	/^    const char* const TFRIENDS__FRIEND_ID          = "friendID";$/;"	m	namespace:DB
+DB::TFRIENDS__FRIEND_NOTENAME	../config/dbconfig.h	/^    const char* const TFRIENDS__FRIEND_NOTENAME    = "friendNoteName";$/;"	m	namespace:DB
+DB::TFRIENDS__SELF_ID	../config/dbconfig.h	/^    const char* const TFRIENDS__SELF_ID            = "selfID";$/;"	m	namespace:DB
+DB::TFRIENDS__SELF_NOTENAME	../config/dbconfig.h	/^    const char* const TFRIENDS__SELF_NOTENAME      = "selfNoteName";$/;"	m	namespace:DB
+DB::TOFFL	../config/dbconfig.h	/^    const char* const TOFFL             = "T_OfflineMsg";$/;"	m	namespace:DB
+DB::TOFFL_CREATE_TIME	../config/dbconfig.h	/^    const char* const TOFFL_CREATE_TIME = "recvTime";$/;"	m	namespace:DB
+DB::TOFFL_ID	../config/dbconfig.h	/^    const char* const TOFFL_ID          = "ID";$/;"	m	namespace:DB
+DB::TOFFL_MSG_BUF	../config/dbconfig.h	/^    const char* const TOFFL_MSG_BUF     = "msg";$/;"	m	namespace:DB
+DB::TOFFL_MSG_LEN	../config/dbconfig.h	/^    const char* const TOFFL_MSG_LEN     = "msgLen";$/;"	m	namespace:DB
+DB::TOFFL_NOTIF_NUM	../config/dbconfig.h	/^    const char* const TOFFL_NOTIF_NUM   = "notifyNum";$/;"	m	namespace:DB
+DB::TOFFL_OBJECT_ID	../config/dbconfig.h	/^    const char* const TOFFL_OBJECT_ID   = "subjectID";$/;"	m	namespace:DB
+DB::TOFFL_PRIORITY	../config/dbconfig.h	/^    const char* const TOFFL_PRIORITY    = "priority";$/;"	m	namespace:DB
+DB::TSCENE	../config/dbconfig.h	/^    const char* const TSCENE                       = "T_Scene";$/;"	m	namespace:DB
+DB::TSCENE__CREATE_DATE	../config/dbconfig.h	/^    const char* const TSCENE__CREATE_DATE          = "createDate";$/;"	m	namespace:DB
+DB::TSCENE__CREATOR_ID	../config/dbconfig.h	/^    const char* const TSCENE__CREATOR_ID           = "creatorID";$/;"	m	namespace:DB
+DB::TSCENE__ID	../config/dbconfig.h	/^    const char* const TSCENE__ID                   = "ID";$/;"	m	namespace:DB
+DB::TSCENE__NAME	../config/dbconfig.h	/^    const char* const TSCENE__NAME                 = "name";$/;"	m	namespace:DB
+DB::TSCENE__OWNER_ID	../config/dbconfig.h	/^    const char* const TSCENE__OWNER_ID             = "ownerID";$/;"	m	namespace:DB
+DB::TUSER	../config/dbconfig.h	/^    const char* const TUSER                        = "T_User";$/;"	m	namespace:DB
+DB::TUSERCL	../config/dbconfig.h	/^    const char* const TUSERCL                      = "T_UserCluster";$/;"	m	namespace:DB
+DB::TUSERCL__CREATE_DATE	../config/dbconfig.h	/^    const char* const TUSERCL__CREATE_DATE         = "createDate";$/;"	m	namespace:DB
+DB::TUSERCL__CREATOR_ID	../config/dbconfig.h	/^    const char* const TUSERCL__CREATOR_ID          = "creatorID";$/;"	m	namespace:DB
+DB::TUSERCL__DESCRIPTION	../config/dbconfig.h	/^    const char* const TUSERCL__DESCRIPTION         = "description";$/;"	m	namespace:DB
+DB::TUSERCL__ID	../config/dbconfig.h	/^    const char* const TUSERCL__ID                  = "ID";$/;"	m	namespace:DB
+DB::TUSERCL__NAME	../config/dbconfig.h	/^    const char* const TUSERCL__NAME                = "name";$/;"	m	namespace:DB
+DB::TUSER_DEVCL	../config/dbconfig.h	/^    const char* const TUSER_DEVCL                  = "T_User_DevCluster";$/;"	m	namespace:DB
+DB::TUSER_DEVCL__DEVCLUSTER_ID	../config/dbconfig.h	/^    const char* const TUSER_DEVCL__DEVCLUSTER_ID   = "deviceClusterID";$/;"	m	namespace:DB
+DB::TUSER_DEVCL__ROLE	../config/dbconfig.h	/^    const char* const TUSER_DEVCL__ROLE            = "role";$/;"	m	namespace:DB
+DB::TUSER_DEVCL__USER_ID	../config/dbconfig.h	/^    const char* const TUSER_DEVCL__USER_ID         = "userID";$/;"	m	namespace:DB
+DB::TUSER_DEVICE	../config/dbconfig.h	/^    const char* const TUSER_DEVICE                 = "T_User_Device";$/;"	m	namespace:DB
+DB::TUSER_DEVICE__AUTHORITY	../config/dbconfig.h	/^    const char* const TUSER_DEVICE__AUTHORITY      = "authority";$/;"	m	namespace:DB
+DB::TUSER_DEVICE__AUTHORIZER_ID	../config/dbconfig.h	/^    const char* const TUSER_DEVICE__AUTHORIZER_ID  = "authorizerID";$/;"	m	namespace:DB
+DB::TUSER_DEVICE__DEVICE_ID	../config/dbconfig.h	/^    const char* const TUSER_DEVICE__DEVICE_ID      = "deviceID";$/;"	m	namespace:DB
+DB::TUSER_DEVICE__USER_ID	../config/dbconfig.h	/^    const char* const TUSER_DEVICE__USER_ID        = "userID";$/;"	m	namespace:DB
+DB::TUSER_SCENE	../config/dbconfig.h	/^    const char* const TUSER_SCENE                  = "T_User_Scene";$/;"	m	namespace:DB
+DB::TUSER_SCENE__AUTHORITY	../config/dbconfig.h	/^    const char* const TUSER_SCENE__AUTHORITY       = "authority";$/;"	m	namespace:DB
+DB::TUSER_SCENE__SCENE_ID	../config/dbconfig.h	/^    const char* const TUSER_SCENE__SCENE_ID        = "sceneID";$/;"	m	namespace:DB
+DB::TUSER_SCENE__USER_ID	../config/dbconfig.h	/^    const char* const TUSER_SCENE__USER_ID         = "userID";$/;"	m	namespace:DB
+DB::TUSER_USERCL	../config/dbconfig.h	/^    const char* const TUSER_USERCL                 = "T_User_UsrCluster";$/;"	m	namespace:DB
+DB::TUSER_USERCL__ROLE	../config/dbconfig.h	/^    const char* const TUSER_USERCL__ROLE           = "role";$/;"	m	namespace:DB
+DB::TUSER_USERCL__USER_ID	../config/dbconfig.h	/^    const char* const TUSER_USERCL__USER_ID        = "userID";$/;"	m	namespace:DB
+DB::TUSER_USERCL__USRCLUSTER_ID	../config/dbconfig.h	/^    const char* const TUSER_USERCL__USRCLUSTER_ID  = "userClusterID";$/;"	m	namespace:DB
+DB::TUSER__ACCOUNT	../config/dbconfig.h	/^    const char* const TUSER__ACCOUNT               = "account";$/;"	m	namespace:DB
+DB::TUSER__ACTIVATE_FLAG	../config/dbconfig.h	/^    const char* const TUSER__ACTIVATE_FLAG         = "activateFlag";$/;"	m	namespace:DB
+DB::TUSER__ACTIVATION_CODE	../config/dbconfig.h	/^    const char* const TUSER__ACTIVATION_CODE       = "activationCode";$/;"	m	namespace:DB
+DB::TUSER__BIRTHDAY	../config/dbconfig.h	/^    const char* const TUSER__BIRTHDAY              = "birthday";$/;"	m	namespace:DB
+DB::TUSER__CREATE_DATE	../config/dbconfig.h	/^    const char* const TUSER__CREATE_DATE           = "createDate";$/;"	m	namespace:DB
+DB::TUSER__HEAD	../config/dbconfig.h	/^    const char* const TUSER__HEAD                  = "head";$/;"	m	namespace:DB
+DB::TUSER__ID	../config/dbconfig.h	/^    const char* const TUSER__ID                    = "ID";$/;"	m	namespace:DB
+DB::TUSER__LAST_LOGIN_TIME	../config/dbconfig.h	/^    const char* const TUSER__LAST_LOGIN_TIME       = "lastLoginTime";$/;"	m	namespace:DB
+DB::TUSER__MAIL	../config/dbconfig.h	/^    const char* const TUSER__MAIL                  = "mail";$/;"	m	namespace:DB
+DB::TUSER__NICKNAME	../config/dbconfig.h	/^    const char* const TUSER__NICKNAME              = "nickName";$/;"	m	namespace:DB
+DB::TUSER__PHONE	../config/dbconfig.h	/^    const char* const TUSER__PHONE                 = "phone";$/;"	m	namespace:DB
+DB::TUSER__PWD	../config/dbconfig.h	/^    const char* const TUSER__PWD                   = "password";$/;"	m	namespace:DB
+DB::TUSER__REGION	../config/dbconfig.h	/^    const char* const TUSER__REGION                = "region";$/;"	m	namespace:DB
+DB::TUSER__SECURE_MAIL	../config/dbconfig.h	/^    const char* const TUSER__SECURE_MAIL           = "secureMail";$/;"	m	namespace:DB
+DB::TUSER__SEX	../config/dbconfig.h	/^    const char* const TUSER__SEX                   = "sex";$/;"	m	namespace:DB
+DB::TUSER__SIGNATURE	../config/dbconfig.h	/^    const char* const TUSER__SIGNATURE             = "signature";$/;"	m	namespace:DB
+DBOperator	Database/DBOperator.cpp	/^DBOperator::DBOperator()$/;"	f	class:DBOperator	signature:()
+DBOperator	Database/DBOperator.h	/^    DBOperator();$/;"	p	class:DBOperator	access:public	signature:()
+DBOperator	Database/DBOperator.h	/^class DBOperator : public IDBoperator$/;"	c	inherits:IDBoperator
+DBOperator::DBOperator	Database/DBOperator.cpp	/^DBOperator::DBOperator()$/;"	f	class:DBOperator	signature:()
+DBOperator::DBOperator	Database/DBOperator.h	/^    DBOperator();$/;"	p	class:DBOperator	access:public	signature:()
+DBOperator::DeleteNotification	Database/DBOperator.cpp	/^bool DBOperator::DeleteNotification(uint64_t objectID, uint64_t notifNumber)$/;"	f	class:DBOperator	signature:(uint64_t objectID, uint64_t notifNumber)
+DBOperator::DeleteNotification	Database/DBOperator.h	/^    bool DeleteNotification(uint64_t objectID, uint64_t notifNumber);$/;"	p	class:DBOperator	access:public	signature:(uint64_t objectID, uint64_t notifNumber)
+DBOperator::GetNotification	Database/DBOperator.cpp	/^bool DBOperator::GetNotification(uint64_t objectID,$/;"	f	class:DBOperator	signature:(uint64_t objectID, std::vector<Notification *> *vNotification)
+DBOperator::GetNotification	Database/DBOperator.h	/^    bool GetNotification(uint64_t objectID, std::vector<Notification *> *vNotification);$/;"	p	class:DBOperator	access:public	signature:(uint64_t objectID, std::vector<Notification *> *vNotification)
+DBOperator::SaveNotification	Database/DBOperator.cpp	/^bool DBOperator::SaveNotification(const Notification& notification, uint64_t *insertid)$/;"	f	class:DBOperator	signature:(const Notification& notification, uint64_t *insertid)
+DBOperator::SaveNotification	Database/DBOperator.h	/^    bool SaveNotification(const Notification& notification, uint64_t *insertid);$/;"	p	class:DBOperator	access:public	signature:(const Notification& notification, uint64_t *insertid)
+DBOperator::m_sql	Database/DBOperator.h	/^    MysqlConnection m_sql;$/;"	m	class:DBOperator	access:private
+DBOperator::~DBOperator	Database/DBOperator.cpp	/^DBOperator::~DBOperator()$/;"	f	class:DBOperator	signature:()
+DBOperator::~DBOperator	Database/DBOperator.h	/^    ~DBOperator();$/;"	p	class:DBOperator	access:public	signature:()
+DB_AND_ADRESS_CONFIG_H__	../config/dbconfig.h	2;"	d
+DB_OPERATION_H	Database/DBOperator.h	2;"	d
+DCL__TRANSFER_DEVICES__NOTIFY_DEST_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t DCL__TRANSFER_DEVICES__NOTIFY_DEST_CLUSTER         = 0x1A0A;\/\/$/;"	m	namespace:CMD
+DCL__TRANSFER_DEVICES__NOTIFY_SRC_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t DCL__TRANSFER_DEVICES__NOTIFY_SRC_CLUSTER          = 0x1A0D;\/\/$/;"	m	namespace:CMD
+DCMD__LOGIN1	../protocoldef/protocol.h	/^    const uint16_t DCMD__LOGIN1                                       = 0x1002;$/;"	m	namespace:CMD
+DCMD__LOGIN2	../protocoldef/protocol.h	/^    const uint16_t DCMD__LOGIN2                                       = 0x1003;$/;"	m	namespace:CMD
+DCMD__LOGOUT	../protocoldef/protocol.h	/^    const uint16_t DCMD__LOGOUT                                       = 0x1004;$/;"	m	namespace:CMD
+DCMD__LONG_HEART_BEAT	../protocoldef/protocol.h	/^    const uint16_t DCMD__LONG_HEART_BEAT                              = 0x1005;$/;"	m	namespace:CMD
+DCMD__OLD_FUNCTION	../protocoldef/protocol.h	/^    const uint16_t DCMD__OLD_FUNCTION                                 = 0x1000;$/;"	m	namespace:CMD
+DCMD__REGISTER	../protocoldef/protocol.h	/^    const uint16_t DCMD__REGISTER                                     = 0x1001;$/;"	m	namespace:CMD
+DCMD__SHORT_HEART_BEAT	../protocoldef/protocol.h	/^    const uint16_t DCMD__SHORT_HEART_BEAT                             = 0x1006;$/;"	m	namespace:CMD
+DEVICE_ID_ERROR	../protocoldef/protocol.h	/^    const uint8_t DEVICE_ID_ERROR           = 0x0A; \/\/设备不存在或没有权限$/;"	m	namespace:ANSC
+DEVICE_MSG_PREFIX	../protocoldef/protocol.h	/^const uint8_t  DEVICE_MSG_PREFIX = 0xE0;  \/\/消息开始标识$/;"	v
+DEVICE_MSG_SUFFIX	../protocoldef/protocol.h	/^const uint8_t  DEVICE_MSG_SUFFIX = 0xE1;  \/\/消息结束标识$/;"	v
+DEVICE_NO_RESP	../protocoldef/protocol.h	/^    const uint8_t DEVICE_NO_RESP          = 0x18; \/\/ 设备没有回复$/;"	m	namespace:ANSC
+DEVICE_OFFLINE	../protocoldef/protocol.h	/^    const uint8_t DEVICE_OFFLINE         = 0x10; \/\/认领设备失败，设备不在线或没有权限$/;"	m	namespace:ANSC
+DEVICE_PASSWORD_ERROR	../protocoldef/protocol.h	/^    const uint8_t DEVICE_PASSWORD_ERROR          = 0x11; \/\/认领设备失败，密码错误$/;"	m	namespace:ANSC
+DL_DATA_BLOCK_SIZE	../config/shmconfig.h	/^        DL_DATA_BLOCK_SIZE = 8 * 1024$/;"	e	enum:Cache::DataLimit
+DL_MSG_TOTAL	../config/shmconfig.h	/^        DL_MSG_TOTAL   = 2 * 1024 * 1024,$/;"	e	enum:Ipc::DataLimit
+DL_NOTIF_TOTAL	../config/shmconfig.h	/^        DL_NOTIF_TOTAL = 1024 * 1024,$/;"	e	enum:Ipc::DataLimit
+DL_RELAY_TOTAL	../config/shmconfig.h	/^        DL_RELAY_TOTAL = 512 * 1024,$/;"	e	enum:Ipc::DataLimit
+DNTP__TRANSFER_DEIVCES	../protocoldef/protocol.h	/^    const uint16_t DNTP__TRANSFER_DEIVCES                             = 0x1008;$/;"	m	namespace:CMD
+DataBaseSrv_Port	../config/dbconfig.h	/^const in_port_t   DataBaseSrv_Port = 8887;$/;"	v
+DataLimit	../config/shmconfig.h	/^    enum DataLimit$/;"	g	namespace:Cache
+DataLimit	../config/shmconfig.h	/^    enum DataLimit$/;"	g	namespace:Ipc
+Decrypt	../Message/Message.cpp	/^int Message::Decrypt (char* key)$/;"	f	class:Message	signature:(char* key)
+DeleteNotification	Database/DBOperator.cpp	/^bool DBOperator::DeleteNotification(uint64_t objectID, uint64_t notifNumber)$/;"	f	class:DBOperator	signature:(uint64_t objectID, uint64_t notifNumber)
+DeleteNotification	Database/DBOperator.h	/^    bool DeleteNotification(uint64_t objectID, uint64_t notifNumber);$/;"	p	class:DBOperator	access:public	signature:(uint64_t objectID, uint64_t notifNumber)
+DeleteNotification	Database/DBOperator.h	/^    virtual bool DeleteNotification(uint64_t objectID, uint64_t notifNumber) = 0;$/;"	p	class:IDBoperator	access:public	signature:(uint64_t objectID, uint64_t notifNumber)
+DevKeyUpdateStatus	../config/shmconfig.h	/^    enum DevKeyUpdateStatus$/;"	g	namespace:Cache
+EMAIL_NOT_EXIST	../protocoldef/protocol.h	/^    const uint8_t EMAIL_NOT_EXIST         = 0x06; \/\/邮箱错误$/;"	m	namespace:ANSC
+EMAIL_USED	../protocoldef/protocol.h	/^    const uint8_t EMAIL_USED             = 0x07; \/\/邮箱已被使用$/;"	m	namespace:ANSC
+EMPTY_STRING	Database/DBOperator.cpp	/^static const string EMPTY_STRING = "";$/;"	v	file:
+EXEC_NAME	makefile	/^	EXEC_NAME = ..\/dbin\/NotifySrv_d$/;"	m
+EXEC_NAME	makefile	/^	EXEC_NAME = ..\/rbin\/NotifySrv_d$/;"	m
+EXEC_PATH	makefile	/^EXEC_PATH = .\/$(EXEC_NAME)$/;"	m
+Encrypt	../Message/Message.cpp	/^void Message::Encrypt (char* key, int keylen)$/;"	f	class:Message	signature:(char* key, int keylen)
+EncryptByteArray	../Message/itobytearray.cpp	/^EncryptByteArray::EncryptByteArray(IToByteArray *target,$/;"	f	class:EncryptByteArray	signature:(IToByteArray *target, std::vector<char> *enckey)
+EncryptByteArray::EncryptByteArray	../Message/itobytearray.cpp	/^EncryptByteArray::EncryptByteArray(IToByteArray *target,$/;"	f	class:EncryptByteArray	signature:(IToByteArray *target, std::vector<char> *enckey)
+EncryptByteArray::toByteArray	../Message/itobytearray.cpp	/^void EncryptByteArray::toByteArray(std::vector<char> *out)$/;"	f	class:EncryptByteArray	signature:(std::vector<char> *out)
+Execute	NotifReqHandler.cpp	/^std::vector<Notification*>& NotifReqHandler::Execute(Message *notifReq)$/;"	f	class:NotifReqHandler	signature:(Message *notifReq)
+Execute	NotifReqHandler.h	/^    std::vector<Notification*>& Execute(Message *notifReq);$/;"	p	class:NotifReqHandler	access:public	signature:(Message *notifReq)
+FAILED	../protocoldef/protocol.h	/^    const uint8_t FAILED                = 0x16; \/\/ 失败$/;"	m	namespace:ANSC
+FLAG	makefile	/^FLAG = -Wall -std=c++0x$/;"	m
+FuncWrapProc	../timer/timer.cpp	/^    FuncWrapProc(const std::function<void()> &func) : m_fun(func)$/;"	f	class:FuncWrapProc	access:public	signature:(const std::function<void()> &func)
+FuncWrapProc	../timer/timer.cpp	/^class FuncWrapProc : public Proc$/;"	c	file:	inherits:Proc
+FuncWrapProc::FuncWrapProc	../timer/timer.cpp	/^    FuncWrapProc(const std::function<void()> &func) : m_fun(func)$/;"	f	class:FuncWrapProc	access:public	signature:(const std::function<void()> &func)
+FuncWrapProc::m_fun	../timer/timer.cpp	/^    std::function<void()> m_fun;$/;"	m	class:FuncWrapProc	file:	access:private
+GetCreateTime	../Message/Notification.h	/^    time_t GetCreateTime() const { return m_createTime; }$/;"	f	class:Notification	access:public	signature:() const
+GetIDType	../protocoldef/protocol.cpp	/^IdType GetIDType (uint64_t id)$/;"	f	signature:(uint64_t id)
+GetIDType	../protocoldef/protocol.h	/^IdType GetIDType(uint64_t id);$/;"	p	signature:(uint64_t id)
+GetIdType	../protocoldef/protocol.h	27;"	d
+GetMsgBuf	../Message/Notification.cpp	/^const char* Notification::GetMsgBuf() const$/;"	f	class:Notification	signature:() const
+GetMsgBuf	../Message/Notification.h	/^    const char* GetMsgBuf() const ;$/;"	p	class:Notification	access:public	signature:() const
+GetMsgLen	../Message/Notification.h	/^    uint16_t GetMsgLen() const { return m_msgLen; }$/;"	f	class:Notification	access:public	signature:() const
+GetNotification	Database/DBOperator.cpp	/^bool DBOperator::GetNotification(uint64_t objectID,$/;"	f	class:DBOperator	signature:(uint64_t objectID, std::vector<Notification *> *vNotification)
+GetNotification	Database/DBOperator.h	/^    bool GetNotification(uint64_t objectID, std::vector<Notification *> *vNotification);$/;"	p	class:DBOperator	access:public	signature:(uint64_t objectID, std::vector<Notification *> *vNotification)
+GetNotification	Database/DBOperator.h	/^    virtual bool GetNotification(uint64_t objectID, std::vector<Notification *> *vNotification) = 0;$/;"	p	class:IDBoperator	access:public	signature:(uint64_t objectID, std::vector<Notification *> *vNotification)
+GetObjectID	../Message/Notification.h	/^    uint64_t GetObjectID() const {return m_objectID; }$/;"	f	class:Notification	access:public	signature:() const
+GetString	../util/util.cpp	/^string GetString(char* cstr)$/;"	f	signature:(char* cstr)
+HEART_BEAT_INTERVAL	../protocoldef/protocol.h	/^const time_t HEART_BEAT_INTERVAL = 30;$/;"	v
+HEART_BEAT_TIMEOUT	../protocoldef/protocol.h	/^const int HEART_BEAT_TIMEOUT = 30;$/;"	v
+HEX	../util/util.cpp	/^const char HEX[16] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'};$/;"	v
+HL_MAX_HASH_RANGE	../config/shmconfig.h	/^        HL_MAX_HASH_RANGE = 19997$/;"	e	enum:Cache::HashLimit
+HandleIpcRequest	BusinessManager.cpp	/^int BusinessManager::HandleIpcRequest(Message *notifReq) \/\/ 处理从 LogicalSrv 通过共享内存发过来的数据$/;"	f	class:BusinessManager	signature:(Message *notifReq)
+HandleIpcRequest	BusinessManager.h	/^    int HandleIpcRequest(Message *notifReq);$/;"	p	class:BusinessManager	access:public	signature:(Message *notifReq)
+HashLimit	../config/shmconfig.h	/^    enum HashLimit$/;"	g	namespace:Cache
+IDBoperator	Database/DBOperator.h	/^class IDBoperator$/;"	c
+IDBoperator::DeleteNotification	Database/DBOperator.h	/^    virtual bool DeleteNotification(uint64_t objectID, uint64_t notifNumber) = 0;$/;"	p	class:IDBoperator	access:public	signature:(uint64_t objectID, uint64_t notifNumber)
+IDBoperator::GetNotification	Database/DBOperator.h	/^    virtual bool GetNotification(uint64_t objectID, std::vector<Notification *> *vNotification) = 0;$/;"	p	class:IDBoperator	access:public	signature:(uint64_t objectID, std::vector<Notification *> *vNotification)
+IDBoperator::SaveNotification	Database/DBOperator.h	/^    virtual bool SaveNotification(const Notification& notification, uint64_t *insertid) = 0;$/;"	p	class:IDBoperator	access:public	signature:(const Notification& notification, uint64_t *insertid)
+IDBoperator::~IDBoperator	Database/DBOperator.h	/^    virtual ~IDBoperator(){}$/;"	f	class:IDBoperator	access:public	signature:()
+INCMD_DEVICE_OFFLINE	../protocoldef/protocol.h	/^    const uint16_t INCMD_DEVICE_OFFLINE                          = 0x0013; \/\/设备下线$/;"	m	namespace:CMD
+INCMD_DEVICE_ONLINE	../protocoldef/protocol.h	/^    const uint16_t INCMD_DEVICE_ONLINE                           = 0x0012; \/\/设备上线$/;"	m	namespace:CMD
+INCMD_GET_DEVICE_ONLINE_LIST	../protocoldef/protocol.h	/^    const uint16_t INCMD_GET_DEVICE_ONLINE_LIST                  = 0x0014; \/\/获取设备在线列表$/;"	m	namespace:CMD
+INCMD_USER_OFFLINE	../protocoldef/protocol.h	/^    const uint16_t INCMD_USER_OFFLINE                            = 0x0011; \/\/用户下线$/;"	m	namespace:CMD
+INCMD_USER_ONLINE	../protocoldef/protocol.h	/^    const uint16_t INCMD_USER_ONLINE                             = 0x0010; \/\/用户上线$/;"	m	namespace:CMD
+INTERNAL_CLAIM_TIMER_RESEND	../protocoldef/protocol.h	/^    const uint16_t INTERNAL_CLAIM_TIMER_RESEND  = 0x1;$/;"	m	namespace:CMD
+IT_DClus	../protocoldef/protocol.h	/^enum IdType{ IT_Unknown, IT_User, IT_Device, IT_UClus, IT_DClus};$/;"	e	enum:IdType
+IT_Device	../protocoldef/protocol.h	/^enum IdType{ IT_Unknown, IT_User, IT_Device, IT_UClus, IT_DClus};$/;"	e	enum:IdType
+IT_UClus	../protocoldef/protocol.h	/^enum IdType{ IT_Unknown, IT_User, IT_Device, IT_UClus, IT_DClus};$/;"	e	enum:IdType
+IT_Unknown	../protocoldef/protocol.h	/^enum IdType{ IT_Unknown, IT_User, IT_Device, IT_UClus, IT_DClus};$/;"	e	enum:IdType
+IT_User	../protocoldef/protocol.h	/^enum IdType{ IT_Unknown, IT_User, IT_Device, IT_UClus, IT_DClus};$/;"	e	enum:IdType
+IdType	../protocoldef/protocol.h	/^enum IdType{ IT_Unknown, IT_User, IT_Device, IT_UClus, IT_DClus};$/;"	g
+IncludePath	makefile	/^IncludePath = -I..\/$/;"	m
+Init	../Message/Notification.cpp	/^void Notification::Init($/;"	f	class:Notification	signature:( uint64_t objectID, uint8_t answccode, uint16_t notifType, uint64_t sn, uint16_t msgLen, char* msgBuf)
+Init	../Message/Notification.h	/^    void Init(uint64_t objectID, uint8_t as, uint16_t notifType, uint64_t sn, uint16_t msgLen, char* msgBuf);$/;"	p	class:Notification	access:public	signature:(uint64_t objectID, uint8_t as, uint16_t notifType, uint64_t sn, uint16_t msgLen, char* msgBuf)
+InternalMessage	../Message/Message.cpp	/^InternalMessage::InternalMessage(Message *msg)$/;"	f	class:InternalMessage	signature:(Message *msg)
+InternalMessage	../Message/Message.cpp	/^InternalMessage::InternalMessage(Message *msg, uint16_t type, uint16_t subtype)$/;"	f	class:InternalMessage	signature:(Message *msg, uint16_t type, uint16_t subtype)
+InternalMessage::InternalMessage	../Message/Message.cpp	/^InternalMessage::InternalMessage(Message *msg)$/;"	f	class:InternalMessage	signature:(Message *msg)
+InternalMessage::InternalMessage	../Message/Message.cpp	/^InternalMessage::InternalMessage(Message *msg, uint16_t type, uint16_t subtype)$/;"	f	class:InternalMessage	signature:(Message *msg, uint16_t type, uint16_t subtype)
+InternalMessage::fromByteArray	../Message/Message.cpp	/^bool InternalMessage::fromByteArray(const char *buf, int buflen)$/;"	f	class:InternalMessage	signature:(const char *buf, int buflen)
+InternalMessage::setEncrypt	../Message/Message.cpp	/^void InternalMessage::setEncrypt(bool t)$/;"	f	class:InternalMessage	signature:(bool t)
+InternalMessage::shouldEncrypt	../Message/Message.cpp	/^bool InternalMessage::shouldEncrypt()$/;"	f	class:InternalMessage	signature:()
+InternalMessage::toByteArray	../Message/Message.cpp	/^void InternalMessage::toByteArray(std::vector<char> *out)$/;"	f	class:InternalMessage	signature:(std::vector<char> *out)
+InternalMessage::~InternalMessage	../Message/Message.cpp	/^InternalMessage::~InternalMessage()$/;"	f	class:InternalMessage	signature:()
+Ipc	../config/shmconfig.h	/^namespace Ipc$/;"	n
+Ipc::DL_MSG_TOTAL	../config/shmconfig.h	/^        DL_MSG_TOTAL   = 2 * 1024 * 1024,$/;"	e	enum:Ipc::DataLimit
+Ipc::DL_NOTIF_TOTAL	../config/shmconfig.h	/^        DL_NOTIF_TOTAL = 1024 * 1024,$/;"	e	enum:Ipc::DataLimit
+Ipc::DL_RELAY_TOTAL	../config/shmconfig.h	/^        DL_RELAY_TOTAL = 512 * 1024,$/;"	e	enum:Ipc::DataLimit
+Ipc::DataLimit	../config/shmconfig.h	/^    enum DataLimit$/;"	g	namespace:Ipc
+Ipc::Shm_Size_Logical_Ext_Conn_Server	../config/shmconfig.h	/^        Shm_Size_Logical_Ext_Conn_Server = 2 * 1024 * 1024,$/;"	e	enum:Ipc::DataLimit
+Ipc::Shm_Size_Logical_Internal_Server	../config/shmconfig.h	/^        Shm_Size_Logical_Internal_Server = 2 * 1024 * 1024,$/;"	e	enum:Ipc::DataLimit
+Ipc::Shm_Size_Logical_Notif_Server	../config/shmconfig.h	/^        Shm_Size_Logical_Notif_Server = 1024 * 1024,$/;"	e	enum:Ipc::DataLimit
+Ipc::Shm_Size_Logical_Relay_Server	../config/shmconfig.h	/^        Shm_Size_Logical_Relay_Server = 512 * 1024$/;"	e	enum:Ipc::DataLimit
+IsBigEndian	../util/util.cpp	/^bool IsBigEndian()$/;"	f	signature:()
+KUS_NeedUpdate	../config/shmconfig.h	/^        KUS_NeedUpdate = 0x02,$/;"	e	enum:Cache::DevKeyUpdateStatus
+KUS_Updated	../config/shmconfig.h	/^        KUS_Updated    = 0x01,$/;"	e	enum:Cache::DevKeyUpdateStatus
+KUS_Updating	../config/shmconfig.h	/^        KUS_Updating   = 0x03$/;"	e	enum:Cache::DevKeyUpdateStatus
+LOGIN_RETRY_TIMES_OUT	../protocoldef/protocol.h	/^    const uint8_t LOGIN_RETRY_TIMES_OUT    = 0x09; \/\/同一个帐号密码错误重试十次，限制一小时不允许登录$/;"	m	namespace:ANSC
+MACRO	makefile	/^	MACRO = -D _DEBUG_VERSION$/;"	m
+MACRO	makefile	/^	MACRO = -DNDEBUG$/;"	m
+MAIN_QUEUE__H	mainqueue.h	2;"	d
+MANAGER	../protocoldef/protocol.h	/^    const uint8_t MANAGER = 2;  \/\/ 管理员$/;"	m	namespace:ClusterAuth
+MAX_MSG_DATA_SIZE_V2	../protocoldef/protocol.h	/^const uint32_t MAX_MSG_DATA_SIZE_V2 = MAX_MSG_SIZE_V2 - PACK_HEADER_SIZE_V2;$/;"	v
+MAX_MSG_IN_MSG_QUEUE	../protocoldef/protocol.h	/^const uint32_t MAX_MSG_IN_MSG_QUEUE = 2000; $/;"	v
+MAX_MSG_SIZE	../protocoldef/protocol.h	/^const uint32_t MAX_MSG_SIZE      = 10 * 1024; \/\/ 10 k$/;"	v
+MAX_MSG_SIZE_V2	../protocoldef/protocol.h	/^const uint32_t MAX_MSG_SIZE_V2   = 512; \/\/ 协义版本号为2时最大包长度为1024字节$/;"	v
+MAX_RETRY_WHEN_MSGQUEUE_FULL	../protocoldef/protocol.h	/^const uint32_t MAX_RETRY_WHEN_MSGQUEUE_FULL = 10;$/;"	v
+MESSAGE_ERROR	../protocoldef/protocol.h	/^    const uint8_t MESSAGE_ERROR                = 0x7F; \/\/命令格式错误$/;"	m	namespace:ANSC
+MESSAGE__H	queuemessage.h	2;"	d
+Mac2DevID	../protocoldef/protocol.cpp	/^uint64_t Mac2DevID(uint64_t macAddr)$/;"	f	signature:(uint64_t macAddr)
+Mac2DevID	../protocoldef/protocol.h	/^uint64_t Mac2DevID(uint64_t macAddr);$/;"	p	signature:(uint64_t macAddr)
+Mac2DevId	../protocoldef/protocol.h	28;"	d
+Message	../Message/Message.cpp	/^Message::Message()$/;"	f	class:Message	signature:()
+Message::CopyHeader	../Message/Message.cpp	/^void Message::CopyHeader (const Message* msg)$/;"	f	class:Message	signature:(const Message* msg)
+Message::Decrypt	../Message/Message.cpp	/^int Message::Decrypt (char* key)$/;"	f	class:Message	signature:(char* key)
+Message::Encrypt	../Message/Message.cpp	/^void Message::Encrypt (char* key, int keylen)$/;"	f	class:Message	signature:(char* key, int keylen)
+Message::Message	../Message/Message.cpp	/^Message::Message()$/;"	f	class:Message	signature:()
+Message::Reset	../Message/Message.cpp	/^void Message::Reset()$/;"	f	class:Message	signature:()
+Message::appendContent	../Message/Message.cpp	/^void Message::appendContent (const void* data, uint16_t dataLen)$/;"	f	class:Message	signature:(const void* data, uint16_t dataLen)
+Message::appendContent	../Message/Message.cpp	/^void Message::appendContent(IToByteArray *data)$/;"	f	class:Message	signature:(IToByteArray *data)
+Message::appendContent	../Message/Message.cpp	/^void Message::appendContent(const std::string &data)$/;"	f	class:Message	signature:(const std::string &data)
+Message::appendContent	../Message/Message.cpp	/^void Message::appendContent(uint16_t d)$/;"	f	class:Message	signature:(uint16_t d)
+Message::appendContent	../Message/Message.cpp	/^void Message::appendContent(uint32_t d)$/;"	f	class:Message	signature:(uint32_t d)
+Message::appendContent	../Message/Message.cpp	/^void Message::appendContent(uint64_t d)$/;"	f	class:Message	signature:(uint64_t d)
+Message::appendContent	../Message/Message.cpp	/^void Message::appendContent(uint8_t d)$/;"	f	class:Message	signature:(uint8_t d)
+Message::clearContent	../Message/Message.cpp	/^void Message::clearContent()$/;"	f	class:Message	signature:()
+Message::createClientMessage	../Message/Message.cpp	/^Message *Message::createClientMessage()$/;"	f	class:Message	signature:()
+Message::createDeviceMessage	../Message/Message.cpp	/^Message *Message::createDeviceMessage()$/;"	f	class:Message	signature:()
+Message::fromByteArray	../Message/Message.cpp	/^bool Message::fromByteArray(const char *buf, int buflen)$/;"	f	class:Message	signature:(const char *buf, int buflen)
+Message::pack	../Message/Message.cpp	/^void Message::pack(std::vector<char> *out)$/;"	f	class:Message	signature:(std::vector<char> *out)
+Message::setCommandID	../Message/Message.cpp	/^void Message::setCommandID(uint16_t commandID)$/;"	f	class:Message	signature:(uint16_t commandID)
+Message::setDestID	../Message/Message.cpp	/^void Message::setDestID(uint64_t destID)$/;"	f	class:Message	signature:(uint64_t destID)
+Message::setObjectID	../Message/Message.cpp	/^void Message::setObjectID(uint64_t objectID)$/;"	f	class:Message	signature:(uint64_t objectID)
+Message::setPrefix	../Message/Message.cpp	/^void Message::setPrefix(uint8_t prefix)$/;"	f	class:Message	signature:(uint8_t prefix)
+Message::setSerialNumber	../Message/Message.cpp	/^void Message::setSerialNumber(uint16_t serialNumber)$/;"	f	class:Message	signature:(uint16_t serialNumber)
+Message::setSockerAddress	../Message/Message.cpp	/^void Message::setSockerAddress(sockaddr_in sockAddr)$/;"	f	class:Message	signature:(sockaddr_in sockAddr)
+Message::setSuffix	../Message/Message.cpp	/^void Message::setSuffix(uint8_t suffix)$/;"	f	class:Message	signature:(uint8_t suffix)
+Message::setVersionNumber	../Message/Message.cpp	/^void Message::setVersionNumber(uint16_t versionNumber)$/;"	f	class:Message	signature:(uint16_t versionNumber)
+Message::toByteArray	../Message/Message.cpp	/^void Message::toByteArray(std::vector<char> *out)$/;"	f	class:Message	signature:(std::vector<char> *out)
+Message::unpack	../Message/Message.cpp	/^bool Message::unpack(const char *buf, int buflen)$/;"	f	class:Message	signature:(const char *buf, int buflen)
+Message::~Message	../Message/Message.cpp	/^Message::~Message()$/;"	f	class:Message	signature:()
+MessageQueuePosix	../msgqueue/posixmsgqueue.cpp	/^MessageQueuePosix::MessageQueuePosix(const char *name,$/;"	f	class:MessageQueuePosix	signature:(const char *name, int maxQueueSize, int maxMessageSize)
+MessageQueuePosix::MessageQueuePosix	../msgqueue/posixmsgqueue.cpp	/^MessageQueuePosix::MessageQueuePosix(const char *name,$/;"	f	class:MessageQueuePosix	signature:(const char *name, int maxQueueSize, int maxMessageSize)
+MessageQueuePosix::create	../msgqueue/posixmsgqueue.cpp	/^bool MessageQueuePosix::create()$/;"	f	class:MessageQueuePosix	signature:()
+MessageQueuePosix::get	../msgqueue/posixmsgqueue.cpp	/^int MessageQueuePosix::get(char *buf, int *buflen)$/;"	f	class:MessageQueuePosix	signature:(char *buf, int *buflen)
+MessageQueuePosix::put	../msgqueue/posixmsgqueue.cpp	/^int MessageQueuePosix::put(const char *data, int datalen)$/;"	f	class:MessageQueuePosix	signature:(const char *data, int datalen)
+MessageQueuePosix::remove	../msgqueue/posixmsgqueue.cpp	/^int MessageQueuePosix::remove(char *name)$/;"	f	class:MessageQueuePosix	signature:(char *name)
+MessageQueuePosix::~MessageQueuePosix	../msgqueue/posixmsgqueue.cpp	/^MessageQueuePosix::~MessageQueuePosix()$/;"	f	class:MessageQueuePosix	signature:()
+MessageType	queuemessage.h	/^    enum MessageType$/;"	g	class:QueueMessage	access:public
+MsgReaderPosixMsgQueue	../Message/MsgReader.cpp	/^MsgReaderPosixMsgQueue::MsgReaderPosixMsgQueue(MessageQueuePosix *queue)$/;"	f	class:MsgReaderPosixMsgQueue	signature:(MessageQueuePosix *queue)
+MsgReaderPosixMsgQueue::MsgReaderPosixMsgQueue	../Message/MsgReader.cpp	/^MsgReaderPosixMsgQueue::MsgReaderPosixMsgQueue(MessageQueuePosix *queue)$/;"	f	class:MsgReaderPosixMsgQueue	signature:(MessageQueuePosix *queue)
+MsgReaderPosixMsgQueue::read	../Message/MsgReader.cpp	/^Message *MsgReaderPosixMsgQueue::read()$/;"	f	class:MsgReaderPosixMsgQueue	signature:()
+MsgReaderPosixMsgQueue::setReadQueue	../Message/MsgReader.cpp	/^void MsgReaderPosixMsgQueue::setReadQueue(MessageQueuePosix *queue)$/;"	f	class:MsgReaderPosixMsgQueue	signature:(MessageQueuePosix *queue)
+MsgReaderPosixMsgQueue::~MsgReaderPosixMsgQueue	../Message/MsgReader.cpp	/^MsgReaderPosixMsgQueue::~MsgReaderPosixMsgQueue()$/;"	f	class:MsgReaderPosixMsgQueue	signature:()
+MsgWriterPosixMsgQueue	../Message/MsgWriter.cpp	/^MsgWriterPosixMsgQueue::MsgWriterPosixMsgQueue(MessageQueuePosix *q)$/;"	f	class:MsgWriterPosixMsgQueue	signature:(MessageQueuePosix *q)
+MsgWriterPosixMsgQueue::MsgWriterPosixMsgQueue	../Message/MsgWriter.cpp	/^MsgWriterPosixMsgQueue::MsgWriterPosixMsgQueue(MessageQueuePosix *q)$/;"	f	class:MsgWriterPosixMsgQueue	signature:(MessageQueuePosix *q)
+MsgWriterPosixMsgQueue::Write	../Message/MsgWriter.cpp	/^int MsgWriterPosixMsgQueue::Write(Message* msg)$/;"	f	class:MsgWriterPosixMsgQueue	signature:(Message* msg)
+MsgWriterPosixMsgQueue::~MsgWriterPosixMsgQueue	../Message/MsgWriter.cpp	/^MsgWriterPosixMsgQueue::~MsgWriterPosixMsgQueue()$/;"	f	class:MsgWriterPosixMsgQueue	signature:()
+MutexGuard	../thread/mutexguard.cpp	/^MutexGuard::MutexGuard(MutexWrap *mutex) : m_mutex(mutex)$/;"	f	class:MutexGuard	signature:(MutexWrap *mutex)
+MutexGuard::MutexGuard	../thread/mutexguard.cpp	/^MutexGuard::MutexGuard(MutexWrap *mutex) : m_mutex(mutex)$/;"	f	class:MutexGuard	signature:(MutexWrap *mutex)
+MutexGuard::~MutexGuard	../thread/mutexguard.cpp	/^MutexGuard::~MutexGuard()$/;"	f	class:MutexGuard	signature:()
+MutexWrap	../thread/mutexwrap.cpp	/^MutexWrap::MutexWrap() : d(new MutexWrapData)$/;"	f	class:MutexWrap	signature:()
+MutexWrap::MutexWrap	../thread/mutexwrap.cpp	/^MutexWrap::MutexWrap() : d(new MutexWrapData)$/;"	f	class:MutexWrap	signature:()
+MutexWrap::lock	../thread/mutexwrap.cpp	/^bool MutexWrap::lock()$/;"	f	class:MutexWrap	signature:()
+MutexWrap::mutex	../thread/mutexwrap.cpp	/^pthread_mutex_t *MutexWrap::mutex()$/;"	f	class:MutexWrap	signature:()
+MutexWrap::release	../thread/mutexwrap.cpp	/^bool MutexWrap::release()$/;"	f	class:MutexWrap	signature:()
+MutexWrap::trylock	../thread/mutexwrap.cpp	/^bool MutexWrap::trylock()$/;"	f	class:MutexWrap	signature:()
+MutexWrap::~MutexWrap	../thread/mutexwrap.cpp	/^MutexWrap::~MutexWrap()$/;"	f	class:MutexWrap	signature:()
+MutexWrapData	../thread/mutexwrap.cpp	/^class MutexWrapData$/;"	c	file:
+MutexWrapData::mutex	../thread/mutexwrap.cpp	/^    pthread_mutex_t mutex;$/;"	m	class:MutexWrapData	file:	access:public
+NOTIFICATION_H	../Message/Notification.h	2;"	d
+NOTIFYIDGEN__H	notifyidgen.h	2;"	d
+NOTIFYTIMEOUT_H	notifytimeout.h	2;"	d
+NOTIFY_NEW_ADDED_TO_CLUSTER	../protocoldef/protocol.h	/^    const uint16_t NOTIFY_NEW_ADDED_TO_CLUSTER                        = 0x1A0B;\/\/3015; \/\/加入设备群，审批$/;"	m	namespace:CMD
+NOTIFY_SCNEE_CONNECTOR_DEVICES_CHANGED	../protocoldef/protocol.h	/^    const uint16_t NOTIFY_SCNEE_CONNECTOR_DEVICES_CHANGED = 0x1C29; \/\/ 场景连接设备被修改$/;"	m	namespace:CMD
+NOTIF_REQ_HANDLER_H	NotifReqHandler.h	2;"	d
+NTP_CMD_DEVICE_NAME_CHANGED	../protocoldef/protocol.h	/^    const uint16_t NTP_CMD_DEVICE_NAME_CHANGED                      = 0x2002;$/;"	m	namespace:CMD
+NTP_DCL__ASSIGN_DEVICES_TO_USER_MEMBER	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__ASSIGN_DEVICES_TO_USER_MEMBER             = 0x1A33;\/\/3026;$/;"	m	namespace:CMD
+NTP_DCL__ASSIGN_OPERATORS_TO_DEV_MEMBER	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__ASSIGN_OPERATORS_TO_DEV_MEMBER            = 0x1A35;\/\/3028;$/;"	m	namespace:CMD
+NTP_DCL__CLAIM_DEVICE	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__CLAIM_DEVICE                              = 0x1A40;$/;"	m	namespace:CMD
+NTP_DCL__DELETE	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__DELETE                                    = 0x1A01;\/\/301A;$/;"	m	namespace:CMD
+NTP_DCL__INVITE_TO_JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__INVITE_TO_JOIN__REQ                       = 0x1A07;\/\/3021; \/\/邀请加入设备群，通知请求$/;"	m	namespace:CMD
+NTP_DCL__INVITE_TO_JOIN__RESULT	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__INVITE_TO_JOIN__RESULT                    = 0x1A08;\/\/3022; \/\/邀请加入设备群，通知结果$/;"	m	namespace:CMD
+NTP_DCL__JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__JOIN__REQ                                 = 0x1A04;\/\/3014; \/\/加入设备群，通知请求$/;"	m	namespace:CMD
+NTP_DCL__JOIN__RESULT	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__JOIN__RESULT                              = 0x1A05;\/\/3015; \/\/加入设备群，通知结果$/;"	m	namespace:CMD
+NTP_DCL__REMOVE_DEVICES_OF_USER_MEMBER	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__REMOVE_DEVICES_OF_USER_MEMBER             = 0x1A34;\/\/3027;$/;"	m	namespace:CMD
+NTP_DCL__REMOVE_OPERATORS_OF_DEV_MEMBER	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__REMOVE_OPERATORS_OF_DEV_MEMBER            = 0x1A36;\/\/3029;$/;"	m	namespace:CMD
+NTP_DCL__REMOVE_USER_MEMBERS	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__REMOVE_USER_MEMBERS                       = 0x1A09;\/\/3024;$/;"	m	namespace:CMD
+NTP_DCL__TRANSFER_DEVICES__REQ	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__TRANSFER_DEVICES__REQ                     = 0x1A21;\/\/3031$/;"	m	namespace:CMD
+NTP_DCL__TRANSFER_DEVICES__RESULT	../protocoldef/protocol.h	/^    const uint16_t NTP_DCL__TRANSFER_DEVICES__RESULT                  = 0x1A22;\/\/$/;"	m	namespace:CMD
+NTP_DEV__DEVICE_ONLINE_STATUS_CHANGE	../protocoldef/protocol.h	/^    const uint16_t NTP_DEV__DEVICE_ONLINE_STATUS_CHANGE             = 0x2000;\/\/3008;$/;"	m	namespace:CMD
+NTP_DEV__USER_ONLINE_STATUS_CHANGE	../protocoldef/protocol.h	/^    const uint16_t NTP_DEV__USER_ONLINE_STATUS_CHANGE               = 0x2001;\/\/3008;$/;"	m	namespace:CMD
+NTP_FRI__ADD_FRIEND__APPROVAL	../protocoldef/protocol.h	/^    const uint16_t NTP_FRI__ADD_FRIEND__APPROVAL                      = 0x1401;\/\/2021; \/\/$/;"	m	namespace:CMD
+NTP_FRI__ADD_FRIEND__REQ	../protocoldef/protocol.h	/^    const uint16_t NTP_FRI__ADD_FRIEND__REQ                           = 0x1400;\/\/2020; \/\/加好友请求$/;"	m	namespace:CMD
+NTP_UCL__JOIN__REQ	../protocoldef/protocol.h	/^    const uint16_t NTP_UCL__JOIN__REQ                                 = 0x1602;\/\/2022; \/\/加入群，通知请求$/;"	m	namespace:CMD
+NTP_UCL__JOIN__RESULT	../protocoldef/protocol.h	/^    const uint16_t NTP_UCL__JOIN__RESULT                              = 0x1603;\/\/2023; \/\/加入群，通知结果$/;"	m	namespace:CMD
+NTP_USER_LOGIN_AT_ANOTHER_CLIENT	../protocoldef/protocol.h	/^    const uint16_t NTP_USER_LOGIN_AT_ANOTHER_CLIENT                   = 0x1207; \/\/ 通知, 用户在别处登录了$/;"	m	namespace:CMD
+NewNotifyRequest	queuemessage.h	/^        NewNotifyRequest,$/;"	e	enum:QueueMessage::MessageType
+NewNotifyRequestMessage	queuemessage.cpp	/^NewNotifyRequestMessage::NewNotifyRequestMessage(Message *nq)$/;"	f	class:NewNotifyRequestMessage	signature:(Message *nq)
+NewNotifyRequestMessage	queuemessage.h	/^    NewNotifyRequestMessage(Message *);$/;"	p	class:NewNotifyRequestMessage	access:public	signature:(Message *)
+NewNotifyRequestMessage	queuemessage.h	/^class NewNotifyRequestMessage : public QueueMessage$/;"	c	inherits:QueueMessage
+NewNotifyRequestMessage::NewNotifyRequestMessage	queuemessage.cpp	/^NewNotifyRequestMessage::NewNotifyRequestMessage(Message *nq)$/;"	f	class:NewNotifyRequestMessage	signature:(Message *nq)
+NewNotifyRequestMessage::NewNotifyRequestMessage	queuemessage.h	/^    NewNotifyRequestMessage(Message *);$/;"	p	class:NewNotifyRequestMessage	access:public	signature:(Message *)
+NewNotifyRequestMessage::getReq	queuemessage.cpp	/^Message *NewNotifyRequestMessage::getReq()$/;"	f	class:NewNotifyRequestMessage	signature:()
+NewNotifyRequestMessage::getReq	queuemessage.h	/^    Message *getReq();$/;"	p	class:NewNotifyRequestMessage	access:public	signature:()
+NewNotifyRequestMessage::m_nq	queuemessage.h	/^    Message *m_nq;$/;"	m	class:NewNotifyRequestMessage	access:private
+NewNotifyRequestMessage::~NewNotifyRequestMessage	queuemessage.cpp	/^NewNotifyRequestMessage::~NewNotifyRequestMessage()$/;"	f	class:NewNotifyRequestMessage	signature:()
+NewNotifyRequestMessage::~NewNotifyRequestMessage	queuemessage.h	/^    ~NewNotifyRequestMessage();$/;"	p	class:NewNotifyRequestMessage	access:public	signature:()
+NotifReqHandler	NotifReqHandler.cpp	/^NotifReqHandler::NotifReqHandler(NotifyManager *nm,$/;"	f	class:NotifReqHandler	signature:(NotifyManager *nm, NotifyTimeOut *to, IDBoperator *idb)
+NotifReqHandler	NotifReqHandler.h	/^    NotifReqHandler(NotifyManager *nm, NotifyTimeOut *to, IDBoperator *);$/;"	p	class:NotifReqHandler	access:public	signature:(NotifyManager *nm, NotifyTimeOut *to, IDBoperator *)
+NotifReqHandler	NotifReqHandler.h	/^class NotifReqHandler$/;"	c
+NotifReqHandler::ClearResponses	NotifReqHandler.cpp	/^void NotifReqHandler::ClearResponses()$/;"	f	class:NotifReqHandler	signature:()
+NotifReqHandler::ClearResponses	NotifReqHandler.h	/^    void ClearResponses();$/;"	p	class:NotifReqHandler	access:public	signature:()
+NotifReqHandler::Execute	NotifReqHandler.cpp	/^std::vector<Notification*>& NotifReqHandler::Execute(Message *notifReq)$/;"	f	class:NotifReqHandler	signature:(Message *notifReq)
+NotifReqHandler::Execute	NotifReqHandler.h	/^    std::vector<Notification*>& Execute(Message *notifReq);$/;"	p	class:NotifReqHandler	access:public	signature:(Message *notifReq)
+NotifReqHandler::NotifReqHandler	NotifReqHandler.cpp	/^NotifReqHandler::NotifReqHandler(NotifyManager *nm,$/;"	f	class:NotifReqHandler	signature:(NotifyManager *nm, NotifyTimeOut *to, IDBoperator *idb)
+NotifReqHandler::NotifReqHandler	NotifReqHandler.h	/^    NotifReqHandler(NotifyManager *nm, NotifyTimeOut *to, IDBoperator *);$/;"	p	class:NotifReqHandler	access:public	signature:(NotifyManager *nm, NotifyTimeOut *to, IDBoperator *)
+NotifReqHandler::OnDeleteNotif	NotifReqHandler.cpp	/^void NotifReqHandler::OnDeleteNotif(uint64_t objectID, uint64_t notifNumber) \/\/通知消息收到回复$/;"	f	class:NotifReqHandler	signature:(uint64_t objectID, uint64_t notifNumber)
+NotifReqHandler::OnDeleteNotif	NotifReqHandler.h	/^    void OnDeleteNotif(uint64_t objectID, uint64_t notifNumber);$/;"	p	class:NotifReqHandler	access:private	signature:(uint64_t objectID, uint64_t notifNumber)
+NotifReqHandler::OnDumpNotif	NotifReqHandler.cpp	/^void NotifReqHandler::OnDumpNotif(uint64_t objectID) \/\/用户注销, 把通知写入数据库$/;"	f	class:NotifReqHandler	signature:(uint64_t objectID)
+NotifReqHandler::OnDumpNotif	NotifReqHandler.h	/^    void OnDumpNotif(uint64_t objectID);$/;"	p	class:NotifReqHandler	access:private	signature:(uint64_t objectID)
+NotifReqHandler::OnGetNotifWhenBackOnline	NotifReqHandler.cpp	/^void NotifReqHandler::OnGetNotifWhenBackOnline(uint64_t objectID)$/;"	f	class:NotifReqHandler	signature:(uint64_t objectID)
+NotifReqHandler::OnGetNotifWhenBackOnline	NotifReqHandler.h	/^    void OnGetNotifWhenBackOnline(uint64_t objectID);$/;"	p	class:NotifReqHandler	access:private	signature:(uint64_t objectID)
+NotifReqHandler::OnGetNotifWhenLogin	NotifReqHandler.cpp	/^void NotifReqHandler::OnGetNotifWhenLogin(uint64_t objectID)$/;"	f	class:NotifReqHandler	signature:(uint64_t objectID)
+NotifReqHandler::OnGetNotifWhenLogin	NotifReqHandler.h	/^    void OnGetNotifWhenLogin(uint64_t objectID);$/;"	p	class:NotifReqHandler	access:private	signature:(uint64_t objectID)
+NotifReqHandler::OnSaveOfflineNotif	NotifReqHandler.cpp	/^void NotifReqHandler::OnSaveOfflineNotif(Notification *notification)$/;"	f	class:NotifReqHandler	signature:(Notification *notification)
+NotifReqHandler::OnSaveOfflineNotif	NotifReqHandler.h	/^    void OnSaveOfflineNotif(Notification *notification);$/;"	p	class:NotifReqHandler	access:private	signature:(Notification *notification)
+NotifReqHandler::OnSaveOnlineNotif	NotifReqHandler.cpp	/^void NotifReqHandler::OnSaveOnlineNotif(Notification *notification)$/;"	f	class:NotifReqHandler	signature:(Notification *notification)
+NotifReqHandler::OnSaveOnlineNotif	NotifReqHandler.h	/^    void OnSaveOnlineNotif(Notification *notification);$/;"	p	class:NotifReqHandler	access:private	signature:(Notification *notification)
+NotifReqHandler::OnSaveSessionalOnlineNotif	NotifReqHandler.cpp	/^void NotifReqHandler::OnSaveSessionalOnlineNotif(Notification *notification)$/;"	f	class:NotifReqHandler	signature:(Notification *notification)
+NotifReqHandler::OnSaveSessionalOnlineNotif	NotifReqHandler.h	/^    void OnSaveSessionalOnlineNotif(Notification *notification);$/;"	p	class:NotifReqHandler	access:private	signature:(Notification *notification)
+NotifReqHandler::OutputResponse	NotifReqHandler.cpp	/^void NotifReqHandler::OutputResponse(Notification* notifRes)$/;"	f	class:NotifReqHandler	signature:(Notification* notifRes)
+NotifReqHandler::OutputResponse	NotifReqHandler.h	/^    void OutputResponse(Notification* notifRes);$/;"	p	class:NotifReqHandler	access:private	signature:(Notification* notifRes)
+NotifReqHandler::dbOperator	NotifReqHandler.h	/^    IDBoperator *dbOperator;$/;"	m	class:NotifReqHandler	access:private
+NotifReqHandler::m_notifymanager	NotifReqHandler.h	/^    NotifyManager *m_notifymanager;$/;"	m	class:NotifReqHandler	access:private
+NotifReqHandler::m_notifytimeout	NotifReqHandler.h	/^    NotifyTimeOut *m_notifytimeout;$/;"	m	class:NotifReqHandler	access:private
+NotifReqHandler::m_vNotifRes	NotifReqHandler.h	/^    std::vector<Notification*> m_vNotifRes;$/;"	m	class:NotifReqHandler	access:private
+NotifReqHandler::~NotifReqHandler	NotifReqHandler.cpp	/^NotifReqHandler::~NotifReqHandler()$/;"	f	class:NotifReqHandler	signature:()
+NotifReqHandler::~NotifReqHandler	NotifReqHandler.h	/^    ~NotifReqHandler();$/;"	p	class:NotifReqHandler	access:public	signature:()
+Notification	../Message/Notification.cpp	/^Notification::Notification()$/;"	f	class:Notification	signature:()
+Notification	../Message/Notification.h	/^    Notification();$/;"	p	class:Notification	access:public	signature:()
+Notification	../Message/Notification.h	/^class Notification : public IToByteArray$/;"	c	inherits:IToByteArray
+Notification::GetCreateTime	../Message/Notification.h	/^    time_t GetCreateTime() const { return m_createTime; }$/;"	f	class:Notification	access:public	signature:() const
+Notification::GetMsgBuf	../Message/Notification.cpp	/^const char* Notification::GetMsgBuf() const$/;"	f	class:Notification	signature:() const
+Notification::GetMsgBuf	../Message/Notification.h	/^    const char* GetMsgBuf() const ;$/;"	p	class:Notification	access:public	signature:() const
+Notification::GetMsgLen	../Message/Notification.h	/^    uint16_t GetMsgLen() const { return m_msgLen; }$/;"	f	class:Notification	access:public	signature:() const
+Notification::GetObjectID	../Message/Notification.h	/^    uint64_t GetObjectID() const {return m_objectID; }$/;"	f	class:Notification	access:public	signature:() const
+Notification::Init	../Message/Notification.cpp	/^void Notification::Init($/;"	f	class:Notification	signature:( uint64_t objectID, uint8_t answccode, uint16_t notifType, uint64_t sn, uint16_t msgLen, char* msgBuf)
+Notification::Init	../Message/Notification.h	/^    void Init(uint64_t objectID, uint8_t as, uint16_t notifType, uint64_t sn, uint16_t msgLen, char* msgBuf);$/;"	p	class:Notification	access:public	signature:(uint64_t objectID, uint8_t as, uint16_t notifType, uint64_t sn, uint16_t msgLen, char* msgBuf)
+Notification::Notification	../Message/Notification.cpp	/^Notification::Notification()$/;"	f	class:Notification	signature:()
+Notification::Notification	../Message/Notification.h	/^    Notification();$/;"	p	class:Notification	access:public	signature:()
+Notification::SetCreateTime	../Message/Notification.h	/^    void SetCreateTime(time_t createTime) { m_createTime = createTime; }$/;"	f	class:Notification	access:public	signature:(time_t createTime)
+Notification::SetMsg	../Message/Notification.cpp	/^void Notification::SetMsg(char* msgBuf, uint16_t msgLen)$/;"	f	class:Notification	signature:(char* msgBuf, uint16_t msgLen)
+Notification::SetMsg	../Message/Notification.h	/^    void SetMsg(char* msgBuf, uint16_t msgLen);$/;"	p	class:Notification	access:public	signature:(char* msgBuf, uint16_t msgLen)
+Notification::SetObjectID	../Message/Notification.h	/^    void SetObjectID(uint64_t objectID) { m_objectID = objectID; }$/;"	f	class:Notification	access:public	signature:(uint64_t objectID)
+Notification::answercode	../Message/Notification.h	/^    uint8_t answercode() const {return m_answercode; }$/;"	f	class:Notification	access:public	signature:() const
+Notification::fromByteArray	../Message/Notification.cpp	/^bool Notification::fromByteArray(char *buf, int len)$/;"	f	class:Notification	signature:(char *buf, int len)
+Notification::fromByteArray	../Message/Notification.h	/^    bool fromByteArray(char *d, int len);$/;"	p	class:Notification	access:public	signature:(char *d, int len)
+Notification::getNotifyType	../Message/Notification.h	/^    uint16_t getNotifyType() const { return m_notifyType; }$/;"	f	class:Notification	access:public	signature:() const
+Notification::m_answercode	../Message/Notification.h	/^    uint8_t m_answercode;$/;"	m	class:Notification	access:private
+Notification::m_createTime	../Message/Notification.h	/^    time_t m_createTime;$/;"	m	class:Notification	access:private
+Notification::m_msgBuf	../Message/Notification.h	/^    std::vector<char> m_msgBuf;$/;"	m	class:Notification	access:private
+Notification::m_msgLen	../Message/Notification.h	/^    uint16_t m_msgLen;$/;"	m	class:Notification	access:private
+Notification::m_notifyType	../Message/Notification.h	/^    uint16_t m_notifyType;$/;"	m	class:Notification	access:private
+Notification::m_objectID	../Message/Notification.h	/^    uint64_t m_objectID;$/;"	m	class:Notification	access:private
+Notification::m_serialNumber	../Message/Notification.h	/^    uint64_t m_serialNumber;$/;"	m	class:Notification	access:private
+Notification::serialNumber	../Message/Notification.h	/^    uint64_t serialNumber() const {return m_serialNumber; }$/;"	f	class:Notification	access:public	signature:() const
+Notification::setAnswcCode	../Message/Notification.h	/^    void setAnswcCode(uint8_t c) { m_answercode = c; }$/;"	f	class:Notification	access:public	signature:(uint8_t c)
+Notification::setNotifyType	../Message/Notification.h	/^    void setNotifyType(uint16_t notifNumber) { m_notifyType = notifNumber; }$/;"	f	class:Notification	access:public	signature:(uint16_t notifNumber)
+Notification::setSerialNumber	../Message/Notification.h	/^    void setSerialNumber(uint64_t sn) { m_serialNumber = sn; }$/;"	f	class:Notification	access:public	signature:(uint64_t sn)
+Notification::toByteArray	../Message/Notification.cpp	/^void Notification::toByteArray(std::vector<char> *out)$/;"	f	class:Notification	signature:(std::vector<char> *out)
+Notification::toByteArray	../Message/Notification.h	/^    void toByteArray(std::vector<char> *out);$/;"	p	class:Notification	access:public	signature:(std::vector<char> *out)
+Notification::~Notification	../Message/Notification.cpp	/^Notification::~Notification()$/;"	f	class:Notification	signature:()
+Notification::~Notification	../Message/Notification.h	/^    ~Notification();$/;"	p	class:Notification	access:public	signature:()
+Notify	notifyidgen.h	/^namespace Notify$/;"	n
+Notify::genID	notifyidgen.cpp	/^uint64_t Notify::genID()$/;"	f	class:Notify	signature:()
+Notify::genID	notifyidgen.h	/^uint64_t genID();$/;"	p	namespace:Notify	signature:()
+Notify::genIdInit	notifyidgen.cpp	/^void Notify::genIdInit(uint32_t serverid)$/;"	f	class:Notify	signature:(uint32_t serverid)
+Notify::genIdInit	notifyidgen.h	/^void genIdInit(uint32_t serverid);$/;"	p	namespace:Notify	signature:(uint32_t serverid)
+NotifyID	notifyManager.h	/^    typedef uint64_t NotifyID;$/;"	t	class:NotifyManager	access:private
+NotifyManager	notifyManager.cpp	/^NotifyManager::NotifyManager()$/;"	f	class:NotifyManager	signature:()
+NotifyManager	notifyManager.h	/^    NotifyManager();$/;"	p	class:NotifyManager	access:public	signature:()
+NotifyManager	notifyManager.h	/^class NotifyManager$/;"	c
+NotifyManager::NotifyID	notifyManager.h	/^    typedef uint64_t NotifyID;$/;"	t	class:NotifyManager	access:private
+NotifyManager::NotifyManager	notifyManager.cpp	/^NotifyManager::NotifyManager()$/;"	f	class:NotifyManager	signature:()
+NotifyManager::NotifyManager	notifyManager.h	/^    NotifyManager();$/;"	p	class:NotifyManager	access:public	signature:()
+NotifyManager::Notifymap	notifyManager.h	/^    typedef std::map<NotifyID, Notification *> Notifymap;$/;"	t	class:NotifyManager	access:private
+NotifyManager::ObjectID	notifyManager.h	/^    typedef uint64_t ObjectID;$/;"	t	class:NotifyManager	access:private
+NotifyManager::deleteNotification	notifyManager.cpp	/^bool NotifyManager::deleteNotification(uint64_t notifNumber)$/;"	f	class:NotifyManager	signature:(uint64_t notifNumber)
+NotifyManager::deleteNotification	notifyManager.h	/^    bool deleteNotification(uint64_t notifNumber);$/;"	p	class:NotifyManager	access:public	signature:(uint64_t notifNumber)
+NotifyManager::getByNotifyID	notifyManager.cpp	/^Notification *NotifyManager::getByNotifyID(uint64_t notifyid)$/;"	f	class:NotifyManager	signature:(uint64_t notifyid)
+NotifyManager::getByNotifyID	notifyManager.h	/^    Notification* getByNotifyID(uint64_t notifyid);$/;"	p	class:NotifyManager	access:public	signature:(uint64_t notifyid)
+NotifyManager::getByUserid	notifyManager.cpp	/^int NotifyManager::getByUserid(uint64_t userid,$/;"	f	class:NotifyManager	signature:(uint64_t userid, std::list<Notification *> *notif)
+NotifyManager::getByUserid	notifyManager.h	/^    int getByUserid(uint64_t userid, std::list<Notification *> *notif);$/;"	p	class:NotifyManager	access:public	signature:(uint64_t userid, std::list<Notification *> *notif)
+NotifyManager::insertNotify	notifyManager.cpp	/^bool NotifyManager::insertNotify(Notification *notification)$/;"	f	class:NotifyManager	signature:(Notification *notification)
+NotifyManager::insertNotify	notifyManager.h	/^    bool insertNotify(Notification *notification);$/;"	p	class:NotifyManager	access:public	signature:(Notification *notification)
+NotifyManager::m_idNotify	notifyManager.h	/^    std::map<NotifyID, ObjectID> m_idNotify;$/;"	m	class:NotifyManager	access:private
+NotifyManager::m_userNotify	notifyManager.h	/^    std::unordered_map<ObjectID, Notifymap> m_userNotify;$/;"	m	class:NotifyManager	access:private
+NotifyManager::~NotifyManager	notifyManager.cpp	/^NotifyManager::~NotifyManager()$/;"	f	class:NotifyManager	signature:()
+NotifyManager::~NotifyManager	notifyManager.h	/^    ~NotifyManager();$/;"	p	class:NotifyManager	access:public	signature:()
+NotifyTimeOut	notifytimeout.h	/^    NotifyTimeOut(){}$/;"	f	class:NotifyTimeOut	access:public	signature:()
+NotifyTimeOut	notifytimeout.h	/^class NotifyTimeOut$/;"	c
+NotifyTimeOut::NotifyTimeOut	notifytimeout.h	/^    NotifyTimeOut(){}$/;"	f	class:NotifyTimeOut	access:public	signature:()
+NotifyTimeOut::addTimeout	notifytimeout.cpp	/^bool NotifyTimeOut::addTimeout(uint64_t notifyid)$/;"	f	class:NotifyTimeOut	signature:(uint64_t notifyid)
+NotifyTimeOut::addTimeout	notifytimeout.h	/^    bool addTimeout(uint64_t notifyid);$/;"	p	class:NotifyTimeOut	access:public	signature:(uint64_t notifyid)
+NotifyTimeOut::m_idtimer	notifytimeout.h	/^    std::unordered_map<uint64_t, Timer *> m_idtimer;$/;"	m	class:NotifyTimeOut	access:private
+NotifyTimeOut::m_lock	notifytimeout.h	/^    MutexWrap m_lock;$/;"	m	class:NotifyTimeOut	access:private
+NotifyTimeOut::removeTimeout	notifytimeout.cpp	/^bool NotifyTimeOut::removeTimeout(uint64_t notifyid)$/;"	f	class:NotifyTimeOut	signature:(uint64_t notifyid)
+NotifyTimeOut::removeTimeout	notifytimeout.h	/^    bool removeTimeout(uint64_t notifyid);$/;"	p	class:NotifyTimeOut	access:public	signature:(uint64_t notifyid)
+NotifyTimeOut::setNewInterval	notifytimeout.cpp	/^void NotifyTimeOut::setNewInterval(uint64_t notifyid, uint32_t newinterval)$/;"	f	class:NotifyTimeOut	signature:(uint64_t notifyid, uint32_t newinterval)
+NotifyTimeOut::setNewInterval	notifytimeout.h	/^    void setNewInterval(uint64_t notifyid, uint32_t newinterval);$/;"	p	class:NotifyTimeOut	access:public	signature:(uint64_t notifyid, uint32_t newinterval)
+NotifyTimeOut::~NotifyTimeOut	notifytimeout.cpp	/^NotifyTimeOut::~NotifyTimeOut()$/;"	f	class:NotifyTimeOut	signature:()
+NotifyTimeOut::~NotifyTimeOut	notifytimeout.h	/^    ~NotifyTimeOut();$/;"	p	class:NotifyTimeOut	access:public	signature:()
+NotifyTimeout	queuemessage.h	/^        NotifyTimeout,$/;"	e	enum:QueueMessage::MessageType
+NotifyTimeoutMessage	queuemessage.h	/^    NotifyTimeoutMessage(uint64_t notifyid, int times)$/;"	f	class:NotifyTimeoutMessage	access:public	signature:(uint64_t notifyid, int times)
+NotifyTimeoutMessage	queuemessage.h	/^class NotifyTimeoutMessage : public QueueMessage$/;"	c	inherits:QueueMessage
+NotifyTimeoutMessage::NotifyTimeoutMessage	queuemessage.h	/^    NotifyTimeoutMessage(uint64_t notifyid, int times)$/;"	f	class:NotifyTimeoutMessage	access:public	signature:(uint64_t notifyid, int times)
+NotifyTimeoutMessage::m_notifyid	queuemessage.h	/^    uint64_t m_notifyid;$/;"	m	class:NotifyTimeoutMessage	access:private
+NotifyTimeoutMessage::m_times	queuemessage.h	/^    int m_times;$/;"	m	class:NotifyTimeoutMessage	access:private
+NotifyTimeoutMessage::notifyID	queuemessage.h	/^    uint64_t notifyID() { return m_notifyid;}$/;"	f	class:NotifyTimeoutMessage	access:public	signature:()
+NotifyTimeoutMessage::times	queuemessage.h	/^    int times() {return m_times;}$/;"	f	class:NotifyTimeoutMessage	access:public	signature:()
+Notifymap	notifyManager.h	/^    typedef std::map<NotifyID, Notification *> Notifymap;$/;"	t	class:NotifyManager	access:private
+OFFLINE	../protocoldef/protocol.h	/^    OFFLINE = 0x02,$/;"	e	enum:OnlineStatus
+ONLINE	../protocoldef/protocol.h	/^    ONLINE  = 0x01,$/;"	e	enum:OnlineStatus
+OPEN_CHANNEL	../protocoldef/protocol.h	/^    const uint8_t OPEN_CHANNEL = 0x01;$/;"	m	namespace:Relay
+OPERATOR	../protocoldef/protocol.h	/^    const uint8_t OPERATOR = 3; \/\/ 操作者$/;"	m	namespace:ClusterAuth
+OPTION	makefile	/^OPTION = -lmysqlclient -lm -lrt -L..\/thread -lthreadpool -lpthread  -L..\/Crypt -lcrypt$/;"	m
+OS_OTHER	../protocoldef/protocol.h	/^    OS_OTHER   = 0x03$/;"	e	enum:OnlineStatus
+OWNER	../protocoldef/protocol.h	/^    const uint8_t OWNER = 1; \/\/ 群主, 系统管理员$/;"	m	namespace:ClusterAuth
+ObjectID	notifyManager.h	/^    typedef uint64_t ObjectID;$/;"	t	class:NotifyManager	access:private
+OnDeleteNotif	NotifReqHandler.cpp	/^void NotifReqHandler::OnDeleteNotif(uint64_t objectID, uint64_t notifNumber) \/\/通知消息收到回复$/;"	f	class:NotifReqHandler	signature:(uint64_t objectID, uint64_t notifNumber)
+OnDeleteNotif	NotifReqHandler.h	/^    void OnDeleteNotif(uint64_t objectID, uint64_t notifNumber);$/;"	p	class:NotifReqHandler	access:private	signature:(uint64_t objectID, uint64_t notifNumber)
+OnDumpNotif	NotifReqHandler.cpp	/^void NotifReqHandler::OnDumpNotif(uint64_t objectID) \/\/用户注销, 把通知写入数据库$/;"	f	class:NotifReqHandler	signature:(uint64_t objectID)
+OnDumpNotif	NotifReqHandler.h	/^    void OnDumpNotif(uint64_t objectID);$/;"	p	class:NotifReqHandler	access:private	signature:(uint64_t objectID)
+OnGetNotifWhenBackOnline	NotifReqHandler.cpp	/^void NotifReqHandler::OnGetNotifWhenBackOnline(uint64_t objectID)$/;"	f	class:NotifReqHandler	signature:(uint64_t objectID)
+OnGetNotifWhenBackOnline	NotifReqHandler.h	/^    void OnGetNotifWhenBackOnline(uint64_t objectID);$/;"	p	class:NotifReqHandler	access:private	signature:(uint64_t objectID)
+OnGetNotifWhenLogin	NotifReqHandler.cpp	/^void NotifReqHandler::OnGetNotifWhenLogin(uint64_t objectID)$/;"	f	class:NotifReqHandler	signature:(uint64_t objectID)
+OnGetNotifWhenLogin	NotifReqHandler.h	/^    void OnGetNotifWhenLogin(uint64_t objectID);$/;"	p	class:NotifReqHandler	access:private	signature:(uint64_t objectID)
+OnSaveOfflineNotif	NotifReqHandler.cpp	/^void NotifReqHandler::OnSaveOfflineNotif(Notification *notification)$/;"	f	class:NotifReqHandler	signature:(Notification *notification)
+OnSaveOfflineNotif	NotifReqHandler.h	/^    void OnSaveOfflineNotif(Notification *notification);$/;"	p	class:NotifReqHandler	access:private	signature:(Notification *notification)
+OnSaveOnlineNotif	NotifReqHandler.cpp	/^void NotifReqHandler::OnSaveOnlineNotif(Notification *notification)$/;"	f	class:NotifReqHandler	signature:(Notification *notification)
+OnSaveOnlineNotif	NotifReqHandler.h	/^    void OnSaveOnlineNotif(Notification *notification);$/;"	p	class:NotifReqHandler	access:private	signature:(Notification *notification)
+OnSaveSessionalOnlineNotif	NotifReqHandler.cpp	/^void NotifReqHandler::OnSaveSessionalOnlineNotif(Notification *notification)$/;"	f	class:NotifReqHandler	signature:(Notification *notification)
+OnSaveSessionalOnlineNotif	NotifReqHandler.h	/^    void OnSaveSessionalOnlineNotif(Notification *notification);$/;"	p	class:NotifReqHandler	access:private	signature:(Notification *notification)
+OnlineStatus	../protocoldef/protocol.h	/^enum OnlineStatus$/;"	g
+OutputResponse	NotifReqHandler.cpp	/^void NotifReqHandler::OutputResponse(Notification* notifRes)$/;"	f	class:NotifReqHandler	signature:(Notification* notifRes)
+OutputResponse	NotifReqHandler.h	/^    void OutputResponse(Notification* notifRes);$/;"	p	class:NotifReqHandler	access:private	signature:(Notification* notifRes)
+PACK_HEADER_SIZE_V2	../protocoldef/protocol.h	/^const uint32_t PACK_HEADER_SIZE_V2  = 26; $/;"	v
+PASSWORD_ERROR	../protocoldef/protocol.h	/^    const uint8_t PASSWORD_ERROR                = 0x05; \/\/登录失败，帐号或密码错误$/;"	m	namespace:ANSC
+PENDING	../protocoldef/protocol.h	/^    const uint8_t PENDING               = 0x00; \/\/待处理$/;"	m	namespace:ANSC
+POSIXMESSAGERECEIVETHREAD_H	posixMessageReceiveThread.h	2;"	d
+PROTOCOL_H	../protocoldef/protocol.h	2;"	d
+PosixMessageReceiveThread	posixMessageReceiveThread.cpp	/^PosixMessageReceiveThread::PosixMessageReceiveThread()$/;"	f	class:PosixMessageReceiveThread	signature:()
+PosixMessageReceiveThread	posixMessageReceiveThread.h	/^    PosixMessageReceiveThread();$/;"	p	class:PosixMessageReceiveThread	access:public	signature:()
+PosixMessageReceiveThread	posixMessageReceiveThread.h	/^class PosixMessageReceiveThread$/;"	c
+PosixMessageReceiveThread::PosixMessageReceiveThread	posixMessageReceiveThread.cpp	/^PosixMessageReceiveThread::PosixMessageReceiveThread()$/;"	f	class:PosixMessageReceiveThread	signature:()
+PosixMessageReceiveThread::PosixMessageReceiveThread	posixMessageReceiveThread.h	/^    PosixMessageReceiveThread();$/;"	p	class:PosixMessageReceiveThread	access:public	signature:()
+PosixMessageReceiveThread::m_thread	posixMessageReceiveThread.h	/^    Thread *m_thread;$/;"	m	class:PosixMessageReceiveThread	access:private
+PosixMessageReceiveThread::run	posixMessageReceiveThread.cpp	/^void PosixMessageReceiveThread::run()$/;"	f	class:PosixMessageReceiveThread	signature:()
+PosixMessageReceiveThread::run	posixMessageReceiveThread.h	/^    void run();$/;"	p	class:PosixMessageReceiveThread	access:private	signature:()
+PosixMessageReceiveThread::~PosixMessageReceiveThread	posixMessageReceiveThread.cpp	/^PosixMessageReceiveThread::~PosixMessageReceiveThread()$/;"	f	class:PosixMessageReceiveThread	signature:()
+PosixMessageReceiveThread::~PosixMessageReceiveThread	posixMessageReceiveThread.h	/^    ~PosixMessageReceiveThread();$/;"	p	class:PosixMessageReceiveThread	access:public	signature:()
+Proc	../thread/threadwrap.h	/^    Proc(){}$/;"	f	class:Proc	access:public	signature:()
+Proc	../thread/threadwrap.h	/^class Proc$/;"	c
+Proc::Proc	../thread/threadwrap.h	/^    Proc(){}$/;"	f	class:Proc	access:public	signature:()
+Proc::run	../thread/threadwrap.cpp	/^void Proc::run()$/;"	f	class:Proc	signature:()
+Proc::run	../thread/threadwrap.h	/^    virtual void run();$/;"	p	class:Proc	access:public	signature:()
+Proc::~Proc	../thread/threadwrap.h	/^    virtual ~Proc(){}$/;"	f	class:Proc	access:public	signature:()
+QueueMessage	queuemessage.h	/^    QueueMessage(int type):m_type(type){}$/;"	f	class:QueueMessage	access:public	signature:(int type)
+QueueMessage	queuemessage.h	/^class QueueMessage$/;"	c
+QueueMessage::MessageType	queuemessage.h	/^    enum MessageType$/;"	g	class:QueueMessage	access:public
+QueueMessage::NewNotifyRequest	queuemessage.h	/^        NewNotifyRequest,$/;"	e	enum:QueueMessage::MessageType
+QueueMessage::NotifyTimeout	queuemessage.h	/^        NotifyTimeout,$/;"	e	enum:QueueMessage::MessageType
+QueueMessage::QueueMessage	queuemessage.h	/^    QueueMessage(int type):m_type(type){}$/;"	f	class:QueueMessage	access:public	signature:(int type)
+QueueMessage::RemoveNotify	queuemessage.h	/^        RemoveNotify$/;"	e	enum:QueueMessage::MessageType
+QueueMessage::m_type	queuemessage.h	/^    int m_type;$/;"	m	class:QueueMessage	access:private
+QueueMessage::type	queuemessage.h	/^    virtual int type() {return m_type;}$/;"	f	class:QueueMessage	access:public	signature:()
+QueueMessage::~QueueMessage	queuemessage.h	/^    virtual ~QueueMessage(){}$/;"	f	class:QueueMessage	access:public	signature:()
+READ	../protocoldef/protocol.h	/^    const uint8_t READ = 1;$/;"	m	namespace:SceneAuth
+READ_WRITE	../protocoldef/protocol.h	/^    const uint8_t READ_WRITE = 2;$/;"	m	namespace:SceneAuth
+REFUSE	../protocoldef/protocol.h	/^    const uint8_t REFUSE            = 0x7E; \/\/审批拒绝$/;"	m	namespace:ANSC
+REGIST_FAILED	../protocoldef/protocol.h	/^    const uint8_t REGIST_FAILED          = 0x02; \/\/注册失败，帐号或邮箱已被使用$/;"	m	namespace:ANSC
+REGIST_RETRY_TIMES_OUT	../protocoldef/protocol.h	/^    const uint8_t REGIST_RETRY_TIMES_OUT   = 0x08; \/\/同一个IP频繁注册，限制一小时不允许注册$/;"	m	namespace:ANSC
+ReadMacAddr	../util/util.cpp	/^uint64_t ReadMacAddr(const char* pos)$/;"	f	signature:(const char* pos)
+ReadTime	../util/util.cpp	/^time_t ReadTime(const char* pos)$/;"	f	signature:(const char* pos)
+ReadUint16	../util/util.cpp	/^uint16_t ReadUint16(const char * pos)$/;"	f	signature:(const char * pos)
+ReadUint32	../util/util.cpp	/^uint32_t ReadUint32(const char* pos)$/;"	f	signature:(const char* pos)
+ReadUint64	../util/util.cpp	/^uint64_t ReadUint64(const char* pos)$/;"	f	signature:(const char* pos)
+ReadUint8	../util/util.cpp	/^uint8_t ReadUint8(const char * pos)$/;"	f	signature:(const char * pos)
+ReadUintptr	../util/util.cpp	/^uintptr_t ReadUintptr (const char* pos)$/;"	f	signature:(const char* pos)
+Relay	../protocoldef/protocol.h	/^namespace Relay$/;"	n
+Relay::CLOSE_ALL_CHANNEL	../protocoldef/protocol.h	/^    const uint8_t CLOSE_ALL_CHANNEL = 0x03;$/;"	m	namespace:Relay
+Relay::CLOSE_CHANNEL	../protocoldef/protocol.h	/^    const uint8_t CLOSE_CHANNEL = 0x02;$/;"	m	namespace:Relay
+Relay::OPEN_CHANNEL	../protocoldef/protocol.h	/^    const uint8_t OPEN_CHANNEL = 0x01;$/;"	m	namespace:Relay
+RemoveNotify	queuemessage.h	/^        RemoveNotify$/;"	e	enum:QueueMessage::MessageType
+Reset	../Message/Message.cpp	/^void Message::Reset()$/;"	f	class:Message	signature:()
+SCENE_ID_ERROR	../protocoldef/protocol.h	/^    const uint8_t SCENE_ID_ERROR            = 0x0B; \/\/场景不存在或没有权限$/;"	m	namespace:ANSC
+SCENE_ID_OR_USER_ID_ERROR	../protocoldef/protocol.h	/^    const uint8_t SCENE_ID_OR_USER_ID_ERROR    = 0x0C; \/\/场景或用户不存在或没有权限$/;"	m	namespace:ANSC
+SCENE_SHARE_MAX_LIMIT	../protocoldef/protocol.h	/^    const uint8_t SCENE_SHARE_MAX_LIMIT        = 0x1E; \/\/ 场景共享次数达到最大限制$/;"	m	namespace:ANSC
+SHM_CONFIG_H	../config/shmconfig.h	2;"	d
+SUCCESS	../protocoldef/protocol.h	/^    const uint8_t SUCCESS               = 0x01; \/\/成功$/;"	m	namespace:ANSC
+SaveNotification	Database/DBOperator.cpp	/^bool DBOperator::SaveNotification(const Notification& notification, uint64_t *insertid)$/;"	f	class:DBOperator	signature:(const Notification& notification, uint64_t *insertid)
+SaveNotification	Database/DBOperator.h	/^    bool SaveNotification(const Notification& notification, uint64_t *insertid);$/;"	p	class:DBOperator	access:public	signature:(const Notification& notification, uint64_t *insertid)
+SaveNotification	Database/DBOperator.h	/^    virtual bool SaveNotification(const Notification& notification, uint64_t *insertid) = 0;$/;"	p	class:IDBoperator	access:public	signature:(const Notification& notification, uint64_t *insertid)
+SceneAuth	../protocoldef/protocol.h	/^namespace SceneAuth$/;"	n
+SceneAuth::READ	../protocoldef/protocol.h	/^    const uint8_t READ = 1;$/;"	m	namespace:SceneAuth
+SceneAuth::READ_WRITE	../protocoldef/protocol.h	/^    const uint8_t READ_WRITE = 2;$/;"	m	namespace:SceneAuth
+SetCreateTime	../Message/Notification.h	/^    void SetCreateTime(time_t createTime) { m_createTime = createTime; }$/;"	f	class:Notification	access:public	signature:(time_t createTime)
+SetMsg	../Message/Notification.cpp	/^void Notification::SetMsg(char* msgBuf, uint16_t msgLen)$/;"	f	class:Notification	signature:(char* msgBuf, uint16_t msgLen)
+SetMsg	../Message/Notification.h	/^    void SetMsg(char* msgBuf, uint16_t msgLen);$/;"	p	class:Notification	access:public	signature:(char* msgBuf, uint16_t msgLen)
+SetObjectID	../Message/Notification.h	/^    void SetObjectID(uint64_t objectID) { m_objectID = objectID; }$/;"	f	class:Notification	access:public	signature:(uint64_t objectID)
+Shm_Size_Logical_Ext_Conn_Server	../config/shmconfig.h	/^        Shm_Size_Logical_Ext_Conn_Server = 2 * 1024 * 1024,$/;"	e	enum:Ipc::DataLimit
+Shm_Size_Logical_Internal_Server	../config/shmconfig.h	/^        Shm_Size_Logical_Internal_Server = 2 * 1024 * 1024,$/;"	e	enum:Ipc::DataLimit
+Shm_Size_Logical_Notif_Server	../config/shmconfig.h	/^        Shm_Size_Logical_Notif_Server = 1024 * 1024,$/;"	e	enum:Ipc::DataLimit
+Shm_Size_Logical_Relay_Server	../config/shmconfig.h	/^        Shm_Size_Logical_Relay_Server = 512 * 1024$/;"	e	enum:Ipc::DataLimit
+StrtoTime	../util/util.cpp	/^time_t StrtoTime(string str)$/;"	f	signature:(string str)
+StrtoU16	../util/util.cpp	/^uint16_t StrtoU16 (string str)$/;"	f	signature:(string str)
+StrtoU32	../util/util.cpp	/^uint32_t StrtoU32 (string str)$/;"	f	signature:(string str)
+StrtoU64	../util/util.cpp	/^uint64_t StrtoU64(string str)$/;"	f	signature:(string str)
+StrtoU8	../util/util.cpp	/^uint8_t StrtoU8(string str)$/;"	f	signature:(string str)
+TDEVCL	../config/dbconfig.h	/^    const char* const TDEVCL                       = "T_DeviceCluster";$/;"	m	namespace:DB
+TDEVCL_SCENE	../config/dbconfig.h	/^    const char* const TDEVCL_SCENE                 = "T_DevCLuster_Scene";$/;"	m	namespace:DB
+TDEVCL_SCENE__DEVCLUSTER_ID	../config/dbconfig.h	/^    const char* const TDEVCL_SCENE__DEVCLUSTER_ID  = "deviceClusterID";$/;"	m	namespace:DB
+TDEVCL_SCENE__SCENE_ID	../config/dbconfig.h	/^    const char* const TDEVCL_SCENE__SCENE_ID       = "sceneID";$/;"	m	namespace:DB
+TDEVCL__ACCOUNT	../config/dbconfig.h	/^    const char* const TDEVCL__ACCOUNT              = "account";$/;"	m	namespace:DB
+TDEVCL__CREATE_DATE	../config/dbconfig.h	/^    const char* const TDEVCL__CREATE_DATE          = "createDate";$/;"	m	namespace:DB
+TDEVCL__CREATOR_ID	../config/dbconfig.h	/^    const char* const TDEVCL__CREATOR_ID           = "creatorID";$/;"	m	namespace:DB
+TDEVCL__DESCRIPTION	../config/dbconfig.h	/^    const char* const TDEVCL__DESCRIPTION          = "describ";$/;"	m	namespace:DB
+TDEVCL__FULL_NAME	../config/dbconfig.h	/^    const char* const TDEVCL__FULL_NAME            = "fullName";$/;"	m	namespace:DB
+TDEVCL__ID	../config/dbconfig.h	/^    const char* const TDEVCL__ID                   = "ID";$/;"	m	namespace:DB
+TDEVCL__NOTENAME	../config/dbconfig.h	/^    const char* const TDEVCL__NOTENAME             = "noteName";$/;"	m	namespace:DB
+TDEVCL__SYSADMIN_ID	../config/dbconfig.h	/^    const char* const TDEVCL__SYSADMIN_ID          = "sysAdminID";$/;"	m	namespace:DB
+TDEVCL__TYPE	../config/dbconfig.h	/^    const char* const TDEVCL__TYPE                 = "type";$/;"	m	namespace:DB
+TDEVICE	../config/dbconfig.h	/^    const char* const TDEVICE                      = "T_Device";$/;"	m	namespace:DB
+TDEVICE__CLAIM_METHOD	../config/dbconfig.h	/^    const char* const TDEVICE__CLAIM_METHOD        = "claimMethod";$/;"	m	namespace:DB
+TDEVICE__CLIENT_TRANSFER_FLAG	../config/dbconfig.h	/^    const char* const TDEVICE__CLIENT_TRANSFER_FLAG    = "clientTransferFlag";$/;"	m	namespace:DB
+TDEVICE__CLUSTER_ID	../config/dbconfig.h	/^    const char* const TDEVICE__CLUSTER_ID          = "clusterID";$/;"	m	namespace:DB
+TDEVICE__CREATE_DATE	../config/dbconfig.h	/^    const char* const TDEVICE__CREATE_DATE         = "createDate";$/;"	m	namespace:DB
+TDEVICE__DELETE_FLAG	../config/dbconfig.h	/^    const char* const TDEVICE__DELETE_FLAG         = "deleteFlag";$/;"	m	namespace:DB
+TDEVICE__DESCRIPTION	../config/dbconfig.h	/^    const char* const TDEVICE__DESCRIPTION         = "description";$/;"	m	namespace:DB
+TDEVICE__ENCRYPTION_METHOD	../config/dbconfig.h	/^    const char* const TDEVICE__ENCRYPTION_METHOD   = "encryptionMethod";$/;"	m	namespace:DB
+TDEVICE__FIRM_CLUSTER_ID	../config/dbconfig.h	/^    const char* const TDEVICE__FIRM_CLUSTER_ID     = "firmClusterID";$/;"	m	namespace:DB
+TDEVICE__ID	../config/dbconfig.h	/^    const char* const TDEVICE__ID                  = "ID";$/;"	m	namespace:DB
+TDEVICE__KEY_GENERATION_METHOD	../config/dbconfig.h	/^    const char* const TDEVICE__KEY_GENERATION_METHOD   = "keyGenerationMethod";$/;"	m	namespace:DB
+TDEVICE__LOCAL_UDP_PORT	../config/dbconfig.h	/^    const char* const TDEVICE__LOCAL_UDP_PORT      = "localUDPPort";$/;"	m	namespace:DB
+TDEVICE__LOGIN_KEY	../config/dbconfig.h	/^    const char* const TDEVICE__LOGIN_KEY           = "szLoginKey";$/;"	m	namespace:DB
+TDEVICE__MAC_ADDR	../config/dbconfig.h	/^    const char* const TDEVICE__MAC_ADDR            = "macAddr";$/;"	m	namespace:DB
+TDEVICE__NAME	../config/dbconfig.h	/^    const char* const TDEVICE__NAME                = "name";$/;"	m	namespace:DB
+TDEVICE__NEW_PROTOCOL_FLAG	../config/dbconfig.h	/^    const char* const TDEVICE__NEW_PROTOCOL_FLAG   = "newProtocolFlag";$/;"	m	namespace:DB
+TDEVICE__NOTENAME	../config/dbconfig.h	/^    const char* const TDEVICE__NOTENAME            = "noteName";$/;"	m	namespace:DB
+TDEVICE__PREVIOUS_ID	../config/dbconfig.h	/^    const char* const TDEVICE__PREVIOUS_ID          = "previousID";$/;"	m	namespace:DB
+TDEVICE__TRANSFER_METHOD	../config/dbconfig.h	/^    const char* const TDEVICE__TRANSFER_METHOD     = "transferMethod";$/;"	m	namespace:DB
+TDEVICE__TYPE	../config/dbconfig.h	/^    const char* const TDEVICE__TYPE                = "type";$/;"	m	namespace:DB
+TFEEDBACK	../config/dbconfig.h	/^    const char* const TFEEDBACK                    = "T_Feedback";$/;"	m	namespace:DB
+TFEEDBACK__FEEDBACK	../config/dbconfig.h	/^    const char* const TFEEDBACK__FEEDBACK          = "feedback";$/;"	m	namespace:DB
+TFEEDBACK__SUBMIT_TIME	../config/dbconfig.h	/^    const char* const TFEEDBACK__SUBMIT_TIME       = "submitTime";$/;"	m	namespace:DB
+TFEEDBACK__USER_ID	../config/dbconfig.h	/^    const char* const TFEEDBACK__USER_ID           = "userID";$/;"	m	namespace:DB
+TFRIENDS	../config/dbconfig.h	/^    const char* const TFRIENDS                     = "T_FriendShip";$/;"	m	namespace:DB
+TFRIENDS__CREATE_DATE	../config/dbconfig.h	/^    const char* const TFRIENDS__CREATE_DATE        = "createDate";$/;"	m	namespace:DB
+TFRIENDS__FRIEND_ID	../config/dbconfig.h	/^    const char* const TFRIENDS__FRIEND_ID          = "friendID";$/;"	m	namespace:DB
+TFRIENDS__FRIEND_NOTENAME	../config/dbconfig.h	/^    const char* const TFRIENDS__FRIEND_NOTENAME    = "friendNoteName";$/;"	m	namespace:DB
+TFRIENDS__SELF_ID	../config/dbconfig.h	/^    const char* const TFRIENDS__SELF_ID            = "selfID";$/;"	m	namespace:DB
+TFRIENDS__SELF_NOTENAME	../config/dbconfig.h	/^    const char* const TFRIENDS__SELF_NOTENAME      = "selfNoteName";$/;"	m	namespace:DB
+THREADWRAP_H	../thread/threadwrap.h	2;"	d
+TOFFL	../config/dbconfig.h	/^    const char* const TOFFL             = "T_OfflineMsg";$/;"	m	namespace:DB
+TOFFL_CREATE_TIME	../config/dbconfig.h	/^    const char* const TOFFL_CREATE_TIME = "recvTime";$/;"	m	namespace:DB
+TOFFL_ID	../config/dbconfig.h	/^    const char* const TOFFL_ID          = "ID";$/;"	m	namespace:DB
+TOFFL_MSG_BUF	../config/dbconfig.h	/^    const char* const TOFFL_MSG_BUF     = "msg";$/;"	m	namespace:DB
+TOFFL_MSG_LEN	../config/dbconfig.h	/^    const char* const TOFFL_MSG_LEN     = "msgLen";$/;"	m	namespace:DB
+TOFFL_NOTIF_NUM	../config/dbconfig.h	/^    const char* const TOFFL_NOTIF_NUM   = "notifyNum";$/;"	m	namespace:DB
+TOFFL_OBJECT_ID	../config/dbconfig.h	/^    const char* const TOFFL_OBJECT_ID   = "subjectID";$/;"	m	namespace:DB
+TOFFL_PRIORITY	../config/dbconfig.h	/^    const char* const TOFFL_PRIORITY    = "priority";$/;"	m	namespace:DB
+TProcwrap	../thread/threadwrap.cpp	/^    TProcwrap(const std::function<void()> &f) : m_fun(f) $/;"	f	class:TProcwrap	access:public	signature:(const std::function<void()> &f)
+TProcwrap	../thread/threadwrap.cpp	/^class TProcwrap : public Proc$/;"	c	file:	inherits:Proc
+TProcwrap::TProcwrap	../thread/threadwrap.cpp	/^    TProcwrap(const std::function<void()> &f) : m_fun(f) $/;"	f	class:TProcwrap	access:public	signature:(const std::function<void()> &f)
+TProcwrap::m_fun	../thread/threadwrap.cpp	/^    std::function<void()> m_fun;$/;"	m	class:TProcwrap	file:	access:private
+TSCENE	../config/dbconfig.h	/^    const char* const TSCENE                       = "T_Scene";$/;"	m	namespace:DB
+TSCENE__CREATE_DATE	../config/dbconfig.h	/^    const char* const TSCENE__CREATE_DATE          = "createDate";$/;"	m	namespace:DB
+TSCENE__CREATOR_ID	../config/dbconfig.h	/^    const char* const TSCENE__CREATOR_ID           = "creatorID";$/;"	m	namespace:DB
+TSCENE__ID	../config/dbconfig.h	/^    const char* const TSCENE__ID                   = "ID";$/;"	m	namespace:DB
+TSCENE__NAME	../config/dbconfig.h	/^    const char* const TSCENE__NAME                 = "name";$/;"	m	namespace:DB
+TSCENE__OWNER_ID	../config/dbconfig.h	/^    const char* const TSCENE__OWNER_ID             = "ownerID";$/;"	m	namespace:DB
+TURN_NOT_EXIST	../protocoldef/protocol.h	/^    const uint8_t TURN_NOT_EXIST          = 0x19; \/\/转发通道未打开, 这个错误码没有用到$/;"	m	namespace:ANSC
+TUSER	../config/dbconfig.h	/^    const char* const TUSER                        = "T_User";$/;"	m	namespace:DB
+TUSERCL	../config/dbconfig.h	/^    const char* const TUSERCL                      = "T_UserCluster";$/;"	m	namespace:DB
+TUSERCL__CREATE_DATE	../config/dbconfig.h	/^    const char* const TUSERCL__CREATE_DATE         = "createDate";$/;"	m	namespace:DB
+TUSERCL__CREATOR_ID	../config/dbconfig.h	/^    const char* const TUSERCL__CREATOR_ID          = "creatorID";$/;"	m	namespace:DB
+TUSERCL__DESCRIPTION	../config/dbconfig.h	/^    const char* const TUSERCL__DESCRIPTION         = "description";$/;"	m	namespace:DB
+TUSERCL__ID	../config/dbconfig.h	/^    const char* const TUSERCL__ID                  = "ID";$/;"	m	namespace:DB
+TUSERCL__NAME	../config/dbconfig.h	/^    const char* const TUSERCL__NAME                = "name";$/;"	m	namespace:DB
+TUSER_DEVCL	../config/dbconfig.h	/^    const char* const TUSER_DEVCL                  = "T_User_DevCluster";$/;"	m	namespace:DB
+TUSER_DEVCL__DEVCLUSTER_ID	../config/dbconfig.h	/^    const char* const TUSER_DEVCL__DEVCLUSTER_ID   = "deviceClusterID";$/;"	m	namespace:DB
+TUSER_DEVCL__ROLE	../config/dbconfig.h	/^    const char* const TUSER_DEVCL__ROLE            = "role";$/;"	m	namespace:DB
+TUSER_DEVCL__USER_ID	../config/dbconfig.h	/^    const char* const TUSER_DEVCL__USER_ID         = "userID";$/;"	m	namespace:DB
+TUSER_DEVICE	../config/dbconfig.h	/^    const char* const TUSER_DEVICE                 = "T_User_Device";$/;"	m	namespace:DB
+TUSER_DEVICE__AUTHORITY	../config/dbconfig.h	/^    const char* const TUSER_DEVICE__AUTHORITY      = "authority";$/;"	m	namespace:DB
+TUSER_DEVICE__AUTHORIZER_ID	../config/dbconfig.h	/^    const char* const TUSER_DEVICE__AUTHORIZER_ID  = "authorizerID";$/;"	m	namespace:DB
+TUSER_DEVICE__DEVICE_ID	../config/dbconfig.h	/^    const char* const TUSER_DEVICE__DEVICE_ID      = "deviceID";$/;"	m	namespace:DB
+TUSER_DEVICE__USER_ID	../config/dbconfig.h	/^    const char* const TUSER_DEVICE__USER_ID        = "userID";$/;"	m	namespace:DB
+TUSER_SCENE	../config/dbconfig.h	/^    const char* const TUSER_SCENE                  = "T_User_Scene";$/;"	m	namespace:DB
+TUSER_SCENE__AUTHORITY	../config/dbconfig.h	/^    const char* const TUSER_SCENE__AUTHORITY       = "authority";$/;"	m	namespace:DB
+TUSER_SCENE__SCENE_ID	../config/dbconfig.h	/^    const char* const TUSER_SCENE__SCENE_ID        = "sceneID";$/;"	m	namespace:DB
+TUSER_SCENE__USER_ID	../config/dbconfig.h	/^    const char* const TUSER_SCENE__USER_ID         = "userID";$/;"	m	namespace:DB
+TUSER_USERCL	../config/dbconfig.h	/^    const char* const TUSER_USERCL                 = "T_User_UsrCluster";$/;"	m	namespace:DB
+TUSER_USERCL__ROLE	../config/dbconfig.h	/^    const char* const TUSER_USERCL__ROLE           = "role";$/;"	m	namespace:DB
+TUSER_USERCL__USER_ID	../config/dbconfig.h	/^    const char* const TUSER_USERCL__USER_ID        = "userID";$/;"	m	namespace:DB
+TUSER_USERCL__USRCLUSTER_ID	../config/dbconfig.h	/^    const char* const TUSER_USERCL__USRCLUSTER_ID  = "userClusterID";$/;"	m	namespace:DB
+TUSER__ACCOUNT	../config/dbconfig.h	/^    const char* const TUSER__ACCOUNT               = "account";$/;"	m	namespace:DB
+TUSER__ACTIVATE_FLAG	../config/dbconfig.h	/^    const char* const TUSER__ACTIVATE_FLAG         = "activateFlag";$/;"	m	namespace:DB
+TUSER__ACTIVATION_CODE	../config/dbconfig.h	/^    const char* const TUSER__ACTIVATION_CODE       = "activationCode";$/;"	m	namespace:DB
+TUSER__BIRTHDAY	../config/dbconfig.h	/^    const char* const TUSER__BIRTHDAY              = "birthday";$/;"	m	namespace:DB
+TUSER__CREATE_DATE	../config/dbconfig.h	/^    const char* const TUSER__CREATE_DATE           = "createDate";$/;"	m	namespace:DB
+TUSER__HEAD	../config/dbconfig.h	/^    const char* const TUSER__HEAD                  = "head";$/;"	m	namespace:DB
+TUSER__ID	../config/dbconfig.h	/^    const char* const TUSER__ID                    = "ID";$/;"	m	namespace:DB
+TUSER__LAST_LOGIN_TIME	../config/dbconfig.h	/^    const char* const TUSER__LAST_LOGIN_TIME       = "lastLoginTime";$/;"	m	namespace:DB
+TUSER__MAIL	../config/dbconfig.h	/^    const char* const TUSER__MAIL                  = "mail";$/;"	m	namespace:DB
+TUSER__NICKNAME	../config/dbconfig.h	/^    const char* const TUSER__NICKNAME              = "nickName";$/;"	m	namespace:DB
+TUSER__PHONE	../config/dbconfig.h	/^    const char* const TUSER__PHONE                 = "phone";$/;"	m	namespace:DB
+TUSER__PWD	../config/dbconfig.h	/^    const char* const TUSER__PWD                   = "password";$/;"	m	namespace:DB
+TUSER__REGION	../config/dbconfig.h	/^    const char* const TUSER__REGION                = "region";$/;"	m	namespace:DB
+TUSER__SECURE_MAIL	../config/dbconfig.h	/^    const char* const TUSER__SECURE_MAIL           = "secureMail";$/;"	m	namespace:DB
+TUSER__SEX	../config/dbconfig.h	/^    const char* const TUSER__SEX                   = "sex";$/;"	m	namespace:DB
+TUSER__SIGNATURE	../config/dbconfig.h	/^    const char* const TUSER__SIGNATURE             = "signature";$/;"	m	namespace:DB
+Thread	../thread/threadwrap.cpp	/^Thread::Thread(Proc *tp)$/;"	f	class:Thread	signature:(Proc *tp)
+Thread	../thread/threadwrap.cpp	/^Thread::Thread(const std::function<void()> &t) : Thread(new TProcwrap(t))$/;"	f	class:Thread	signature:(const std::function<void()> &t)
+Thread	../thread/threadwrap.h	/^    Thread(Proc *tp);$/;"	p	class:Thread	access:public	signature:(Proc *tp)
+Thread	../thread/threadwrap.h	/^    Thread(const Thread &);$/;"	p	class:Thread	access:private	signature:(const Thread &)
+Thread	../thread/threadwrap.h	/^    Thread(const std::function<void()> &t);$/;"	p	class:Thread	access:public	signature:(const std::function<void()> &t)
+Thread	../thread/threadwrap.h	/^class Thread$/;"	c
+Thread::Thread	../thread/threadwrap.cpp	/^Thread::Thread(Proc *tp)$/;"	f	class:Thread	signature:(Proc *tp)
+Thread::Thread	../thread/threadwrap.cpp	/^Thread::Thread(const std::function<void()> &t) : Thread(new TProcwrap(t))$/;"	f	class:Thread	signature:(const std::function<void()> &t)
+Thread::Thread	../thread/threadwrap.h	/^    Thread(Proc *tp);$/;"	p	class:Thread	access:public	signature:(Proc *tp)
+Thread::Thread	../thread/threadwrap.h	/^    Thread(const Thread &);$/;"	p	class:Thread	access:private	signature:(const Thread &)
+Thread::Thread	../thread/threadwrap.h	/^    Thread(const std::function<void()> &t);$/;"	p	class:Thread	access:public	signature:(const std::function<void()> &t)
+Thread::d	../thread/threadwrap.h	/^    ThreadData *d;$/;"	m	class:Thread	access:private
+Thread::operator =	../thread/threadwrap.h	/^    Thread &operator = (const Thread &);$/;"	p	class:Thread	access:private	signature:(const Thread &)
+Thread::~Thread	../thread/threadwrap.cpp	/^Thread::~Thread()$/;"	f	class:Thread	signature:()
+Thread::~Thread	../thread/threadwrap.h	/^    ~Thread();$/;"	p	class:Thread	access:public	signature:()
+ThreadData	../thread/threadwrap.cpp	/^    ThreadData(Thread *p)$/;"	f	class:ThreadData	access:public	signature:(Thread *p)
+ThreadData	../thread/threadwrap.cpp	/^class ThreadData$/;"	c	file:
+ThreadData::ThreadData	../thread/threadwrap.cpp	/^    ThreadData(Thread *p)$/;"	f	class:ThreadData	access:public	signature:(Thread *p)
+ThreadData::isthreadvalid	../thread/threadwrap.cpp	/^    bool    isthreadvalid;$/;"	m	class:ThreadData	file:	access:public
+ThreadData::thread	../thread/threadwrap.cpp	/^    Thread *thread;$/;"	m	class:ThreadData	file:	access:public
+ThreadData::tid	../thread/threadwrap.cpp	/^    pthread_t tid;$/;"	m	class:ThreadData	file:	access:public
+ThreadData::tp	../thread/threadwrap.cpp	/^    Proc *tp;$/;"	m	class:ThreadData	file:	access:public
+ThreadData::~ThreadData	../thread/threadwrap.cpp	/^    ~ThreadData()$/;"	f	class:ThreadData	access:public	signature:()
+Timer	../timer/timer.cpp	/^Timer::Timer(uint32_t ms, TimerServer *ts)$/;"	f	class:Timer	signature:(uint32_t ms, TimerServer *ts)
+Timer::Timer	../timer/timer.cpp	/^Timer::Timer(uint32_t ms, TimerServer *ts)$/;"	f	class:Timer	signature:(uint32_t ms, TimerServer *ts)
+Timer::runOnce	../timer/timer.cpp	/^void Timer::runOnce()$/;"	f	class:Timer	signature:()
+Timer::setInterval	../timer/timer.cpp	/^void Timer::setInterval(uint32_t ms)$/;"	f	class:Timer	signature:(uint32_t ms)
+Timer::setTimeoutCallback	../timer/timer.cpp	/^void Timer::setTimeoutCallback(Proc *p)$/;"	f	class:Timer	signature:(Proc *p)
+Timer::setTimeoutCallback	../timer/timer.cpp	/^void Timer::setTimeoutCallback(const std::function<void()> &p)$/;"	f	class:Timer	signature:(const std::function<void()> &p)
+Timer::start	../timer/timer.cpp	/^void Timer::start()$/;"	f	class:Timer	signature:()
+Timer::stop	../timer/timer.cpp	/^void Timer::stop()$/;"	f	class:Timer	signature:()
+Timer::~Timer	../timer/timer.cpp	/^Timer::~Timer()$/;"	f	class:Timer	signature:()
+TimerProc	notifytimeout.cpp	/^    TimerProc(NotifyTimeOut *nt, uint64_t notifyid)$/;"	f	class:TimerProc	access:public	signature:(NotifyTimeOut *nt, uint64_t notifyid)
+TimerProc	notifytimeout.cpp	/^class TimerProc : public Proc$/;"	c	file:	inherits:Proc
+TimerProc::TimerProc	notifytimeout.cpp	/^    TimerProc(NotifyTimeOut *nt, uint64_t notifyid)$/;"	f	class:TimerProc	access:public	signature:(NotifyTimeOut *nt, uint64_t notifyid)
+TimerProc::m_notifyid	notifytimeout.cpp	/^    uint64_t m_notifyid;$/;"	m	class:TimerProc	file:	access:private
+TimerProc::m_timeout	notifytimeout.cpp	/^    NotifyTimeOut *m_timeout;$/;"	m	class:TimerProc	file:	access:private
+TimerProc::m_times	notifytimeout.cpp	/^    int m_times;$/;"	m	class:TimerProc	file:	access:private
+TimerProc::run	notifytimeout.cpp	/^    void run()$/;"	f	class:TimerProc	access:public	signature:()
+TimetoStr	../util/util.cpp	/^string TimetoStr(time_t t)$/;"	f	signature:(time_t t)
+U16toStr	../util/util.cpp	/^string U16toStr(uint16_t u16)$/;"	f	signature:(uint16_t u16)
+U32toStr	../util/util.cpp	/^string U32toStr(uint32_t u32)$/;"	f	signature:(uint32_t u32)
+U64toStr	../util/util.cpp	/^string U64toStr(uint64_t u64)$/;"	f	signature:(uint64_t u64)
+U8toStr	../util/util.cpp	/^string U8toStr(uint8_t u8)$/;"	f	signature:(uint8_t u8)
+USER_ID_OR_DEVICE_ID_ERROR	../protocoldef/protocol.h	/^    const uint8_t USER_ID_OR_DEVICE_ID_ERROR   = 0x13; \/\/用户或设备不存在或没有权限$/;"	m	namespace:ANSC
+VERIFY_CODE_ERROR	../protocoldef/protocol.h	/^    const uint8_t VERIFY_CODE_ERROR         = 0x03; \/\/验证码错误$/;"	m	namespace:ANSC
+VERIFY_CODE_EXPIRED	../protocoldef/protocol.h	/^    const uint8_t VERIFY_CODE_EXPIRED     = 0x17; \/\/ 失败$/;"	m	namespace:ANSC
+Write	../Message/MsgWriter.cpp	/^int MsgWriterPosixMsgQueue::Write(Message* msg)$/;"	f	class:MsgWriterPosixMsgQueue	signature:(Message* msg)
+WriteString	../util/util.cpp	/^void WriteString(std::vector<char> *out, const std::string &str)$/;"	f	signature:(std::vector<char> *out, const std::string &str)
+WriteTime	../util/util.cpp	/^void WriteTime(char* pos, time_t time)$/;"	f	signature:(char* pos, time_t time)
+WriteUint16	../util/util.cpp	/^void WriteUint16(char* pos, uint16_t u16)$/;"	f	signature:(char* pos, uint16_t u16)
+WriteUint16	../util/util.cpp	/^void WriteUint16(std::vector<char> *out, uint16_t value)$/;"	f	signature:(std::vector<char> *out, uint16_t value)
+WriteUint32	../util/util.cpp	/^void WriteUint32(char* pos, uint32_t u32)$/;"	f	signature:(char* pos, uint32_t u32)
+WriteUint32	../util/util.cpp	/^void WriteUint32(std::vector<char> *out, uint32_t value)$/;"	f	signature:(std::vector<char> *out, uint32_t value)
+WriteUint64	../util/util.cpp	/^void WriteUint64(char* pos, uint64_t u64)$/;"	f	signature:(char* pos, uint64_t u64)
+WriteUint64	../util/util.cpp	/^void WriteUint64(std::vector<char> *out, uint64_t value)$/;"	f	signature:(std::vector<char> *out, uint64_t value)
+WriteUint8	../util/util.cpp	/^void WriteUint8(char* pos, uint8_t u8)$/;"	f	signature:(char* pos, uint8_t u8)
+WriteUint8	../util/util.cpp	/^void WriteUint8(std::vector<char> *out, uint8_t value)$/;"	f	signature:(std::vector<char> *out, uint8_t value)
+WriteUintptr	../util/util.cpp	/^void WriteUintptr (char* pos, uintptr_t uptr)$/;"	f	signature:(char* pos, uintptr_t uptr)
+__anon1::g_inc	notifyidgen.cpp	/^static uint32_t g_inc = 0;$/;"	m	namespace:__anon1	file:
+__anon1::g_serverid	notifyidgen.cpp	/^static uint32_t g_serverid = 0;$/;"	m	namespace:__anon1	file:
+addTimeout	notifytimeout.cpp	/^bool NotifyTimeOut::addTimeout(uint64_t notifyid)$/;"	f	class:NotifyTimeOut	signature:(uint64_t notifyid)
+addTimeout	notifytimeout.h	/^    bool addTimeout(uint64_t notifyid);$/;"	p	class:NotifyTimeOut	access:public	signature:(uint64_t notifyid)
+answercode	../Message/Notification.h	/^    uint8_t answercode() const {return m_answercode; }$/;"	f	class:Notification	access:public	signature:() const
+appendContent	../Message/Message.cpp	/^void Message::appendContent (const void* data, uint16_t dataLen)$/;"	f	class:Message	signature:(const void* data, uint16_t dataLen)
+appendContent	../Message/Message.cpp	/^void Message::appendContent(IToByteArray *data)$/;"	f	class:Message	signature:(IToByteArray *data)
+appendContent	../Message/Message.cpp	/^void Message::appendContent(const std::string &data)$/;"	f	class:Message	signature:(const std::string &data)
+appendContent	../Message/Message.cpp	/^void Message::appendContent(uint16_t d)$/;"	f	class:Message	signature:(uint16_t d)
+appendContent	../Message/Message.cpp	/^void Message::appendContent(uint32_t d)$/;"	f	class:Message	signature:(uint32_t d)
+appendContent	../Message/Message.cpp	/^void Message::appendContent(uint64_t d)$/;"	f	class:Message	signature:(uint64_t d)
+appendContent	../Message/Message.cpp	/^void Message::appendContent(uint8_t d)$/;"	f	class:Message	signature:(uint8_t d)
+byteArrayToHex	../util/util.cpp	/^std::string byteArrayToHex(const uint8_t *in, int inlen)$/;"	f	signature:(const uint8_t *in, int inlen)
+clearContent	../Message/Message.cpp	/^void Message::clearContent()$/;"	f	class:Message	signature:()
+config	../config/configreader.cpp	/^Configure Configure::config;$/;"	m	class:Configure	file:
+create	../msgqueue/posixmsgqueue.cpp	/^bool MessageQueuePosix::create()$/;"	f	class:MessageQueuePosix	signature:()
+createClientMessage	../Message/Message.cpp	/^Message *Message::createClientMessage()$/;"	f	class:Message	signature:()
+createDeviceMessage	../Message/Message.cpp	/^Message *Message::createDeviceMessage()$/;"	f	class:Message	signature:()
+createMsgQueue	../msgqueue/ipcmsgqueue.cpp	/^int createMsgQueue(int which)$/;"	f	signature:(int which)
+d	../thread/threadwrap.h	/^    ThreadData *d;$/;"	m	class:Thread	access:private
+dbOperator	NotifReqHandler.h	/^    IDBoperator *dbOperator;$/;"	m	class:NotifReqHandler	access:private
+deleteNotification	notifyManager.cpp	/^bool NotifyManager::deleteNotification(uint64_t notifNumber)$/;"	f	class:NotifyManager	signature:(uint64_t notifNumber)
+deleteNotification	notifyManager.h	/^    bool deleteNotification(uint64_t notifNumber);$/;"	p	class:NotifyManager	access:public	signature:(uint64_t notifNumber)
+extserverToLogical	../msgqueue/ipcmsgqueue.cpp	/^static MessageQueuePosix *extserverToLogical = 0;$/;"	v	file:
+fromByteArray	../Message/Message.cpp	/^bool InternalMessage::fromByteArray(const char *buf, int buflen)$/;"	f	class:InternalMessage	signature:(const char *buf, int buflen)
+fromByteArray	../Message/Message.cpp	/^bool Message::fromByteArray(const char *buf, int buflen)$/;"	f	class:Message	signature:(const char *buf, int buflen)
+fromByteArray	../Message/Notification.cpp	/^bool Notification::fromByteArray(char *buf, int len)$/;"	f	class:Notification	signature:(char *buf, int len)
+fromByteArray	../Message/Notification.h	/^    bool fromByteArray(char *d, int len);$/;"	p	class:Notification	access:public	signature:(char *d, int len)
+g_inc	notifyidgen.cpp	/^static uint32_t g_inc = 0;$/;"	m	namespace:__anon1	file:
+g_serverid	notifyidgen.cpp	/^static uint32_t g_serverid = 0;$/;"	m	namespace:__anon1	file:
+genID	notifyidgen.cpp	/^uint64_t Notify::genID()$/;"	f	class:Notify	signature:()
+genID	notifyidgen.h	/^uint64_t genID();$/;"	p	namespace:Notify	signature:()
+genIdInit	notifyidgen.cpp	/^void Notify::genIdInit(uint32_t serverid)$/;"	f	class:Notify	signature:(uint32_t serverid)
+genIdInit	notifyidgen.h	/^void genIdInit(uint32_t serverid);$/;"	p	namespace:Notify	signature:(uint32_t serverid)
+get	../msgqueue/posixmsgqueue.cpp	/^int MessageQueuePosix::get(char *buf, int *buflen)$/;"	f	class:MessageQueuePosix	signature:(char *buf, int *buflen)
+getByNotifyID	notifyManager.cpp	/^Notification *NotifyManager::getByNotifyID(uint64_t notifyid)$/;"	f	class:NotifyManager	signature:(uint64_t notifyid)
+getByNotifyID	notifyManager.h	/^    Notification* getByNotifyID(uint64_t notifyid);$/;"	p	class:NotifyManager	access:public	signature:(uint64_t notifyid)
+getByUserid	notifyManager.cpp	/^int NotifyManager::getByUserid(uint64_t userid,$/;"	f	class:NotifyManager	signature:(uint64_t userid, std::list<Notification *> *notif)
+getByUserid	notifyManager.h	/^    int getByUserid(uint64_t userid, std::list<Notification *> *notif);$/;"	p	class:NotifyManager	access:public	signature:(uint64_t userid, std::list<Notification *> *notif)
+getConfig	../config/configreader.cpp	/^Configure *Configure::getConfig()$/;"	f	class:Configure	signature:()
+getConfigFilePath	../config/configreader.cpp	/^int Configure::getConfigFilePath(char *buf, int sizeofbuf)$/;"	f	class:Configure	signature:(char *buf, int sizeofbuf)
+getNotifyType	../Message/Notification.h	/^    uint16_t getNotifyType() const { return m_notifyType; }$/;"	f	class:Notification	access:public	signature:() const
+getQueueMessage	mainqueue.cpp	/^QueueMessage *getQueueMessage()$/;"	f	signature:()
+getQueueMessage	mainqueue.h	/^QueueMessage *getQueueMessage();$/;"	p	signature:()
+getReq	queuemessage.cpp	/^Message *NewNotifyRequestMessage::getReq()$/;"	f	class:NewNotifyRequestMessage	signature:()
+getReq	queuemessage.h	/^    Message *getReq();$/;"	p	class:NewNotifyRequestMessage	access:public	signature:()
+hexToBytesArray	../util/util.cpp	/^bool hexToBytesArray(const std::string &str, std::vector<char> *out)$/;"	f	signature:(const std::string &str, std::vector<char> *out)
+hexchar2Int	../util/util.cpp	/^int hexchar2Int(char ch)$/;"	f	file:	signature:(char ch)
+insertNotify	notifyManager.cpp	/^bool NotifyManager::insertNotify(Notification *notification)$/;"	f	class:NotifyManager	signature:(Notification *notification)
+insertNotify	notifyManager.h	/^    bool insertNotify(Notification *notification);$/;"	p	class:NotifyManager	access:public	signature:(Notification *notification)
+internalSrvToLogical	../msgqueue/ipcmsgqueue.cpp	/^static MessageQueuePosix *internalSrvToLogical = 0;$/;"	v	file:
+istest	main.cpp	/^bool istest = false;$/;"	v
+isthreadvalid	../thread/threadwrap.cpp	/^    bool    isthreadvalid;$/;"	m	class:ThreadData	file:	access:public
+lock	../thread/mutexwrap.cpp	/^bool MutexWrap::lock()$/;"	f	class:MutexWrap	signature:()
+logicalToExtserver	../msgqueue/ipcmsgqueue.cpp	/^static MessageQueuePosix *logicalToExtserver = 0;$/;"	v	file:
+logicalToInternalSrv	../msgqueue/ipcmsgqueue.cpp	/^static MessageQueuePosix *logicalToInternalSrv = 0;$/;"	v	file:
+logicalToNotifySrv	../msgqueue/ipcmsgqueue.cpp	/^static MessageQueuePosix *logicalToNotifySrv = 0;$/;"	v	file:
+logicalToRelaySrv	../msgqueue/ipcmsgqueue.cpp	/^static MessageQueuePosix *logicalToRelaySrv = 0;$/;"	v	file:
+m_answercode	../Message/Notification.h	/^    uint8_t m_answercode;$/;"	m	class:Notification	access:private
+m_createTime	../Message/Notification.h	/^    time_t m_createTime;$/;"	m	class:Notification	access:private
+m_dboperator	BusinessManager.h	/^    IDBoperator *m_dboperator;$/;"	m	class:BusinessManager	access:private
+m_fun	../thread/threadwrap.cpp	/^    std::function<void()> m_fun;$/;"	m	class:TProcwrap	file:	access:private
+m_fun	../timer/timer.cpp	/^    std::function<void()> m_fun;$/;"	m	class:FuncWrapProc	file:	access:private
+m_idNotify	notifyManager.h	/^    std::map<NotifyID, ObjectID> m_idNotify;$/;"	m	class:NotifyManager	access:private
+m_idtimer	notifytimeout.h	/^    std::unordered_map<uint64_t, Timer *> m_idtimer;$/;"	m	class:NotifyTimeOut	access:private
+m_lock	notifytimeout.h	/^    MutexWrap m_lock;$/;"	m	class:NotifyTimeOut	access:private
+m_msgBuf	../Message/Notification.h	/^    std::vector<char> m_msgBuf;$/;"	m	class:Notification	access:private
+m_msgLen	../Message/Notification.h	/^    uint16_t m_msgLen;$/;"	m	class:Notification	access:private
+m_notifyType	../Message/Notification.h	/^    uint16_t m_notifyType;$/;"	m	class:Notification	access:private
+m_notifyid	notifytimeout.cpp	/^    uint64_t m_notifyid;$/;"	m	class:TimerProc	file:	access:private
+m_notifyid	queuemessage.h	/^    uint64_t m_notifyid;$/;"	m	class:NotifyTimeoutMessage	access:private
+m_notifymanager	BusinessManager.h	/^    NotifyManager m_notifymanager;$/;"	m	class:BusinessManager	access:private
+m_notifymanager	NotifReqHandler.h	/^    NotifyManager *m_notifymanager;$/;"	m	class:NotifReqHandler	access:private
+m_notifytimeout	BusinessManager.h	/^    NotifyTimeOut m_notifytimeout;$/;"	m	class:BusinessManager	access:private
+m_notifytimeout	NotifReqHandler.h	/^    NotifyTimeOut *m_notifytimeout;$/;"	m	class:NotifReqHandler	access:private
+m_nq	queuemessage.h	/^    Message *m_nq;$/;"	m	class:NewNotifyRequestMessage	access:private
+m_objectID	../Message/Notification.h	/^    uint64_t m_objectID;$/;"	m	class:Notification	access:private
+m_reqhandler	BusinessManager.h	/^    NotifReqHandler *m_reqhandler;$/;"	m	class:BusinessManager	access:private
+m_resWriter	BusinessManager.h	/^    MsgWriterPosixMsgQueue m_resWriter;$/;"	m	class:BusinessManager	access:private
+m_serialNumber	../Message/Notification.h	/^    uint64_t m_serialNumber;$/;"	m	class:Notification	access:private
+m_sql	Database/DBOperator.h	/^    MysqlConnection m_sql;$/;"	m	class:DBOperator	access:private
+m_thread	posixMessageReceiveThread.h	/^    Thread *m_thread;$/;"	m	class:PosixMessageReceiveThread	access:private
+m_timeout	notifytimeout.cpp	/^    NotifyTimeOut *m_timeout;$/;"	m	class:TimerProc	file:	access:private
+m_times	notifytimeout.cpp	/^    int m_times;$/;"	m	class:TimerProc	file:	access:private
+m_times	queuemessage.h	/^    int m_times;$/;"	m	class:NotifyTimeoutMessage	access:private
+m_type	queuemessage.h	/^    int m_type;$/;"	m	class:QueueMessage	access:private
+m_userNotify	notifyManager.h	/^    std::unordered_map<ObjectID, Notifymap> m_userNotify;$/;"	m	class:NotifyManager	access:private
+m_vNotifRes	NotifReqHandler.h	/^    std::vector<Notification*> m_vNotifRes;$/;"	m	class:NotifReqHandler	access:private
+main	main.cpp	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+main	test/genidtest.cpp	/^int main()$/;"	f	signature:()
+mainqueue	mainqueue.cpp	/^static BlockMessageQueue<QueueMessage *> mainqueue;$/;"	v	file:
+msgqueueExtserverToLogical	../msgqueue/ipcmsgqueue.cpp	/^MessageQueuePosix *msgqueueExtserverToLogical()$/;"	f	signature:()
+msgqueueInternalSrvToLogical	../msgqueue/ipcmsgqueue.cpp	/^MessageQueuePosix *msgqueueInternalSrvToLogical()$/;"	f	signature:()
+msgqueueLogicalToExtserver	../msgqueue/ipcmsgqueue.cpp	/^MessageQueuePosix *msgqueueLogicalToExtserver()$/;"	f	signature:()
+msgqueueLogicalToInternalSrv	../msgqueue/ipcmsgqueue.cpp	/^MessageQueuePosix *msgqueueLogicalToInternalSrv()$/;"	f	signature:()
+msgqueueLogicalToNotifySrv	../msgqueue/ipcmsgqueue.cpp	/^MessageQueuePosix *msgqueueLogicalToNotifySrv()$/;"	f	signature:()
+msgqueueLogicalToRelaySrv	../msgqueue/ipcmsgqueue.cpp	/^MessageQueuePosix *msgqueueLogicalToRelaySrv()$/;"	f	signature:()
+msgqueueNotifySrvToLogical	../msgqueue/ipcmsgqueue.cpp	/^MessageQueuePosix *msgqueueNotifySrvToLogical()$/;"	f	signature:()
+msgqueueRelaySrvToLogical	../msgqueue/ipcmsgqueue.cpp	/^MessageQueuePosix *msgqueueRelaySrvToLogical()$/;"	f	signature:()
+mutex	../thread/mutexwrap.cpp	/^    pthread_mutex_t mutex;$/;"	m	class:MutexWrapData	file:	access:public
+mutex	../thread/mutexwrap.cpp	/^pthread_mutex_t *MutexWrap::mutex()$/;"	f	class:MutexWrap	signature:()
+notifyID	queuemessage.h	/^    uint64_t notifyID() { return m_notifyid;}$/;"	f	class:NotifyTimeoutMessage	access:public	signature:()
+notifySrvToLogical	../msgqueue/ipcmsgqueue.cpp	/^static MessageQueuePosix *notifySrvToLogical = 0;$/;"	v	file:
+notifyTimeout	BusinessManager.cpp	/^void BusinessManager::notifyTimeout(uint64_t notifyid, int times)$/;"	f	class:BusinessManager	signature:(uint64_t notifyid, int times)
+notifyTimeout	BusinessManager.h	/^    void notifyTimeout(uint64_t notifyid, int times);$/;"	p	class:BusinessManager	access:public	signature:(uint64_t notifyid, int times)
+operator =	../thread/threadwrap.h	/^    Thread &operator = (const Thread &);$/;"	p	class:Thread	access:private	signature:(const Thread &)
+pack	../Message/Message.cpp	/^void Message::pack(std::vector<char> *out)$/;"	f	class:Message	signature:(std::vector<char> *out)
+parse	../config/configreader.cpp	/^void Configure::parse(const char *token, const char *value)$/;"	f	class:Configure	signature:(const char *token, const char *value)
+postMessage	mainqueue.cpp	/^void postMessage(QueueMessage *msg)$/;"	f	signature:(QueueMessage *msg)
+postMessage	mainqueue.h	/^void postMessage(QueueMessage *msg);$/;"	p	signature:(QueueMessage *msg)
+put	../msgqueue/posixmsgqueue.cpp	/^int MessageQueuePosix::put(const char *data, int datalen)$/;"	f	class:MessageQueuePosix	signature:(const char *data, int datalen)
+read	../Message/MsgReader.cpp	/^Message *MsgReaderPosixMsgQueue::read()$/;"	f	class:MsgReaderPosixMsgQueue	signature:()
+read	../config/configreader.cpp	/^int Configure::read(const char *path)$/;"	f	class:Configure	signature:(const char *path)
+readString	../util/util.cpp	/^int readString(const char *d, int len, std::string *out)$/;"	f	signature:(const char *d, int len, std::string *out)
+readString	../util/util.cpp	/^int readString(const char *d, int len, std::vector<char> *out)$/;"	f	signature:(const char *d, int len, std::vector<char> *out)
+readString_p	../util/util.cpp	/^int readString_p(const char *d, int len, x *out)$/;"	f	signature:(const char *d, int len, x *out)
+relaySrvToLogical	../msgqueue/ipcmsgqueue.cpp	/^static MessageQueuePosix *relaySrvToLogical = 0;$/;"	v	file:
+release	../thread/mutexwrap.cpp	/^bool MutexWrap::release()$/;"	f	class:MutexWrap	signature:()
+remove	../msgqueue/posixmsgqueue.cpp	/^int MessageQueuePosix::remove(char *name)$/;"	f	class:MessageQueuePosix	signature:(char *name)
+removeTimeout	notifytimeout.cpp	/^bool NotifyTimeOut::removeTimeout(uint64_t notifyid)$/;"	f	class:NotifyTimeOut	signature:(uint64_t notifyid)
+removeTimeout	notifytimeout.h	/^    bool removeTimeout(uint64_t notifyid);$/;"	p	class:NotifyTimeOut	access:public	signature:(uint64_t notifyid)
+run	../thread/threadwrap.cpp	/^void Proc::run()$/;"	f	class:Proc	signature:()
+run	../thread/threadwrap.h	/^    virtual void run();$/;"	p	class:Proc	access:public	signature:()
+run	notifytimeout.cpp	/^    void run()$/;"	f	class:TimerProc	access:public	signature:()
+run	posixMessageReceiveThread.cpp	/^void PosixMessageReceiveThread::run()$/;"	f	class:PosixMessageReceiveThread	signature:()
+run	posixMessageReceiveThread.h	/^    void run();$/;"	p	class:PosixMessageReceiveThread	access:private	signature:()
+runOnce	../timer/timer.cpp	/^void Timer::runOnce()$/;"	f	class:Timer	signature:()
+runasdaemon	main.cpp	/^bool runasdaemon = false;$/;"	v
+running	main.cpp	/^bool running = true;$/;"	v
+serialNumber	../Message/Notification.h	/^    uint64_t serialNumber() const {return m_serialNumber; }$/;"	f	class:Notification	access:public	signature:() const
+setAnswcCode	../Message/Notification.h	/^    void setAnswcCode(uint8_t c) { m_answercode = c; }$/;"	f	class:Notification	access:public	signature:(uint8_t c)
+setCommandID	../Message/Message.cpp	/^void Message::setCommandID(uint16_t commandID)$/;"	f	class:Message	signature:(uint16_t commandID)
+setDestID	../Message/Message.cpp	/^void Message::setDestID(uint64_t destID)$/;"	f	class:Message	signature:(uint64_t destID)
+setEncrypt	../Message/Message.cpp	/^void InternalMessage::setEncrypt(bool t)$/;"	f	class:InternalMessage	signature:(bool t)
+setInterval	../timer/timer.cpp	/^void Timer::setInterval(uint32_t ms)$/;"	f	class:Timer	signature:(uint32_t ms)
+setNewInterval	notifytimeout.cpp	/^void NotifyTimeOut::setNewInterval(uint64_t notifyid, uint32_t newinterval)$/;"	f	class:NotifyTimeOut	signature:(uint64_t notifyid, uint32_t newinterval)
+setNewInterval	notifytimeout.h	/^    void setNewInterval(uint64_t notifyid, uint32_t newinterval);$/;"	p	class:NotifyTimeOut	access:public	signature:(uint64_t notifyid, uint32_t newinterval)
+setNotifyType	../Message/Notification.h	/^    void setNotifyType(uint16_t notifNumber) { m_notifyType = notifNumber; }$/;"	f	class:Notification	access:public	signature:(uint16_t notifNumber)
+setObjectID	../Message/Message.cpp	/^void Message::setObjectID(uint64_t objectID)$/;"	f	class:Message	signature:(uint64_t objectID)
+setPrefix	../Message/Message.cpp	/^void Message::setPrefix(uint8_t prefix)$/;"	f	class:Message	signature:(uint8_t prefix)
+setReadQueue	../Message/MsgReader.cpp	/^void MsgReaderPosixMsgQueue::setReadQueue(MessageQueuePosix *queue)$/;"	f	class:MsgReaderPosixMsgQueue	signature:(MessageQueuePosix *queue)
+setSerialNumber	../Message/Message.cpp	/^void Message::setSerialNumber(uint16_t serialNumber)$/;"	f	class:Message	signature:(uint16_t serialNumber)
+setSerialNumber	../Message/Notification.h	/^    void setSerialNumber(uint64_t sn) { m_serialNumber = sn; }$/;"	f	class:Notification	access:public	signature:(uint64_t sn)
+setSockerAddress	../Message/Message.cpp	/^void Message::setSockerAddress(sockaddr_in sockAddr)$/;"	f	class:Message	signature:(sockaddr_in sockAddr)
+setSuffix	../Message/Message.cpp	/^void Message::setSuffix(uint8_t suffix)$/;"	f	class:Message	signature:(uint8_t suffix)
+setTimeoutCallback	../timer/timer.cpp	/^void Timer::setTimeoutCallback(Proc *p)$/;"	f	class:Timer	signature:(Proc *p)
+setTimeoutCallback	../timer/timer.cpp	/^void Timer::setTimeoutCallback(const std::function<void()> &p)$/;"	f	class:Timer	signature:(const std::function<void()> &p)
+setVersionNumber	../Message/Message.cpp	/^void Message::setVersionNumber(uint16_t versionNumber)$/;"	f	class:Message	signature:(uint16_t versionNumber)
+shouldEncrypt	../Message/Message.cpp	/^bool InternalMessage::shouldEncrypt()$/;"	f	class:InternalMessage	signature:()
+sigusr1	main.cpp	/^void sigusr1(int)$/;"	f	signature:(int)
+splitString	../util/util.cpp	/^void splitString(const std::string &str, const std::string &sp,std::vector<string> *strlist)$/;"	f	signature:(const std::string &str, const std::string &sp,std::vector<string> *strlist)
+start	../timer/timer.cpp	/^void Timer::start()$/;"	f	class:Timer	signature:()
+stop	../timer/timer.cpp	/^void Timer::stop()$/;"	f	class:Timer	signature:()
+strncopyn	../util/util.cpp	/^void strncopyn(char *dest, int destlen, const char *src, int srclen)$/;"	f	signature:(char *dest, int destlen, const char *src, int srclen)
+test	main.cpp	/^void test()$/;"	f	signature:()
+test	main.cpp	/^void test();$/;"	p	file:	signature:()
+thread	../thread/threadwrap.cpp	/^    Thread *thread;$/;"	m	class:ThreadData	file:	access:public
+threadProc	../thread/threadwrap.cpp	/^static void *threadProc(void *d)$/;"	f	file:	signature:(void *d)
+tid	../thread/threadwrap.cpp	/^    pthread_t tid;$/;"	m	class:ThreadData	file:	access:public
+times	queuemessage.h	/^    int times() {return m_times;}$/;"	f	class:NotifyTimeoutMessage	access:public	signature:()
+timet2String	../util/util.cpp	/^std::string timet2String(time_t time)$/;"	f	signature:(time_t time)
+toByteArray	../Message/Message.cpp	/^void InternalMessage::toByteArray(std::vector<char> *out)$/;"	f	class:InternalMessage	signature:(std::vector<char> *out)
+toByteArray	../Message/Message.cpp	/^void Message::toByteArray(std::vector<char> *out)$/;"	f	class:Message	signature:(std::vector<char> *out)
+toByteArray	../Message/Notification.cpp	/^void Notification::toByteArray(std::vector<char> *out)$/;"	f	class:Notification	signature:(std::vector<char> *out)
+toByteArray	../Message/Notification.h	/^    void toByteArray(std::vector<char> *out);$/;"	p	class:Notification	access:public	signature:(std::vector<char> *out)
+toByteArray	../Message/itobytearray.cpp	/^void EncryptByteArray::toByteArray(std::vector<char> *out)$/;"	f	class:EncryptByteArray	signature:(std::vector<char> *out)
+tp	../thread/threadwrap.cpp	/^    Proc *tp;$/;"	m	class:ThreadData	file:	access:public
+trylock	../thread/mutexwrap.cpp	/^bool MutexWrap::trylock()$/;"	f	class:MutexWrap	signature:()
+type	queuemessage.h	/^    virtual int type() {return m_type;}$/;"	f	class:QueueMessage	access:public	signature:()
+uint64ToMacAddr	../util/util.cpp	/^void uint64ToMacAddr(uint64_t mac, char *out)$/;"	f	signature:(uint64_t mac, char *out)
+unpack	../Message/Message.cpp	/^bool Message::unpack(const char *buf, int buflen)$/;"	f	class:Message	signature:(const char *buf, int buflen)
+writeMessage	BusinessManager.cpp	/^void BusinessManager::writeMessage(const Message &msg)$/;"	f	class:BusinessManager	signature:(const Message &msg)
+writeMessage	BusinessManager.h	/^    void writeMessage(const Message &msg);$/;"	p	class:BusinessManager	access:private	signature:(const Message &msg)
+writevalue_p	../util/util.cpp	/^static void writevalue_p(std::vector<char> *o, void *v, int len)$/;"	f	file:	signature:(std::vector<char> *o, void *v, int len)
+~BusinessManager	BusinessManager.cpp	/^BusinessManager::~BusinessManager()$/;"	f	class:BusinessManager	signature:()
+~BusinessManager	BusinessManager.h	/^    ~BusinessManager();$/;"	p	class:BusinessManager	access:public	signature:()
+~DBOperator	Database/DBOperator.cpp	/^DBOperator::~DBOperator()$/;"	f	class:DBOperator	signature:()
+~DBOperator	Database/DBOperator.h	/^    ~DBOperator();$/;"	p	class:DBOperator	access:public	signature:()
+~IDBoperator	Database/DBOperator.h	/^    virtual ~IDBoperator(){}$/;"	f	class:IDBoperator	access:public	signature:()
+~InternalMessage	../Message/Message.cpp	/^InternalMessage::~InternalMessage()$/;"	f	class:InternalMessage	signature:()
+~Message	../Message/Message.cpp	/^Message::~Message()$/;"	f	class:Message	signature:()
+~MessageQueuePosix	../msgqueue/posixmsgqueue.cpp	/^MessageQueuePosix::~MessageQueuePosix()$/;"	f	class:MessageQueuePosix	signature:()
+~MsgReaderPosixMsgQueue	../Message/MsgReader.cpp	/^MsgReaderPosixMsgQueue::~MsgReaderPosixMsgQueue()$/;"	f	class:MsgReaderPosixMsgQueue	signature:()
+~MsgWriterPosixMsgQueue	../Message/MsgWriter.cpp	/^MsgWriterPosixMsgQueue::~MsgWriterPosixMsgQueue()$/;"	f	class:MsgWriterPosixMsgQueue	signature:()
+~MutexGuard	../thread/mutexguard.cpp	/^MutexGuard::~MutexGuard()$/;"	f	class:MutexGuard	signature:()
+~MutexWrap	../thread/mutexwrap.cpp	/^MutexWrap::~MutexWrap()$/;"	f	class:MutexWrap	signature:()
+~NewNotifyRequestMessage	queuemessage.cpp	/^NewNotifyRequestMessage::~NewNotifyRequestMessage()$/;"	f	class:NewNotifyRequestMessage	signature:()
+~NewNotifyRequestMessage	queuemessage.h	/^    ~NewNotifyRequestMessage();$/;"	p	class:NewNotifyRequestMessage	access:public	signature:()
+~NotifReqHandler	NotifReqHandler.cpp	/^NotifReqHandler::~NotifReqHandler()$/;"	f	class:NotifReqHandler	signature:()
+~NotifReqHandler	NotifReqHandler.h	/^    ~NotifReqHandler();$/;"	p	class:NotifReqHandler	access:public	signature:()
+~Notification	../Message/Notification.cpp	/^Notification::~Notification()$/;"	f	class:Notification	signature:()
+~Notification	../Message/Notification.h	/^    ~Notification();$/;"	p	class:Notification	access:public	signature:()
+~NotifyManager	notifyManager.cpp	/^NotifyManager::~NotifyManager()$/;"	f	class:NotifyManager	signature:()
+~NotifyManager	notifyManager.h	/^    ~NotifyManager();$/;"	p	class:NotifyManager	access:public	signature:()
+~NotifyTimeOut	notifytimeout.cpp	/^NotifyTimeOut::~NotifyTimeOut()$/;"	f	class:NotifyTimeOut	signature:()
+~NotifyTimeOut	notifytimeout.h	/^    ~NotifyTimeOut();$/;"	p	class:NotifyTimeOut	access:public	signature:()
+~PosixMessageReceiveThread	posixMessageReceiveThread.cpp	/^PosixMessageReceiveThread::~PosixMessageReceiveThread()$/;"	f	class:PosixMessageReceiveThread	signature:()
+~PosixMessageReceiveThread	posixMessageReceiveThread.h	/^    ~PosixMessageReceiveThread();$/;"	p	class:PosixMessageReceiveThread	access:public	signature:()
+~Proc	../thread/threadwrap.h	/^    virtual ~Proc(){}$/;"	f	class:Proc	access:public	signature:()
+~QueueMessage	queuemessage.h	/^    virtual ~QueueMessage(){}$/;"	f	class:QueueMessage	access:public	signature:()
+~Thread	../thread/threadwrap.cpp	/^Thread::~Thread()$/;"	f	class:Thread	signature:()
+~Thread	../thread/threadwrap.h	/^    ~Thread();$/;"	p	class:Thread	access:public	signature:()
+~ThreadData	../thread/threadwrap.cpp	/^    ~ThreadData()$/;"	f	class:ThreadData	access:public	signature:()
+~Timer	../timer/timer.cpp	/^Timer::~Timer()$/;"	f	class:Timer	signature:()

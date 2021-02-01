@@ -1,0 +1,861 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	298;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	301;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	304;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	307;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	310;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	313;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	316;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	320;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	291;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	294;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	297;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	300;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	303;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	306;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	309;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	313;"	d	file:
+CMAKE_BINARY_DIR	build/Makefile	/^CMAKE_BINARY_DIR = \/home\/wqs\/mico\/mico-v0.4\/micosrc\/src\/connectionserver\/build$/;"	m
+CMAKE_COMMAND	build/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_SOURCE_DIR	build/Makefile	/^CMAKE_SOURCE_DIR = \/home\/wqs\/mico\/mico-v0.4\/micosrc\/src\/connectionserver$/;"	m
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	107;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	112;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	119;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	122;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	125;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	133;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	13;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	152;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	160;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	165;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	170;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	177;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	194;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	197;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	200;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	24;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	32;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	38;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	44;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	50;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	56;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	70;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	77;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	85;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	88;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	90;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	99;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	104;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	112;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	117;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	124;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	127;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	12;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	135;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	154;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	162;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	167;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	170;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	187;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	18;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	190;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	193;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	29;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	37;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	43;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	49;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	55;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	61;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	75;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	82;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	90;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	93;"	d	file:
+COMPILER_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	95;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	100;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	108;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	114;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	126;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	135;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	154;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	15;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	172;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	180;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	185;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	25;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	33;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	39;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	46;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	52;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	59;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	64;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	72;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	79;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	93;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	105;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	113;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	119;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	128;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	137;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	14;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	156;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	173;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	178;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	20;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	30;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	38;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	44;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	51;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	57;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	64;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	69;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	77;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	84;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	98;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	101;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	109;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	115;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	127;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	136;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	155;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	16;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	173;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	181;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	186;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	26;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	34;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	40;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	47;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	53;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	60;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	65;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	73;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	80;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	94;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	106;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	114;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	120;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	129;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	138;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	157;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	15;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	174;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	179;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	21;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	31;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	39;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	45;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	52;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	58;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	65;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	70;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	78;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	85;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	99;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	103;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	116;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	129;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	140;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	143;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	156;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	174;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	17;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	182;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	187;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	28;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	35;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	41;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	61;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	66;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	74;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	81;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	95;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	100;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	108;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	121;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	131;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	142;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	145;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	158;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	175;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	180;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	22;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	33;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	40;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	46;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	66;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	71;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	79;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	86;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	147;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	20;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	149;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	25;"	d	file:
+CONNECTIONSERVER_H_	connectionserver.h	2;"	d
+CONNIDGEN__H_	connidgen.h	2;"	d
+ChangeConnectionIdMessage	connectionservermessage.cpp	/^ChangeConnectionIdMessage::ChangeConnectionIdMessage()$/;"	f	class:ChangeConnectionIdMessage	signature:()
+ChangeConnectionIdMessage	connectionservermessage.h	/^    ChangeConnectionIdMessage();$/;"	p	class:ChangeConnectionIdMessage	access:public	signature:()
+ChangeConnectionIdMessage	connectionservermessage.h	/^class ChangeConnectionIdMessage : public IConnectionServerMessage$/;"	c	inherits:IConnectionServerMessage
+ChangeConnectionIdMessage::ChangeConnectionIdMessage	connectionservermessage.cpp	/^ChangeConnectionIdMessage::ChangeConnectionIdMessage()$/;"	f	class:ChangeConnectionIdMessage	signature:()
+ChangeConnectionIdMessage::ChangeConnectionIdMessage	connectionservermessage.h	/^    ChangeConnectionIdMessage();$/;"	p	class:ChangeConnectionIdMessage	access:public	signature:()
+ChangeConnectionIdMessage::newconnid	connectionservermessage.h	/^    uint64_t newconnid = 0;$/;"	m	class:ChangeConnectionIdMessage	access:public
+ChangeConnectionIdMessage::oldconnid	connectionservermessage.h	/^    uint64_t oldconnid = 0;$/;"	m	class:ChangeConnectionIdMessage	access:public
+ChangeConnectionIdMessage::slaveserver	connectionservermessage.h	/^    void *slaveserver = nullptr;$/;"	m	class:ChangeConnectionIdMessage	access:public
+ChangeConnectionIdMessageType	connectionservermessage.h	/^    ChangeConnectionIdMessageType$/;"	e	enum:MessageType
+Client	tcpconnection.h	/^        Client,$/;"	e	enum:TcpConnection::ConnType
+ClientConnectionClosedMessage	connectionservermessage.cpp	/^ClientConnectionClosedMessage::ClientConnectionClosedMessage()$/;"	f	class:ClientConnectionClosedMessage	signature:()
+ClientConnectionClosedMessage	connectionservermessage.h	/^    ClientConnectionClosedMessage();$/;"	p	class:ClientConnectionClosedMessage	access:public	signature:()
+ClientConnectionClosedMessage	connectionservermessage.h	/^class ClientConnectionClosedMessage : public IConnectionServerMessage$/;"	c	inherits:IConnectionServerMessage
+ClientConnectionClosedMessage::ClientConnectionClosedMessage	connectionservermessage.cpp	/^ClientConnectionClosedMessage::ClientConnectionClosedMessage()$/;"	f	class:ClientConnectionClosedMessage	signature:()
+ClientConnectionClosedMessage::ClientConnectionClosedMessage	connectionservermessage.h	/^    ClientConnectionClosedMessage();$/;"	p	class:ClientConnectionClosedMessage	access:public	signature:()
+ClientConnectionClosedMessage::connid	connectionservermessage.h	/^    uint64_t connid = 0;$/;"	m	class:ClientConnectionClosedMessage	access:public
+ClientConnectionClosedMessage::slaveserver	connectionservermessage.h	/^    void *slaveserver = nullptr;$/;"	m	class:ClientConnectionClosedMessage	access:public
+ClientConnectionClosedMessageType	connectionservermessage.h	/^    ClientConnectionClosedMessageType,$/;"	e	enum:MessageType
+ConnCtx	connectionserver.h	/^class ConnCtx$/;"	c
+ConnCtx::conn	connectionserver.h	/^    std::shared_ptr<TcpConnection> conn;$/;"	m	class:ConnCtx	access:public
+ConnCtx::server	connectionserver.h	/^    ConnectionServer *server = nullptr;$/;"	m	class:ConnCtx	access:public
+ConnType	tcpconnection.h	/^    enum ConnType {$/;"	g	class:TcpConnection	access:public
+Conneccted	tcpconnection.h	/^        Conneccted,$/;"	e	enum:TcpConnection::ConnectState
+ConnectState	tcpconnection.h	/^    enum ConnectState {$/;"	g	class:TcpConnection	access:public
+Connecting	tcpconnection.h	/^        Connecting,$/;"	e	enum:TcpConnection::ConnectState
+ConnectionServer	connectionserver.cpp	/^ConnectionServer::ConnectionServer(const std::string &bindaddr, uint16_t port, int threadcnt)$/;"	f	class:ConnectionServer	signature:(const std::string &bindaddr, uint16_t port, int threadcnt)
+ConnectionServer	connectionserver.h	/^    ConnectionServer(const std::string &bindaddr, uint16_t port, int threadcnt);$/;"	p	class:ConnectionServer	access:public	signature:(const std::string &bindaddr, uint16_t port, int threadcnt)
+ConnectionServer	connectionserver.h	/^class ConnectionServer$/;"	c
+ConnectionServer::ConnectionServer	connectionserver.cpp	/^ConnectionServer::ConnectionServer(const std::string &bindaddr, uint16_t port, int threadcnt)$/;"	f	class:ConnectionServer	signature:(const std::string &bindaddr, uint16_t port, int threadcnt)
+ConnectionServer::ConnectionServer	connectionserver.h	/^    ConnectionServer(const std::string &bindaddr, uint16_t port, int threadcnt);$/;"	p	class:ConnectionServer	access:public	signature:(const std::string &bindaddr, uint16_t port, int threadcnt)
+ConnectionServer::acceptcb	connectionserver.cpp	/^void ConnectionServer::acceptcb(evconnlistener *listener, int fd, sockaddr *addr, int len, void *ctx)$/;"	f	class:ConnectionServer	signature:(evconnlistener *listener, int fd, sockaddr *addr, int len, void *ctx)
+ConnectionServer::acceptcb	connectionserver.h	/^    static void acceptcb(evconnlistener *listener,$/;"	p	class:ConnectionServer	access:private	signature:(evconnlistener *listener, evutil_socket_t fd, struct sockaddr *addr, int len, void *ctx)
+ConnectionServer::allocSlave	connectionserver.cpp	/^ServerSlave *ConnectionServer::allocSlave()$/;"	f	class:ConnectionServer	signature:()
+ConnectionServer::allocSlave	connectionserver.h	/^    ServerSlave *allocSlave();$/;"	p	class:ConnectionServer	access:private	signature:()
+ConnectionServer::connectToLogicalServer	connectionserver.cpp	/^void ConnectionServer::connectToLogicalServer()$/;"	f	class:ConnectionServer	signature:()
+ConnectionServer::connectToLogicalServer	connectionserver.h	/^    void connectToLogicalServer();$/;"	p	class:ConnectionServer	access:private	signature:()
+ConnectionServer::connectToLogicalServerAtStart	connectionserver.cpp	/^void ConnectionServer::connectToLogicalServerAtStart(int fd, short what, void *ctx)$/;"	f	class:ConnectionServer	signature:(int fd, short what, void *ctx)
+ConnectionServer::connectToLogicalServerAtStart	connectionserver.h	/^    static void connectToLogicalServerAtStart(evutil_socket_t fd, short what, void *ctx);$/;"	p	class:ConnectionServer	access:private	signature:(evutil_socket_t fd, short what, void *ctx)
+ConnectionServer::connectToLogicalServerPoll	connectionserver.cpp	/^void ConnectionServer::connectToLogicalServerPoll(int fd, short what, void *ctx)$/;"	f	class:ConnectionServer	signature:(int fd, short what, void *ctx)
+ConnectionServer::connectToLogicalServerPoll	connectionserver.h	/^    static void connectToLogicalServerPoll(evutil_socket_t fd, short what, void *ctx);$/;"	p	class:ConnectionServer	access:private	signature:(evutil_socket_t fd, short what, void *ctx)
+ConnectionServer::connectToLogicalServerPollHelp	connectionserver.cpp	/^void ConnectionServer::connectToLogicalServerPollHelp()$/;"	f	class:ConnectionServer	signature:()
+ConnectionServer::connectToLogicalServerPollHelp	connectionserver.h	/^    void connectToLogicalServerPollHelp();$/;"	p	class:ConnectionServer	access:private	signature:()
+ConnectionServer::connectcb	connectionserver.cpp	/^void ConnectionServer::connectcb(bufferevent *bev, short events, void *ctx)$/;"	f	class:ConnectionServer	signature:(bufferevent *bev, short events, void *ctx)
+ConnectionServer::connectcb	connectionserver.h	/^    static void connectcb(struct bufferevent *bev, short events, void *ctx);$/;"	p	class:ConnectionServer	access:private	signature:(struct bufferevent *bev, short events, void *ctx)
+ConnectionServer::createListener	connectionserver.cpp	/^void ConnectionServer::createListener()$/;"	f	class:ConnectionServer	signature:()
+ConnectionServer::createListener	connectionserver.h	/^    void createListener();$/;"	p	class:ConnectionServer	access:private	signature:()
+ConnectionServer::eventcb	connectionserver.cpp	/^void ConnectionServer::eventcb(bufferevent *bev, short events, void *ctx)$/;"	f	class:ConnectionServer	signature:(bufferevent *bev, short events, void *ctx)
+ConnectionServer::eventcb	connectionserver.h	/^    static void eventcb(struct bufferevent *bev, short events, void *ctx);$/;"	p	class:ConnectionServer	access:private	signature:(struct bufferevent *bev, short events, void *ctx)
+ConnectionServer::findConnectionSlave	connectionserver.cpp	/^ServerSlave *ConnectionServer::findConnectionSlave(uint64_t connid)$/;"	f	class:ConnectionServer	signature:(uint64_t connid)
+ConnectionServer::findConnectionSlave	connectionserver.h	/^    ServerSlave *findConnectionSlave(uint64_t connid);$/;"	p	class:ConnectionServer	access:private	signature:(uint64_t connid)
+ConnectionServer::getLogicalServerId	connectionserver.cpp	/^int ConnectionServer::getLogicalServerId()$/;"	f	class:ConnectionServer	signature:()
+ConnectionServer::getLogicalServerId	connectionserver.h	/^    int getLogicalServerId();$/;"	p	class:ConnectionServer	access:private	signature:()
+ConnectionServer::heartbeatTimer	connectionserver.cpp	/^void ConnectionServer::heartbeatTimer(int fd, short what, void *ctx)$/;"	f	class:ConnectionServer	signature:(int fd, short what, void *ctx)
+ConnectionServer::heartbeatTimer	connectionserver.h	/^    static void heartbeatTimer(evutil_socket_t fd, short what, void *ctx);$/;"	p	class:ConnectionServer	access:private	signature:(evutil_socket_t fd, short what, void *ctx)
+ConnectionServer::listererErrorcb	connectionserver.cpp	/^void ConnectionServer::listererErrorcb(evconnlistener *listener, void *ctx)$/;"	f	class:ConnectionServer	signature:(evconnlistener *listener, void *ctx)
+ConnectionServer::listererErrorcb	connectionserver.h	/^    static void listererErrorcb(evconnlistener *listener, void *ctx);$/;"	p	class:ConnectionServer	access:private	signature:(evconnlistener *listener, void *ctx)
+ConnectionServer::m_bindaddr	connectionserver.h	/^    std::string m_bindaddr;$/;"	m	class:ConnectionServer	access:private
+ConnectionServer::m_connidMapSlave	connectionserver.h	/^    std::map<uint64_t, ServerSlave *> m_connidMapSlave;$/;"	m	class:ConnectionServer	access:private
+ConnectionServer::m_eventbase	connectionserver.h	/^    event_base *m_eventbase;$/;"	m	class:ConnectionServer	access:private
+ConnectionServer::m_listenctx	connectionserver.h	/^    ConnCtx *m_listenctx = nullptr;$/;"	m	class:ConnectionServer	access:private
+ConnectionServer::m_listener	connectionserver.h	/^    evconnlistener *m_listener = nullptr;$/;"	m	class:ConnectionServer	access:private
+ConnectionServer::m_logicalServerConnections	connectionserver.h	/^    std::map<int32_t, std::shared_ptr<ConnCtx>> m_logicalServerConnections;$/;"	m	class:ConnectionServer	access:private
+ConnectionServer::m_logicalserid	connectionserver.h	/^    std::list<int32_t> m_logicalserid;$/;"	m	class:ConnectionServer	access:private
+ConnectionServer::m_logicalservers	connectionserver.h	/^    LogicalServers m_logicalservers;$/;"	m	class:ConnectionServer	access:private
+ConnectionServer::m_port	connectionserver.h	/^    uint16_t m_port;$/;"	m	class:ConnectionServer	access:private
+ConnectionServer::m_queue	connectionserver.h	/^    ServerQueue m_queue;$/;"	m	class:ConnectionServer	access:private
+ConnectionServer::m_slaves	connectionserver.h	/^    std::list<ServerSlave*> m_slaves;$/;"	m	class:ConnectionServer	access:private
+ConnectionServer::m_slavethread	connectionserver.h	/^    std::list<Thread*> m_slavethread;$/;"	m	class:ConnectionServer	access:private
+ConnectionServer::m_threadcnt	connectionserver.h	/^    int m_threadcnt = 2;$/;"	m	class:ConnectionServer	access:private
+ConnectionServer::m_udpconnection	connectionserver.h	/^    std::map<std::string, uint32_t> m_udpconnection;$/;"	m	class:ConnectionServer	access:private
+ConnectionServer::m_udpserver	connectionserver.h	/^    Udpserver m_udpserver;$/;"	m	class:ConnectionServer	access:private
+ConnectionServer::m_udpthread	connectionserver.h	/^    Thread *m_udpthread;$/;"	m	class:ConnectionServer	access:private
+ConnectionServer::processQueueMessage	connectionserver.cpp	/^void ConnectionServer::processQueueMessage()$/;"	f	class:ConnectionServer	signature:()
+ConnectionServer::processQueueMessage	connectionserver.h	/^    void processQueueMessage();$/;"	p	class:ConnectionServer	access:private	signature:()
+ConnectionServer::queuepoll	connectionserver.cpp	/^void ConnectionServer::queuepoll(int fd, short what, void *ctx)$/;"	f	class:ConnectionServer	signature:(int fd, short what, void *ctx)
+ConnectionServer::queuepoll	connectionserver.h	/^    static void queuepoll(evutil_socket_t fd, short what, void *ctx);$/;"	p	class:ConnectionServer	access:private	signature:(evutil_socket_t fd, short what, void *ctx)
+ConnectionServer::readcb	connectionserver.cpp	/^void ConnectionServer::readcb(bufferevent *bev, void *ctx)$/;"	f	class:ConnectionServer	signature:(bufferevent *bev, void *ctx)
+ConnectionServer::readcb	connectionserver.h	/^    static void readcb(struct bufferevent *bev, void *ctx);$/;"	p	class:ConnectionServer	access:private	signature:(struct bufferevent *bev, void *ctx)
+ConnectionServer::run	connectionserver.cpp	/^int ConnectionServer::run()$/;"	f	class:ConnectionServer	signature:()
+ConnectionServer::run	connectionserver.h	/^    int run();$/;"	p	class:ConnectionServer	access:public	signature:()
+ConnectionServer::sendHeartBeat	connectionserver.cpp	/^void ConnectionServer::sendHeartBeat()$/;"	f	class:ConnectionServer	signature:()
+ConnectionServer::sendHeartBeat	connectionserver.h	/^    void sendHeartBeat();$/;"	p	class:ConnectionServer	access:private	signature:()
+ConnectionServer::setConnectionServerId	connectionserver.cpp	/^void ConnectionServer::setConnectionServerId(ConnCtx *connctx)$/;"	f	class:ConnectionServer	signature:(ConnCtx *connctx)
+ConnectionServer::setConnectionServerId	connectionserver.h	/^    void setConnectionServerId(ConnCtx *connctx);$/;"	p	class:ConnectionServer	access:private	signature:(ConnCtx *connctx)
+ConnectionServer::setLogicalservers	connectionserver.cpp	/^void ConnectionServer::setLogicalservers(const LogicalServers &logicalservers)$/;"	f	class:ConnectionServer	signature:(const LogicalServers &logicalservers)
+ConnectionServer::setLogicalservers	connectionserver.h	/^    void setLogicalservers(const LogicalServers &logicalservers);$/;"	p	class:ConnectionServer	access:public	signature:(const LogicalServers &logicalservers)
+ConnectionServer::writelogcb	connectionserver.cpp	/^void ConnectionServer::writelogcb(int severity, const char *msg)$/;"	f	class:ConnectionServer	signature:(int severity, const char *msg)
+ConnectionServer::writelogcb	connectionserver.h	/^    static void writelogcb(int severity, const char *msg);$/;"	p	class:ConnectionServer	access:private	signature:(int severity, const char *msg)
+ConnectionServer::~ConnectionServer	connectionserver.cpp	/^ConnectionServer::~ConnectionServer()$/;"	f	class:ConnectionServer	signature:()
+ConnectionServer::~ConnectionServer	connectionserver.h	/^    ~ConnectionServer();$/;"	p	class:ConnectionServer	access:public	signature:()
+DEC	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	324;"	d	file:
+DEC	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	317;"	d	file:
+EQUALS	build/Makefile	/^EQUALS = =$/;"	m
+HEX	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	335;"	d	file:
+HEX	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	328;"	d	file:
+IConnectionServerMessage	connectionservermessage.cpp	/^IConnectionServerMessage::IConnectionServerMessage(int type) : m_msgtype(type)$/;"	f	class:IConnectionServerMessage	signature:(int type)
+IConnectionServerMessage	connectionservermessage.h	/^    IConnectionServerMessage(int type);$/;"	p	class:IConnectionServerMessage	access:public	signature:(int type)
+IConnectionServerMessage	connectionservermessage.h	/^class IConnectionServerMessage$/;"	c
+IConnectionServerMessage::IConnectionServerMessage	connectionservermessage.cpp	/^IConnectionServerMessage::IConnectionServerMessage(int type) : m_msgtype(type)$/;"	f	class:IConnectionServerMessage	signature:(int type)
+IConnectionServerMessage::IConnectionServerMessage	connectionservermessage.h	/^    IConnectionServerMessage(int type);$/;"	p	class:IConnectionServerMessage	access:public	signature:(int type)
+IConnectionServerMessage::m_msgtype	connectionservermessage.h	/^    int m_msgtype;$/;"	m	class:IConnectionServerMessage	access:private
+IConnectionServerMessage::type	connectionservermessage.cpp	/^int IConnectionServerMessage::type()$/;"	f	class:IConnectionServerMessage	signature:()
+IConnectionServerMessage::type	connectionservermessage.h	/^    virtual int type();$/;"	p	class:IConnectionServerMessage	access:public	signature:()
+IConnectionServerMessage::~IConnectionServerMessage	connectionservermessage.cpp	/^IConnectionServerMessage::~IConnectionServerMessage(){}$/;"	f	class:IConnectionServerMessage	signature:()
+IConnectionServerMessage::~IConnectionServerMessage	connectionservermessage.h	/^    virtual ~IConnectionServerMessage();$/;"	p	class:IConnectionServerMessage	access:public	signature:()
+ID_VOID_MAIN	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	9;"	d	file:
+Invalid	tcpconnection.h	/^        Invalid,$/;"	e	enum:TcpConnection::ConnectState
+LOGICALSERVERS_H_	logicalservers.h	2;"	d
+LogicalServer	logicalservers.h	/^class LogicalServer$/;"	c
+LogicalServer::ip	logicalservers.h	/^    std::string ip;$/;"	m	class:LogicalServer	access:public
+LogicalServer::port	logicalservers.h	/^    uint16_t port;$/;"	m	class:LogicalServer	access:public
+LogicalServer::serverid	logicalservers.h	/^    uint16_t serverid;$/;"	m	class:LogicalServer	access:public
+LogicalServers	logicalservers.cpp	/^LogicalServers::LogicalServers()$/;"	f	class:LogicalServers	signature:()
+LogicalServers	logicalservers.h	/^    LogicalServers();$/;"	p	class:LogicalServers	access:public	signature:()
+LogicalServers	logicalservers.h	/^class LogicalServers$/;"	c
+LogicalServers::LogicalServers	logicalservers.cpp	/^LogicalServers::LogicalServers()$/;"	f	class:LogicalServers	signature:()
+LogicalServers::LogicalServers	logicalservers.h	/^    LogicalServers();$/;"	p	class:LogicalServers	access:public	signature:()
+LogicalServers::get	logicalservers.cpp	/^LogicalServer LogicalServers::get(uint16_t id)$/;"	f	class:LogicalServers	signature:(uint16_t id)
+LogicalServers::get	logicalservers.h	/^    LogicalServer get(uint16_t id);$/;"	p	class:LogicalServers	access:public	signature:(uint16_t id)
+LogicalServers::getServers	logicalservers.cpp	/^std::map<uint16_t, LogicalServer> LogicalServers::getServers() const$/;"	f	class:LogicalServers	signature:() const
+LogicalServers::getServers	logicalservers.h	/^    std::map<uint16_t, LogicalServer> getServers() const;$/;"	p	class:LogicalServers	access:public	signature:() const
+LogicalServers::insert	logicalservers.cpp	/^void LogicalServers::insert(const LogicalServer &ls)$/;"	f	class:LogicalServers	signature:(const LogicalServer &ls)
+LogicalServers::insert	logicalservers.h	/^    void insert(const LogicalServer &ls);$/;"	p	class:LogicalServers	access:public	signature:(const LogicalServer &ls)
+LogicalServers::m_servers	logicalservers.h	/^    std::map<uint16_t, LogicalServer> m_servers;$/;"	m	class:LogicalServers	access:private
+LogicalServers::randGet	logicalservers.cpp	/^LogicalServer LogicalServers::randGet()$/;"	f	class:LogicalServers	signature:()
+LogicalServers::randGet	logicalservers.h	/^    LogicalServer randGet();$/;"	p	class:LogicalServers	access:public	signature:()
+LogicalServers::read	logicalservers.cpp	/^bool LogicalServers::read()$/;"	f	class:LogicalServers	signature:()
+LogicalServers::read	logicalservers.h	/^    bool read();$/;"	p	class:LogicalServers	access:public	signature:()
+LogicalServers::~LogicalServers	logicalservers.cpp	/^LogicalServers::~LogicalServers()$/;"	f	class:LogicalServers	signature:()
+LogicalServers::~LogicalServers	logicalservers.h	/^    ~LogicalServers();$/;"	p	class:LogicalServers	access:public	signature:()
+MESSAGE_H_	connectionservermessage.h	2;"	d
+MessageType	connectionservermessage.h	/^enum MessageType$/;"	g
+NewConnectionMessage	connectionservermessage.cpp	/^NewConnectionMessage::NewConnectionMessage() : IConnectionServerMessage(NewConnectionMessageType)$/;"	f	class:NewConnectionMessage	signature:()
+NewConnectionMessage	connectionservermessage.h	/^    NewConnectionMessage();$/;"	p	class:NewConnectionMessage	access:public	signature:()
+NewConnectionMessage	connectionservermessage.h	/^class NewConnectionMessage : public IConnectionServerMessage$/;"	c	inherits:IConnectionServerMessage
+NewConnectionMessage::NewConnectionMessage	connectionservermessage.cpp	/^NewConnectionMessage::NewConnectionMessage() : IConnectionServerMessage(NewConnectionMessageType)$/;"	f	class:NewConnectionMessage	signature:()
+NewConnectionMessage::NewConnectionMessage	connectionservermessage.h	/^    NewConnectionMessage();$/;"	p	class:NewConnectionMessage	access:public	signature:()
+NewConnectionMessage::addr	connectionservermessage.cpp	/^sockaddrwrap &NewConnectionMessage::addr()$/;"	f	class:NewConnectionMessage	signature:()
+NewConnectionMessage::addr	connectionservermessage.h	/^    sockaddrwrap &addr();$/;"	p	class:NewConnectionMessage	access:public	signature:()
+NewConnectionMessage::connSessionId	connectionservermessage.cpp	/^uint64_t NewConnectionMessage::connSessionId() const$/;"	f	class:NewConnectionMessage	signature:() const
+NewConnectionMessage::connSessionId	connectionservermessage.h	/^    uint64_t connSessionId() const;$/;"	p	class:NewConnectionMessage	access:public	signature:() const
+NewConnectionMessage::fd	connectionservermessage.cpp	/^int NewConnectionMessage::fd() const$/;"	f	class:NewConnectionMessage	signature:() const
+NewConnectionMessage::fd	connectionservermessage.h	/^    int fd() const;$/;"	p	class:NewConnectionMessage	access:public	signature:() const
+NewConnectionMessage::logicalserverid	connectionservermessage.cpp	/^uint32_t NewConnectionMessage::logicalserverid() const$/;"	f	class:NewConnectionMessage	signature:() const
+NewConnectionMessage::logicalserverid	connectionservermessage.h	/^    uint32_t logicalserverid() const;$/;"	p	class:NewConnectionMessage	access:public	signature:() const
+NewConnectionMessage::m_addr	connectionservermessage.h	/^    sockaddrwrap m_addr;$/;"	m	class:NewConnectionMessage	access:private
+NewConnectionMessage::m_connSessionId	connectionservermessage.h	/^    uint64_t m_connSessionId = 0;$/;"	m	class:NewConnectionMessage	access:private
+NewConnectionMessage::m_fd	connectionservermessage.h	/^    int m_fd = -1;$/;"	m	class:NewConnectionMessage	access:private
+NewConnectionMessage::m_logicalserverid	connectionservermessage.h	/^    uint32_t m_logicalserverid = 0;$/;"	m	class:NewConnectionMessage	access:private
+NewConnectionMessage::setAddress	connectionservermessage.cpp	/^void NewConnectionMessage::setAddress(sockaddr *a, int addrlen)$/;"	f	class:NewConnectionMessage	signature:(sockaddr *a, int addrlen)
+NewConnectionMessage::setAddress	connectionservermessage.h	/^    void setAddress(sockaddr *a, int addrlen);$/;"	p	class:NewConnectionMessage	access:public	signature:(sockaddr *a, int addrlen)
+NewConnectionMessage::setConnSessionId	connectionservermessage.cpp	/^void NewConnectionMessage::setConnSessionId(const uint64_t &connSessionId)$/;"	f	class:NewConnectionMessage	signature:(const uint64_t &connSessionId)
+NewConnectionMessage::setConnSessionId	connectionservermessage.h	/^    void setConnSessionId(const uint64_t &connSessionId);$/;"	p	class:NewConnectionMessage	access:public	signature:(const uint64_t &connSessionId)
+NewConnectionMessage::setFd	connectionservermessage.cpp	/^void NewConnectionMessage::setFd(int fd)$/;"	f	class:NewConnectionMessage	signature:(int fd)
+NewConnectionMessage::setFd	connectionservermessage.h	/^    void setFd(int fd);$/;"	p	class:NewConnectionMessage	access:public	signature:(int fd)
+NewConnectionMessage::setLogicalserverid	connectionservermessage.cpp	/^void NewConnectionMessage::setLogicalserverid(const uint32_t &logicalserverid)$/;"	f	class:NewConnectionMessage	signature:(const uint32_t &logicalserverid)
+NewConnectionMessage::setLogicalserverid	connectionservermessage.h	/^    void setLogicalserverid(const uint32_t &logicalserverid);$/;"	p	class:NewConnectionMessage	access:public	signature:(const uint32_t &logicalserverid)
+NewConnectionMessage::~NewConnectionMessage	connectionservermessage.cpp	/^NewConnectionMessage::~NewConnectionMessage()$/;"	f	class:NewConnectionMessage	signature:()
+NewConnectionMessage::~NewConnectionMessage	connectionservermessage.h	/^    ~NewConnectionMessage();$/;"	p	class:NewConnectionMessage	access:public	signature:()
+NewConnectionMessageType	connectionservermessage.h	/^    NewConnectionMessageType,$/;"	e	enum:MessageType
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	212;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	215;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	218;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	221;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	224;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	227;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	230;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	233;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	236;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	239;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	242;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	245;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	248;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	251;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	254;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	257;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	260;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	263;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	266;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	269;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	272;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	275;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	278;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	281;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	284;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	287;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	205;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	208;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	211;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	214;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	217;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	220;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	223;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	226;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	229;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	232;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	235;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	238;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	241;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	244;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	247;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	250;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	253;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	256;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	259;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	262;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	265;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	268;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	271;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	274;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	277;"	d	file:
+PLATFORM_ID	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	280;"	d	file:
+RM	build/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+SERVERQUEUE_H__	serverqueue.h	2;"	d
+SERVERSLAVE_H__	serverslave.h	2;"	d
+SHELL	build/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SUFFIXES	build/Makefile	/^SUFFIXES =$/;"	m
+SendToClientMessage	connectionservermessage.cpp	/^SendToClientMessage::SendToClientMessage() : IConnectionServerMessage(SendToClientMessageType)$/;"	f	class:SendToClientMessage	signature:()
+SendToClientMessage	connectionservermessage.h	/^    SendToClientMessage();$/;"	p	class:SendToClientMessage	access:public	signature:()
+SendToClientMessage	connectionservermessage.h	/^class SendToClientMessage : public IConnectionServerMessage$/;"	c	inherits:IConnectionServerMessage
+SendToClientMessage::SendToClientMessage	connectionservermessage.cpp	/^SendToClientMessage::SendToClientMessage() : IConnectionServerMessage(SendToClientMessageType)$/;"	f	class:SendToClientMessage	signature:()
+SendToClientMessage::SendToClientMessage	connectionservermessage.h	/^    SendToClientMessage();$/;"	p	class:SendToClientMessage	access:public	signature:()
+SendToClientMessage::connSessionId	connectionservermessage.cpp	/^int SendToClientMessage::connSessionId() const$/;"	f	class:SendToClientMessage	signature:() const
+SendToClientMessage::connSessionId	connectionservermessage.h	/^    int connSessionId() const;$/;"	p	class:SendToClientMessage	access:public	signature:() const
+SendToClientMessage::data	connectionservermessage.cpp	/^std::vector<char> &SendToClientMessage::data()$/;"	f	class:SendToClientMessage	signature:()
+SendToClientMessage::data	connectionservermessage.h	/^    std::vector<char> &data();$/;"	p	class:SendToClientMessage	access:public	signature:()
+SendToClientMessage::m_connSessionId	connectionservermessage.h	/^    int m_connSessionId= 0;$/;"	m	class:SendToClientMessage	access:private
+SendToClientMessage::m_data	connectionservermessage.h	/^    std::vector<char> m_data;$/;"	m	class:SendToClientMessage	access:private
+SendToClientMessage::setConnSessionId	connectionservermessage.cpp	/^void SendToClientMessage::setConnSessionId(int connSessionId)$/;"	f	class:SendToClientMessage	signature:(int connSessionId)
+SendToClientMessage::setConnSessionId	connectionservermessage.h	/^    void setConnSessionId(int connSessionId);$/;"	p	class:SendToClientMessage	access:public	signature:(int connSessionId)
+SendToClientMessage::setData	connectionservermessage.cpp	/^void SendToClientMessage::setData(const std::vector<char> &data)$/;"	f	class:SendToClientMessage	signature:(const std::vector<char> &data)
+SendToClientMessage::setData	connectionservermessage.h	/^    void setData(const std::vector<char> &data);$/;"	p	class:SendToClientMessage	access:public	signature:(const std::vector<char> &data)
+SendToClientMessageType	connectionservermessage.h	/^    SendToClientMessageType,$/;"	e	enum:MessageType
+SendToServerMessage	connectionservermessage.cpp	/^SendToServerMessage::SendToServerMessage() : IConnectionServerMessage(SendToServerMessageType)$/;"	f	class:SendToServerMessage	signature:()
+SendToServerMessage	connectionservermessage.h	/^    SendToServerMessage();$/;"	p	class:SendToServerMessage	access:public	signature:()
+SendToServerMessage	connectionservermessage.h	/^class SendToServerMessage : public IConnectionServerMessage$/;"	c	inherits:IConnectionServerMessage
+SendToServerMessage::SendToServerMessage	connectionservermessage.cpp	/^SendToServerMessage::SendToServerMessage() : IConnectionServerMessage(SendToServerMessageType)$/;"	f	class:SendToServerMessage	signature:()
+SendToServerMessage::SendToServerMessage	connectionservermessage.h	/^    SendToServerMessage();$/;"	p	class:SendToServerMessage	access:public	signature:()
+SendToServerMessage::connid	connectionservermessage.h	/^    uint64_t connid;$/;"	m	class:SendToServerMessage	access:public
+SendToServerMessage::data	connectionservermessage.h	/^    std::vector<char> data;$/;"	m	class:SendToServerMessage	access:public
+SendToServerMessage::logicalServerid	connectionservermessage.h	/^    uint32_t logicalServerid;$/;"	m	class:SendToServerMessage	access:public
+SendToServerMessageType	connectionservermessage.h	/^    SendToServerMessageType,$/;"	e	enum:MessageType
+Server	tcpconnection.h	/^        Server$/;"	e	enum:TcpConnection::ConnType
+ServerQueue	serverqueue.h	/^class ServerQueue$/;"	c
+ServerQueue::addMessage	serverqueue.cpp	/^void ServerQueue::addMessage(IConnectionServerMessage *msg)$/;"	f	class:ServerQueue	signature:(IConnectionServerMessage *msg)
+ServerQueue::addMessage	serverqueue.h	/^    void addMessage(IConnectionServerMessage *msg);$/;"	p	class:ServerQueue	access:public	signature:(IConnectionServerMessage *msg)
+ServerQueue::getMessage	serverqueue.cpp	/^void ServerQueue::getMessage(std::list<IConnectionServerMessage *> *msg)$/;"	f	class:ServerQueue	signature:(std::list<IConnectionServerMessage *> *msg)
+ServerQueue::getMessage	serverqueue.h	/^    void getMessage(std::list<IConnectionServerMessage *> *msg);$/;"	p	class:ServerQueue	access:public	signature:(std::list<IConnectionServerMessage *> *msg)
+ServerQueue::lock	serverqueue.h	/^    MutexWrap lock;$/;"	m	class:ServerQueue	access:private
+ServerQueue::m_msg	serverqueue.h	/^    std::list<IConnectionServerMessage *> m_msg;$/;"	m	class:ServerQueue	access:private
+ServerQueue::~ServerQueue	serverqueue.cpp	/^ServerQueue::~ServerQueue()$/;"	f	class:ServerQueue	signature:()
+ServerQueue::~ServerQueue	serverqueue.h	/^    ~ServerQueue();$/;"	p	class:ServerQueue	access:public	signature:()
+ServerSlave	serverslave.cpp	/^ServerSlave::ServerSlave(ServerQueue *masterqueue)$/;"	f	class:ServerSlave	signature:(ServerQueue *masterqueue)
+ServerSlave	serverslave.h	/^    ServerSlave(ServerQueue *masterqueue);$/;"	p	class:ServerSlave	access:public	signature:(ServerQueue *masterqueue)
+ServerSlave	serverslave.h	/^class ServerSlave$/;"	c
+ServerSlave::ServerSlave	serverslave.cpp	/^ServerSlave::ServerSlave(ServerQueue *masterqueue)$/;"	f	class:ServerSlave	signature:(ServerQueue *masterqueue)
+ServerSlave::ServerSlave	serverslave.h	/^    ServerSlave(ServerQueue *masterqueue);$/;"	p	class:ServerSlave	access:public	signature:(ServerQueue *masterqueue)
+ServerSlave::addMessage	serverslave.cpp	/^void ServerSlave::addMessage(IConnectionServerMessage *msg)$/;"	f	class:ServerSlave	signature:(IConnectionServerMessage *msg)
+ServerSlave::addMessage	serverslave.h	/^    void addMessage(IConnectionServerMessage *msg);$/;"	p	class:ServerSlave	access:public	signature:(IConnectionServerMessage *msg)
+ServerSlave::checkConnTimeout	serverslave.cpp	/^void ServerSlave::checkConnTimeout(int fd, short what, void *ctx)$/;"	f	class:ServerSlave	signature:(int fd, short what, void *ctx)
+ServerSlave::checkConnTimeout	serverslave.h	/^    static void checkConnTimeout(int fd, short what, void *ctx);$/;"	p	class:ServerSlave	access:public	signature:(int fd, short what, void *ctx)
+ServerSlave::checkConnTimeoutHelp	serverslave.cpp	/^void ServerSlave::checkConnTimeoutHelp()$/;"	f	class:ServerSlave	signature:()
+ServerSlave::checkConnTimeoutHelp	serverslave.h	/^    void checkConnTimeoutHelp();$/;"	p	class:ServerSlave	access:private	signature:()
+ServerSlave::connectionTimeout	serverslave.cpp	/^void ServerSlave::connectionTimeout(std::weak_ptr<SlaveContext> weaksc)$/;"	f	class:ServerSlave	signature:(std::weak_ptr<SlaveContext> weaksc)
+ServerSlave::connectionTimeout	serverslave.h	/^    void connectionTimeout(std::weak_ptr<SlaveContext> weaksc);$/;"	p	class:ServerSlave	access:private	signature:(std::weak_ptr<SlaveContext> weaksc)
+ServerSlave::eventcb	serverslave.cpp	/^void ServerSlave::eventcb(bufferevent *bev, short events, void *ctx)$/;"	f	class:ServerSlave	signature:(bufferevent *bev, short events, void *ctx)
+ServerSlave::eventcb	serverslave.h	/^    static void eventcb(struct bufferevent *bev, short events, void *ctx);$/;"	p	class:ServerSlave	access:public	signature:(struct bufferevent *bev, short events, void *ctx)
+ServerSlave::m_connectionTimeoutRollTimer	serverslave.h	/^    WheelTimerPoller *m_connectionTimeoutRollTimer;$/;"	m	class:ServerSlave	access:private
+ServerSlave::m_connections	serverslave.h	/^    std::map<uint64_t, std::shared_ptr<SlaveContext>> m_connections;$/;"	m	class:ServerSlave	access:private
+ServerSlave::m_eventbase	serverslave.h	/^    event_base *m_eventbase;$/;"	m	class:ServerSlave	access:private
+ServerSlave::m_masterqueue	serverslave.h	/^    ServerQueue *m_masterqueue;$/;"	m	class:ServerSlave	access:private
+ServerSlave::m_queue	serverslave.h	/^    ServerQueue m_queue;$/;"	m	class:ServerSlave	access:private
+ServerSlave::newConnection	serverslave.cpp	/^void ServerSlave::newConnection(NewConnectionMessage *ncm)$/;"	f	class:ServerSlave	signature:(NewConnectionMessage *ncm)
+ServerSlave::newConnection	serverslave.h	/^    void newConnection(NewConnectionMessage *ncm);$/;"	p	class:ServerSlave	access:private	signature:(NewConnectionMessage *ncm)
+ServerSlave::processMessage	serverslave.cpp	/^void ServerSlave::processMessage()$/;"	f	class:ServerSlave	signature:()
+ServerSlave::processMessage	serverslave.h	/^    void processMessage();$/;"	p	class:ServerSlave	access:private	signature:()
+ServerSlave::queuepoll	serverslave.cpp	/^void ServerSlave::queuepoll(int fd, short what, void *ctx)$/;"	f	class:ServerSlave	signature:(int fd, short what, void *ctx)
+ServerSlave::queuepoll	serverslave.h	/^    static void queuepoll(int fd, short what, void *ctx);$/;"	p	class:ServerSlave	access:public	signature:(int fd, short what, void *ctx)
+ServerSlave::readcb	serverslave.cpp	/^void ServerSlave::readcb(bufferevent *bev, void *ctx)$/;"	f	class:ServerSlave	signature:(bufferevent *bev, void *ctx)
+ServerSlave::readcb	serverslave.h	/^    static void readcb(struct bufferevent *bev, void *ctx);$/;"	p	class:ServerSlave	access:public	signature:(struct bufferevent *bev, void *ctx)
+ServerSlave::run	serverslave.cpp	/^void ServerSlave::run()$/;"	f	class:ServerSlave	signature:()
+ServerSlave::run	serverslave.h	/^    void run();$/;"	p	class:ServerSlave	access:public	signature:()
+ServerSlave::sendToClient	serverslave.cpp	/^void ServerSlave::sendToClient(SendToClientMessage *scm)$/;"	f	class:ServerSlave	signature:(SendToClientMessage *scm)
+ServerSlave::sendToClient	serverslave.h	/^    void sendToClient(SendToClientMessage *scm);$/;"	p	class:ServerSlave	access:private	signature:(SendToClientMessage *scm)
+ServerSlave::setConnectionId	serverslave.cpp	/^void ServerSlave::setConnectionId(uint64_t connid, const TcpClientMessage &tcm)$/;"	f	class:ServerSlave	signature:(uint64_t connid, const TcpClientMessage &tcm)
+ServerSlave::setConnectionId	serverslave.h	/^    void setConnectionId(uint64_t connid, const TcpClientMessage &tcm);$/;"	p	class:ServerSlave	access:private	signature:(uint64_t connid, const TcpClientMessage &tcm)
+ServerSlave::~ServerSlave	serverslave.cpp	/^ServerSlave::~ServerSlave()$/;"	f	class:ServerSlave	signature:()
+ServerSlave::~ServerSlave	serverslave.h	/^    ~ServerSlave();$/;"	p	class:ServerSlave	access:public	signature:()
+SlaveContext	serverslave.h	/^class SlaveContext$/;"	c
+SlaveContext::conn	serverslave.h	/^    std::shared_ptr<TcpConnection> conn;$/;"	m	class:SlaveContext	access:public
+SlaveContext::server	serverslave.h	/^    ServerSlave *server = nullptr;$/;"	m	class:SlaveContext	access:public
+SlaveContext::timeoutTimer	serverslave.h	/^    std::weak_ptr<WheelTimer> timeoutTimer;$/;"	m	class:SlaveContext	access:public
+TCPCLIENTMESSAGE__H_	tcpclientmessage.h	2;"	d
+TCPCONNECTION__H__	tcpconnection.h	2;"	d
+TcpClientMessage	tcpclientmessage.cpp	/^TcpClientMessage::TcpClientMessage()$/;"	f	class:TcpClientMessage	signature:()
+TcpClientMessage	tcpclientmessage.h	/^    TcpClientMessage();$/;"	p	class:TcpClientMessage	access:public	signature:()
+TcpClientMessage	tcpclientmessage.h	/^class TcpClientMessage$/;"	c
+TcpClientMessage::TcpClientMessage	tcpclientmessage.cpp	/^TcpClientMessage::TcpClientMessage()$/;"	f	class:TcpClientMessage	signature:()
+TcpClientMessage::TcpClientMessage	tcpclientmessage.h	/^    TcpClientMessage();$/;"	p	class:TcpClientMessage	access:public	signature:()
+TcpClientMessage::cmd	tcpclientmessage.cpp	/^uint16_t TcpClientMessage::cmd() const$/;"	f	class:TcpClientMessage	signature:() const
+TcpClientMessage::cmd	tcpclientmessage.h	/^    uint16_t cmd() const;$/;"	p	class:TcpClientMessage	access:public	signature:() const
+TcpClientMessage::data	tcpclientmessage.cpp	/^char *TcpClientMessage::data() const$/;"	f	class:TcpClientMessage	signature:() const
+TcpClientMessage::data	tcpclientmessage.h	/^    char *data() const;$/;"	p	class:TcpClientMessage	access:public	signature:() const
+TcpClientMessage::datalen	tcpclientmessage.cpp	/^uint16_t TcpClientMessage::datalen() const$/;"	f	class:TcpClientMessage	signature:() const
+TcpClientMessage::datalen	tcpclientmessage.h	/^    uint16_t datalen() const;$/;"	p	class:TcpClientMessage	access:public	signature:() const
+TcpClientMessage::destId	tcpclientmessage.cpp	/^uint64_t TcpClientMessage::destId() const$/;"	f	class:TcpClientMessage	signature:() const
+TcpClientMessage::destId	tcpclientmessage.h	/^    uint64_t destId() const;$/;"	p	class:TcpClientMessage	access:public	signature:() const
+TcpClientMessage::fromBtyeArray	tcpclientmessage.cpp	/^bool TcpClientMessage::fromBtyeArray(char *d, int len, int *lenparsed)$/;"	f	class:TcpClientMessage	signature:(char *d, int len, int *lenparsed)
+TcpClientMessage::fromBtyeArray	tcpclientmessage.h	/^    bool fromBtyeArray(char *d, int len, int *lenparsed);$/;"	p	class:TcpClientMessage	access:public	signature:(char *d, int len, int *lenparsed)
+TcpClientMessage::m_cmd	tcpclientmessage.h	/^    uint16_t m_cmd = 0;$/;"	m	class:TcpClientMessage	access:private
+TcpClientMessage::m_data	tcpclientmessage.h	/^    char *m_data = nullptr;$/;"	m	class:TcpClientMessage	access:private
+TcpClientMessage::m_datalen	tcpclientmessage.h	/^    uint16_t m_datalen = 0;$/;"	m	class:TcpClientMessage	access:private
+TcpClientMessage::m_destId	tcpclientmessage.h	/^    uint64_t m_destId = 0;$/;"	m	class:TcpClientMessage	access:private
+TcpClientMessage::m_ser	tcpclientmessage.h	/^    uint16_t m_ser = 0;$/;"	m	class:TcpClientMessage	access:private
+TcpClientMessage::ser	tcpclientmessage.cpp	/^uint16_t TcpClientMessage::ser() const$/;"	f	class:TcpClientMessage	signature:() const
+TcpClientMessage::ser	tcpclientmessage.h	/^    uint16_t ser() const;$/;"	p	class:TcpClientMessage	access:public	signature:() const
+TcpClientMessage::setCmd	tcpclientmessage.cpp	/^void TcpClientMessage::setCmd(const uint16_t &cmd)$/;"	f	class:TcpClientMessage	signature:(const uint16_t &cmd)
+TcpClientMessage::setCmd	tcpclientmessage.h	/^    void setCmd(const uint16_t &cmd);$/;"	p	class:TcpClientMessage	access:public	signature:(const uint16_t &cmd)
+TcpClientMessage::setData	tcpclientmessage.cpp	/^void TcpClientMessage::setData(char *data)$/;"	f	class:TcpClientMessage	signature:(char *data)
+TcpClientMessage::setData	tcpclientmessage.h	/^    void setData(char *data);$/;"	p	class:TcpClientMessage	access:public	signature:(char *data)
+TcpClientMessage::setDatalen	tcpclientmessage.cpp	/^void TcpClientMessage::setDatalen(const uint16_t &datalen)$/;"	f	class:TcpClientMessage	signature:(const uint16_t &datalen)
+TcpClientMessage::setDatalen	tcpclientmessage.h	/^    void setDatalen(const uint16_t &datalen);$/;"	p	class:TcpClientMessage	access:public	signature:(const uint16_t &datalen)
+TcpConnection	tcpconnection.cpp	/^TcpConnection::TcpConnection()$/;"	f	class:TcpConnection	signature:()
+TcpConnection	tcpconnection.h	/^    TcpConnection();$/;"	p	class:TcpConnection	access:public	signature:()
+TcpConnection	tcpconnection.h	/^class TcpConnection$/;"	c
+TcpConnection::Client	tcpconnection.h	/^        Client,$/;"	e	enum:TcpConnection::ConnType
+TcpConnection::ConnType	tcpconnection.h	/^    enum ConnType {$/;"	g	class:TcpConnection	access:public
+TcpConnection::Conneccted	tcpconnection.h	/^        Conneccted,$/;"	e	enum:TcpConnection::ConnectState
+TcpConnection::ConnectState	tcpconnection.h	/^    enum ConnectState {$/;"	g	class:TcpConnection	access:public
+TcpConnection::Connecting	tcpconnection.h	/^        Connecting,$/;"	e	enum:TcpConnection::ConnectState
+TcpConnection::Invalid	tcpconnection.h	/^        Invalid,$/;"	e	enum:TcpConnection::ConnectState
+TcpConnection::Server	tcpconnection.h	/^        Server$/;"	e	enum:TcpConnection::ConnType
+TcpConnection::TcpConnection	tcpconnection.cpp	/^TcpConnection::TcpConnection()$/;"	f	class:TcpConnection	signature:()
+TcpConnection::TcpConnection	tcpconnection.h	/^    TcpConnection();$/;"	p	class:TcpConnection	access:public	signature:()
+TcpConnection::Valid	tcpconnection.h	/^        Valid$/;"	e	enum:TcpConnection::ConnectState
+TcpConnection::be	tcpconnection.h	/^    bufferevent *be = nullptr;$/;"	m	class:TcpConnection	access:public
+TcpConnection::clientaddr	tcpconnection.h	/^    sockaddrwrap clientaddr;$/;"	m	class:TcpConnection	access:private
+TcpConnection::connid	tcpconnection.h	/^    uint64_t connid = 0;$/;"	m	class:TcpConnection	access:public
+TcpConnection::ct	tcpconnection.h	/^    ConnType ct = Client;$/;"	m	class:TcpConnection	access:public
+TcpConnection::getClientaddr	tcpconnection.cpp	/^sockaddrwrap &TcpConnection::getClientaddr()$/;"	f	class:TcpConnection	signature:()
+TcpConnection::getClientaddr	tcpconnection.h	/^    sockaddrwrap &getClientaddr();$/;"	p	class:TcpConnection	access:public	signature:()
+TcpConnection::logicalserverid	tcpconnection.h	/^    uint32_t logicalserverid = 0;$/;"	m	class:TcpConnection	access:public
+TcpConnection::send	tcpconnection.cpp	/^void TcpConnection::send(char *d, int len)$/;"	f	class:TcpConnection	signature:(char *d, int len)
+TcpConnection::send	tcpconnection.h	/^    void send(char *d, int len);$/;"	p	class:TcpConnection	access:public	signature:(char *d, int len)
+TcpConnection::setClientAddress	tcpconnection.cpp	/^void TcpConnection::setClientAddress(const sockaddrwrap &addr)$/;"	f	class:TcpConnection	signature:(const sockaddrwrap &addr)
+TcpConnection::setClientAddress	tcpconnection.h	/^    void setClientAddress(const sockaddrwrap &addr);$/;"	p	class:TcpConnection	access:public	signature:(const sockaddrwrap &addr)
+TcpConnection::state	tcpconnection.h	/^    ConnectState state = Invalid;$/;"	m	class:TcpConnection	access:public
+TcpConnection::~TcpConnection	tcpconnection.cpp	/^TcpConnection::~TcpConnection()$/;"	f	class:TcpConnection	signature:()
+TcpConnection::~TcpConnection	tcpconnection.h	/^    ~TcpConnection();$/;"	p	class:TcpConnection	access:public	signature:()
+UDP_SERVER_H__	udpserver.h	2;"	d
+UdpSendToClientMessage	connectionservermessage.cpp	/^UdpSendToClientMessage::UdpSendToClientMessage()$/;"	f	class:UdpSendToClientMessage	signature:()
+UdpSendToClientMessage	connectionservermessage.h	/^    UdpSendToClientMessage();$/;"	p	class:UdpSendToClientMessage	access:public	signature:()
+UdpSendToClientMessage	connectionservermessage.h	/^class UdpSendToClientMessage  : public IConnectionServerMessage$/;"	c	inherits:IConnectionServerMessage
+UdpSendToClientMessage::UdpSendToClientMessage	connectionservermessage.cpp	/^UdpSendToClientMessage::UdpSendToClientMessage()$/;"	f	class:UdpSendToClientMessage	signature:()
+UdpSendToClientMessage::UdpSendToClientMessage	connectionservermessage.h	/^    UdpSendToClientMessage();$/;"	p	class:UdpSendToClientMessage	access:public	signature:()
+UdpSendToClientMessage::clientAddr	connectionservermessage.cpp	/^sockaddrwrap &UdpSendToClientMessage::clientAddr()$/;"	f	class:UdpSendToClientMessage	signature:()
+UdpSendToClientMessage::clientAddr	connectionservermessage.h	/^    sockaddrwrap &clientAddr();$/;"	p	class:UdpSendToClientMessage	access:public	signature:()
+UdpSendToClientMessage::data	connectionservermessage.cpp	/^std::vector<char> &UdpSendToClientMessage::data()$/;"	f	class:UdpSendToClientMessage	signature:()
+UdpSendToClientMessage::data	connectionservermessage.h	/^    std::vector<char> &data() ;$/;"	p	class:UdpSendToClientMessage	access:public	signature:()
+UdpSendToClientMessage::m_clientaddr	connectionservermessage.h	/^    sockaddrwrap m_clientaddr;$/;"	m	class:UdpSendToClientMessage	access:private
+UdpSendToClientMessage::m_data	connectionservermessage.h	/^    std::vector<char> m_data;$/;"	m	class:UdpSendToClientMessage	access:private
+UdpSendToClientMessage::setAddr	connectionservermessage.cpp	/^void UdpSendToClientMessage::setAddr(sockaddr *addr, int len)$/;"	f	class:UdpSendToClientMessage	signature:(sockaddr *addr, int len)
+UdpSendToClientMessage::setAddr	connectionservermessage.h	/^    void setAddr(sockaddr *addr, int len);$/;"	p	class:UdpSendToClientMessage	access:public	signature:(sockaddr *addr, int len)
+UdpSendToClientMessage::setData	connectionservermessage.cpp	/^void UdpSendToClientMessage::setData(const std::vector<char> &data)$/;"	f	class:UdpSendToClientMessage	signature:(const std::vector<char> &data)
+UdpSendToClientMessage::setData	connectionservermessage.h	/^    void setData(const std::vector<char> &data);$/;"	p	class:UdpSendToClientMessage	access:public	signature:(const std::vector<char> &data)
+UdpSendToClientMessage::~UdpSendToClientMessage	connectionservermessage.cpp	/^UdpSendToClientMessage::~UdpSendToClientMessage()$/;"	f	class:UdpSendToClientMessage	signature:()
+UdpSendToClientMessage::~UdpSendToClientMessage	connectionservermessage.h	/^    ~UdpSendToClientMessage();$/;"	p	class:UdpSendToClientMessage	access:public	signature:()
+UdpSendToClientMessageType	connectionservermessage.h	/^    UdpSendToClientMessageType,$/;"	e	enum:MessageType
+UdpSendToServerMessage	connectionservermessage.cpp	/^UdpSendToServerMessage::UdpSendToServerMessage()$/;"	f	class:UdpSendToServerMessage	signature:()
+UdpSendToServerMessage	connectionservermessage.h	/^    UdpSendToServerMessage();$/;"	p	class:UdpSendToServerMessage	access:public	signature:()
+UdpSendToServerMessage	connectionservermessage.h	/^class UdpSendToServerMessage : public IConnectionServerMessage$/;"	c	inherits:IConnectionServerMessage
+UdpSendToServerMessage::UdpSendToServerMessage	connectionservermessage.cpp	/^UdpSendToServerMessage::UdpSendToServerMessage()$/;"	f	class:UdpSendToServerMessage	signature:()
+UdpSendToServerMessage::UdpSendToServerMessage	connectionservermessage.h	/^    UdpSendToServerMessage();$/;"	p	class:UdpSendToServerMessage	access:public	signature:()
+UdpSendToServerMessage::data	connectionservermessage.h	/^    std::vector<char> data;$/;"	m	class:UdpSendToServerMessage	access:public
+UdpSendToServerMessage::ipport	connectionservermessage.h	/^    std::string ipport;$/;"	m	class:UdpSendToServerMessage	access:public
+UdpSendToServerMessage::logicalserverid	connectionservermessage.h	/^    uint32_t logicalserverid = 0;$/;"	m	class:UdpSendToServerMessage	access:public
+UdpSendToServerMessageType	connectionservermessage.h	/^    UdpSendToServerMessageType,$/;"	e	enum:MessageType
+Udpserver	udpserver.cpp	/^Udpserver::Udpserver(ServerQueue *masterqueue) : m_masterqueue(masterqueue)$/;"	f	class:Udpserver	signature:(ServerQueue *masterqueue)
+Udpserver	udpserver.h	/^    Udpserver(ServerQueue *masterqueue);$/;"	p	class:Udpserver	access:public	signature:(ServerQueue *masterqueue)
+Udpserver	udpserver.h	/^class Udpserver$/;"	c
+Udpserver::Udpserver	udpserver.cpp	/^Udpserver::Udpserver(ServerQueue *masterqueue) : m_masterqueue(masterqueue)$/;"	f	class:Udpserver	signature:(ServerQueue *masterqueue)
+Udpserver::Udpserver	udpserver.h	/^    Udpserver(ServerQueue *masterqueue);$/;"	p	class:Udpserver	access:public	signature:(ServerQueue *masterqueue)
+Udpserver::addMessage	udpserver.cpp	/^void Udpserver::addMessage(IConnectionServerMessage *msg)$/;"	f	class:Udpserver	signature:(IConnectionServerMessage *msg)
+Udpserver::addMessage	udpserver.h	/^    void addMessage(IConnectionServerMessage *msg);$/;"	p	class:Udpserver	access:public	signature:(IConnectionServerMessage *msg)
+Udpserver::check	udpserver.cpp	/^bool Udpserver::check(char *msgBuf, uint32_t msgLen)$/;"	f	class:Udpserver	signature:(char *msgBuf, uint32_t msgLen)
+Udpserver::check	udpserver.h	/^    bool check(char *msgBuf, uint32_t msgLen);$/;"	p	class:Udpserver	access:private	signature:(char *msgBuf, uint32_t msgLen)
+Udpserver::m_fd	udpserver.h	/^    int m_fd;$/;"	m	class:Udpserver	access:private
+Udpserver::m_isrun	udpserver.h	/^    bool m_isrun = true;$/;"	m	class:Udpserver	access:private
+Udpserver::m_masterqueue	udpserver.h	/^    ServerQueue *m_masterqueue;$/;"	m	class:Udpserver	access:private
+Udpserver::m_queue	udpserver.h	/^    ServerQueue m_queue;$/;"	m	class:Udpserver	access:private
+Udpserver::processQueue	udpserver.cpp	/^void Udpserver::processQueue()$/;"	f	class:Udpserver	signature:()
+Udpserver::processQueue	udpserver.h	/^    void processQueue();$/;"	p	class:Udpserver	access:private	signature:()
+Udpserver::quit	udpserver.cpp	/^void Udpserver::quit()$/;"	f	class:Udpserver	signature:()
+Udpserver::quit	udpserver.h	/^    void quit();$/;"	p	class:Udpserver	access:public	signature:()
+Udpserver::recv	udpserver.cpp	/^void Udpserver::recv()$/;"	f	class:Udpserver	signature:()
+Udpserver::recv	udpserver.h	/^    void recv();$/;"	p	class:Udpserver	access:private	signature:()
+Udpserver::run	udpserver.cpp	/^void Udpserver::run()$/;"	f	class:Udpserver	signature:()
+Udpserver::run	udpserver.h	/^    void run();$/;"	p	class:Udpserver	access:public	signature:()
+Udpserver::send	udpserver.cpp	/^void Udpserver::send(char *d, int dlen, sockaddr *addr, int addrlen)$/;"	f	class:Udpserver	signature:(char *d, int dlen, sockaddr *addr, int addrlen)
+Udpserver::send	udpserver.h	/^    void send(char *d, int dlen, sockaddr *addr, int addrlen);$/;"	p	class:Udpserver	access:private	signature:(char *d, int dlen, sockaddr *addr, int addrlen)
+Udpserver::~Udpserver	udpserver.cpp	/^Udpserver::~Udpserver()$/;"	f	class:Udpserver	signature:()
+Udpserver::~Udpserver	udpserver.h	/^    ~Udpserver();$/;"	p	class:Udpserver	access:public	signature:()
+Utilsock	utilsock.h	/^namespace Utilsock$/;"	n
+Utilsock::sockaddr2string	utilsock.cpp	/^std::string Utilsock::sockaddr2string(sockaddr *addr, int len)$/;"	f	class:Utilsock	signature:(sockaddr *addr, int len)
+Utilsock::sockaddr2string	utilsock.h	/^std::string sockaddr2string(sockaddr *, int len);$/;"	p	namespace:Utilsock	signature:(sockaddr *, int len)
+Valid	tcpconnection.h	/^        Valid$/;"	e	enum:TcpConnection::ConnectState
+acceptcb	connectionserver.cpp	/^void ConnectionServer::acceptcb(evconnlistener *listener, int fd, sockaddr *addr, int len, void *ctx)$/;"	f	class:ConnectionServer	signature:(evconnlistener *listener, int fd, sockaddr *addr, int len, void *ctx)
+acceptcb	connectionserver.h	/^    static void acceptcb(evconnlistener *listener,$/;"	p	class:ConnectionServer	access:private	signature:(evconnlistener *listener, evutil_socket_t fd, struct sockaddr *addr, int len, void *ctx)
+addMessage	serverqueue.cpp	/^void ServerQueue::addMessage(IConnectionServerMessage *msg)$/;"	f	class:ServerQueue	signature:(IConnectionServerMessage *msg)
+addMessage	serverqueue.h	/^    void addMessage(IConnectionServerMessage *msg);$/;"	p	class:ServerQueue	access:public	signature:(IConnectionServerMessage *msg)
+addMessage	serverslave.cpp	/^void ServerSlave::addMessage(IConnectionServerMessage *msg)$/;"	f	class:ServerSlave	signature:(IConnectionServerMessage *msg)
+addMessage	serverslave.h	/^    void addMessage(IConnectionServerMessage *msg);$/;"	p	class:ServerSlave	access:public	signature:(IConnectionServerMessage *msg)
+addMessage	udpserver.cpp	/^void Udpserver::addMessage(IConnectionServerMessage *msg)$/;"	f	class:Udpserver	signature:(IConnectionServerMessage *msg)
+addMessage	udpserver.h	/^    void addMessage(IConnectionServerMessage *msg);$/;"	p	class:Udpserver	access:public	signature:(IConnectionServerMessage *msg)
+addr	connectionservermessage.cpp	/^sockaddrwrap &NewConnectionMessage::addr()$/;"	f	class:NewConnectionMessage	signature:()
+addr	connectionservermessage.h	/^    sockaddrwrap &addr();$/;"	p	class:NewConnectionMessage	access:public	signature:()
+allocSlave	connectionserver.cpp	/^ServerSlave *ConnectionServer::allocSlave()$/;"	f	class:ConnectionServer	signature:()
+allocSlave	connectionserver.h	/^    ServerSlave *allocSlave();$/;"	p	class:ConnectionServer	access:private	signature:()
+be	tcpconnection.h	/^    bufferevent *be = nullptr;$/;"	m	class:TcpConnection	access:public
+check	udpserver.cpp	/^bool Udpserver::check(char *msgBuf, uint32_t msgLen)$/;"	f	class:Udpserver	signature:(char *msgBuf, uint32_t msgLen)
+check	udpserver.h	/^    bool check(char *msgBuf, uint32_t msgLen);$/;"	p	class:Udpserver	access:private	signature:(char *msgBuf, uint32_t msgLen)
+checkConnTimeout	serverslave.cpp	/^void ServerSlave::checkConnTimeout(int fd, short what, void *ctx)$/;"	f	class:ServerSlave	signature:(int fd, short what, void *ctx)
+checkConnTimeout	serverslave.h	/^    static void checkConnTimeout(int fd, short what, void *ctx);$/;"	p	class:ServerSlave	access:public	signature:(int fd, short what, void *ctx)
+checkConnTimeoutHelp	serverslave.cpp	/^void ServerSlave::checkConnTimeoutHelp()$/;"	f	class:ServerSlave	signature:()
+checkConnTimeoutHelp	serverslave.h	/^    void checkConnTimeoutHelp();$/;"	p	class:ServerSlave	access:private	signature:()
+clientAddr	connectionservermessage.cpp	/^sockaddrwrap &UdpSendToClientMessage::clientAddr()$/;"	f	class:UdpSendToClientMessage	signature:()
+clientAddr	connectionservermessage.h	/^    sockaddrwrap &clientAddr();$/;"	p	class:UdpSendToClientMessage	access:public	signature:()
+clientaddr	tcpconnection.h	/^    sockaddrwrap clientaddr;$/;"	m	class:TcpConnection	access:private
+cmd	tcpclientmessage.cpp	/^uint16_t TcpClientMessage::cmd() const$/;"	f	class:TcpClientMessage	signature:() const
+cmd	tcpclientmessage.h	/^    uint16_t cmd() const;$/;"	p	class:TcpClientMessage	access:public	signature:() const
+conn	connectionserver.h	/^    std::shared_ptr<TcpConnection> conn;$/;"	m	class:ConnCtx	access:public
+conn	serverslave.h	/^    std::shared_ptr<TcpConnection> conn;$/;"	m	class:SlaveContext	access:public
+connSessionId	connectionservermessage.cpp	/^int SendToClientMessage::connSessionId() const$/;"	f	class:SendToClientMessage	signature:() const
+connSessionId	connectionservermessage.cpp	/^uint64_t NewConnectionMessage::connSessionId() const$/;"	f	class:NewConnectionMessage	signature:() const
+connSessionId	connectionservermessage.h	/^    int connSessionId() const;$/;"	p	class:SendToClientMessage	access:public	signature:() const
+connSessionId	connectionservermessage.h	/^    uint64_t connSessionId() const;$/;"	p	class:NewConnectionMessage	access:public	signature:() const
+connectToLogicalServer	connectionserver.cpp	/^void ConnectionServer::connectToLogicalServer()$/;"	f	class:ConnectionServer	signature:()
+connectToLogicalServer	connectionserver.h	/^    void connectToLogicalServer();$/;"	p	class:ConnectionServer	access:private	signature:()
+connectToLogicalServerAtStart	connectionserver.cpp	/^void ConnectionServer::connectToLogicalServerAtStart(int fd, short what, void *ctx)$/;"	f	class:ConnectionServer	signature:(int fd, short what, void *ctx)
+connectToLogicalServerAtStart	connectionserver.h	/^    static void connectToLogicalServerAtStart(evutil_socket_t fd, short what, void *ctx);$/;"	p	class:ConnectionServer	access:private	signature:(evutil_socket_t fd, short what, void *ctx)
+connectToLogicalServerPoll	connectionserver.cpp	/^void ConnectionServer::connectToLogicalServerPoll(int fd, short what, void *ctx)$/;"	f	class:ConnectionServer	signature:(int fd, short what, void *ctx)
+connectToLogicalServerPoll	connectionserver.h	/^    static void connectToLogicalServerPoll(evutil_socket_t fd, short what, void *ctx);$/;"	p	class:ConnectionServer	access:private	signature:(evutil_socket_t fd, short what, void *ctx)
+connectToLogicalServerPollHelp	connectionserver.cpp	/^void ConnectionServer::connectToLogicalServerPollHelp()$/;"	f	class:ConnectionServer	signature:()
+connectToLogicalServerPollHelp	connectionserver.h	/^    void connectToLogicalServerPollHelp();$/;"	p	class:ConnectionServer	access:private	signature:()
+connectcb	connectionserver.cpp	/^void ConnectionServer::connectcb(bufferevent *bev, short events, void *ctx)$/;"	f	class:ConnectionServer	signature:(bufferevent *bev, short events, void *ctx)
+connectcb	connectionserver.h	/^    static void connectcb(struct bufferevent *bev, short events, void *ctx);$/;"	p	class:ConnectionServer	access:private	signature:(struct bufferevent *bev, short events, void *ctx)
+connectionTimeout	serverslave.cpp	/^void ServerSlave::connectionTimeout(std::weak_ptr<SlaveContext> weaksc)$/;"	f	class:ServerSlave	signature:(std::weak_ptr<SlaveContext> weaksc)
+connectionTimeout	serverslave.h	/^    void connectionTimeout(std::weak_ptr<SlaveContext> weaksc);$/;"	p	class:ServerSlave	access:private	signature:(std::weak_ptr<SlaveContext> weaksc)
+connid	connectionservermessage.h	/^    uint64_t connid = 0;$/;"	m	class:ClientConnectionClosedMessage	access:public
+connid	connectionservermessage.h	/^    uint64_t connid;$/;"	m	class:SendToServerMessage	access:public
+connid	tcpconnection.h	/^    uint64_t connid = 0;$/;"	m	class:TcpConnection	access:public
+connid_p	connidgen.cpp	/^static uint64_t connid_p = 1;$/;"	v	file:
+createListener	connectionserver.cpp	/^void ConnectionServer::createListener()$/;"	f	class:ConnectionServer	signature:()
+createListener	connectionserver.h	/^    void createListener();$/;"	p	class:ConnectionServer	access:private	signature:()
+ct	tcpconnection.h	/^    ConnType ct = Client;$/;"	m	class:TcpConnection	access:public
+data	connectionservermessage.cpp	/^std::vector<char> &SendToClientMessage::data()$/;"	f	class:SendToClientMessage	signature:()
+data	connectionservermessage.cpp	/^std::vector<char> &UdpSendToClientMessage::data()$/;"	f	class:UdpSendToClientMessage	signature:()
+data	connectionservermessage.h	/^    std::vector<char> &data() ;$/;"	p	class:UdpSendToClientMessage	access:public	signature:()
+data	connectionservermessage.h	/^    std::vector<char> &data();$/;"	p	class:SendToClientMessage	access:public	signature:()
+data	connectionservermessage.h	/^    std::vector<char> data;$/;"	m	class:SendToServerMessage	access:public
+data	connectionservermessage.h	/^    std::vector<char> data;$/;"	m	class:UdpSendToServerMessage	access:public
+data	tcpclientmessage.cpp	/^char *TcpClientMessage::data() const$/;"	f	class:TcpClientMessage	signature:() const
+data	tcpclientmessage.h	/^    char *data() const;$/;"	p	class:TcpClientMessage	access:public	signature:() const
+datalen	tcpclientmessage.cpp	/^uint16_t TcpClientMessage::datalen() const$/;"	f	class:TcpClientMessage	signature:() const
+datalen	tcpclientmessage.h	/^    uint16_t datalen() const;$/;"	p	class:TcpClientMessage	access:public	signature:() const
+destId	tcpclientmessage.cpp	/^uint64_t TcpClientMessage::destId() const$/;"	f	class:TcpClientMessage	signature:() const
+destId	tcpclientmessage.h	/^    uint64_t destId() const;$/;"	p	class:TcpClientMessage	access:public	signature:() const
+eventcb	connectionserver.cpp	/^void ConnectionServer::eventcb(bufferevent *bev, short events, void *ctx)$/;"	f	class:ConnectionServer	signature:(bufferevent *bev, short events, void *ctx)
+eventcb	connectionserver.h	/^    static void eventcb(struct bufferevent *bev, short events, void *ctx);$/;"	p	class:ConnectionServer	access:private	signature:(struct bufferevent *bev, short events, void *ctx)
+eventcb	serverslave.cpp	/^void ServerSlave::eventcb(bufferevent *bev, short events, void *ctx)$/;"	f	class:ServerSlave	signature:(bufferevent *bev, short events, void *ctx)
+eventcb	serverslave.h	/^    static void eventcb(struct bufferevent *bev, short events, void *ctx);$/;"	p	class:ServerSlave	access:public	signature:(struct bufferevent *bev, short events, void *ctx)
+fd	connectionservermessage.cpp	/^int NewConnectionMessage::fd() const$/;"	f	class:NewConnectionMessage	signature:() const
+fd	connectionservermessage.h	/^    int fd() const;$/;"	p	class:NewConnectionMessage	access:public	signature:() const
+findConnectionSlave	connectionserver.cpp	/^ServerSlave *ConnectionServer::findConnectionSlave(uint64_t connid)$/;"	f	class:ConnectionServer	signature:(uint64_t connid)
+findConnectionSlave	connectionserver.h	/^    ServerSlave *findConnectionSlave(uint64_t connid);$/;"	p	class:ConnectionServer	access:private	signature:(uint64_t connid)
+fromBtyeArray	tcpclientmessage.cpp	/^bool TcpClientMessage::fromBtyeArray(char *d, int len, int *lenparsed)$/;"	f	class:TcpClientMessage	signature:(char *d, int len, int *lenparsed)
+fromBtyeArray	tcpclientmessage.h	/^    bool fromBtyeArray(char *d, int len, int *lenparsed);$/;"	p	class:TcpClientMessage	access:public	signature:(char *d, int len, int *lenparsed)
+genconnid	connidgen.cpp	/^uint64_t genconnid()$/;"	f	signature:()
+genconnid	connidgen.h	/^uint64_t genconnid();$/;"	p	signature:()
+get	logicalservers.cpp	/^LogicalServer LogicalServers::get(uint16_t id)$/;"	f	class:LogicalServers	signature:(uint16_t id)
+get	logicalservers.h	/^    LogicalServer get(uint16_t id);$/;"	p	class:LogicalServers	access:public	signature:(uint16_t id)
+getClientaddr	tcpconnection.cpp	/^sockaddrwrap &TcpConnection::getClientaddr()$/;"	f	class:TcpConnection	signature:()
+getClientaddr	tcpconnection.h	/^    sockaddrwrap &getClientaddr();$/;"	p	class:TcpConnection	access:public	signature:()
+getLogicalServerId	connectionserver.cpp	/^int ConnectionServer::getLogicalServerId()$/;"	f	class:ConnectionServer	signature:()
+getLogicalServerId	connectionserver.h	/^    int getLogicalServerId();$/;"	p	class:ConnectionServer	access:private	signature:()
+getMessage	serverqueue.cpp	/^void ServerQueue::getMessage(std::list<IConnectionServerMessage *> *msg)$/;"	f	class:ServerQueue	signature:(std::list<IConnectionServerMessage *> *msg)
+getMessage	serverqueue.h	/^    void getMessage(std::list<IConnectionServerMessage *> *msg);$/;"	p	class:ServerQueue	access:public	signature:(std::list<IConnectionServerMessage *> *msg)
+getServers	logicalservers.cpp	/^std::map<uint16_t, LogicalServer> LogicalServers::getServers() const$/;"	f	class:LogicalServers	signature:() const
+getServers	logicalservers.h	/^    std::map<uint16_t, LogicalServer> getServers() const;$/;"	p	class:LogicalServers	access:public	signature:() const
+heartbeatTimer	connectionserver.cpp	/^void ConnectionServer::heartbeatTimer(int fd, short what, void *ctx)$/;"	f	class:ConnectionServer	signature:(int fd, short what, void *ctx)
+heartbeatTimer	connectionserver.h	/^    static void heartbeatTimer(evutil_socket_t fd, short what, void *ctx);$/;"	p	class:ConnectionServer	access:private	signature:(evutil_socket_t fd, short what, void *ctx)
+info_arch	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_arch	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_compiler	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_compiler	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_platform	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_platform	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_version	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v
+info_version	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v
+insert	logicalservers.cpp	/^void LogicalServers::insert(const LogicalServer &ls)$/;"	f	class:LogicalServers	signature:(const LogicalServer &ls)
+insert	logicalservers.h	/^    void insert(const LogicalServer &ls);$/;"	p	class:LogicalServers	access:public	signature:(const LogicalServer &ls)
+ip	logicalservers.h	/^    std::string ip;$/;"	m	class:LogicalServer	access:public
+ipport	connectionservermessage.h	/^    std::string ipport;$/;"	m	class:UdpSendToServerMessage	access:public
+listererErrorcb	connectionserver.cpp	/^void ConnectionServer::listererErrorcb(evconnlistener *listener, void *ctx)$/;"	f	class:ConnectionServer	signature:(evconnlistener *listener, void *ctx)
+listererErrorcb	connectionserver.h	/^    static void listererErrorcb(evconnlistener *listener, void *ctx);$/;"	p	class:ConnectionServer	access:private	signature:(evconnlistener *listener, void *ctx)
+lock	serverqueue.h	/^    MutexWrap lock;$/;"	m	class:ServerQueue	access:private
+logicalServerid	connectionservermessage.h	/^    uint32_t logicalServerid;$/;"	m	class:SendToServerMessage	access:public
+logicalserverid	connectionservermessage.cpp	/^uint32_t NewConnectionMessage::logicalserverid() const$/;"	f	class:NewConnectionMessage	signature:() const
+logicalserverid	connectionservermessage.h	/^    uint32_t logicalserverid = 0;$/;"	m	class:UdpSendToServerMessage	access:public
+logicalserverid	connectionservermessage.h	/^    uint32_t logicalserverid() const;$/;"	p	class:NewConnectionMessage	access:public	signature:() const
+logicalserverid	tcpconnection.h	/^    uint32_t logicalserverid = 0;$/;"	m	class:TcpConnection	access:public
+m_addr	connectionservermessage.h	/^    sockaddrwrap m_addr;$/;"	m	class:NewConnectionMessage	access:private
+m_bindaddr	connectionserver.h	/^    std::string m_bindaddr;$/;"	m	class:ConnectionServer	access:private
+m_clientaddr	connectionservermessage.h	/^    sockaddrwrap m_clientaddr;$/;"	m	class:UdpSendToClientMessage	access:private
+m_cmd	tcpclientmessage.h	/^    uint16_t m_cmd = 0;$/;"	m	class:TcpClientMessage	access:private
+m_connSessionId	connectionservermessage.h	/^    int m_connSessionId= 0;$/;"	m	class:SendToClientMessage	access:private
+m_connSessionId	connectionservermessage.h	/^    uint64_t m_connSessionId = 0;$/;"	m	class:NewConnectionMessage	access:private
+m_connectionTimeoutRollTimer	serverslave.h	/^    WheelTimerPoller *m_connectionTimeoutRollTimer;$/;"	m	class:ServerSlave	access:private
+m_connections	serverslave.h	/^    std::map<uint64_t, std::shared_ptr<SlaveContext>> m_connections;$/;"	m	class:ServerSlave	access:private
+m_connidMapSlave	connectionserver.h	/^    std::map<uint64_t, ServerSlave *> m_connidMapSlave;$/;"	m	class:ConnectionServer	access:private
+m_data	connectionservermessage.h	/^    std::vector<char> m_data;$/;"	m	class:SendToClientMessage	access:private
+m_data	connectionservermessage.h	/^    std::vector<char> m_data;$/;"	m	class:UdpSendToClientMessage	access:private
+m_data	tcpclientmessage.h	/^    char *m_data = nullptr;$/;"	m	class:TcpClientMessage	access:private
+m_datalen	tcpclientmessage.h	/^    uint16_t m_datalen = 0;$/;"	m	class:TcpClientMessage	access:private
+m_destId	tcpclientmessage.h	/^    uint64_t m_destId = 0;$/;"	m	class:TcpClientMessage	access:private
+m_eventbase	connectionserver.h	/^    event_base *m_eventbase;$/;"	m	class:ConnectionServer	access:private
+m_eventbase	serverslave.h	/^    event_base *m_eventbase;$/;"	m	class:ServerSlave	access:private
+m_fd	connectionservermessage.h	/^    int m_fd = -1;$/;"	m	class:NewConnectionMessage	access:private
+m_fd	udpserver.h	/^    int m_fd;$/;"	m	class:Udpserver	access:private
+m_isrun	udpserver.h	/^    bool m_isrun = true;$/;"	m	class:Udpserver	access:private
+m_listenctx	connectionserver.h	/^    ConnCtx *m_listenctx = nullptr;$/;"	m	class:ConnectionServer	access:private
+m_listener	connectionserver.h	/^    evconnlistener *m_listener = nullptr;$/;"	m	class:ConnectionServer	access:private
+m_logicalServerConnections	connectionserver.h	/^    std::map<int32_t, std::shared_ptr<ConnCtx>> m_logicalServerConnections;$/;"	m	class:ConnectionServer	access:private
+m_logicalserid	connectionserver.h	/^    std::list<int32_t> m_logicalserid;$/;"	m	class:ConnectionServer	access:private
+m_logicalserverid	connectionservermessage.h	/^    uint32_t m_logicalserverid = 0;$/;"	m	class:NewConnectionMessage	access:private
+m_logicalservers	connectionserver.h	/^    LogicalServers m_logicalservers;$/;"	m	class:ConnectionServer	access:private
+m_masterqueue	serverslave.h	/^    ServerQueue *m_masterqueue;$/;"	m	class:ServerSlave	access:private
+m_masterqueue	udpserver.h	/^    ServerQueue *m_masterqueue;$/;"	m	class:Udpserver	access:private
+m_msg	serverqueue.h	/^    std::list<IConnectionServerMessage *> m_msg;$/;"	m	class:ServerQueue	access:private
+m_msgtype	connectionservermessage.h	/^    int m_msgtype;$/;"	m	class:IConnectionServerMessage	access:private
+m_port	connectionserver.h	/^    uint16_t m_port;$/;"	m	class:ConnectionServer	access:private
+m_queue	connectionserver.h	/^    ServerQueue m_queue;$/;"	m	class:ConnectionServer	access:private
+m_queue	serverslave.h	/^    ServerQueue m_queue;$/;"	m	class:ServerSlave	access:private
+m_queue	udpserver.h	/^    ServerQueue m_queue;$/;"	m	class:Udpserver	access:private
+m_ser	tcpclientmessage.h	/^    uint16_t m_ser = 0;$/;"	m	class:TcpClientMessage	access:private
+m_servers	logicalservers.h	/^    std::map<uint16_t, LogicalServer> m_servers;$/;"	m	class:LogicalServers	access:private
+m_slaves	connectionserver.h	/^    std::list<ServerSlave*> m_slaves;$/;"	m	class:ConnectionServer	access:private
+m_slavethread	connectionserver.h	/^    std::list<Thread*> m_slavethread;$/;"	m	class:ConnectionServer	access:private
+m_threadcnt	connectionserver.h	/^    int m_threadcnt = 2;$/;"	m	class:ConnectionServer	access:private
+m_udpconnection	connectionserver.h	/^    std::map<std::string, uint32_t> m_udpconnection;$/;"	m	class:ConnectionServer	access:private
+m_udpserver	connectionserver.h	/^    Udpserver m_udpserver;$/;"	m	class:ConnectionServer	access:private
+m_udpthread	connectionserver.h	/^    Thread *m_udpthread;$/;"	m	class:ConnectionServer	access:private
+main	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+main	build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f
+main	build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+main	main.cpp	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+newConnection	serverslave.cpp	/^void ServerSlave::newConnection(NewConnectionMessage *ncm)$/;"	f	class:ServerSlave	signature:(NewConnectionMessage *ncm)
+newConnection	serverslave.h	/^    void newConnection(NewConnectionMessage *ncm);$/;"	p	class:ServerSlave	access:private	signature:(NewConnectionMessage *ncm)
+newconnid	connectionservermessage.h	/^    uint64_t newconnid = 0;$/;"	m	class:ChangeConnectionIdMessage	access:public
+oldconnid	connectionservermessage.h	/^    uint64_t oldconnid = 0;$/;"	m	class:ChangeConnectionIdMessage	access:public
+port	logicalservers.h	/^    uint16_t port;$/;"	m	class:LogicalServer	access:public
+processMessage	serverslave.cpp	/^void ServerSlave::processMessage()$/;"	f	class:ServerSlave	signature:()
+processMessage	serverslave.h	/^    void processMessage();$/;"	p	class:ServerSlave	access:private	signature:()
+processQueue	udpserver.cpp	/^void Udpserver::processQueue()$/;"	f	class:Udpserver	signature:()
+processQueue	udpserver.h	/^    void processQueue();$/;"	p	class:Udpserver	access:private	signature:()
+processQueueMessage	connectionserver.cpp	/^void ConnectionServer::processQueueMessage()$/;"	f	class:ConnectionServer	signature:()
+processQueueMessage	connectionserver.h	/^    void processQueueMessage();$/;"	p	class:ConnectionServer	access:private	signature:()
+queuepoll	connectionserver.cpp	/^void ConnectionServer::queuepoll(int fd, short what, void *ctx)$/;"	f	class:ConnectionServer	signature:(int fd, short what, void *ctx)
+queuepoll	connectionserver.h	/^    static void queuepoll(evutil_socket_t fd, short what, void *ctx);$/;"	p	class:ConnectionServer	access:private	signature:(evutil_socket_t fd, short what, void *ctx)
+queuepoll	serverslave.cpp	/^void ServerSlave::queuepoll(int fd, short what, void *ctx)$/;"	f	class:ServerSlave	signature:(int fd, short what, void *ctx)
+queuepoll	serverslave.h	/^    static void queuepoll(int fd, short what, void *ctx);$/;"	p	class:ServerSlave	access:public	signature:(int fd, short what, void *ctx)
+quit	udpserver.cpp	/^void Udpserver::quit()$/;"	f	class:Udpserver	signature:()
+quit	udpserver.h	/^    void quit();$/;"	p	class:Udpserver	access:public	signature:()
+randGet	logicalservers.cpp	/^LogicalServer LogicalServers::randGet()$/;"	f	class:LogicalServers	signature:()
+randGet	logicalservers.h	/^    LogicalServer randGet();$/;"	p	class:LogicalServers	access:public	signature:()
+read	logicalservers.cpp	/^bool LogicalServers::read()$/;"	f	class:LogicalServers	signature:()
+read	logicalservers.h	/^    bool read();$/;"	p	class:LogicalServers	access:public	signature:()
+readcb	connectionserver.cpp	/^void ConnectionServer::readcb(bufferevent *bev, void *ctx)$/;"	f	class:ConnectionServer	signature:(bufferevent *bev, void *ctx)
+readcb	connectionserver.h	/^    static void readcb(struct bufferevent *bev, void *ctx);$/;"	p	class:ConnectionServer	access:private	signature:(struct bufferevent *bev, void *ctx)
+readcb	serverslave.cpp	/^void ServerSlave::readcb(bufferevent *bev, void *ctx)$/;"	f	class:ServerSlave	signature:(bufferevent *bev, void *ctx)
+readcb	serverslave.h	/^    static void readcb(struct bufferevent *bev, void *ctx);$/;"	p	class:ServerSlave	access:public	signature:(struct bufferevent *bev, void *ctx)
+recv	udpserver.cpp	/^void Udpserver::recv()$/;"	f	class:Udpserver	signature:()
+recv	udpserver.h	/^    void recv();$/;"	p	class:Udpserver	access:private	signature:()
+run	connectionserver.cpp	/^int ConnectionServer::run()$/;"	f	class:ConnectionServer	signature:()
+run	connectionserver.h	/^    int run();$/;"	p	class:ConnectionServer	access:public	signature:()
+run	serverslave.cpp	/^void ServerSlave::run()$/;"	f	class:ServerSlave	signature:()
+run	serverslave.h	/^    void run();$/;"	p	class:ServerSlave	access:public	signature:()
+run	udpserver.cpp	/^void Udpserver::run()$/;"	f	class:Udpserver	signature:()
+run	udpserver.h	/^    void run();$/;"	p	class:Udpserver	access:public	signature:()
+send	tcpconnection.cpp	/^void TcpConnection::send(char *d, int len)$/;"	f	class:TcpConnection	signature:(char *d, int len)
+send	tcpconnection.h	/^    void send(char *d, int len);$/;"	p	class:TcpConnection	access:public	signature:(char *d, int len)
+send	udpserver.cpp	/^void Udpserver::send(char *d, int dlen, sockaddr *addr, int addrlen)$/;"	f	class:Udpserver	signature:(char *d, int dlen, sockaddr *addr, int addrlen)
+send	udpserver.h	/^    void send(char *d, int dlen, sockaddr *addr, int addrlen);$/;"	p	class:Udpserver	access:private	signature:(char *d, int dlen, sockaddr *addr, int addrlen)
+sendHeartBeat	connectionserver.cpp	/^void ConnectionServer::sendHeartBeat()$/;"	f	class:ConnectionServer	signature:()
+sendHeartBeat	connectionserver.h	/^    void sendHeartBeat();$/;"	p	class:ConnectionServer	access:private	signature:()
+sendToClient	serverslave.cpp	/^void ServerSlave::sendToClient(SendToClientMessage *scm)$/;"	f	class:ServerSlave	signature:(SendToClientMessage *scm)
+sendToClient	serverslave.h	/^    void sendToClient(SendToClientMessage *scm);$/;"	p	class:ServerSlave	access:private	signature:(SendToClientMessage *scm)
+ser	tcpclientmessage.cpp	/^uint16_t TcpClientMessage::ser() const$/;"	f	class:TcpClientMessage	signature:() const
+ser	tcpclientmessage.h	/^    uint16_t ser() const;$/;"	p	class:TcpClientMessage	access:public	signature:() const
+server	connectionserver.h	/^    ConnectionServer *server = nullptr;$/;"	m	class:ConnCtx	access:public
+server	serverslave.h	/^    ServerSlave *server = nullptr;$/;"	m	class:SlaveContext	access:public
+serverid	logicalservers.h	/^    uint16_t serverid;$/;"	m	class:LogicalServer	access:public
+setAddr	connectionservermessage.cpp	/^void UdpSendToClientMessage::setAddr(sockaddr *addr, int len)$/;"	f	class:UdpSendToClientMessage	signature:(sockaddr *addr, int len)
+setAddr	connectionservermessage.h	/^    void setAddr(sockaddr *addr, int len);$/;"	p	class:UdpSendToClientMessage	access:public	signature:(sockaddr *addr, int len)
+setAddress	connectionservermessage.cpp	/^void NewConnectionMessage::setAddress(sockaddr *a, int addrlen)$/;"	f	class:NewConnectionMessage	signature:(sockaddr *a, int addrlen)
+setAddress	connectionservermessage.h	/^    void setAddress(sockaddr *a, int addrlen);$/;"	p	class:NewConnectionMessage	access:public	signature:(sockaddr *a, int addrlen)
+setClientAddress	tcpconnection.cpp	/^void TcpConnection::setClientAddress(const sockaddrwrap &addr)$/;"	f	class:TcpConnection	signature:(const sockaddrwrap &addr)
+setClientAddress	tcpconnection.h	/^    void setClientAddress(const sockaddrwrap &addr);$/;"	p	class:TcpConnection	access:public	signature:(const sockaddrwrap &addr)
+setCmd	tcpclientmessage.cpp	/^void TcpClientMessage::setCmd(const uint16_t &cmd)$/;"	f	class:TcpClientMessage	signature:(const uint16_t &cmd)
+setCmd	tcpclientmessage.h	/^    void setCmd(const uint16_t &cmd);$/;"	p	class:TcpClientMessage	access:public	signature:(const uint16_t &cmd)
+setConnSessionId	connectionservermessage.cpp	/^void NewConnectionMessage::setConnSessionId(const uint64_t &connSessionId)$/;"	f	class:NewConnectionMessage	signature:(const uint64_t &connSessionId)
+setConnSessionId	connectionservermessage.cpp	/^void SendToClientMessage::setConnSessionId(int connSessionId)$/;"	f	class:SendToClientMessage	signature:(int connSessionId)
+setConnSessionId	connectionservermessage.h	/^    void setConnSessionId(const uint64_t &connSessionId);$/;"	p	class:NewConnectionMessage	access:public	signature:(const uint64_t &connSessionId)
+setConnSessionId	connectionservermessage.h	/^    void setConnSessionId(int connSessionId);$/;"	p	class:SendToClientMessage	access:public	signature:(int connSessionId)
+setConnectionId	serverslave.cpp	/^void ServerSlave::setConnectionId(uint64_t connid, const TcpClientMessage &tcm)$/;"	f	class:ServerSlave	signature:(uint64_t connid, const TcpClientMessage &tcm)
+setConnectionId	serverslave.h	/^    void setConnectionId(uint64_t connid, const TcpClientMessage &tcm);$/;"	p	class:ServerSlave	access:private	signature:(uint64_t connid, const TcpClientMessage &tcm)
+setConnectionServerId	connectionserver.cpp	/^void ConnectionServer::setConnectionServerId(ConnCtx *connctx)$/;"	f	class:ConnectionServer	signature:(ConnCtx *connctx)
+setConnectionServerId	connectionserver.h	/^    void setConnectionServerId(ConnCtx *connctx);$/;"	p	class:ConnectionServer	access:private	signature:(ConnCtx *connctx)
+setData	connectionservermessage.cpp	/^void SendToClientMessage::setData(const std::vector<char> &data)$/;"	f	class:SendToClientMessage	signature:(const std::vector<char> &data)
+setData	connectionservermessage.cpp	/^void UdpSendToClientMessage::setData(const std::vector<char> &data)$/;"	f	class:UdpSendToClientMessage	signature:(const std::vector<char> &data)
+setData	connectionservermessage.h	/^    void setData(const std::vector<char> &data);$/;"	p	class:SendToClientMessage	access:public	signature:(const std::vector<char> &data)
+setData	connectionservermessage.h	/^    void setData(const std::vector<char> &data);$/;"	p	class:UdpSendToClientMessage	access:public	signature:(const std::vector<char> &data)
+setData	tcpclientmessage.cpp	/^void TcpClientMessage::setData(char *data)$/;"	f	class:TcpClientMessage	signature:(char *data)
+setData	tcpclientmessage.h	/^    void setData(char *data);$/;"	p	class:TcpClientMessage	access:public	signature:(char *data)
+setDatalen	tcpclientmessage.cpp	/^void TcpClientMessage::setDatalen(const uint16_t &datalen)$/;"	f	class:TcpClientMessage	signature:(const uint16_t &datalen)
+setDatalen	tcpclientmessage.h	/^    void setDatalen(const uint16_t &datalen);$/;"	p	class:TcpClientMessage	access:public	signature:(const uint16_t &datalen)
+setFd	connectionservermessage.cpp	/^void NewConnectionMessage::setFd(int fd)$/;"	f	class:NewConnectionMessage	signature:(int fd)
+setFd	connectionservermessage.h	/^    void setFd(int fd);$/;"	p	class:NewConnectionMessage	access:public	signature:(int fd)
+setLogicalserverid	connectionservermessage.cpp	/^void NewConnectionMessage::setLogicalserverid(const uint32_t &logicalserverid)$/;"	f	class:NewConnectionMessage	signature:(const uint32_t &logicalserverid)
+setLogicalserverid	connectionservermessage.h	/^    void setLogicalserverid(const uint32_t &logicalserverid);$/;"	p	class:NewConnectionMessage	access:public	signature:(const uint32_t &logicalserverid)
+setLogicalservers	connectionserver.cpp	/^void ConnectionServer::setLogicalservers(const LogicalServers &logicalservers)$/;"	f	class:ConnectionServer	signature:(const LogicalServers &logicalservers)
+setLogicalservers	connectionserver.h	/^    void setLogicalservers(const LogicalServers &logicalservers);$/;"	p	class:ConnectionServer	access:public	signature:(const LogicalServers &logicalservers)
+set_logfile	connectionserver.cpp	/^void set_logfile(FILE *f)$/;"	f	signature:(FILE *f)
+slaveserver	connectionservermessage.h	/^    void *slaveserver = nullptr;$/;"	m	class:ChangeConnectionIdMessage	access:public
+slaveserver	connectionservermessage.h	/^    void *slaveserver = nullptr;$/;"	m	class:ClientConnectionClosedMessage	access:public
+sockaddr2string	utilsock.cpp	/^std::string Utilsock::sockaddr2string(sockaddr *addr, int len)$/;"	f	class:Utilsock	signature:(sockaddr *addr, int len)
+sockaddr2string	utilsock.h	/^std::string sockaddr2string(sockaddr *, int len);$/;"	p	namespace:Utilsock	signature:(sockaddr *, int len)
+state	tcpconnection.h	/^    ConnectState state = Invalid;$/;"	m	class:TcpConnection	access:public
+timeoutTimer	serverslave.h	/^    std::weak_ptr<WheelTimer> timeoutTimer;$/;"	m	class:SlaveContext	access:public
+type	connectionservermessage.cpp	/^int IConnectionServerMessage::type()$/;"	f	class:IConnectionServerMessage	signature:()
+type	connectionservermessage.h	/^    virtual int type();$/;"	p	class:IConnectionServerMessage	access:public	signature:()
+write_to_file_cb	connectionserver.cpp	/^static void write_to_file_cb(int severity, const char *msg)$/;"	f	file:	signature:(int severity, const char *msg)
+writelogcb	connectionserver.cpp	/^void ConnectionServer::writelogcb(int severity, const char *msg)$/;"	f	class:ConnectionServer	signature:(int severity, const char *msg)
+writelogcb	connectionserver.h	/^    static void writelogcb(int severity, const char *msg);$/;"	p	class:ConnectionServer	access:private	signature:(int severity, const char *msg)
+~ConnectionServer	connectionserver.cpp	/^ConnectionServer::~ConnectionServer()$/;"	f	class:ConnectionServer	signature:()
+~ConnectionServer	connectionserver.h	/^    ~ConnectionServer();$/;"	p	class:ConnectionServer	access:public	signature:()
+~IConnectionServerMessage	connectionservermessage.cpp	/^IConnectionServerMessage::~IConnectionServerMessage(){}$/;"	f	class:IConnectionServerMessage	signature:()
+~IConnectionServerMessage	connectionservermessage.h	/^    virtual ~IConnectionServerMessage();$/;"	p	class:IConnectionServerMessage	access:public	signature:()
+~LogicalServers	logicalservers.cpp	/^LogicalServers::~LogicalServers()$/;"	f	class:LogicalServers	signature:()
+~LogicalServers	logicalservers.h	/^    ~LogicalServers();$/;"	p	class:LogicalServers	access:public	signature:()
+~NewConnectionMessage	connectionservermessage.cpp	/^NewConnectionMessage::~NewConnectionMessage()$/;"	f	class:NewConnectionMessage	signature:()
+~NewConnectionMessage	connectionservermessage.h	/^    ~NewConnectionMessage();$/;"	p	class:NewConnectionMessage	access:public	signature:()
+~ServerQueue	serverqueue.cpp	/^ServerQueue::~ServerQueue()$/;"	f	class:ServerQueue	signature:()
+~ServerQueue	serverqueue.h	/^    ~ServerQueue();$/;"	p	class:ServerQueue	access:public	signature:()
+~ServerSlave	serverslave.cpp	/^ServerSlave::~ServerSlave()$/;"	f	class:ServerSlave	signature:()
+~ServerSlave	serverslave.h	/^    ~ServerSlave();$/;"	p	class:ServerSlave	access:public	signature:()
+~TcpConnection	tcpconnection.cpp	/^TcpConnection::~TcpConnection()$/;"	f	class:TcpConnection	signature:()
+~TcpConnection	tcpconnection.h	/^    ~TcpConnection();$/;"	p	class:TcpConnection	access:public	signature:()
+~UdpSendToClientMessage	connectionservermessage.cpp	/^UdpSendToClientMessage::~UdpSendToClientMessage()$/;"	f	class:UdpSendToClientMessage	signature:()
+~UdpSendToClientMessage	connectionservermessage.h	/^    ~UdpSendToClientMessage();$/;"	p	class:UdpSendToClientMessage	access:public	signature:()
+~Udpserver	udpserver.cpp	/^Udpserver::~Udpserver()$/;"	f	class:Udpserver	signature:()
+~Udpserver	udpserver.h	/^    ~Udpserver();$/;"	p	class:Udpserver	access:public	signature:()
